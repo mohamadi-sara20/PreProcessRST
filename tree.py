@@ -342,8 +342,4 @@ if __name__ == '__main__':
     out_node, leaf_idx = xml2tree('wsj_input_rs3.xml')
     tree_rebuilt = rebuild_tree(out_node)
     # print(pos_const_rst_builder('wsj.txt', 'janc.txt'))
-    originial_tree = '( eval l ( back l ( cause l ( leaf t 0 25 ) ( list c ( cause l ( leaf t 26 37 ) ( same c ( elab l ( leaf t 38 40 ) ( leaf t 41 44 ) ) ( elab l ( leaf t 45 48 ) ( elab l ( leaf t 49 57 ) ( purp l ( leaf t 58 64 ) ( leaf t 65 73 ) ) ) ) ) ) ( evid l ( back r ( attr l ( leaf t 74 89 ) ( leaf t 90 96 ) ) ( cond r ( leaf t 97 108 ) ( elab l ( leaf t 109 120 ) ( leaf t 121 128 ) ) ) ) ( attr r ( leaf t 129 130 ) ( elab l ( leaf t 131 139 ) ( cause l ( leaf t 140 147 ) ( leaf t 148 162 ) ) ) ) ) ) ) ( cont c ( attr r ( mann r ( leaf t 163 168 ) ( leaf t 169 171 ) ) ( leaf t 172 181 ) ) ( elab l ( leaf t 182 191 ) ( leaf t 192 198 ) ) ) ) ( list c ( attr r ( leaf t 199 203 ) ( leaf t 204 220 ) ) ( leaf t 221 238 ) ) )'
-    output_tree = ''
-    h = open('kkkkk', 'w')
-    print(preorder_str(tree_rebuilt))
-    h.close()
+    
