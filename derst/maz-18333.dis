@@ -1,0 +1,109 @@
+(Root
+  (span 1 15)
+  (Nucleus
+    (leaf 1)
+    (rel2par virtual-root)
+    (text _!Lebensader gedeiht_!))
+  (Nucleus
+    (span 2 15)
+    (rel2par virtual-root)
+    (Satellite
+      (span 2 7)
+      (rel2par background)
+      (Satellite
+        (span 2 6)
+        (rel2par background)
+        (Satellite
+          (span 2 4)
+          (rel2par reason)
+          (Satellite
+            (leaf 2)
+            (rel2par concession)
+            (text
+              _!Luckenwalde kann bekanntlich aus den Millionen des Urban-Projektes in den nächsten Jahren einen zweckmäßigen und modernen Stadtumbau gestalten ._!))
+          (Nucleus
+            (span 3 4)
+            (rel2par span)
+            (Nucleus
+              (leaf 3)
+              (rel2par span)
+              (text _!Doch der würde wenig nützen ,_!))
+            (Satellite
+              (leaf 4)
+              (rel2par condition)
+              (text
+                _!wenn sich wie derzeit auch in einigen Jahren immer noch die B 101 durch die Stadt schlängeln würde ._!))))
+        (Nucleus
+          (span 5 6)
+          (rel2par span)
+          (Nucleus
+            (leaf 5)
+            (rel2par span)
+            (text _!Also kann es nur gut sein ,_!))
+          (Satellite
+            (leaf 6)
+            (rel2par condition)
+            (text
+              _!wenn die Ortsumgehung so schnell wie möglich fertig wird ._!))))
+      (Nucleus
+        (leaf 7)
+        (rel2par span)
+        (text
+          _!Auf dem Weg dorthin wurde gestern mit der feierlichen Grundsteinlegung für die Baumaßnahmen zur Ortsumgehung ein wichtiger Meilenstein gelegt ._!)))
+    (Nucleus
+      (span 8 15)
+      (rel2par span)
+      (Satellite
+        (leaf 8)
+        (rel2par circumstance)
+        (text _!In gut zwei Jahren soll alles fertig sein ._!))
+      (Nucleus
+        (span 9 15)
+        (rel2par span)
+        (Nucleus
+          (leaf 9)
+          (rel2par list)
+          (text
+            _!Dann sorgt die neue B 101 als Lebensader der Region nicht nur für eine schnelle Anbindung an die Autobahn ._!))
+        (Nucleus
+          (span 10 11)
+          (rel2par list)
+          (Nucleus
+            (leaf 10)
+            (rel2par list)
+            (text
+              _!Die Ortsumgehung garantiert , dass mehr Ruhe in die Stadt einkehrt ,_!))
+          (Nucleus
+            (leaf 11)
+            (rel2par list)
+            (text
+              _!Luckenwalde als Wohnort immer attraktiver wird ._!)))
+        (Nucleus
+          (span 12 15)
+          (rel2par list)
+          (Nucleus
+            (span 12 14)
+            (rel2par span)
+            (Satellite
+              (leaf 12)
+              (rel2par interpretation)
+              (text
+                _!Doch Ruhe ist keinesfalls im Wirtschaftsbereich angesagt ._!))
+            (Nucleus
+              (span 13 14)
+              (rel2par span)
+              (Nucleus
+                (leaf 13)
+                (rel2par span)
+                (text
+                  _!Die neue Straße soll ja gerade auch Investoren locken ._!))
+              (Satellite
+                (leaf 14)
+                (rel2par reason)
+                (text
+                  _!Moderne verkehrliche Infrastruktur ist aber auch nur als Signal an die Wirtschaft zu verstehen , sich hier oder dort niederzulassen ._!))))
+          (Satellite
+            (leaf 15)
+            (rel2par interpretation)
+            (text
+              _!Wichtig ist vor allem , Investoren überzeugend klar zu machen , warum Luckenwalde für sie ein lohnenswerter Standort sein kann ._!)))))))

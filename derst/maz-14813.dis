@@ -1,0 +1,120 @@
+(Root
+  (span 1 17)
+  (Nucleus (leaf 1) (rel2par virtual-root) (text _!Knebelvertrag_!))
+  (Nucleus
+    (span 2 17)
+    (rel2par virtual-root)
+    (Satellite
+      (span 2 7)
+      (rel2par antithesis)
+      (Satellite
+        (span 2 4)
+        (rel2par cause)
+        (Nucleus
+          (span 2 3)
+          (rel2par conjunction)
+          (Satellite
+            (leaf 2)
+            (rel2par preparation)
+            (text _!Eigentlich können wir es nicht mehr sehen :_!))
+          (Nucleus
+            (leaf 3)
+            (rel2par span)
+            (text
+              _!Harry-Potter-Tassen , Potter T-Shirts , kleine Potter-Legomännchen und so weiter ._!)))
+        (Nucleus
+          (leaf 4)
+          (rel2par conjunction)
+          (text
+            _!Und nun folgt gleich das zweite Mega-Kinoereignis : " Der Herr der Ringe " ._!)))
+      (Nucleus
+        (span 5 7)
+        (rel2par span)
+        (Satellite
+          (leaf 5)
+          (rel2par evidence)
+          (text
+            _!Bereits in jedem siebten Kinderüberraschungsei findet sich ein Frodo oder eine Elbenkönigin ._!))
+        (Nucleus
+          (span 6 7)
+          (rel2par span)
+          (Nucleus
+            (leaf 6)
+            (rel2par conjunction)
+            (text
+              _!Da boomt die Industrie gewaltig , mag man so denken_!))
+          (Nucleus
+            (leaf 7)
+            (rel2par conjunction)
+            (text
+              _!und die gebeutelten Kinos bekommen auch noch einen dicken Batzen ab ._!)))))
+    (Nucleus
+      (span 8 17)
+      (rel2par span)
+      (Nucleus
+        (span 8 9)
+        (rel2par joint)
+        (Nucleus
+          (leaf 8)
+          (rel2par span)
+          (text
+            _!Aber was macht ein Lichtspieltheaterchef in der Provinz ,_!))
+        (Satellite
+          (leaf 9)
+          (rel2par e-elaboration)
+          (text _!der erst abends seine Pforten öffnen kann ?_!)))
+      (Nucleus
+        (span 10 15)
+        (rel2par joint)
+        (Satellite
+          (span 10 13)
+          (rel2par cause)
+          (Satellite
+            (span 10 12)
+            (rel2par cause)
+            (Nucleus
+              (span 10 11)
+              (rel2par span)
+              (Satellite
+                (leaf 10)
+                (rel2par purpose)
+                (text _!Um Harry Potter spielen zu können ,_!))
+              (Nucleus
+                (leaf 11)
+                (rel2par span)
+                (text
+                  _!muss er sich verpflichten , die Kopie an sieben Tagen dreimal hintereinander zu zeigen ._!)))
+            (Satellite
+              (leaf 12)
+              (rel2par elaboration)
+              (text _!Egal wie viele Zuschauer kommen ._!)))
+          (Nucleus
+            (leaf 13)
+            (rel2par span)
+            (text _!Das hat viele Kinobesitzer empört ._!)))
+        (Nucleus
+          (span 14 15)
+          (rel2par span)
+          (Satellite
+            (leaf 14)
+            (rel2par condition)
+            (text
+              _!Wenn sie jetzt wieder einen Knebelvertrag beim " Herrn der Ringe " unterschreiben sollen ,_!))
+          (Nucleus
+            (leaf 15)
+            (rel2par span)
+            (text
+              _!erwägt so mancher , sich dem einfach zu verweigern ._!))))
+      (Nucleus
+        (span 16 17)
+        (rel2par joint)
+        (Nucleus
+          (leaf 16)
+          (rel2par span)
+          (text
+            _!Außerdem wird man sich nicht nur in katholischen Gegenden kaum zwingen lassen , Heiligabend und Silvester das Fantasiespektakel abzuspielen ._!))
+        (Satellite
+          (leaf 17)
+          (rel2par interpretation)
+          (text
+            _!Der Verleih Warner Bros muss sich schon etwas anderes einfallen lassen ._!))))))

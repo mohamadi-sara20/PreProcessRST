@@ -1,0 +1,132 @@
+(Root
+  (span 1 18)
+  (Nucleus
+    (leaf 1)
+    (rel2par virtual-root)
+    (text _!Gigantischer Coup_!))
+  (Nucleus
+    (span 2 18)
+    (rel2par virtual-root)
+    (Nucleus
+      (span 2 10)
+      (rel2par span)
+      (Nucleus
+        (span 2 3)
+        (rel2par span)
+        (Satellite
+          (leaf 2)
+          (rel2par concession)
+          (text
+            _!Auch wenn unklar ist , welchen Preis Rosco dafür haben will , dass er sein stärkstes Faustpfand - das Loch - aus der Hand gibt :_!))
+        (Nucleus
+          (leaf 3)
+          (rel2par span)
+          (text
+            _!Der Coup , den die CDU-OB-Kandidatin Dietlind Tiemann mit dem Verfüllen des Neustädtischen Marktes landet , ist ein gigantischer ._!)))
+      (Satellite
+        (span 4 10)
+        (rel2par reason)
+        (Satellite
+          (leaf 4)
+          (rel2par background)
+          (text
+            _!Nichts lässt die Volksseele lauter aufschreien als das Trauerspiel " Loch " , dieses Sinnbild für Ignoranz , Unfähigkeit und Inkompetenz ._!))
+        (Nucleus
+          (span 5 10)
+          (rel2par span)
+          (Nucleus
+            (span 5 6)
+            (rel2par span)
+            (Satellite
+              (leaf 5)
+              (rel2par condition)
+              (text
+                _!Wer das Problem nach einem halben Jahrzehnt des Stillstands durch entschlossenes Handeln löst ,_!))
+            (Nucleus
+              (leaf 6)
+              (rel2par span)
+              (text
+                _!hat gute Chancen , als Oberbürgermeister akzeptiert zu werden ._!)))
+          (Satellite
+            (span 7 10)
+            (rel2par reason)
+            (Satellite
+              (leaf 7)
+              (rel2par condition)
+              (text _!Denn verschwindet das Loch wirklich ,_!))
+            (Nucleus
+              (span 8 10)
+              (rel2par span)
+              (Nucleus
+                (leaf 8)
+                (rel2par span)
+                (text _!verschwindet auch der Selbsthass ,_!))
+              (Satellite
+                (span 9 10)
+                (rel2par e-elaboration)
+                (Nucleus
+                  (leaf 9)
+                  (rel2par conjunction)
+                  (text
+                    _!mit dem sich die Brandenburger ob ihrer hässlichen Mitte geißeln_!))
+                (Nucleus
+                  (leaf 10)
+                  (rel2par conjunction)
+                  (text _!und wegen dem sie sich schämen ._!))))))))
+    (Satellite
+      (span 11 18)
+      (rel2par result)
+      (Satellite
+        (leaf 11)
+        (rel2par circumstance)
+        (text
+          _!Tiemanns Initiative setzt jetzt die SPD unter unglaublichen Druck ._!))
+      (Nucleus
+        (span 12 18)
+        (rel2par span)
+        (Nucleus
+          (span 12 15)
+          (rel2par joint)
+          (Nucleus
+            (leaf 12)
+            (rel2par joint)
+            (text _!Was hat die SPD dem entgegenzusetzen ?_!))
+          (Nucleus
+            (span 13 15)
+            (rel2par joint)
+            (Nucleus
+              (span 13 14)
+              (rel2par disjunction)
+              (Satellite
+                (leaf 13)
+                (rel2par means)
+                (text
+                  _!Soll sie versuchen , über die SPD-dominierte Verwaltung das Verfüllen zu behindern_!))
+              (Nucleus
+                (leaf 14)
+                (rel2par span)
+                (text _!und so den Termin zu kippen ?_!)))
+            (Nucleus
+              (leaf 15)
+              (rel2par disjunction)
+              (text _!Oder am Ende helfen ?_!))))
+        (Nucleus
+          (span 16 18)
+          (rel2par joint)
+          (Nucleus
+            (span 16 17)
+            (rel2par span)
+            (Nucleus
+              (leaf 16)
+              (rel2par span)
+              (text
+                _!Der SPD-OB-Kandidat Helmut Schmidt hat angekündigt , er wolle das Problem Neustadt Markt " entschlossen und ohne Getöse " ab Mai 2002 als Chefsache in die Hände nehmen ,_!))
+            (Satellite
+              (leaf 17)
+              (rel2par condition)
+              (text _!falls er OB wird ._!)))
+          (Satellite
+            (leaf 18)
+            (rel2par interpretation)
+            (text
+              _!Wenn der Zeitpunkt in einem halben Jahr mal nicht zu spät gewählt ist ..._!)))))))

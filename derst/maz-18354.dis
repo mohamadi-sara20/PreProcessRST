@@ -1,0 +1,114 @@
+(Root
+  (span 1 16)
+  (Nucleus
+    (leaf 1)
+    (rel2par virtual-root)
+    (text _!Des einen Freud ..._!))
+  (Nucleus
+    (span 2 16)
+    (rel2par virtual-root)
+    (Nucleus
+      (span 2 15)
+      (rel2par span)
+      (Satellite
+        (span 2 4)
+        (rel2par background)
+        (Satellite
+          (leaf 2)
+          (rel2par interpretation)
+          (text _!Die Drohung wurde nicht wahr ._!))
+        (Nucleus
+          (span 3 4)
+          (rel2par span)
+          (Satellite
+            (leaf 3)
+            (rel2par antithesis)
+            (text
+              _!Im August dieses Jahres entlud sich auf einer Einwohnerversammlung der Zorn der Klosteraner in der Ankündigung , den Bau der neuen Bundesstraße und der Ortsumgehung Jüterbog zu stoppen ._!))
+          (Nucleus
+            (leaf 4)
+            (rel2par span)
+            (text
+              _!Aber seit gestern graben sich am östlichen Rand Jüterbogs die Baumaschinen ins Erdreich ._!))))
+      (Nucleus
+        (span 5 15)
+        (rel2par span)
+        (Nucleus
+          (span 5 8)
+          (rel2par joint)
+          (Satellite
+            (span 5 7)
+            (rel2par reason)
+            (Satellite
+              (leaf 5)
+              (rel2par circumstance)
+              (text _!Die Trasse ist abgesteckt ,_!))
+            (Nucleus
+              (span 6 7)
+              (rel2par span)
+              (Satellite
+                (leaf 6)
+                (rel2par antithesis)
+                (text _!und die führt nicht um Kloster herum ,_!))
+              (Nucleus
+                (leaf 7)
+                (rel2par span)
+                (text _!sondern eher direkt in den Ort hinein ._!))))
+          (Nucleus
+            (leaf 8)
+            (rel2par span)
+            (text
+              _!Klar also , dass es gestern beim ersten Spatenstich nicht nur fröhliche Mienen und gute Worte gab ._!)))
+        (Nucleus
+          (span 9 11)
+          (rel2par joint)
+          (Satellite
+            (span 9 10)
+            (rel2par circumstance)
+            (Satellite
+              (leaf 9)
+              (rel2par antithesis)
+              (text
+                _!Übrigens auch nicht nur bei den anwesenden Leuten der Kloster Zinnaer Bürgerinitiative ,_!))
+            (Nucleus
+              (leaf 10)
+              (rel2par span)
+              (text
+                _!sondern zum Beispiel auch bei Jüterbogs Vorkämpferin für eine Verkehrsberuhigung in Innenstadt und Schloßstraße ._!)))
+          (Nucleus
+            (leaf 11)
+            (rel2par span)
+            (text
+              _!Hildegard Uebe nutzte die Gelegenheit , mit dem Chef des Straßenbauamtes Wünsdorf mal persönlich ein ernstes Wort über die trotz Umgehung bleibenden Probleme zu reden ._!)))
+        (Nucleus
+          (span 12 15)
+          (rel2par joint)
+          (Satellite
+            (leaf 12)
+            (rel2par interpretation)
+            (text
+              _!Der euphorischen Stimmung tat das keinen Abbruch ._!))
+          (Nucleus
+            (span 13 15)
+            (rel2par span)
+            (Nucleus
+              (span 13 14)
+              (rel2par span)
+              (Nucleus
+                (leaf 13)
+                (rel2par span)
+                (text
+                  _!Eher fröhlich vertröstete Minister Meyer die Klosteraner erneut auf den nächsten Bundesverkehrswegeplan ._!))
+              (Satellite
+                (leaf 14)
+                (rel2par elaboration)
+                (text _!Vor 2006 sei da nichts drin ._!)))
+            (Satellite
+              (leaf 15)
+              (rel2par result)
+              (text _!Eher süß-sauer die Mienen der Klosteraner ._!))))))
+    (Satellite
+      (leaf 16)
+      (rel2par summary)
+      (text
+        _!Des einen Freud bleibt wohl auch hier des anderen Leid ._!))))

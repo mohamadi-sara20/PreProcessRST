@@ -1,0 +1,100 @@
+(Root
+  (span 1 14)
+  (Nucleus
+    (leaf 1)
+    (rel2par virtual-root)
+    (text _!Erfolgsverwöhnt_!))
+  (Nucleus
+    (span 2 14)
+    (rel2par virtual-root)
+    (Satellite
+      (span 2 5)
+      (rel2par background)
+      (Nucleus
+        (span 2 4)
+        (rel2par span)
+        (Satellite
+          (leaf 2)
+          (rel2par evaluation-s)
+          (text
+            _!Erneut sorgt das renommierte Unternehmen Parmalat mit einem Paukenschlag für positive Schlagzeilen ._!))
+        (Nucleus
+          (span 3 4)
+          (rel2par span)
+          (Nucleus
+            (leaf 3)
+            (rel2par span)
+            (text
+              _!Eine der modernsten Produktionslinien ist gestern offiziell gestartet worden ,_!))
+          (Satellite
+            (leaf 4)
+            (rel2par e-elaboration)
+            (text
+              _!mit deren Hilfe frische Milch aus dem Brandenburgischen auf dem Frühstückstisch italienischer Familien landet ._!))))
+      (Satellite
+        (leaf 5)
+        (rel2par result)
+        (text
+          _!Zu Recht ist die Chefetage des Milchgiganten zufrieden ._!)))
+    (Nucleus
+      (span 6 14)
+      (rel2par span)
+      (Nucleus
+        (span 6 8)
+        (rel2par joint)
+        (Nucleus
+          (leaf 6)
+          (rel2par span)
+          (text
+            _!Unbestritten ist die Geschichte von Parmalat in Gransee eine Erfolgsstory ._!))
+        (Satellite
+          (span 7 8)
+          (rel2par interpretation)
+          (Nucleus
+            (leaf 7)
+            (rel2par list)
+            (text
+              _!Zu danken ist dies natürlich in erster Linie den engagierten Mitarbeitern und der Investitionsfreudigkeit des Konzerns ._!))
+          (Nucleus
+            (leaf 8)
+            (rel2par list)
+            (text
+              _!Aber auch Gransees Stadtväter trugen als unbürokratische Wegbereiter ihr Scherflein zum Erfolg bei ._!))))
+      (Nucleus
+        (span 9 10)
+        (rel2par joint)
+        (Nucleus
+          (leaf 9)
+          (rel2par span)
+          (text _!Und das macht Mut ._!))
+        (Satellite
+          (leaf 10)
+          (rel2par e-elaboration)
+          (text
+            _!Mut , mit dem die Milchverarbeiter optimistisch in die Zukunft blicken und weitere Investitionen anvisieren ._!)))
+      (Nucleus
+        (leaf 11)
+        (rel2par joint)
+        (text
+          _!Natürlich hoffen die Mitarbeiter , dass sich die millionenschweren Investionen bezahlt machen ._!))
+      (Nucleus
+        (span 12 14)
+        (rel2par joint)
+        (Nucleus
+          (leaf 12)
+          (rel2par joint)
+          (text
+            _!Und wer weiß , vielleicht steht frische Milch aus Gransee eines Tages tatsächlich auf dem Tisch von Einheimischen ._!))
+        (Nucleus
+          (span 13 14)
+          (rel2par joint)
+          (Nucleus
+            (leaf 13)
+            (rel2par span)
+            (text
+              _!Ob dies aber mehr als ein Wunschtraum ist , bleibt abzuwarten ._!))
+          (Satellite
+            (leaf 14)
+            (rel2par reason)
+            (text
+              _!Denn letztlich liegt die Entscheidung über den Erfolg eines Produkts einzig und allein beim Verbraucher ._!)))))))

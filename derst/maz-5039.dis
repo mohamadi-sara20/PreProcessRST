@@ -1,0 +1,144 @@
+(Root
+  (span 1 20)
+  (Nucleus
+    (leaf 1)
+    (rel2par virtual-root)
+    (text _!Ein übles Verbrechen_!))
+  (Nucleus
+    (span 2 20)
+    (rel2par virtual-root)
+    (Satellite
+      (span 2 5)
+      (rel2par background)
+      (Nucleus
+        (span 2 3)
+        (rel2par span)
+        (Nucleus
+          (leaf 2)
+          (rel2par joint)
+          (text _!Angst kann das Leben von Menschen zerstören ._!))
+        (Nucleus
+          (leaf 3)
+          (rel2par joint)
+          (text
+            _!Angst zu schüren ist die makabere " coole " Absicht von Trittbrettfahrern in diesen Wochen ._!)))
+      (Satellite
+        (span 4 5)
+        (rel2par reason)
+        (Nucleus
+          (leaf 4)
+          (rel2par conjunction)
+          (text
+            _!Denen muss es offenbar imponieren , dass in Amerika gefährliche Krankheitserreger eingetütet_!))
+        (Nucleus
+          (leaf 5)
+          (rel2par conjunction)
+          (text
+            _!und ohne jede Ehrfurcht vor menschlichem Leben in einen tödlichen Kreislauf geschickt werden ._!))))
+    (Nucleus
+      (span 6 20)
+      (rel2par span)
+      (Nucleus
+        (span 6 10)
+        (rel2par joint)
+        (Satellite
+          (leaf 6)
+          (rel2par background)
+          (text
+            _!Auch hierzulande gibt 's Menschen , die Pulver oder Puder an Bekannte oder Ungeliebte schicken ._!))
+        (Nucleus
+          (span 7 10)
+          (rel2par span)
+          (Satellite
+            (leaf 7)
+            (rel2par circumstance)
+            (text _!Vielleicht stehen sie ganz in der Nähe rum ,_!))
+          (Nucleus
+            (span 8 10)
+            (rel2par span)
+            (Satellite
+              (leaf 8)
+              (rel2par circumstance)
+              (text _!wenn die Briefe geöffnet werden_!))
+            (Nucleus
+              (span 9 10)
+              (rel2par span)
+              (Nucleus
+                (leaf 9)
+                (rel2par joint)
+                (text _!und Schrecken verbreiten ,_!))
+              (Nucleus
+                (leaf 10)
+                (rel2par joint)
+                (text
+                  _!zu aufwändigen Sicherheitsmaßnahmen zwingen ._!))))))
+      (Nucleus
+        (span 11 13)
+        (rel2par joint)
+        (Nucleus
+          (leaf 11)
+          (rel2par span)
+          (text _!Die Angst erfasst nicht nur die Empfänger ._!))
+        (Satellite
+          (span 12 13)
+          (rel2par elaboration)
+          (Nucleus
+            (leaf 12)
+            (rel2par span)
+            (text
+              _!Zumindest gemischte Gefühle beschleichen auch die Mitarbeiter des Hennigsdorfer Briefzentrums ,_!))
+          (Satellite
+            (leaf 13)
+            (rel2par condition)
+            (text
+              _!wenn sie Briefe mit merkwürdigen Anschriften , arabischen Lettern oder fühlbar ungewöhnlichem Inhalt feststellen ._!))))
+      (Nucleus
+        (span 14 20)
+        (rel2par joint)
+        (Satellite
+          (span 14 15)
+          (rel2par circumstance)
+          (Satellite
+            (leaf 14)
+            (rel2par interpretation)
+            (text
+              _!Bisher waren in Deutschland Trittbrettfahrer am Werk ._!))
+          (Nucleus
+            (leaf 15)
+            (rel2par span)
+            (text _!Einer davon wurde in München gefasst ._!)))
+        (Nucleus
+          (span 16 20)
+          (rel2par span)
+          (Nucleus
+            (span 16 17)
+            (rel2par span)
+            (Nucleus
+              (leaf 16)
+              (rel2par span)
+              (text
+                _!Ein junger Mensch , der viele Jahre zu tun haben wird ,_!))
+            (Satellite
+              (leaf 17)
+              (rel2par purpose)
+              (text
+                _!um die Rechnung für seine Untat , immerhin ein mindestens fünfstelliger hoher Betrag , abzuzahlen ._!)))
+          (Satellite
+            (span 18 20)
+            (rel2par evaluation-s)
+            (Nucleus
+              (leaf 18)
+              (rel2par span)
+              (text _!Abgelten kann er sie nicht ,_!))
+            (Satellite
+              (span 19 20)
+              (rel2par reason)
+              (Satellite
+                (leaf 19)
+                (rel2par evaluation-n)
+                (text
+                  _!denn andere Menschen in Angst zu versetzen ,_!))
+              (Nucleus
+                (leaf 20)
+                (rel2par span)
+                (text _!das ist ein übles Verbrechen ._!)))))))))

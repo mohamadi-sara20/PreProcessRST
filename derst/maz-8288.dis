@@ -1,0 +1,129 @@
+(Root
+  (span 1 17)
+  (Nucleus
+    (leaf 1)
+    (rel2par virtual-root)
+    (text _!In der Favoritenrolle_!))
+  (Nucleus
+    (span 2 17)
+    (rel2par virtual-root)
+    (Satellite
+      (span 2 7)
+      (rel2par background)
+      (Satellite
+        (span 2 3)
+        (rel2par background)
+        (Nucleus
+          (leaf 2)
+          (rel2par sequence)
+          (text
+            _!Gestern begann das Raumordnungsverfahren für die Autobahntrasse zur A2 ._!))
+        (Nucleus
+          (leaf 3)
+          (rel2par sequence)
+          (text
+            _!Ab heute kann jeder Interessierte die Unterlagen vier Wochen in den Ämtern einsehen ._!)))
+      (Nucleus
+        (span 4 7)
+        (rel2par span)
+        (Nucleus
+          (leaf 4)
+          (rel2par span)
+          (text
+            _!In den Planungsvarianten für einen A_2-Zubringer spielt das Havelstädtchen Pritzerbe eine Schlüsselrolle ._!))
+        (Satellite
+          (span 5 7)
+          (rel2par elaboration)
+          (Satellite
+            (span 5 6)
+            (rel2par antithesis)
+            (Nucleus
+              (leaf 5)
+              (rel2par conjunction)
+              (text
+                _!Während eine Anbindung der Rathenower Region über Milow als unwahrscheinlich gilt_!))
+            (Nucleus
+              (leaf 6)
+              (rel2par conjunction)
+              (text
+                _!und die Döberitzer Variante aus Gründen des Naturschutzes abwegig ist ,_!)))
+          (Nucleus
+            (leaf 7)
+            (rel2par span)
+            (text
+              _!muss Pritzerbe mit seiner Favoritenrolle klarkommen ._!)))))
+    (Nucleus
+      (span 8 17)
+      (rel2par span)
+      (Nucleus
+        (span 8 12)
+        (rel2par span)
+        (Nucleus
+          (span 8 11)
+          (rel2par span)
+          (Nucleus
+            (span 8 9)
+            (rel2par span)
+            (Nucleus
+              (leaf 8)
+              (rel2par joint)
+              (text
+                _!Für die Stadtverordneten heißt das öffentlich Position zu beziehen ._!))
+            (Nucleus
+              (leaf 9)
+              (rel2par joint)
+              (text
+                _!Diese muss nicht stur für oder gegen eine Havelbrücke ausfallen ._!)))
+          (Satellite
+            (span 10 11)
+            (rel2par elaboration)
+            (Nucleus
+              (leaf 10)
+              (rel2par span)
+              (text
+                _!Diplomatisches Geschick und politischer Weitblick sind gefragt ,_!))
+            (Satellite
+              (leaf 11)
+              (rel2par circumstance)
+              (text _!wenn es um die Verhandlungsmasse geht ._!))))
+        (Satellite
+          (leaf 12)
+          (rel2par reason)
+          (text
+            _!Was die Kommune oder Bürger an Anregungen und Bedenken einreichen , hat Auswirkungen für die nächsten hundert Jahre und darüber hinaus ._!)))
+      (Satellite
+        (span 13 17)
+        (rel2par reason)
+        (Nucleus
+          (leaf 13)
+          (rel2par span)
+          (text
+            _!Positive Effekte einer Havelbrücke lassen sich für Pritzerbe gar nicht abschätzen ._!))
+        (Satellite
+          (span 14 17)
+          (rel2par reason)
+          (Nucleus
+            (leaf 14)
+            (rel2par contrast)
+            (text _!Ein Gewerbeboom ist kaum zu erwarten ._!))
+          (Nucleus
+            (span 15 17)
+            (rel2par contrast)
+            (Nucleus
+              (leaf 15)
+              (rel2par span)
+              (text
+                _!Dafür könnte die Region vom Wirtschaftsstandort Premnitz/Rathenow mit Arbeitsplätzen profitieren -_!))
+            (Satellite
+              (span 16 17)
+              (rel2par condition)
+              (Nucleus
+                (leaf 16)
+                (rel2par span)
+                (text
+                  _!wenn er denn überhaupt kommt , der Aufschwung ,_!))
+              (Satellite
+                (leaf 17)
+                (rel2par e-elaboration)
+                (text
+                  _!den havelländische Firmen vom A_2-Zubringer abhängig machen ._!)))))))))

@@ -1,0 +1,91 @@
+(Root
+  (span 1 12)
+  (Nucleus
+    (leaf 1)
+    (rel2par virtual-root)
+    (text _!Aufstand der Vegetarier_!))
+  (Nucleus
+    (span 2 12)
+    (rel2par virtual-root)
+    (Satellite
+      (span 2 6)
+      (rel2par background)
+      (Satellite
+        (span 2 5)
+        (rel2par reason)
+        (Satellite
+          (leaf 2)
+          (rel2par concession)
+          (text
+            _!Wer zwei Frischlinge " Schnitzel " und " Kotelett " nennt - so gelesen im Internettagebuch eines Jägers - wollte vielleicht nur witzig sein ._!))
+        (Nucleus
+          (span 3 5)
+          (rel2par span)
+          (Nucleus
+            (leaf 3)
+            (rel2par span)
+            (text
+              _!Das Lachen kann empfindsamen Seelen aber vergehen ,_!))
+          (Satellite
+            (span 4 5)
+            (rel2par condition)
+            (Nucleus
+              (leaf 4)
+              (rel2par span)
+              (text
+                _!wenn sie die Internetseite des Zentralorgans der deutschen Jäger , " Wild und Hund " , aufrufen : In einer Animation werden Patronen abgeschossen ,_!))
+            (Satellite
+              (leaf 5)
+              (rel2par elaboration)
+              (text
+                _!dazu erscheint der Werbeslogan " Jeder Klick ein Treffer " ._!)))))
+      (Nucleus
+        (leaf 6)
+        (rel2par span)
+        (text
+          _!Solche martialischen Töne einzelner Weidmänner bieten den Gegnern der Jägerei eine ideale Angriffsfläche ._!)))
+    (Nucleus
+      (span 7 12)
+      (rel2par span)
+      (Nucleus
+        (span 7 11)
+        (rel2par span)
+        (Satellite
+          (leaf 7)
+          (rel2par background)
+          (text
+            _!Heute demonstriert die " Initiative zur Abschaffung der Jagd " wieder in Berlin ._!))
+        (Nucleus
+          (span 8 11)
+          (rel2par span)
+          (Nucleus
+            (span 8 9)
+            (rel2par span)
+            (Nucleus
+              (leaf 8)
+              (rel2par span)
+              (text
+                _!Ein Lehrer aus Baden-Württemberg verschickt eifrig so genannte " Lusttöter " ,_!))
+            (Satellite
+              (leaf 9)
+              (rel2par e-elaboration)
+              (text
+                _!die zeigen sollen , dass das Grauen zwei Beine und ein Gewehr in Händen hat ._!)))
+          (Satellite
+            (span 10 11)
+            (rel2par interpretation)
+            (Nucleus
+              (leaf 10)
+              (rel2par span)
+              (text
+                _!Doch auch dieser Tierschützer befindet sich auf verlorenem Posten ._!))
+            (Satellite
+              (leaf 11)
+              (rel2par reason)
+              (text
+                _!Selbst Ökologen bestreiten nicht , dass das natürliche Gleichgewicht durch menschliche Eingriffe wieder hergestellt werden muss ._!)))))
+      (Satellite
+        (leaf 12)
+        (rel2par evaluation-s)
+        (text
+          _!Übrigens ist das Ansinnen der Jagdgegner genauso sinnlos , als wenn Vegetarier Fleischesser überzeugen wollten ._!)))))

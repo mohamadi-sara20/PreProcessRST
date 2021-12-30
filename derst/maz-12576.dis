@@ -1,0 +1,136 @@
+(Root
+  (span 1 19)
+  (Nucleus (leaf 1) (rel2par virtual-root) (text _!Defizit_!))
+  (Nucleus
+    (span 2 19)
+    (rel2par virtual-root)
+    (Satellite
+      (span 2 13)
+      (rel2par background)
+      (Nucleus
+        (span 2 10)
+        (rel2par contrast)
+        (Nucleus
+          (leaf 2)
+          (rel2par span)
+          (text
+            _!Bisher war die geplante Abwahl der Kyritzer Bürgermeisterin Bärbel Stewin eine relativ klare Sache ._!))
+        (Satellite
+          (span 3 10)
+          (rel2par reason)
+          (Satellite
+            (leaf 3)
+            (rel2par preparation)
+            (text _!Die Fakten :_!))
+          (Nucleus
+            (span 4 10)
+            (rel2par span)
+            (Nucleus
+              (span 4 5)
+              (rel2par sequence)
+              (Nucleus
+                (leaf 4)
+                (rel2par conjunction)
+                (text _!Über 850 Einwohner unterschreiben Listen_!))
+              (Nucleus
+                (leaf 5)
+                (rel2par conjunction)
+                (text
+                  _!und fordern die Stadtverordneten auf , das Abwahlbegehren in Gang zu setzen ._!)))
+            (Nucleus
+              (span 6 10)
+              (rel2par sequence)
+              (Nucleus
+                (span 6 7)
+                (rel2par span)
+                (Nucleus
+                  (leaf 6)
+                  (rel2par conjunction)
+                  (text _!Sie tun , wie ihnen geheißen ,_!))
+                (Nucleus
+                  (leaf 7)
+                  (rel2par conjunction)
+                  (text
+                    _!und stimmen sechs Wochen später darüber ab ._!)))
+              (Satellite
+                (span 8 10)
+                (rel2par elaboration)
+                (Satellite
+                  (leaf 8)
+                  (rel2par preparation)
+                  (text _!Das Resultat ist bekannt ._!))
+                (Nucleus
+                  (span 9 10)
+                  (rel2par span)
+                  (Nucleus
+                    (leaf 9)
+                    (rel2par span)
+                    (text
+                      _!Ausnahmslos ist man dafür , den Bürgerentscheid anzusetzen ._!))
+                  (Satellite
+                    (leaf 10)
+                    (rel2par result)
+                    (text _!Am 13. Januar wird abgestimmt ._!))))))))
+      (Nucleus
+        (span 11 13)
+        (rel2par contrast)
+        (Satellite
+          (leaf 11)
+          (rel2par preparation)
+          (text _!Und nun ?_!))
+        (Nucleus
+          (span 12 13)
+          (rel2par span)
+          (Nucleus
+            (leaf 12)
+            (rel2par span)
+            (text
+              _!Nun erheben sich erste Stimmen , die fordern , man möge doch bitteschön mal klar sagen , weshalb man Frau Stewin für nicht mehr tragbar hält , die Stadt zu verwalten ._!))
+          (Satellite
+            (leaf 13)
+            (rel2par elaboration)
+            (text
+              _!Es reiche nicht aus , ein auf Gegenseitigkeit beruhendes Missverhältnis zu bestätigen ._!)))))
+    (Nucleus
+      (span 14 19)
+      (rel2par span)
+      (Nucleus
+        (span 14 17)
+        (rel2par span)
+        (Satellite
+          (span 14 16)
+          (rel2par antithesis)
+          (Nucleus
+            (span 14 15)
+            (rel2par joint)
+            (Nucleus
+              (leaf 14)
+              (rel2par conjunction)
+              (text
+                _!Heute stellt sich der Kyritzer FDP-Ortsvorsitzende Kai Müller hinter den Beschluss der Stadtverordneten vom 14. November_!))
+            (Nucleus
+              (leaf 15)
+              (rel2par conjunction)
+              (text
+                _!und tritt mit einer Aufforderung an die Öffentlichkeit ._!)))
+          (Nucleus
+            (leaf 16)
+            (rel2par joint)
+            (text
+              _!Jeder Kyritzer möge sich doch bei den Abgeordneten über die Tatsachen informieren , die eine Abwahl aus ihrer Sicht unabwendbar erscheinen lassen ._!)))
+        (Nucleus
+          (leaf 17)
+          (rel2par span)
+          (text
+            _!Aufklärungsarbeit im 4-Augen-Gespräch ist aber schwer vorstellbar ._!)))
+      (Satellite
+        (span 18 19)
+        (rel2par reason)
+        (Nucleus
+          (leaf 18)
+          (rel2par sequence)
+          (text _!Der Wähler will umfassend informiert werden ,_!))
+        (Nucleus
+          (leaf 19)
+          (rel2par sequence)
+          (text _!bevor er das letzte Wort hat ._!))))))

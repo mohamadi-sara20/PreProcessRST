@@ -1,0 +1,89 @@
+(Root
+  (span 1 12)
+  (Nucleus
+    (leaf 1)
+    (rel2par virtual-root)
+    (text _!Zweck heiligt Mittel nicht_!))
+  (Nucleus
+    (span 2 12)
+    (rel2par virtual-root)
+    (Satellite
+      (span 2 5)
+      (rel2par background)
+      (Satellite
+        (leaf 2)
+        (rel2par interpretation)
+        (text
+          _!Die Verwaltungsspitze des Kreises Potsdam-Mittelmark gerät einmal mehr unter Druck ._!))
+      (Nucleus
+        (span 3 5)
+        (rel2par span)
+        (Satellite
+          (leaf 3)
+          (rel2par circumstance)
+          (text
+            _!Nicht zum ersten Mal steht die wirtschaftliche Betätigung der Tochtergesellschaften mit ihren vielfältigen und offenkundig schwer überschaubaren Verflechtungen in der Kritik ._!))
+        (Nucleus
+          (span 4 5)
+          (rel2par span)
+          (Nucleus
+            (leaf 4)
+            (rel2par span)
+            (text
+              _!Die diesmal schwerwiegenden Vorwürfe müssen nun von der Staatsanwaltschaft unter die Lupe genommen werden -_!))
+          (Satellite
+            (leaf 5)
+            (rel2par evaluation-s)
+            (text
+              _!nicht gerade eine Empfehlung für die am Donnerstag geplante Wiederwahl von Landrat Lothar Koch ( SPD ) ._!)))))
+    (Nucleus
+      (span 6 12)
+      (rel2par span)
+      (Nucleus
+        (span 6 7)
+        (rel2par joint)
+        (Nucleus
+          (leaf 6)
+          (rel2par joint)
+          (text
+            _!Warnungen vor einer ausufernden Geschäftstätigkeit des Kreises Potsdam-Mittelmark hat es oft genug gegeben ._!))
+        (Nucleus
+          (leaf 7)
+          (rel2par joint)
+          (text _!Sie wurden ignoriert ._!)))
+      (Nucleus
+        (span 8 12)
+        (rel2par joint)
+        (Satellite
+          (span 8 9)
+          (rel2par antithesis)
+          (Nucleus
+            (leaf 8)
+            (rel2par span)
+            (text
+              _!Verkehrsgesellschaften , Krankenhaus-GmbH oder Abfallwirtschaftsbetrieb stehen außerhalb der Kritik ,_!))
+          (Satellite
+            (leaf 9)
+            (rel2par reason)
+            (text
+              _!diese Unternehmen erledigen Aufgaben der Daseinsvorsorge ._!)))
+        (Nucleus
+          (span 10 12)
+          (rel2par span)
+          (Nucleus
+            (leaf 10)
+            (rel2par span)
+            (text
+              _!Dass aber etwa bei der ABU-Service-GmbH oder nun auch bei der Gesundheitszentrum-GmbH der zunächst gut gemeinte soziale Zweck alle Mittel der geschäftlichen Betätigung heiligen soll , ist nicht nachvollziehbar ._!))
+          (Satellite
+            (span 11 12)
+            (rel2par elaboration)
+            (Nucleus
+              (leaf 11)
+              (rel2par span)
+              (text _!Erst recht nicht ,_!))
+            (Satellite
+              (leaf 12)
+              (rel2par condition)
+              (text
+                _!wenn sich der Verdacht bestätigt , dass der Kreis Potsdam-Mittelmark so verantwortungslos wie in der anonymen Anzeige geschildert mit Steuergeld und Gebühreneinnahmen umgeht ._!))))))))

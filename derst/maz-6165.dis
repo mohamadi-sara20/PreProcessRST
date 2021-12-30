@@ -1,0 +1,116 @@
+(Root
+  (span 1 16)
+  (Nucleus (leaf 1) (rel2par virtual-root) (text _!Aktionskreise_!))
+  (Nucleus
+    (span 2 16)
+    (rel2par virtual-root)
+    (Satellite
+      (span 2 10)
+      (rel2par reason)
+      (Satellite
+        (span 2 7)
+        (rel2par background)
+        (Satellite
+          (span 2 6)
+          (rel2par reason)
+          (Nucleus
+            (span 2 3)
+            (rel2par joint)
+            (Satellite
+              (leaf 2)
+              (rel2par concession)
+              (text
+                _!Am liebsten würde die Feuerwehr ja schon in fünf Minuten an jedem Ort der Stadt sein ,_!))
+            (Nucleus
+              (leaf 3)
+              (rel2par span)
+              (text _!aber derzeit sind es bestenfalls acht ._!)))
+          (Nucleus
+            (span 4 6)
+            (rel2par joint)
+            (Nucleus
+              (span 4 5)
+              (rel2par span)
+              (Satellite
+                (leaf 4)
+                (rel2par condition)
+                (text
+                  _!Rechnet man noch fünf Minuten drauf zwischen Alarm und Start ,_!))
+              (Nucleus
+                (leaf 5)
+                (rel2par span)
+                (text _!kommen die Retter schon an ihre Grenzen :_!)))
+            (Satellite
+              (leaf 6)
+              (rel2par cause)
+              (text
+                _!Ab 18 Minuten kommt für Menschen in einer verqualmten Wohnung jede Hilfe zu spät ._!))))
+        (Nucleus
+          (leaf 7)
+          (rel2par span)
+          (text
+            _!Also kann es für die Feuerwehr beim Wegzug aus der Seelenbinderstraße nur einen Maßstab geben : Schnelligkeit ._!)))
+      (Nucleus
+        (span 8 10)
+        (rel2par span)
+        (Nucleus
+          (leaf 8)
+          (rel2par span)
+          (text
+            _!Die aber scheint nur bei zwei Standorten an der Berliner Straße garantiert :_!))
+        (Satellite
+          (span 9 10)
+          (rel2par reason)
+          (Nucleus
+            (leaf 9)
+            (rel2par span)
+            (text
+              _!Nahe der Schnellstraße wäre man hier , nahe am Klinikum und nahe am Wasser -_!))
+          (Satellite
+            (leaf 10)
+            (rel2par elaboration)
+            (text _!auch dort will man helfen können ._!)))))
+    (Nucleus
+      (span 11 16)
+      (rel2par span)
+      (Satellite
+        (span 11 15)
+        (rel2par reason)
+        (Satellite
+          (span 11 14)
+          (rel2par concession)
+          (Nucleus
+            (span 11 12)
+            (rel2par span)
+            (Satellite
+              (leaf 11)
+              (rel2par condition)
+              (text
+                _!Wenn nun der CDU-Abgeordnete Peter Lehmann das Wasserwirtschaftsareal an der Friedrich-Engels-Straße für die Feuerwache Potsdam fordert ,_!))
+            (Nucleus
+              (leaf 12)
+              (rel2par span)
+              (text _!mag er in zwei Punkten Recht haben :_!)))
+          (Satellite
+            (span 13 14)
+            (rel2par elaboration)
+            (Nucleus
+              (leaf 13)
+              (rel2par conjunction)
+              (text
+                _!Zwischen Berliner Straße und der Havel kann man prima Wohnungen bauen ,_!))
+            (Nucleus
+              (leaf 14)
+              (rel2par conjunction)
+              (text
+                _!und das Wasserbetriebsgelände harrt einer besseren Nutzung ._!))))
+        (Nucleus
+          (leaf 15)
+          (rel2par span)
+          (text
+            _!Wie aber die Einsatzfahrzeuge von der Friedrich-Engels-Straße aus das Dauerproblem Bau und Stau auf der Langen Brücke umfahren sollen , das sagt er nicht ._!)))
+      (Nucleus
+        (leaf 16)
+        (rel2par span)
+        (text
+          _!Mithin kann die neue Wache - zumal bereits eine Berufswache in Babelsberg besteht - nur nördlich der Havel liegen ._!)))))

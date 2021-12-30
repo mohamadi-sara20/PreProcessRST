@@ -1,0 +1,110 @@
+(Root
+  (span 1 15)
+  (Nucleus (leaf 1) (rel2par virtual-root) (text _!Überfällig_!))
+  (Nucleus
+    (span 2 15)
+    (rel2par virtual-root)
+    (Nucleus
+      (span 2 9)
+      (rel2par contrast)
+      (Satellite
+        (leaf 2)
+        (rel2par background)
+        (text
+          _!Frischluftfans ist der Donau-Radwanderweg genauso ein Begriff wie auch der Münsterland-Radwanderweg ._!))
+      (Nucleus
+        (span 3 9)
+        (rel2par span)
+        (Nucleus
+          (span 3 4)
+          (rel2par span)
+          (Nucleus
+            (leaf 3)
+            (rel2par joint)
+            (text
+              _!Warum sollte da nicht der Landkreis Teltow-Fläming für alle Sportbegeisterten Brandenburgs oder gar Deutschlands einmal der Inbegriff für Inline-Skaten werden ?_!))
+          (Nucleus
+            (leaf 4)
+            (rel2par joint)
+            (text _!Dieser Anspruch besteht jetzt ( noch ) nicht ._!)))
+        (Satellite
+          (span 5 9)
+          (rel2par evidence)
+          (Nucleus
+            (leaf 5)
+            (rel2par list)
+            (text
+              _!Zum einen würden dafür die rund 100 Kilometer langen Rad- und Skatewege im Süden des Kreises lange nicht reichen ._!))
+          (Nucleus
+            (span 6 9)
+            (rel2par list)
+            (Nucleus
+              (leaf 6)
+              (rel2par span)
+              (text
+                _!Außerdem müsste hinter solch einem Angebot die gesamte Region in aller Konsequenz stehen ._!))
+            (Satellite
+              (span 7 9)
+              (rel2par reason)
+              (Satellite
+                (leaf 7)
+                (rel2par condition)
+                (text
+                  _!Denn sollte wirklich einmal Inline-Skaten den Kreis Teltow-Fläming über die Grenzen hinaus anziehend machen ,_!))
+              (Nucleus
+                (span 8 9)
+                (rel2par span)
+                (Nucleus
+                  (leaf 8)
+                  (rel2par span)
+                  (text
+                    _!so müsste man vorher die gesamte Infrastruktur darauf ausrichten ,_!))
+                (Satellite
+                  (leaf 9)
+                  (rel2par purpose)
+                  (text
+                    _!um diese Sportart als eine touristische Attraktion anzubieten ._!))))))))
+    (Nucleus
+      (span 10 15)
+      (rel2par contrast)
+      (Nucleus
+        (leaf 10)
+        (rel2par span)
+        (text
+          _!Im Moment sollte man sich erst einmal über die zaghaften Versuche im Norden freuen , Radwege im Verbund auf die Reihe zu bringen ._!))
+      (Satellite
+        (span 11 15)
+        (rel2par reason)
+        (Nucleus
+          (leaf 11)
+          (rel2par list)
+          (text
+            _!Die sind längst überfällig und würden den Einwohnern endlich den Alltag leichter machen ._!))
+        (Nucleus
+          (span 12 15)
+          (rel2par list)
+          (Nucleus
+            (span 12 13)
+            (rel2par span)
+            (Satellite
+              (leaf 12)
+              (rel2par condition)
+              (text
+                _!Wenn damit auch gleichzeitig den Touristen mehr Wege erschlossen werden ,_!))
+            (Nucleus
+              (leaf 13)
+              (rel2par span)
+              (text _!ist das nur gut ._!)))
+          (Satellite
+            (span 14 15)
+            (rel2par reason)
+            (Nucleus
+              (leaf 14)
+              (rel2par span)
+              (text
+                _!Denn es wäre wenigstens erst einmal ein Anfang ._!))
+            (Satellite
+              (leaf 15)
+              (rel2par elaboration)
+              (text
+                _!Ein kleiner Stein , in Bewegung gesetzt , kann ja durchaus eine Lawine auslösen ._!))))))))

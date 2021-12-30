@@ -1,0 +1,147 @@
+(Root
+  (span 1 20)
+  (Nucleus (leaf 1) (rel2par virtual-root) (text _!Feigenblatt_!))
+  (Nucleus
+    (span 2 20)
+    (rel2par virtual-root)
+    (Satellite
+      (span 2 5)
+      (rel2par background)
+      (Satellite
+        (span 2 3)
+        (rel2par circumstance)
+        (Nucleus
+          (leaf 2)
+          (rel2par span)
+          (text
+            _!Die Jugendlichen in Zossen wollen ein Musikcafé ._!))
+        (Satellite
+          (leaf 3)
+          (rel2par elaboration)
+          (text
+            _!Das forderten sie bei der ersten Zossener Runde am Dienstagabend ._!)))
+      (Nucleus
+        (span 4 5)
+        (rel2par span)
+        (Satellite
+          (leaf 4)
+          (rel2par reason)
+          (text
+            _!Dass die Politiker der Stadt dafür Verständnis haben , ist löblich ._!))
+        (Nucleus
+          (leaf 5)
+          (rel2par span)
+          (text
+            _!Mit dem Treffen im Rathaus ist somit auch ein Dialog zwischen den Generationen angestoßen ._!))))
+    (Nucleus
+      (span 6 20)
+      (rel2par span)
+      (Nucleus
+        (span 6 15)
+        (rel2par span)
+        (Nucleus
+          (span 6 8)
+          (rel2par joint)
+          (Nucleus
+            (leaf 6)
+            (rel2par span)
+            (text
+              _!Dass die beiden geladenen Jugendlichen im Laufe des Abends immer weniger zu Wort kamen , war sicher keine böse Absicht ,_!))
+          (Satellite
+            (span 7 8)
+            (rel2par evaluation-s)
+            (Nucleus
+              (leaf 7)
+              (rel2par conjunction)
+              (text _!ärgerlich ist es trotzdem ._!))
+            (Nucleus
+              (leaf 8)
+              (rel2par conjunction)
+              (text _!Und aberwitzig dazu ._!))))
+        (Nucleus
+          (span 9 15)
+          (rel2par joint)
+          (Nucleus
+            (span 9 13)
+            (rel2par span)
+            (Nucleus
+              (span 9 12)
+              (rel2par span)
+              (Satellite
+                (leaf 9)
+                (rel2par evaluation-s)
+                (text _!Es entbehrt nicht der Komik ,_!))
+              (Nucleus
+                (span 10 12)
+                (rel2par span)
+                (Nucleus
+                  (span 10 11)
+                  (rel2par span)
+                  (Nucleus
+                    (leaf 10)
+                    (rel2par span)
+                    (text
+                      _!wenn sich drei Erwachsene - Karola Andrae ( Bürgerbündnis/FDP ) , Susanne Michler ( CDU ) und Joachim Zanow ( SPD ) - darüber streiten , was Jugendliche wollen und brauchen ,_!))
+                  (Satellite
+                    (leaf 11)
+                    (rel2par elaboration)
+                    (text
+                      _!ohne auf die Idee zu kommen , sie selbst zu fragen ._!)))
+                (Satellite
+                  (leaf 12)
+                  (rel2par elaboration)
+                  (text
+                    _!Und das , obwohl sie ihnen gegenüber sitzen ._!))))
+            (Satellite
+              (leaf 13)
+              (rel2par restatement)
+              (text
+                _!Die Jugendlichen wurden somit zum bloßen Feigenblatt degradiert ._!)))
+          (Satellite
+            (span 14 15)
+            (rel2par interpretation)
+            (Nucleus
+              (leaf 14)
+              (rel2par span)
+              (text
+                _!Nicht über sondern mit ihnen hätten die Politiker reden sollen ._!))
+            (Satellite
+              (leaf 15)
+              (rel2par evaluation-s)
+              (text _!Damit ist eine große Chance vertan ._!)))))
+      (Satellite
+        (span 16 20)
+        (rel2par interpretation)
+        (Nucleus
+          (span 16 18)
+          (rel2par span)
+          (Nucleus
+            (leaf 16)
+            (rel2par span)
+            (text
+              _!Vielleicht klappt es bei der nächsten Runde Anfang 2002 ._!))
+          (Satellite
+            (span 17 18)
+            (rel2par elaboration)
+            (Satellite
+              (leaf 17)
+              (rel2par reason)
+              (text
+                _!Dann werden auch mehr Jugendliche eingeladen ._!))
+            (Nucleus
+              (leaf 18)
+              (rel2par span)
+              (text
+                _!In der Gruppe können sie sich hoffentlich mehr Gehör verschaffen ._!))))
+        (Satellite
+          (span 19 20)
+          (rel2par elaboration)
+          (Nucleus
+            (leaf 19)
+            (rel2par span)
+            (text
+              _!Vielleicht finden dann auch Vertreter von PDS und Gewerbeverein ihren Weg ins Rathaus ._!))
+          (Satellite
+            (leaf 20)
+            (rel2par elaboration)
+            (text _!Die glänzten diesmal noch mit Abwesenheit ._!)))))))

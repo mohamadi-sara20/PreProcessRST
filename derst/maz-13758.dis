@@ -1,0 +1,136 @@
+(Root
+  (span 1 19)
+  (Nucleus (leaf 1) (rel2par virtual-root) (text _!Keine Garantie_!))
+  (Nucleus
+    (span 2 19)
+    (rel2par virtual-root)
+    (Nucleus
+      (span 2 17)
+      (rel2par span)
+      (Satellite
+        (span 2 7)
+        (rel2par background)
+        (Satellite
+          (span 2 5)
+          (rel2par reason)
+          (Satellite
+            (leaf 2)
+            (rel2par circumstance)
+            (text
+              _!Euphorische Beifallsstürme gab es in Fröhden nicht für die Dorferneuerungsplanung ._!))
+          (Nucleus
+            (span 3 5)
+            (rel2par span)
+            (Nucleus
+              (leaf 3)
+              (rel2par span)
+              (text _!Das war auch kaum zu erwarten ,_!))
+            (Satellite
+              (span 4 5)
+              (rel2par reason)
+              (Nucleus
+                (leaf 4)
+                (rel2par span)
+                (text
+                  _!handelt es sich doch um ein Gemeinschaftswerk ,_!))
+              (Satellite
+                (leaf 5)
+                (rel2par e-elaboration)
+                (text _!an dem die Einwohner mitgewirkt haben ._!)))))
+        (Nucleus
+          (span 6 7)
+          (rel2par span)
+          (Nucleus
+            (leaf 6)
+            (rel2par span)
+            (text _!Deshalb blieben auch kaum Fragen offen ,_!))
+          (Satellite
+            (leaf 7)
+            (rel2par e-elaboration)
+            (text
+              _!zumindest nicht solche , die die Gestaltung der beiden Jüterboger Ortsteile betrifft ._!))))
+      (Nucleus
+        (span 8 17)
+        (rel2par span)
+        (Satellite
+          (span 8 9)
+          (rel2par concession)
+          (Nucleus
+            (leaf 8)
+            (rel2par span)
+            (text _!Das Interesse an der Planung war groß ,_!))
+          (Satellite
+            (leaf 9)
+            (rel2par evidence)
+            (text
+              _!die Beteiligung an den Arbeitskreisen hat es gezeigt ._!)))
+        (Nucleus
+          (span 10 17)
+          (rel2par span)
+          (Nucleus
+            (span 10 11)
+            (rel2par span)
+            (Nucleus
+              (leaf 10)
+              (rel2par span)
+              (text _!Doch die Freude hält sich in Grenzen ,_!))
+            (Satellite
+              (leaf 11)
+              (rel2par cause)
+              (text
+                _!denn inzwischen weiß jeder , dass die Fördermittelgießkanne nur noch tröpfchenweise austeilt ._!)))
+          (Satellite
+            (span 12 17)
+            (rel2par elaboration)
+            (Nucleus
+              (span 12 15)
+              (rel2par joint)
+              (Satellite
+                (span 12 14)
+                (rel2par condition)
+                (Nucleus
+                  (leaf 12)
+                  (rel2par list)
+                  (text
+                    _!Wer auf das Ja-Wort aus Brieselang warten kann ,_!))
+                (Nucleus
+                  (leaf 13)
+                  (rel2par list)
+                  (text
+                    _!keine Scheu vor seitenlangen Fragebögen hat_!))
+                (Nucleus
+                  (leaf 14)
+                  (rel2par list)
+                  (text
+                    _!und in Kauf nimmt , dass er wahrscheinlich nicht billiger wegkommt , als wenn er nach eigenen Vorstellungen die Fassade gestrichen hätte -_!)))
+              (Nucleus
+                (leaf 15)
+                (rel2par span)
+                (text
+                  _!dem kann bescheinigt werden , dass ihm sein Dorf und dessen Erscheinungsbild am Herzen liegt ._!)))
+            (Nucleus
+              (span 16 17)
+              (rel2par joint)
+              (Nucleus
+                (leaf 16)
+                (rel2par span)
+                (text
+                  _!Schweren Herzens wird sich die Stadt von ihrem Geld trennen ,_!))
+              (Satellite
+                (leaf 17)
+                (rel2par circumstance)
+                (text
+                  _!wenn es nämlich darum geht , die Eigenanteile für bestimmte Vorhaben zur Verfügung zu stellen ._!)))))))
+    (Satellite
+      (span 18 19)
+      (rel2par summary)
+      (Satellite
+        (leaf 18)
+        (rel2par reason)
+        (text
+          _!Die Dorferneuerungsplanung ist längst keine Garantie mehr für grenzenlosen Geldsegen ._!))
+      (Nucleus
+        (leaf 19)
+        (rel2par span)
+        (text
+          _!So könnte es passieren , dass viele schöne Vorhaben nur Visionen bleiben ._!)))))

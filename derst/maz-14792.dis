@@ -1,0 +1,120 @@
+(Root
+  (span 1 16)
+  (Nucleus
+    (leaf 1)
+    (rel2par virtual-root)
+    (text _!Böse , die nicht böse sind_!))
+  (Nucleus
+    (span 2 16)
+    (rel2par virtual-root)
+    (Satellite
+      (span 2 9)
+      (rel2par background)
+      (Nucleus
+        (span 2 7)
+        (rel2par contrast)
+        (Satellite
+          (leaf 2)
+          (rel2par interpretation)
+          (text _!Die Bösen sind längst gefunden ._!))
+        (Nucleus
+          (span 3 7)
+          (rel2par span)
+          (Nucleus
+            (span 3 4)
+            (rel2par span)
+            (Satellite
+              (leaf 3)
+              (rel2par condition)
+              (text
+                _!Wer sich kritisch zur Finanzierung der Landesgartenschau äußert ,_!))
+            (Nucleus
+              (leaf 4)
+              (rel2par span)
+              (text _!der ist ein Nestbeschmutzer ._!)))
+          (Satellite
+            (span 5 7)
+            (rel2par restatement)
+            (Nucleus
+              (leaf 5)
+              (rel2par span)
+              (text
+                _!Das müssen in diesem Tagen alle erfahren , die unangenehme Fragen stellen und Antworten erwarten ._!))
+            (Satellite
+              (span 6 7)
+              (rel2par elaboration)
+              (Satellite
+                (leaf 6)
+                (rel2par condition)
+                (text
+                  _!Wer sich über die Finanzierung der Landesgartenschau genauer informieren will ,_!))
+              (Nucleus
+                (leaf 7)
+                (rel2par span)
+                (text
+                  _!dem haftet sofort an , die Veranstaltung gar nicht zu wollen ._!))))))
+      (Nucleus
+        (span 8 9)
+        (rel2par contrast)
+        (Nucleus
+          (leaf 8)
+          (rel2par span)
+          (text
+            _!Nun sind die Bösen gar nicht so böse , wie allgemein angenommen ._!))
+        (Satellite
+          (leaf 9)
+          (rel2par reason)
+          (text
+            _!Die Landesgartenschau wird auch von ihnen nicht infrage gestellt ._!))))
+    (Nucleus
+      (span 10 16)
+      (rel2par span)
+      (Nucleus
+        (span 10 12)
+        (rel2par span)
+        (Satellite
+          (leaf 10)
+          (rel2par circumstance)
+          (text
+            _!Der Bürgermeister hat die Finanzsituation , in der sich die Stadt befindet als " schwierig aber beherrschbar " bezeichnet ._!))
+        (Nucleus
+          (span 11 12)
+          (rel2par span)
+          (Satellite
+            (leaf 11)
+            (rel2par condition)
+            (text _!Wenn das so ist ,_!))
+          (Nucleus
+            (leaf 12)
+            (rel2par span)
+            (text
+              _!dann müssen Konzepte zur Landesgartenschau jetzt mit nachvollziehbaren Zahlen untersetzt werden ._!))))
+      (Satellite
+        (span 13 16)
+        (rel2par reason)
+        (Nucleus
+          (span 13 14)
+          (rel2par span)
+          (Nucleus
+            (leaf 13)
+            (rel2par contrast)
+            (text
+              _!Warum wird im Landwirtschaftsministerium ein städtischer Eigenanteil an Laga-Vorhaben mit 7,5 Millionen Mark berechnet ,_!))
+          (Nucleus
+            (leaf 14)
+            (rel2par contrast)
+            (text
+              _!während im Laga-Finanzierungskonzept der Stadt gerade 5 Millionen Mark hineingeschrieben wurden ?_!)))
+        (Satellite
+          (span 15 16)
+          (rel2par interpretation)
+          (Nucleus
+            (leaf 15)
+            (rel2par span)
+            (text
+              _!Eben dieses Verwirrspiel ist es , was diejenigen in Sorge treibt , die jetzt die Landesgartenschau konkreter hinterfragen ._!))
+          (Satellite
+            (leaf 16)
+            (rel2par reason)
+            (text
+              _!Denn auch sie wollen , dass in Rathenow eine gut vorbereitete Laga 2006 stattfindet ._!)))))))

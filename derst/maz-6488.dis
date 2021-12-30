@@ -1,0 +1,136 @@
+(Root
+  (span 1 18)
+  (Nucleus
+    (leaf 1)
+    (rel2par virtual-root)
+    (text _!Da fehlt noch was_!))
+  (Nucleus
+    (span 2 18)
+    (rel2par virtual-root)
+    (Satellite
+      (span 2 15)
+      (rel2par reason)
+      (Satellite
+        (span 2 9)
+        (rel2par evaluation-n)
+        (Satellite
+          (span 2 5)
+          (rel2par background)
+          (Nucleus
+            (span 2 3)
+            (rel2par span)
+            (Satellite
+              (leaf 2)
+              (rel2par circumstance)
+              (text
+                _!Als 1999 die im Rahmen der Dorferneuerung neu gestaltete Radeweger Ablage inklusive Seebrücke mit viel Pomp eingeweiht wurde ,_!))
+            (Nucleus
+              (leaf 3)
+              (rel2par span)
+              (text _!war klar : Da fehlt noch was ._!)))
+          (Satellite
+            (span 4 5)
+            (rel2par elaboration)
+            (Satellite
+              (leaf 4)
+              (rel2par condition)
+              (text
+                _!Wer die Infrastruktur für den Wassertourismus vorantreiben will ,_!))
+            (Nucleus
+              (leaf 5)
+              (rel2par span)
+              (text
+                _!darf nicht nur bis zum nächsten Steg denken ._!))))
+        (Nucleus
+          (span 6 9)
+          (rel2par span)
+          (Nucleus
+            (leaf 6)
+            (rel2par contrast)
+            (text
+              _!Sanitäre Anlagen gehören heute zum Standard großer Liegeplätze ._!))
+          (Nucleus
+            (span 7 9)
+            (rel2par contrast)
+            (Satellite
+              (leaf 7)
+              (rel2par evaluation-s)
+              (text
+                _!Doch mit der Nachrüstung tut sich Radewege schwer ._!))
+            (Nucleus
+              (span 8 9)
+              (rel2par span)
+              (Nucleus
+                (leaf 8)
+                (rel2par span)
+                (text
+                  _!Was einst beschlossen wurde , zählt nicht mehr ._!))
+              (Satellite
+                (leaf 9)
+                (rel2par evidence)
+                (text
+                  _!Zu teuer , zu hässlich sei die Anlage , sagen die Meinungsführer im Gemeinderat ._!))))))
+      (Nucleus
+        (span 10 15)
+        (rel2par span)
+        (Nucleus
+          (span 10 11)
+          (rel2par span)
+          (Satellite
+            (leaf 10)
+            (rel2par concession)
+            (text _!Beschlüsse zu überdenken ist legitim ,_!))
+          (Nucleus
+            (leaf 11)
+            (rel2par span)
+            (text
+              _!doch nur von Alternativen zu reden , ohne brauchbare Vorschläge auf den Tisch zu legen , ist zu billig ._!)))
+        (Satellite
+          (span 12 15)
+          (rel2par reason)
+          (Nucleus
+            (span 12 13)
+            (rel2par list)
+            (Nucleus
+              (leaf 12)
+              (rel2par span)
+              (text
+                _!Ein multifunktionales Objekt mit Umkleide- und Treffmöglichkeiten als angeblich bessere Variante ist bisher nicht mehr als eine fiktive Idee geblieben ._!))
+            (Satellite
+              (leaf 13)
+              (rel2par interpretation)
+              (text
+                _!Und ob diese billiger wird , steht auf einem anderen Blatt ._!)))
+          (Nucleus
+            (span 14 15)
+            (rel2par list)
+            (Nucleus
+              (leaf 14)
+              (rel2par span)
+              (text
+                _!Außerdem hat Radewege mit dem nicht weit entfernten Haus des Beetzseetreffs e. V. ein Gebäude ,_!))
+            (Satellite
+              (leaf 15)
+              (rel2par e-elaboration)
+              (text
+                _!das vielen Freizeitbedürfnissen gerecht werden kann ._!))))))
+    (Nucleus
+      (span 16 18)
+      (rel2par span)
+      (Nucleus
+        (span 16 17)
+        (rel2par span)
+        (Satellite
+          (leaf 16)
+          (rel2par condition)
+          (text
+            _!Kommt der Sanitärtrakt nicht spätestens zur nächsten Saison ,_!))
+        (Nucleus
+          (leaf 17)
+          (rel2par span)
+          (text
+            _!droht Radewege , den Wettbewerb um Freizeitkapitäne auf dem Beetzsee mit anderen Anbietern zu verlieren ._!)))
+      (Satellite
+        (leaf 18)
+        (rel2par antithesis)
+        (text _!Dabei hätte das Dorf jede Einnahme nötig ._!)))))

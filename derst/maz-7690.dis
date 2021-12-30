@@ -1,0 +1,122 @@
+(Root
+  (span 1 16)
+  (Nucleus
+    (leaf 1)
+    (rel2par virtual-root)
+    (text _!Zurück zur Heimatwurst_!))
+  (Nucleus
+    (span 2 16)
+    (rel2par virtual-root)
+    (Satellite
+      (span 2 7)
+      (rel2par background)
+      (Nucleus
+        (span 2 4)
+        (rel2par contrast)
+        (Satellite
+          (leaf 2)
+          (rel2par interpretation)
+          (text
+            _!Schlachtefest - mit diesem Wort hätte man vor einem Jahr den Schrecken auf die Gesichter der Deutschen getrieben ._!))
+        (Nucleus
+          (span 3 4)
+          (rel2par span)
+          (Satellite
+            (leaf 3)
+            (rel2par circumstance)
+            (text
+              _!Damals , als die Angst vor dem Rinderwahn irrationale Züge annahm ,_!))
+          (Nucleus
+            (leaf 4)
+            (rel2par span)
+            (text
+              _!hätten auch die cleversten Werbestrategen eine Veranstaltung wie das Schlachtefest am Wochenende in Paaren/Glien nicht an den Mann , oder besser , an den Verbraucher bringen können ._!))))
+      (Nucleus
+        (span 5 7)
+        (rel2par contrast)
+        (Satellite
+          (leaf 5)
+          (rel2par circumstance)
+          (text
+            _!Die BSE-Panik liegt nun länger als ein Jahr zurück ._!))
+        (Nucleus
+          (span 6 7)
+          (rel2par span)
+          (Satellite
+            (leaf 6)
+            (rel2par reason)
+            (text
+              _!Fast unmerklich ist das Vertrauen der Menschen zurückgekehrt ,_!))
+          (Nucleus
+            (leaf 7)
+            (rel2par span)
+            (text
+              _!der Absatz von Fleischwaren hat die gewohnten Größenordnungen wieder erreicht ._!)))))
+    (Nucleus
+      (span 8 16)
+      (rel2par span)
+      (Satellite
+        (span 8 9)
+        (rel2par antithesis)
+        (Satellite
+          (leaf 8)
+          (rel2par antithesis)
+          (text
+            _!Ob dies das Ergebnis einer veränderten Politik ist , darf bezweifelt werden ._!))
+        (Nucleus
+          (leaf 9)
+          (rel2par span)
+          (text
+            _!Vielmehr scheinen die Verbraucher zu ihren alten , lieben Gewohnheiten zurückgekehrt zu sein ._!)))
+      (Nucleus
+        (span 10 16)
+        (rel2par span)
+        (Nucleus
+          (span 10 14)
+          (rel2par span)
+          (Satellite
+            (span 10 12)
+            (rel2par reason)
+            (Nucleus
+              (span 10 11)
+              (rel2par span)
+              (Nucleus
+                (leaf 10)
+                (rel2par joint)
+                (text
+                  _!Eines allerdings scheint sich geändert zu haben ._!))
+              (Nucleus
+                (leaf 11)
+                (rel2par joint)
+                (text
+                  _!Die regionalen Produkte haben an Ansehen gewonnen ._!)))
+            (Satellite
+              (leaf 12)
+              (rel2par evidence)
+              (text
+                _!Das Schlachtefest in Paaren/Glien stützt diese These ._!)))
+          (Nucleus
+            (span 13 14)
+            (rel2par span)
+            (Nucleus
+              (leaf 13)
+              (rel2par span)
+              (text
+                _!Die Menschen genießen vermehrt einheimische Produkte ._!))
+            (Satellite
+              (leaf 14)
+              (rel2par elaboration)
+              (text
+                _!Statt der plastikverpackten Einheitswurst aus der Supermarkttheke verlangen sie nach Waren ortsansässiger Fleischer ._!))))
+        (Satellite
+          (span 15 16)
+          (rel2par evaluation-s)
+          (Satellite
+            (leaf 15)
+            (rel2par condition)
+            (text _!Sollte dieser Trend anhalten ,_!))
+          (Nucleus
+            (leaf 16)
+            (rel2par span)
+            (text
+              _!dann hätte die ganze BSE-Hysterie am Ende doch ihr Gutes gehabt ._!)))))))

@@ -1,0 +1,130 @@
+(Root
+  (span 1 18)
+  (Nucleus
+    (leaf 1)
+    (rel2par virtual-root)
+    (text _!Ungemütliche Jahreszeit_!))
+  (Nucleus
+    (span 2 18)
+    (rel2par virtual-root)
+    (Nucleus
+      (span 2 16)
+      (rel2par span)
+      (Satellite
+        (span 2 5)
+        (rel2par cause)
+        (Satellite
+          (span 2 3)
+          (rel2par background)
+          (Satellite
+            (leaf 2)
+            (rel2par preparation)
+            (text _!Jetzt steht es fest ,_!))
+          (Nucleus
+            (leaf 3)
+            (rel2par span)
+            (text
+              _!das "Goldene-Oktober"-Wetter geht seinem Ende entgegen ._!)))
+        (Nucleus
+          (span 4 5)
+          (rel2par span)
+          (Nucleus
+            (leaf 4)
+            (rel2par joint)
+            (text
+              _!Mit der ungemütlichen Jahreszeit nehmen auch die Gefahren auf den Straßen zu ,_!))
+          (Nucleus
+            (leaf 5)
+            (rel2par joint)
+            (text _!darauf weist die Polizei mit Nachdruck hin ._!))))
+      (Nucleus
+        (span 6 16)
+        (rel2par span)
+        (Nucleus
+          (leaf 6)
+          (rel2par span)
+          (text
+            _!Die Mitarbeiter der Verkehrsunfallbekämpfung im Schutzbereich Teltow-Fläming haben eine Reihe von Hinweisen für eine gute Fahrt durch den Herbst parat ._!))
+        (Satellite
+          (span 7 16)
+          (rel2par elaboration)
+          (Nucleus
+            (span 7 9)
+            (rel2par list)
+            (Nucleus
+              (span 7 8)
+              (rel2par span)
+              (Nucleus
+                (leaf 7)
+                (rel2par conjunction)
+                (text
+                  _!Sie wissen beispielsweise , dass jetzt wieder verstärkt Wild die Straßen überquert_!))
+              (Nucleus
+                (leaf 8)
+                (rel2par conjunction)
+                (text
+                  _!und plötzlich vor Fahrzeugen auftauchen kann ._!)))
+            (Satellite
+              (leaf 9)
+              (rel2par elaboration)
+              (text
+                _!Vor allem beim Durchfahren von Waldstücken sollte darauf geachtet werden ._!)))
+          (Nucleus
+            (span 10 12)
+            (rel2par list)
+            (Nucleus
+              (span 10 11)
+              (rel2par span)
+              (Nucleus
+                (leaf 10)
+                (rel2par span)
+                (text
+                  _!Auch bei Laub-"Matten" auf der Fahrbahn ist Vorsicht angesagt ,_!))
+              (Satellite
+                (leaf 11)
+                (rel2par elaboration)
+                (text
+                  _!vor allem , wenn sie durch Regen oder Tau nass sind ._!)))
+            (Satellite
+              (leaf 12)
+              (rel2par result)
+              (text
+                _!Besonders in Kurven kann zu schnelles Fahren dann dazu führen , dass Fahrzeuge ausbrechen ._!)))
+          (Nucleus
+            (span 13 14)
+            (rel2par list)
+            (Nucleus
+              (leaf 13)
+              (rel2par span)
+              (text
+                _!Besondere Aufmerksamkeit ist bei Nebel geboten ._!))
+            (Satellite
+              (leaf 14)
+              (rel2par elaboration)
+              (text
+                _!" Dicke Suppe " ist immer ein Zeichen dafür , die Geschwindigkeit zu drosseln und den Sichtverhältnissen anzupassen ._!)))
+          (Nucleus
+            (span 15 16)
+            (rel2par list)
+            (Satellite
+              (leaf 15)
+              (rel2par circumstance)
+              (text _!Bei weiter fortschreitender Jahreszeit_!))
+            (Nucleus
+              (leaf 16)
+              (rel2par span)
+              (text
+                _!ist dann auch schon mit Bodenfrösten und Straßenglätte zu rechnen ._!))))))
+    (Satellite
+      (span 17 18)
+      (rel2par evaluation-s)
+      (Satellite
+        (leaf 17)
+        (rel2par concession)
+        (text
+          _!Sicher , wir haben das alles schon gehört und wissen theoretisch Bescheid -_!))
+      (Nucleus
+        (leaf 18)
+        (rel2par span)
+        (text
+          _!in der Realität aber enden leider zu viele Fahrten aus den genannten Gründen verhängnisvoll ._!)))))

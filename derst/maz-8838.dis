@@ -1,0 +1,128 @@
+(Root
+  (span 1 17)
+  (Nucleus
+    (leaf 1)
+    (rel2par virtual-root)
+    (text _!Euro-Cash for Kids_!))
+  (Nucleus
+    (span 2 17)
+    (rel2par virtual-root)
+    (Nucleus
+      (span 2 11)
+      (rel2par span)
+      (Nucleus
+        (span 2 4)
+        (rel2par span)
+        (Nucleus
+          (leaf 2)
+          (rel2par span)
+          (text
+            _!In der MAZ-Lokalredaktion Luckenwalde wurde inzwischen bereits die zweite Sammelbox für restliches Urlaubsgeld aus aller Herren Länder aufgestellt ._!))
+        (Satellite
+          (span 3 4)
+          (rel2par cause)
+          (Nucleus
+            (leaf 3)
+            (rel2par conjunction)
+            (text
+              _!Die erste Box war schneller als gedacht prall gefüllt und schwer ,_!))
+          (Nucleus
+            (leaf 4)
+            (rel2par conjunction)
+            (text
+              _!und sie konnte bereits an den Initiator der Sammelaktion , den Internationalen Bund ( IB ) , übergeben werden ._!))))
+      (Satellite
+        (span 5 11)
+        (rel2par cause)
+        (Satellite
+          (span 5 8)
+          (rel2par cause)
+          (Satellite
+            (leaf 5)
+            (rel2par background)
+            (text
+              _!Hintergrund der Idee war die bevorstehende Euro-Einführung ._!))
+          (Nucleus
+            (span 6 8)
+            (rel2par span)
+            (Nucleus
+              (span 6 7)
+              (rel2par span)
+              (Nucleus
+                (leaf 6)
+                (rel2par span)
+                (text
+                  _!Wohin dann mit den vom Urlaub übrig gebliebenen Münzen ,_!))
+              (Satellite
+                (leaf 7)
+                (rel2par e-elaboration)
+                (text _!die bald sowieso nichts mehr wert sind ?_!)))
+            (Satellite
+              (leaf 8)
+              (rel2par elaboration)
+              (text
+                _!Warum sollten sie nicht noch einen guten Zweck erfüllen können ?_!))))
+        (Nucleus
+          (span 9 11)
+          (rel2par span)
+          (Nucleus
+            (span 9 10)
+            (rel2par span)
+            (Nucleus
+              (leaf 9)
+              (rel2par conjunction)
+              (text
+                _!So wurde die Aktion " Euro-Cash for Kids " gestartet ,_!))
+            (Nucleus
+              (leaf 10)
+              (rel2par conjunction)
+              (text
+                _!und sie fand speziell in Luckenwalde und Umgebung eine riesige Resonanz ._!)))
+          (Satellite
+            (leaf 11)
+            (rel2par evaluation-s)
+            (text _!Dafür ein herzliches Dankeschön ._!)))))
+    (Satellite
+      (span 12 17)
+      (rel2par interpretation)
+      (Satellite
+        (span 12 13)
+        (rel2par motivation)
+        (Nucleus
+          (leaf 12)
+          (rel2par span)
+          (text
+            _!Vielleicht kommen ja jetzt nach den Herbstferien noch einige Münzen zusammen ,_!))
+        (Satellite
+          (leaf 13)
+          (rel2par elaboration)
+          (text
+            _!in der zweiten Box ist jedenfalls noch Platz dafür vorhanden ._!)))
+      (Nucleus
+        (span 14 17)
+        (rel2par span)
+        (Nucleus
+          (leaf 14)
+          (rel2par sequence)
+          (text
+            _!Noch bis zum Jahresende besteht die Möglichkeit , restliche Urlaubsmoneten in der MAZ-Lokalredaktion abzugeben ._!))
+        (Nucleus
+          (span 15 17)
+          (rel2par sequence)
+          (Nucleus
+            (leaf 15)
+            (rel2par conjunction)
+            (text _!Danach wird das Geld umgetauscht_!))
+          (Nucleus
+            (span 16 17)
+            (rel2par conjunction)
+            (Nucleus
+              (leaf 16)
+              (rel2par span)
+              (text
+                _!und es soll für die Intensivierung des internationalen Austausches von Jugendlichen besonders mit Ländern Osteuropas eingesetzt werden -_!))
+            (Satellite
+              (leaf 17)
+              (rel2par elaboration)
+              (text
+                _!vor allem auch als Ersatz für ausgebliebene staatliche Förderung ._!))))))))

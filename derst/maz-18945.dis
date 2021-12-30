@@ -1,0 +1,131 @@
+(Root
+  (span 1 18)
+  (Nucleus
+    (leaf 1)
+    (rel2par virtual-root)
+    (text _!Radfahrer zählen nicht_!))
+  (Nucleus
+    (span 2 18)
+    (rel2par virtual-root)
+    (Nucleus
+      (span 2 17)
+      (rel2par span)
+      (Satellite
+        (span 2 6)
+        (rel2par background)
+        (Nucleus
+          (span 2 5)
+          (rel2par span)
+          (Nucleus
+            (span 2 4)
+            (rel2par joint)
+            (Nucleus
+              (leaf 2)
+              (rel2par sequence)
+              (text _!" Tschühüs , kommt gut nach Hause ._!))
+            (Nucleus
+              (leaf 3)
+              (rel2par sequence)
+              (text _!Ruft mal an , auch ! " -_!))
+            (Nucleus
+              (leaf 4)
+              (rel2par sequence)
+              (text
+                _!Türenklappern , das widerwillige Aufjaulen des Motors ._!)))
+          (Nucleus
+            (leaf 5)
+            (rel2par joint)
+            (text _!Wie oft hat man das an der Feiertagen gehört ?_!)))
+        (Satellite
+          (leaf 6)
+          (rel2par elaboration)
+          (text
+            _!Trotz geschlossener Eisdecke auf Autobahnen und Landstraßen kamen die meisten lieben Weihnachtsgäste am ersten Feiertag wohlbehalten wieder heim ._!)))
+      (Nucleus
+        (span 7 17)
+        (rel2par span)
+        (Satellite
+          (span 7 8)
+          (rel2par interpretation)
+          (Nucleus
+            (leaf 7)
+            (rel2par span)
+            (text
+              _!Nur bei unseren Behördern vermisst man das " Kommt gut nach Hause ! " leider -_!))
+          (Satellite
+            (leaf 8)
+            (rel2par condition)
+            (text _!sofern man mit dem Fahrrad unterwegs ist ._!)))
+        (Nucleus
+          (span 9 17)
+          (rel2par span)
+          (Satellite
+            (span 9 15)
+            (rel2par evidence)
+            (Nucleus
+              (leaf 9)
+              (rel2par conjunction)
+              (text
+                _!An der viel und schnell befahrenen Landesstraße zwischen Wustrau und Dammkrug - einem häufig benutzten Schulweg - sehen Straßenbauamt und Verkehrsministerium für einen Radweg " keinen Bedarf " ._!))
+            (Nucleus
+              (span 10 15)
+              (rel2par conjunction)
+              (Nucleus
+                (span 10 11)
+                (rel2par span)
+                (Nucleus
+                  (leaf 10)
+                  (rel2par conjunction)
+                  (text
+                    _!Und auf der im Winter vereisten Brücke in Altfriesack hat das Straßenbauamt Kyritz gar den Gehweg beseitigt_!))
+                (Nucleus
+                  (leaf 11)
+                  (rel2par conjunction)
+                  (text
+                    _!und durch eine Leitplanke ersetzt ( ähnlich wie das Autobahnamt in Tarmow ) -_!)))
+              (Satellite
+                (span 12 15)
+                (rel2par concession)
+                (Nucleus
+                  (leaf 12)
+                  (rel2par list)
+                  (text
+                    _!obwohl die Altfriesacker Brücke innerorts liegt_!))
+                (Nucleus
+                  (span 13 15)
+                  (rel2par list)
+                  (Nucleus
+                    (leaf 13)
+                    (rel2par span)
+                    (text
+                      _!und obwohl es schon eines erheblichen Maßes an fahrerischem Unvermögen bedarf ,_!))
+                  (Satellite
+                    (span 14 15)
+                    (rel2par purpose)
+                    (Nucleus
+                      (leaf 14)
+                      (rel2par conjunction)
+                      (text
+                        _!um hier bei Tempo 50 von der Straße abzukommen_!))
+                    (Nucleus
+                      (leaf 15)
+                      (rel2par conjunction)
+                      (text
+                        _!und durchs Geländer in den Rhin zu stürzen ._!)))))))
+          (Nucleus
+            (span 16 17)
+            (rel2par span)
+            (Nucleus
+              (leaf 16)
+              (rel2par span)
+              (text
+                _!Für die Verkehrsplaner zählen Menschenleben offenbar nur ,_!))
+            (Satellite
+              (leaf 17)
+              (rel2par condition)
+              (text _!wenn sie in einer Blechkiste sitzen ._!))))))
+    (Satellite
+      (leaf 18)
+      (rel2par interpretation)
+      (text
+        _!Übrigens : Auch Fahrradfahrer und Eltern zahlen Steuern ._!))))

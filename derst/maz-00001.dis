@@ -1,0 +1,160 @@
+(Root
+  (span 1 22)
+  (Nucleus (leaf 1) (rel2par virtual-root) (text _!Auf Eis gelegt_!))
+  (Nucleus
+    (span 2 22)
+    (rel2par virtual-root)
+    (Nucleus
+      (span 2 14)
+      (rel2par joint)
+      (Nucleus
+        (span 2 8)
+        (rel2par span)
+        (Satellite
+          (span 2 7)
+          (rel2par evaluation-n)
+          (Satellite
+            (leaf 2)
+            (rel2par interpretation)
+            (text _!Dagmar Ziegler sitzt in der Schuldenfalle ._!))
+          (Nucleus
+            (span 3 7)
+            (rel2par span)
+            (Nucleus
+              (span 3 5)
+              (rel2par span)
+              (Satellite
+                (leaf 3)
+                (rel2par cause)
+                (text
+                  _!Auf Grund der dramatischen Kassenlage in Brandenburg_!))
+              (Nucleus
+                (span 4 5)
+                (rel2par span)
+                (Nucleus
+                  (leaf 4)
+                  (rel2par conjunction)
+                  (text
+                    _!hat sie jetzt eine seit mehr als einem Jahr erarbeitete Kabinettsvorlage überraschend auf Eis gelegt_!))
+                (Nucleus
+                  (leaf 5)
+                  (rel2par conjunction)
+                  (text
+                    _!und vorgeschlagen , erst 2003 darüber zu entscheiden ._!))))
+            (Satellite
+              (span 6 7)
+              (rel2par interpretation)
+              (Nucleus
+                (leaf 6)
+                (rel2par span)
+                (text _!Überraschend ,_!))
+              (Satellite
+                (leaf 7)
+                (rel2par cause)
+                (text
+                  _!weil das Finanz- und das Bildungsressort das Lehrerpersonalkonzept gemeinsam entwickelt hatten ._!)))))
+        (Nucleus
+          (leaf 8)
+          (rel2par span)
+          (text
+            _!Der Rückzieher der Finanzministerin ist aber verständlich ._!)))
+      (Satellite
+        (span 9 14)
+        (rel2par reason)
+        (Nucleus
+          (leaf 9)
+          (rel2par list)
+          (text
+            _!Es dürfte derzeit schwer zu vermitteln sein , weshalb ein Ressort pauschal von künftigen Einsparungen ausgenommen werden soll auf Kosten der anderen ._!))
+        (Nucleus
+          (span 10 14)
+          (rel2par list)
+          (Nucleus
+            (leaf 10)
+            (rel2par span)
+            (text
+              _!Reiches Ministerkollegen werden mit Argusaugen darüber wachen , dass das Konzept wasserdicht ist ._!))
+          (Satellite
+            (span 11 14)
+            (rel2par reason)
+            (Nucleus
+              (leaf 11)
+              (rel2par span)
+              (text
+                _!Tatsächlich gibt es noch etliche offene Fragen ._!))
+            (Satellite
+              (span 12 14)
+              (rel2par evidence)
+              (Nucleus
+                (leaf 12)
+                (rel2par conjunction)
+                (text
+                  _!So ist etwa unklar , wer Abfindungen erhalten soll ,_!))
+              (Nucleus
+                (span 13 14)
+                (rel2par conjunction)
+                (Nucleus
+                  (leaf 13)
+                  (rel2par span)
+                  (text _!oder was passiert ,_!))
+                (Satellite
+                  (leaf 14)
+                  (rel2par condition)
+                  (text
+                    _!wenn zu wenig Lehrer die Angebote des vorzeitigen Ausstiegs nutzen ._!))))))))
+    (Nucleus
+      (span 15 22)
+      (rel2par joint)
+      (Nucleus
+        (span 15 18)
+        (rel2par span)
+        (Nucleus
+          (leaf 15)
+          (rel2par span)
+          (text
+            _!Dennoch gibt es zu Reiches Personalpapier eigentlich keine Alternative ._!))
+        (Satellite
+          (span 16 18)
+          (rel2par reason)
+          (Nucleus
+            (leaf 16)
+            (rel2par conjunction)
+            (text
+              _!Das Land hat künftig zu wenig Arbeit für zu viele Pädagogen ._!))
+          (Nucleus
+            (span 17 18)
+            (rel2par conjunction)
+            (Nucleus
+              (leaf 17)
+              (rel2par span)
+              (text _!Und die Zeit drängt ._!))
+            (Satellite
+              (leaf 18)
+              (rel2par reason)
+              (text
+                _!Der große Einbruch der Schülerzahlen an den weiterführenden Schulen beginnt bereits im Herbst 2003 ._!)))))
+      (Satellite
+        (span 19 22)
+        (rel2par result)
+        (Satellite
+          (span 19 20)
+          (rel2par interpretation)
+          (Nucleus
+            (leaf 19)
+            (rel2par span)
+            (text _!Die Regierung muss sich entscheiden ,_!))
+          (Satellite
+            (leaf 20)
+            (rel2par elaboration)
+            (text _!und zwar schnell ._!)))
+        (Nucleus
+          (span 21 22)
+          (rel2par span)
+          (Nucleus
+            (leaf 21)
+            (rel2par disjunction)
+            (text _!Entweder sparen um jeden Preis_!))
+          (Nucleus
+            (leaf 22)
+            (rel2par disjunction)
+            (text _!oder Priorität für die Bildung ._!)))))))

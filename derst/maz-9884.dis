@@ -1,0 +1,122 @@
+(Root
+  (span 1 18)
+  (Nucleus (leaf 1) (rel2par virtual-root) (text _!Dilemma_!))
+  (Nucleus
+    (span 2 18)
+    (rel2par virtual-root)
+    (Nucleus
+      (span 2 16)
+      (rel2par span)
+      (Satellite
+        (span 2 3)
+        (rel2par background)
+        (Nucleus
+          (leaf 2)
+          (rel2par span)
+          (text
+            _!Verrat , hat Talleyrand einmal zynisch bemerkt , ist nur eine Frage des Datums ._!))
+        (Satellite
+          (leaf 3)
+          (rel2par interpretation)
+          (text
+            _!Und des Gewissens , möchte man mit Blick auf Schröder und Fischer hinzufügen ._!)))
+      (Nucleus
+        (span 4 16)
+        (rel2par span)
+        (Nucleus
+          (span 4 7)
+          (rel2par joint)
+          (Satellite
+            (leaf 4)
+            (rel2par antithesis)
+            (text
+              _!Nicht , dass beide eine Mehrheit für ihre Koalition suchten , war das Ärgerliche in den vergangenen Tagen ,_!))
+          (Nucleus
+            (span 5 7)
+            (rel2par span)
+            (Nucleus
+              (leaf 5)
+              (rel2par span)
+              (text
+                _!sondern das Wie , der Druck auf Abgeordnete ,_!))
+            (Satellite
+              (span 6 7)
+              (rel2par e-elaboration)
+              (Nucleus
+                (leaf 6)
+                (rel2par conjunction)
+                (text _!die kein Regierungsamt haben_!))
+              (Nucleus
+                (leaf 7)
+                (rel2par conjunction)
+                (text
+                  _!und ihr Gewissen deshalb auch nicht in den Vorzimmern der Macht abgeben können ._!)))))
+        (Nucleus
+          (span 8 9)
+          (rel2par joint)
+          (Nucleus
+            (leaf 8)
+            (rel2par span)
+            (text
+              _!Gut , dass wir eine rot-grüne Koalition haben , stoßseufzen viele hinter vorgehaltener Hand ,_!))
+          (Satellite
+            (leaf 9)
+            (rel2par otherwise)
+            (text _!andernfalls würde die Republik brennen ._!)))
+        (Nucleus
+          (span 10 12)
+          (rel2par joint)
+          (Nucleus
+            (leaf 10)
+            (rel2par span)
+            (text _!Und das ist das Dilemma der Regierenden ._!))
+          (Satellite
+            (span 11 12)
+            (rel2par elaboration)
+            (Satellite
+              (leaf 11)
+              (rel2par condition)
+              (text
+                _!Wer in der Zeit , da er noch nach Ämtern strebte , mit eben denselben Argumenten , die heute aus dem pazifistischen Lager der Regierung entgegenschallen , Kohl , Genscher und Kinkel verteufelte ,_!))
+            (Nucleus
+              (leaf 12)
+              (rel2par span)
+              (text
+                _!hat kein Recht , den Kritikern ihr Gewissen abzusprechen ._!))))
+        (Nucleus
+          (leaf 13)
+          (rel2par joint)
+          (text
+            _!Die anfängliche Überreaktion von Kanzler und Außenminister hat eben auch damit zu tun , dass sie als Bekehrte das Misstrauen jener fürchten , die mit Amerika schon kritische Solidarität übten , als Schröder noch Schmidt wegen dessen Amerikahörigkeit beschimpfte und Fischer in Mutlangen gegen die Nachrüstung demonstrierte ._!))
+        (Nucleus
+          (span 14 16)
+          (rel2par joint)
+          (Satellite
+            (leaf 14)
+            (rel2par circumstance)
+            (text _!Es stimmt schon ,_!))
+          (Nucleus
+            (span 15 16)
+            (rel2par span)
+            (Nucleus
+              (leaf 15)
+              (rel2par span)
+              (text
+                _!Schmidt , Kohl und Genscher hätten in Washington sehr viel genauer nach Strategie und Zielen fragen können ,_!))
+            (Satellite
+              (leaf 16)
+              (rel2par cause)
+              (text
+                _!da sie nicht vor der eigenen Vergangenheit weglaufen mussten ._!))))))
+    (Satellite
+      (span 17 18)
+      (rel2par interpretation)
+      (Nucleus
+        (leaf 17)
+        (rel2par joint)
+        (text _!Wie hat das Bismarck einmal formuliert ?_!))
+      (Nucleus
+        (leaf 18)
+        (rel2par joint)
+        (text
+          _!Die Geschichte ist so genau wie die preußische Oberrechnungskammer ._!)))))

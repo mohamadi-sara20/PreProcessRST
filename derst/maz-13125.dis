@@ -1,0 +1,110 @@
+(Root
+  (span 1 15)
+  (Nucleus (leaf 1) (rel2par virtual-root) (text _!Die Wahrheit_!))
+  (Nucleus
+    (span 2 15)
+    (rel2par virtual-root)
+    (Nucleus
+      (span 2 9)
+      (rel2par joint)
+      (Nucleus
+        (span 2 6)
+        (rel2par span)
+        (Satellite
+          (span 2 5)
+          (rel2par evidence)
+          (Satellite
+            (span 2 3)
+            (rel2par concession)
+            (Nucleus
+              (leaf 2)
+              (rel2par span)
+              (text
+                _!Der Reichstagsbrand im Jahre 1933 und der Krieg in Afghanistan - sie scheinen auf den ersten Blick nichts miteinander zu tun zu haben ._!))
+            (Satellite
+              (leaf 3)
+              (rel2par elaboration)
+              (text
+                _!Mancher mag gar erbost darüber sein , die Ereignisse in einem Atemzuge zu lesen ._!)))
+          (Nucleus
+            (span 4 5)
+            (rel2par span)
+            (Satellite
+              (leaf 4)
+              (rel2par preparation)
+              (text _!Und doch :_!))
+            (Nucleus
+              (leaf 5)
+              (rel2par span)
+              (text
+                _!Was den Leuten damals über den Reichstagsbrand erzählt wurde , war Lüge ._!))))
+        (Nucleus
+          (leaf 6)
+          (rel2par span)
+          (text
+            _!Können wir denn alles glauben , was uns heute über den Kampf gegen den Terrorismus in dem asisatischen Land gesagt wird ?_!)))
+      (Satellite
+        (span 7 9)
+        (rel2par reason)
+        (Nucleus
+          (leaf 7)
+          (rel2par span)
+          (text
+            _!Dieser Krieg entzieht sich selbst Medienbeobachtern weitgehend ._!))
+        (Satellite
+          (span 8 9)
+          (rel2par reason)
+          (Satellite
+            (leaf 8)
+            (rel2par cause)
+            (text
+              _!Was man nicht durch Augenschein nachprüfen kann , ist manipulierbar ._!))
+          (Nucleus
+            (leaf 9)
+            (rel2par span)
+            (text
+              _!Es kann so dargestellt werden , dass es den Interessen der Machthaber nutzt ._!)))))
+    (Nucleus
+      (span 10 15)
+      (rel2par joint)
+      (Nucleus
+        (span 10 12)
+        (rel2par span)
+        (Nucleus
+          (span 10 11)
+          (rel2par span)
+          (Nucleus
+            (leaf 10)
+            (rel2par span)
+            (text
+              _!Die Botschaft der Autoren des am Samstag in Zossen aufgeführten Stücks " Eines Tages müssen wir die Wahrheit sagen " ist übertragbar auf die Gegenwart :_!))
+          (Satellite
+            (leaf 11)
+            (rel2par elaboration)
+            (text
+              _!" Seid sensibler und aufmerksamer , denn wir können nicht sicher sein ... "_!)))
+        (Satellite
+          (leaf 12)
+          (rel2par interpretation)
+          (text
+            _!Nein , wir können nicht sicher sein , dass man uns die Wahrheit sagt ._!)))
+      (Satellite
+        (span 13 15)
+        (rel2par interpretation)
+        (Nucleus
+          (span 13 14)
+          (rel2par span)
+          (Nucleus
+            (leaf 13)
+            (rel2par span)
+            (text
+              _!Wir können nicht sicher sein , dass unsere Regierung im Sinne des Volkes handelt ,_!))
+          (Satellite
+            (leaf 14)
+            (rel2par concession)
+            (text
+              _!auch wenn der Kanzler Amerika gegenüber die uneingeschränkte Solidarität Deutschlands erklärt hat ._!)))
+        (Satellite
+          (leaf 15)
+          (rel2par evaluation-s)
+          (text _!In meinem Namen sprach er jedenfalls nicht ._!))))))

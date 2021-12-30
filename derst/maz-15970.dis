@@ -1,0 +1,115 @@
+(Root
+  (span 1 17)
+  (Nucleus
+    (leaf 1)
+    (rel2par virtual-root)
+    (text _!Weihnachtsmann Völler_!))
+  (Nucleus
+    (span 2 17)
+    (rel2par virtual-root)
+    (Nucleus
+      (span 2 8)
+      (rel2par span)
+      (Satellite
+        (span 2 7)
+        (rel2par background)
+        (Satellite
+          (span 2 4)
+          (rel2par evaluation-s)
+          (Nucleus
+            (leaf 2)
+            (rel2par joint)
+            (text _!Ja , ist denn heut' schon Weihnachten ?_!))
+          (Nucleus
+            (span 3 4)
+            (rel2par joint)
+            (Satellite
+              (leaf 3)
+              (rel2par concession)
+              (text _!Eigentlich nicht ,_!))
+            (Nucleus
+              (leaf 4)
+              (rel2par span)
+              (text
+                _!doch für Fußball-Deutschland gab es gestern schon die schönste Bescherung ._!))))
+        (Nucleus
+          (span 5 7)
+          (rel2par span)
+          (Satellite
+            (leaf 5)
+            (rel2par cause)
+            (text
+              _!Rudolf Völler , den Volkes Mund liebevoll " Ruuuuudi " ruft , hat sein Ja-Wort als nationaler Teamchef bis zum WM-Finale 2006 in Berlin gegeben -_!))
+          (Nucleus
+            (span 6 7)
+            (rel2par span)
+            (Satellite
+              (leaf 6)
+              (rel2par result)
+              (text
+                _!und den Faxgeräten in der Frankfurter DFB-Zentrale damit den K.o. versetzt ._!))
+            (Nucleus
+              (leaf 7)
+              (rel2par span)
+              (text
+                _!Womöglich sind mehr Glückwunschschreiben eingetickert als in einem Stadion Grashalme wachsen ._!)))))
+      (Nucleus
+        (leaf 8)
+        (rel2par span)
+        (text _!Keine Frage , Rudi ist der Richtige ._!)))
+    (Satellite
+      (span 9 17)
+      (rel2par reason)
+      (Nucleus
+        (span 9 11)
+        (rel2par list)
+        (Satellite
+          (leaf 9)
+          (rel2par concession)
+          (text _!Obschon längst kein Taktik-Guru ,_!))
+        (Nucleus
+          (span 10 11)
+          (rel2par span)
+          (Nucleus
+            (leaf 10)
+            (rel2par conjunction)
+            (text
+              _!hat der ehemalige Torjäger mit der WM-Qualifikation seines Teams für Fernost enorm an Profil gewonnen_!))
+          (Nucleus
+            (leaf 11)
+            (rel2par conjunction)
+            (text
+              _!und das Image des unverbindlichen " Ich-versuch's-einfach-mal"-Typen verloren ._!))))
+      (Nucleus
+        (leaf 12)
+        (rel2par list)
+        (text
+          _!Der grauhaarige Hanauer hat sich zum Mann der Nähe , der Integration , der Kontinuität entwickelt ._!))
+      (Nucleus
+        (leaf 13)
+        (rel2par list)
+        (text
+          _!Völler kann Fußballnationalspieler , Fans und Fernsehen hinter sich vereinen ,_!))
+      (Nucleus
+        (leaf 14)
+        (rel2par list)
+        (text _!schafft Perspektiven_!))
+      (Nucleus
+        (span 15 17)
+        (rel2par list)
+        (Nucleus
+          (leaf 15)
+          (rel2par span)
+          (text
+            _!und verspricht , " dass wieder attraktiver Fußball gespielt wird " ._!))
+        (Satellite
+          (span 16 17)
+          (rel2par elaboration)
+          (Satellite
+            (leaf 16)
+            (rel2par condition)
+            (text _!Am besten schon bei der nächsten WM ._!))
+          (Nucleus
+            (leaf 17)
+            (rel2par span)
+            (text _!Dann wäre selbst im Juni Weihnachten ._!)))))))

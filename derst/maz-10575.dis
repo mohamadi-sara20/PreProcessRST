@@ -1,0 +1,139 @@
+(Root
+  (span 1 20)
+  (Nucleus
+    (leaf 1)
+    (rel2par virtual-root)
+    (text _!Keine schlechte Wahl_!))
+  (Nucleus
+    (span 2 20)
+    (rel2par virtual-root)
+    (Nucleus
+      (span 2 15)
+      (rel2par span)
+      (Satellite
+        (span 2 9)
+        (rel2par evaluation-n)
+        (Nucleus
+          (span 2 8)
+          (rel2par span)
+          (Satellite
+            (span 2 5)
+            (rel2par background)
+            (Satellite
+              (leaf 2)
+              (rel2par evaluation-s)
+              (text _!Die Idee ist gut :_!))
+            (Nucleus
+              (span 3 5)
+              (rel2par span)
+              (Nucleus
+                (leaf 3)
+                (rel2par list)
+                (text
+                  _!Die Stadt stellt Blumenzwiebeln en masse zur Verfügung ,_!))
+              (Nucleus
+                (leaf 4)
+                (rel2par list)
+                (text _!Schüler bringen sie in die Erde_!))
+              (Nucleus
+                (leaf 5)
+                (rel2par list)
+                (text
+                  _!und sorgen dafür , dass es im Frühjahr noch bunter ist als sonst auf kommunalen Flächen ._!))))
+          (Nucleus
+            (span 6 8)
+            (rel2par span)
+            (Nucleus
+              (leaf 6)
+              (rel2par sequence)
+              (text
+                _!Der Auftakt , den die Grundschüler gestern gaben , ist gelungen ._!))
+            (Nucleus
+              (span 7 8)
+              (rel2par sequence)
+              (Nucleus
+                (leaf 7)
+                (rel2par span)
+                (text
+                  _!Real- und Gesamtschüler setzen in diesen Tagen die Arbeiten an anderen Stellen fort ,_!))
+              (Satellite
+                (leaf 8)
+                (rel2par elaboration)
+                (text _!wie MAZ gestern berichtete ._!)))))
+        (Satellite
+          (leaf 9)
+          (rel2par evaluation-s)
+          (text
+            _!Es machte schon Spaß zuzusehen , mit welchem Eifer die Mädchen und Jungen auf der großen Freifläche in der Berliner Straße zu Werke gingen ._!)))
+      (Nucleus
+        (span 10 15)
+        (rel2par span)
+        (Nucleus
+          (span 10 14)
+          (rel2par span)
+          (Satellite
+            (leaf 10)
+            (rel2par interpretation)
+            (text
+              _!Und das Ganze hat mit Sicherheit auch einen erzieherischen Nutzen :_!))
+          (Nucleus
+            (span 11 14)
+            (rel2par span)
+            (Nucleus
+              (span 11 12)
+              (rel2par list)
+              (Satellite
+                (leaf 11)
+                (rel2par condition)
+                (text
+                  _!Wer weiß , wie viel Arbeit in solch einer Pflanzaktion steckt ,_!))
+              (Nucleus
+                (leaf 12)
+                (rel2par span)
+                (text _!schätzt das Ergebnis am Ende umso mehr ._!)))
+            (Nucleus
+              (leaf 13)
+              (rel2par list)
+              (text
+                _!Und es weckt den Stolz darauf , etwas für die Allgemeinheit getan zu haben ,_!))
+            (Nucleus
+              (leaf 14)
+              (rel2par list)
+              (text _!schafft Verbundenheit mit der Stadt ._!))))
+        (Satellite
+          (leaf 15)
+          (rel2par evaluation-s)
+          (text
+            _!Das ist heutzutage , wo Vandalismus längst zum Alltag gehört , nicht zu unterschätzen ._!))))
+    (Satellite
+      (span 16 20)
+      (rel2par elaboration)
+      (Nucleus
+        (span 16 19)
+        (rel2par span)
+        (Satellite
+          (leaf 16)
+          (rel2par circumstance)
+          (text
+            _!Die 30 Mädchen und Jungen haben sich eher zufällig in der Neigungsgruppe Biologie und Umwelt zusammengefunden ._!))
+        (Nucleus
+          (span 17 19)
+          (rel2par span)
+          (Nucleus
+            (leaf 17)
+            (rel2par contrast)
+            (text _!Viele aus Interesse ,_!))
+          (Nucleus
+            (span 18 19)
+            (rel2par contrast)
+            (Nucleus (leaf 18) (rel2par span) (text _!einige ,_!))
+            (Satellite
+              (leaf 19)
+              (rel2par cause)
+              (text
+                _!weil es in anderen Gruppen keinen Platz mehr gab ._!)))))
+      (Satellite
+        (leaf 20)
+        (rel2par interpretation)
+        (text
+          _!Vielleicht fanden auch die gestern die Bestätigung , dass sie letztlich doch gar keine so schlechte Wahl getroffen haben ._!)))))

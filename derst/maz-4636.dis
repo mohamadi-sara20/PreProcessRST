@@ -1,0 +1,127 @@
+(Root
+  (span 1 17)
+  (Nucleus
+    (leaf 1)
+    (rel2par virtual-root)
+    (text _!Nicht erst seit gestern_!))
+  (Nucleus
+    (span 2 17)
+    (rel2par virtual-root)
+    (Satellite
+      (span 2 7)
+      (rel2par background)
+      (Satellite
+        (span 2 4)
+        (rel2par background)
+        (Satellite
+          (leaf 2)
+          (rel2par evaluation-s)
+          (text _!Erst einmal tief durchatmen ._!))
+        (Nucleus
+          (span 3 4)
+          (rel2par span)
+          (Nucleus
+            (leaf 3)
+            (rel2par list)
+            (text
+              _!Im benachbarten Berlin hat es keinen Anschlag mit Milzbrand-Erregern gegeben ._!))
+          (Nucleus
+            (leaf 4)
+            (rel2par list)
+            (text _!In Bayern auch nicht ._!))))
+      (Nucleus
+        (span 5 7)
+        (rel2par span)
+        (Satellite
+          (leaf 5)
+          (rel2par concession)
+          (text
+            _!Aber die Bilder von Männern in Mondanzügen und Atemschutzmasken haben durchaus etwas von Ausnahmezustand , ja Katastrophenalarm ._!))
+        (Nucleus
+          (span 6 7)
+          (rel2par span)
+          (Nucleus
+            (leaf 6)
+            (rel2par span)
+            (text _!Dennoch ist Panikmache unverantwortlich ._!))
+          (Satellite
+            (leaf 7)
+            (rel2par reason)
+            (text
+              _!Was wir sehen , ist der spektakuläre , aber routinierte Einsatz von Profis ._!)))))
+    (Nucleus
+      (span 8 17)
+      (rel2par span)
+      (Nucleus
+        (span 8 12)
+        (rel2par contrast)
+        (Nucleus
+          (leaf 8)
+          (rel2par span)
+          (text
+            _!Zu einer Zeit , in der alles Denkbare auch machbar erscheint , ist es beruhigend zu wissen , dass die Rettungskräfte sich nicht erst seit gestern damit befassen , wie sie die Bürger vor Katastrophen schützen können ._!))
+        (Satellite
+          (span 9 12)
+          (rel2par evidence)
+          (Nucleus
+            (span 9 10)
+            (rel2par joint)
+            (Nucleus
+              (leaf 9)
+              (rel2par span)
+              (text
+                _!Ein eingespieltes Team von Spezialisten hält Ausrüstung und Fachleute bereit ,_!))
+            (Satellite
+              (leaf 10)
+              (rel2par purpose)
+              (text _!um schnell und umfassend handeln zu können ._!)))
+          (Nucleus
+            (span 11 12)
+            (rel2par joint)
+            (Nucleus
+              (leaf 11)
+              (rel2par span)
+              (text
+                _!Dass sie unter normalen Umständen kaum in Erscheinung treten , ist ihrem steten Bemühen um Vorbeugung zu danken -_!))
+            (Satellite
+              (leaf 12)
+              (rel2par elaboration)
+              (text
+                _!zum Beispiel im Brandschutz , wo die Feuerwehr schon in der Planung eines Gebäudes mitwirkt ._!)))))
+      (Nucleus
+        (span 13 17)
+        (rel2par contrast)
+        (Nucleus
+          (leaf 13)
+          (rel2par span)
+          (text
+            _!Trotzdem sollte der Zivilschutz verbessert werden ._!))
+        (Satellite
+          (span 14 17)
+          (rel2par reason)
+          (Nucleus
+            (leaf 14)
+            (rel2par span)
+            (text
+              _!Manches Vehikel im Gerätehaus gehört längst ins Technikmuseum ._!))
+          (Satellite
+            (span 15 17)
+            (rel2par elaboration)
+            (Nucleus
+              (span 15 16)
+              (rel2par span)
+              (Satellite
+                (leaf 15)
+                (rel2par circumstance)
+                (text
+                  _!Wenn landesweit die Polizei aufgerüstet wird ,_!))
+              (Nucleus
+                (leaf 16)
+                (rel2par span)
+                (text
+                  _!sollten die Rettungskräfte nicht das Nachsehen haben ._!)))
+            (Satellite
+              (leaf 17)
+              (rel2par evaluation-s)
+              (text
+                _!Falls es doch einmal kein mieser Scherz war ._!))))))))

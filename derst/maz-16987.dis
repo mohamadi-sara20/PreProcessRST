@@ -1,0 +1,123 @@
+(Root
+  (span 1 17)
+  (Nucleus (leaf 1) (rel2par virtual-root) (text _!Umgedacht_!))
+  (Nucleus
+    (span 2 17)
+    (rel2par virtual-root)
+    (Satellite
+      (leaf 2)
+      (rel2par interpretation)
+      (text _!Wie schnell sich Meinungen ändern können !_!))
+    (Nucleus
+      (span 3 17)
+      (rel2par span)
+      (Nucleus
+        (span 3 14)
+        (rel2par span)
+        (Nucleus
+          (span 3 7)
+          (rel2par contrast)
+          (Satellite
+            (span 3 4)
+            (rel2par background)
+            (Nucleus
+              (leaf 3)
+              (rel2par joint)
+              (text
+                _!Den Brief an die gemeinsame Landesplanung , in dem gegen den geplanten Luft-Boden-Schießplatz in der Kyritz-Ruppiner Heide protestiert wird , hatte Stadtverordnetenvorsitzender Thomas Settgast bereits auf der Sitzung am 14. November vorgelegt ._!))
+            (Nucleus
+              (leaf 4)
+              (rel2par joint)
+              (text
+                _!Der Beschluss , ihn abzuschicken , wurde auf Dezember vertagt ._!)))
+          (Nucleus
+            (span 5 7)
+            (rel2par span)
+            (Nucleus
+              (leaf 5)
+              (rel2par span)
+              (text
+                _!Besonders Mario Neubauer von der CDU-Fraktion hatte sich dafür ausgesprochen ._!))
+            (Satellite
+              (span 6 7)
+              (rel2par elaboration)
+              (Nucleus
+                (leaf 6)
+                (rel2par span)
+                (text
+                  _!Mehr noch , er war überhaupt dagegen , dass die Stadtverordneten eine gemeinsame Position beziehen ._!))
+              (Satellite
+                (leaf 7)
+                (rel2par elaboration)
+                (text
+                  _!Besser wäre es doch , wenn solch ein Papier fraktionsweise verabschiedet würde , so Neubauer am 14. November ._!)))))
+        (Nucleus
+          (span 8 14)
+          (rel2par contrast)
+          (Satellite
+            (span 8 11)
+            (rel2par circumstance)
+            (Nucleus
+              (span 8 10)
+              (rel2par span)
+              (Satellite
+                (leaf 8)
+                (rel2par interpretation)
+                (text _!Doch , Überraschung :_!))
+              (Nucleus
+                (span 9 10)
+                (rel2par span)
+                (Nucleus
+                  (leaf 9)
+                  (rel2par conjunction)
+                  (text
+                    _!Am Mittwochabend kündigte die CDU-Fraktion an , während der Sitzung eine Erklärung abgeben zu wollen_!))
+                (Nucleus
+                  (leaf 10)
+                  (rel2par conjunction)
+                  (text
+                    _!und dies mit in die Tagesordnung aufzunehmen ._!))))
+            (Satellite
+              (leaf 11)
+              (rel2par e-elaboration)
+              (text
+                _!Aus der Erklärung wurde dann ein Geschäftsordnungsantrag ._!)))
+          (Nucleus
+            (span 12 14)
+            (rel2par span)
+            (Nucleus
+              (leaf 12)
+              (rel2par joint)
+              (text
+                _!Auf einmal sollte doch die gesamte Stadtverordnetenversammlung Stellung beziehen ,_!))
+            (Nucleus
+              (span 13 14)
+              (rel2par joint)
+              (Satellite
+                (leaf 13)
+                (rel2par antithesis)
+                (text _!doch nicht gegen ,_!))
+              (Nucleus
+                (leaf 14)
+                (rel2par span)
+                (text _!sondern für den Bombenabwurfplatz ._!))))))
+      (Satellite
+        (span 15 17)
+        (rel2par evaluation-s)
+        (Nucleus
+          (leaf 15)
+          (rel2par span)
+          (text _!Geklappt hat das nicht ._!))
+        (Satellite
+          (span 16 17)
+          (rel2par reason)
+          (Nucleus
+            (leaf 16)
+            (rel2par span)
+            (text
+              _!Wohl auch , weil die Argumente nicht überzeugten ._!))
+          (Satellite
+            (leaf 17)
+            (rel2par reason)
+            (text
+              _!Dass solch ein Schießplatz mehr Vor- als Nachteile bringt , lässt sich eben schlecht glauben ._!)))))))

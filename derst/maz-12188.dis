@@ -1,0 +1,124 @@
+(Root
+  (span 1 17)
+  (Nucleus (leaf 1) (rel2par virtual-root) (text _!Weitsicht_!))
+  (Nucleus
+    (span 2 17)
+    (rel2par virtual-root)
+    (Nucleus
+      (span 2 15)
+      (rel2par span)
+      (Nucleus
+        (span 2 9)
+        (rel2par span)
+        (Nucleus
+          (span 2 4)
+          (rel2par span)
+          (Satellite
+            (leaf 2)
+            (rel2par evaluation-s)
+            (text _!Die Idee besticht ._!))
+          (Nucleus
+            (span 3 4)
+            (rel2par span)
+            (Nucleus
+              (leaf 3)
+              (rel2par span)
+              (text
+                _!Die drei Grundschulen Hohenstückens gehen zusammen ,_!))
+            (Satellite
+              (leaf 4)
+              (rel2par elaboration)
+              (text _!und zwar so schnell wie möglich ._!))))
+        (Satellite
+          (span 5 9)
+          (rel2par elaboration)
+          (Nucleus
+            (span 5 6)
+            (rel2par span)
+            (Satellite
+              (leaf 5)
+              (rel2par cause)
+              (text
+                _!Weil für dann rund 500 Schüler nur im Schulhaus am Marktplatz genügend Raum ist ,_!))
+            (Nucleus
+              (leaf 6)
+              (rel2par span)
+              (text
+                _!nistet sich die dann neue Schule erst einmal dort ein ._!)))
+          (Satellite
+            (span 7 9)
+            (rel2par elaboration)
+            (Nucleus
+              (leaf 7)
+              (rel2par span)
+              (text
+                _!Und nun hat die künftige Schulkonferenz genügend Zeit , den endgültigen Standort zu wählen ._!))
+            (Satellite
+              (span 8 9)
+              (rel2par elaboration)
+              (Nucleus
+                (leaf 8)
+                (rel2par span)
+                (text
+                  _!Dass die Marktplatz-Schule nicht in Frage kommt , ist seit Jahren klar ._!))
+              (Satellite
+                (leaf 9)
+                (rel2par evidence)
+                (text
+                  _!Doppelschulen , und dazu gehört dieses Gebäude , will die Stadt nicht sanieren ._!))))))
+      (Satellite
+        (span 10 15)
+        (rel2par elaboration)
+        (Nucleus
+          (span 10 11)
+          (rel2par span)
+          (Satellite
+            (leaf 10)
+            (rel2par result)
+            (text
+              _!Der Vorschlag , den die Verwaltung jetzt den Stadtverordneten unterbreiten will , wäre allerdings nicht ohne die Weitsicht der drei Schulkonferenzen zustande gekommen ._!))
+          (Nucleus
+            (leaf 11)
+            (rel2par span)
+            (text
+              _!Sie haben sich für die Fusion und einen schnellstmöglichen Vollzug ausgesprochen ._!)))
+        (Satellite
+          (span 12 15)
+          (rel2par elaboration)
+          (Satellite
+            (leaf 12)
+            (rel2par condition)
+            (text _!Gehen die Abgeordneten mit ,_!))
+          (Nucleus
+            (span 13 15)
+            (rel2par span)
+            (Nucleus
+              (leaf 13)
+              (rel2par span)
+              (text _!haben die Schüler und Lehrer gewonnen -_!))
+            (Satellite
+              (span 14 15)
+              (rel2par e-elaboration)
+              (Nucleus
+                (leaf 14)
+                (rel2par span)
+                (text
+                  _!nämlich die nötige Ruhe , Zuversicht und Planungssicherheit ,_!))
+              (Satellite
+                (leaf 15)
+                (rel2par purpose)
+                (text
+                  _!um Unterricht vernünftig gestalten zu können ._!)))))))
+    (Satellite
+      (span 16 17)
+      (rel2par elaboration)
+      (Nucleus
+        (leaf 16)
+        (rel2par joint)
+        (text
+          _!Ob in wenigen Jahren die Grimm- oder die Vierjahreszeiten-Schule endgültiges Domizil wird , hängt auch von der Entwicklung der jeweiligen Gebäude-Mitnutzer ab ._!))
+      (Nucleus
+        (leaf 17)
+        (rel2par joint)
+        (text
+          _!Die Realschule , die sich mit den Grimm-Schülern das Haus teilt , sieht zumindest ab dem Jahr 2004 einer gefährdeten Existenz entgegen ._!)))))

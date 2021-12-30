@@ -1,0 +1,155 @@
+(Root
+  (span 1 22)
+  (Nucleus (leaf 1) (rel2par virtual-root) (text _!Wohltäter_!))
+  (Nucleus
+    (span 2 22)
+    (rel2par virtual-root)
+    (Nucleus
+      (span 2 19)
+      (rel2par span)
+      (Satellite
+        (span 2 6)
+        (rel2par background)
+        (Nucleus
+          (span 2 4)
+          (rel2par span)
+          (Satellite
+            (span 2 3)
+            (rel2par concession)
+            (Satellite
+              (leaf 2)
+              (rel2par antithesis)
+              (text _!Durch Arbeit wird man selten reich ._!))
+            (Nucleus
+              (leaf 3)
+              (rel2par span)
+              (text _!Eher schon durchs Glücksspiel ._!)))
+          (Nucleus
+            (leaf 4)
+            (rel2par span)
+            (text
+              _!Doch der große Wurf gelingt bekanntlich nur den allerwenigsten ._!)))
+        (Satellite
+          (span 5 6)
+          (rel2par restatement)
+          (Satellite
+            (leaf 5)
+            (rel2par antithesis)
+            (text _!Die Masse hofft und hofft -_!))
+          (Nucleus
+            (leaf 6)
+            (rel2par span)
+            (text _!und geht doch am Ende leer aus ._!))))
+      (Nucleus
+        (span 7 19)
+        (rel2par span)
+        (Satellite
+          (span 7 8)
+          (rel2par interpretation)
+          (Satellite
+            (leaf 7)
+            (rel2par preparation)
+            (text _!All jenen sei gesagt :_!))
+          (Nucleus
+            (leaf 8)
+            (rel2par span)
+            (text
+              _!Ihr Einsatz ist mehr als eine zerplatzte Illusion ._!)))
+        (Nucleus
+          (span 9 19)
+          (rel2par span)
+          (Nucleus
+            (span 9 10)
+            (rel2par span)
+            (Satellite
+              (leaf 9)
+              (rel2par condition)
+              (text
+                _!Wer zum Beispiel an der " Glücksspirale " dreht ,_!))
+            (Nucleus
+              (leaf 10)
+              (rel2par span)
+              (text _!beweist sich indirekt als Wohltäter ._!)))
+          (Satellite
+            (span 11 19)
+            (rel2par reason)
+            (Nucleus
+              (leaf 11)
+              (rel2par joint)
+              (text
+                _!Denn seit 1991 wurden 105 Millionen Mark der Einnahmen der " Glücksspirale " zweckgebunden an die Stiftung Denkmalschutz weitergereicht ._!))
+            (Nucleus
+              (span 12 19)
+              (rel2par joint)
+              (Nucleus
+                (span 12 17)
+                (rel2par span)
+                (Nucleus
+                  (span 12 15)
+                  (rel2par span)
+                  (Nucleus
+                    (leaf 12)
+                    (rel2par span)
+                    (text
+                      _!Die wiederum förderte damit 264 Bauten im Brandenburgischen ,_!))
+                  (Satellite
+                    (span 13 15)
+                    (rel2par purpose)
+                    (Nucleus
+                      (leaf 13)
+                      (rel2par list)
+                      (text _!um den Verfall zu stoppen ,_!))
+                    (Nucleus
+                      (leaf 14)
+                      (rel2par list)
+                      (text _!ihre Schönheit zu bewahren ,_!))
+                    (Nucleus
+                      (leaf 15)
+                      (rel2par list)
+                      (text
+                        _!sie den Menschen wieder zugänglich zu machen ._!))))
+                (Satellite
+                  (span 16 17)
+                  (rel2par elaboration)
+                  (Nucleus
+                    (leaf 16)
+                    (rel2par list)
+                    (text
+                      _!Der Bogen reicht dabei von den ganz Großen wie dem Brandenburger Dom bis zu den ganz Kleinen wie der winzigen Dorfkirche von Kanin ._!))
+                  (Nucleus
+                    (leaf 17)
+                    (rel2par list)
+                    (text
+                      _!Gefördert werden sowohl technische Denkmale wie der Beelitzer Wasserturm , als auch kunsthistorisch wertvolle Wohnhäuser wie Haus Friedrichshuld in Philippsthal ._!))))
+              (Satellite
+                (span 18 19)
+                (rel2par elaboration)
+                (Nucleus
+                  (leaf 18)
+                  (rel2par conjunction)
+                  (text
+                    _!Unterstützt werden Bauherren , die ein stimmiges Nutzungs- und Finanzierungskonzept vorlegen_!))
+                (Nucleus
+                  (leaf 19)
+                  (rel2par conjunction)
+                  (text
+                    _!und sich selbst einbringen - mit Geld , Muskelhypothek und ihrem Herzblut ._!))))))))
+    (Satellite
+      (span 20 22)
+      (rel2par interpretation)
+      (Satellite
+        (leaf 20)
+        (rel2par condition)
+        (text
+          _!Falls Sie also an diesem Wochenende wieder leer ausgehen :_!))
+      (Nucleus
+        (span 21 22)
+        (rel2par span)
+        (Nucleus
+          (leaf 21)
+          (rel2par span)
+          (text _!Alles halb so schlimm ,_!))
+        (Satellite
+          (leaf 22)
+          (rel2par reason)
+          (text _!Sie taten Gutes_!))))))

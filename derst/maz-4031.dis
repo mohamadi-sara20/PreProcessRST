@@ -1,0 +1,89 @@
+(Root
+  (span 1 13)
+  (Nucleus (leaf 1) (rel2par virtual-root) (text _!Zahlenspiele_!))
+  (Nucleus
+    (span 2 13)
+    (rel2par virtual-root)
+    (Nucleus
+      (span 2 4)
+      (rel2par joint)
+      (Satellite
+        (span 2 3)
+        (rel2par reason)
+        (Nucleus
+          (leaf 2)
+          (rel2par joint)
+          (text _!Unterm Strich 400_000 !_!))
+        (Nucleus
+          (leaf 3)
+          (rel2par joint)
+          (text
+            _!Die Besucherquote lässt die Ausrichter des Preußenjahres schon zweieinhalb Monate vor seinem Ende frohlocken ._!)))
+      (Nucleus
+        (leaf 4)
+        (rel2par span)
+        (text
+          _!Das Hohenzollernland ist immer noch in , schließen Brandenburgs Kulturministerin Wanka und ihre Berliner Kollegin Goehler aus dieser Erhebung ._!)))
+    (Nucleus
+      (span 5 13)
+      (rel2par joint)
+      (Nucleus
+        (span 5 11)
+        (rel2par span)
+        (Nucleus
+          (span 5 9)
+          (rel2par span)
+          (Nucleus
+            (leaf 5)
+            (rel2par span)
+            (text
+              _!Kritikern , die der borussischen Kampagne Thesenlosigkeit und Beliebigkeit vorwarfen , können sie endlich mit Zahlen kommen ._!))
+          (Satellite
+            (span 6 9)
+            (rel2par concession)
+            (Nucleus
+              (leaf 6)
+              (rel2par span)
+              (text
+                _!Mögen die mitunter auch interessant nach oben korrigiert sein :_!))
+            (Satellite
+              (span 7 9)
+              (rel2par evidence)
+              (Nucleus
+                (span 7 8)
+                (rel2par span)
+                (Nucleus
+                  (leaf 7)
+                  (rel2par contrast)
+                  (text
+                    _!So endete die große Berliner Eröffnungsschau " Preußen 1701 " laut Veranstalter , immerhin das ehrenwerte Deutsche Historische Museum , mit 72_000 Besuchern ._!))
+                (Nucleus
+                  (leaf 8)
+                  (rel2par contrast)
+                  (text
+                    _!Nach der jetzt offiziellen Statistik sollen 's 80_000 gewesen sein ._!)))
+              (Satellite
+                (leaf 9)
+                (rel2par evaluation-s)
+                (text _!Wohl eine Petitesse ._!)))))
+        (Satellite
+          (span 10 11)
+          (rel2par concession)
+          (Nucleus
+            (leaf 10)
+            (rel2par span)
+            (text
+              _!Eher unter inhaltlichen Gesichtspunkten ist ferner bemerkenswert , dass gerade jene Ausstellungen am besten abschnitten , die - auch wenn Preußen im Titel vorkam - so gut wie nichts mit Preußen zu tun hatten ._!))
+          (Satellite
+            (leaf 11)
+            (rel2par evidence)
+            (text
+              _!Die Malerei Kirchners und Caravaggios wollten 110_000 respektive 74_000 sehen ._!))))
+      (Satellite
+        (span 12 13)
+        (rel2par evaluation-s)
+        (Nucleus (leaf 12) (rel2par span) (text _!Nun gut ._!))
+        (Satellite
+          (leaf 13)
+          (rel2par condition)
+          (text _!Wenn Zahlenspiele dem Ruhme Preußens dienen ..._!))))))

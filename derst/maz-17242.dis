@@ -1,0 +1,132 @@
+(Root
+  (span 1 20)
+  (Nucleus (leaf 1) (rel2par virtual-root) (text _!Alle Wetter !_!))
+  (Nucleus
+    (span 2 20)
+    (rel2par virtual-root)
+    (Nucleus
+      (span 2 9)
+      (rel2par joint)
+      (Satellite
+        (span 2 3)
+        (rel2par antithesis)
+        (Satellite
+          (leaf 2)
+          (rel2par circumstance)
+          (text
+            _!Also nee , wissense nee , als ich heute Morgen wie immer in der letzten Minute aus dem Haus huschte und flugs in das in der Garage eingemummelte Auto stieg ,_!))
+        (Nucleus
+          (leaf 3)
+          (rel2par span)
+          (text
+            _!hatte ich die miesen Grade noch gar nicht richtig mitgeschnitten ._!)))
+      (Nucleus
+        (span 4 9)
+        (rel2par span)
+        (Satellite
+          (span 4 7)
+          (rel2par cause)
+          (Nucleus
+            (leaf 4)
+            (rel2par span)
+            (text _!Aber dann begegnete ich einem Geisterfahrer ,_!))
+          (Satellite
+            (span 5 7)
+            (rel2par e-elaboration)
+            (Nucleus
+              (leaf 5)
+              (rel2par conjunction)
+              (text
+                _!der verstohlen durch einen Schlitz in der Sichtscheibe schielte_!))
+            (Nucleus
+              (span 6 7)
+              (rel2par conjunction)
+              (Nucleus
+                (leaf 6)
+                (rel2par span)
+                (text
+                  _!und beim Abbiegen nach links vorsichtshalber das Seitenfenster öffnete ,_!))
+              (Satellite
+                (leaf 7)
+                (rel2par purpose)
+                (text _!um nicht in den Gegenverkehr zu brettern ._!)))))
+        (Nucleus
+          (span 8 9)
+          (rel2par span)
+          (Satellite
+            (leaf 8)
+            (rel2par preparation)
+            (text _!Da wusste ich :_!))
+          (Nucleus (leaf 9) (rel2par span) (text _!Es wintert ._!)))))
+    (Nucleus
+      (span 10 14)
+      (rel2par joint)
+      (Nucleus
+        (span 10 11)
+        (rel2par list)
+        (Satellite
+          (leaf 10)
+          (rel2par cause)
+          (text
+            _!Und wie immer haben die einen die Zeit völlig verpasst_!))
+        (Nucleus
+          (leaf 11)
+          (rel2par span)
+          (text _!und rasen jetzt nach Winterrreifen rum ,_!)))
+      (Nucleus
+        (leaf 12)
+        (rel2par list)
+        (text
+          _!die anderen wollten schon lange Fensterspray kaufen ,_!))
+      (Nucleus
+        (leaf 13)
+        (rel2par list)
+        (text
+          _!in den Schuhgeschäften werden die warmen Stiefel nun endlich doch anprobiert ,_!))
+      (Nucleus
+        (leaf 14)
+        (rel2par list)
+        (text
+          _!und die Hompage der Standheizungsbauer hatte bald so viel Besuch wie die der Wetterkarten ._!)))
+    (Nucleus
+      (span 15 20)
+      (rel2par joint)
+      (Satellite
+        (leaf 15)
+        (rel2par interpretation)
+        (text
+          _!Übrigens ertappte ich unter dem Stichwort " Winterwetter " im Internet echte Witzbolde ._!))
+      (Nucleus
+        (span 16 20)
+        (rel2par span)
+        (Nucleus
+          (span 16 17)
+          (rel2par span)
+          (Nucleus
+            (leaf 16)
+            (rel2par conjunction)
+            (text _!Da wird der Surfer auf " Scherze " gelenkt_!))
+          (Nucleus
+            (leaf 17)
+            (rel2par conjunction)
+            (text
+              _!und hat dann je nach Lust und Laune auch was zu lachen ._!)))
+        (Satellite
+          (span 18 20)
+          (rel2par elaboration)
+          (Nucleus
+            (span 18 19)
+            (rel2par span)
+            (Nucleus
+              (leaf 18)
+              (rel2par span)
+              (text _!Oder zu zittern ,_!))
+            (Satellite
+              (leaf 19)
+              (rel2par cause)
+              (text
+                _!denn ein schnatterndes Gebiss ist immer dabei ._!)))
+          (Satellite
+            (leaf 20)
+            (rel2par elaboration)
+            (text _!Jedenfalls im Winter , meint eure Jette ._!)))))))

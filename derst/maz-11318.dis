@@ -1,0 +1,150 @@
+(Root
+  (span 1 22)
+  (Nucleus
+    (leaf 1)
+    (rel2par virtual-root)
+    (text _!So nicht noch einmal_!))
+  (Nucleus
+    (span 2 22)
+    (rel2par virtual-root)
+    (Nucleus
+      (span 2 21)
+      (rel2par span)
+      (Satellite
+        (span 2 13)
+        (rel2par antithesis)
+        (Satellite
+          (span 2 6)
+          (rel2par background)
+          (Satellite
+            (leaf 2)
+            (rel2par preparation)
+            (text _!Es passieren schlimme Dinge auf dieser Welt ._!))
+          (Nucleus
+            (span 3 6)
+            (rel2par span)
+            (Nucleus
+              (leaf 3)
+              (rel2par list)
+              (text
+                _!Furchtbar , wenn Menschen in einem Krieg sterben müssen ._!))
+            (Nucleus
+              (leaf 4)
+              (rel2par list)
+              (text
+                _!Schrecklich , bei einem Unfall ums Leben zu kommen ._!))
+            (Nucleus
+              (leaf 5)
+              (rel2par list)
+              (text _!Schlimm , einen guten Freund zu verlieren ._!))
+            (Nucleus
+              (leaf 6)
+              (rel2par list)
+              (text
+                _!Nicht zum Aushalten , Zeuge eines Dramas zu werden und nichts dagegen ausrichten zu können ._!))))
+        (Nucleus
+          (span 7 13)
+          (rel2par span)
+          (Nucleus
+            (span 7 12)
+            (rel2par joint)
+            (Nucleus
+              (span 7 8)
+              (rel2par span)
+              (Nucleus
+                (leaf 7)
+                (rel2par span)
+                (text _!So muss es Werner Fresdorf ergangen sein ,_!))
+              (Satellite
+                (leaf 8)
+                (rel2par circumstance)
+                (text
+                  _!als er den schleichenden Tod eines Vierbeiners mit seiner Kamera dokumentierte ._!)))
+            (Satellite
+              (span 9 12)
+              (rel2par cause)
+              (Nucleus
+                (span 9 10)
+                (rel2par span)
+                (Nucleus
+                  (leaf 9)
+                  (rel2par sequence)
+                  (text
+                    _!Sein Nachbar hatte den Hund an eine kurze Kette gelegt_!))
+                (Nucleus
+                  (leaf 10)
+                  (rel2par sequence)
+                  (text
+                    _!und sich dann nicht mehr um das Tier gekümmert ._!)))
+              (Satellite
+                (span 11 12)
+                (rel2par elaboration)
+                (Satellite
+                  (leaf 11)
+                  (rel2par preparation)
+                  (text _!Einzige Ausnahme :_!))
+                (Nucleus
+                  (leaf 12)
+                  (rel2par span)
+                  (text
+                    _!Dem Schäferhund wurde noch das Fressen hingestellt ._!)))))
+          (Nucleus
+            (leaf 13)
+            (rel2par joint)
+            (text
+              _!Werner Fresdorf hatte über diese Zustände die Behörden informiert ._!))))
+      (Nucleus
+        (span 14 21)
+        (rel2par span)
+        (Satellite
+          (leaf 14)
+          (rel2par evaluation-s)
+          (text _!Doch die Reaktionen lassen zu wünschen übrig ._!))
+        (Nucleus
+          (span 15 21)
+          (rel2par span)
+          (Nucleus
+            (span 15 17)
+            (rel2par joint)
+            (Nucleus
+              (span 15 16)
+              (rel2par span)
+              (Nucleus
+                (leaf 15)
+                (rel2par conjunction)
+                (text _!Nur ein Ortstermin fand statt_!))
+              (Nucleus
+                (leaf 16)
+                (rel2par conjunction)
+                (text _!und man gab sich zufrieden ,_!)))
+            (Satellite
+              (leaf 17)
+              (rel2par concession)
+              (text
+                _!obwohl der Hundehalter nicht angetroffen wurde ._!)))
+          (Nucleus
+            (leaf 18)
+            (rel2par joint)
+            (text
+              _!Ein zweiter Besuch wäre jedoch dringend notwendig gewesen ._!))
+          (Nucleus
+            (span 19 20)
+            (rel2par joint)
+            (Nucleus
+              (leaf 19)
+              (rel2par span)
+              (text _!Nun ist es zu spät ._!))
+            (Satellite
+              (leaf 20)
+              (rel2par cause)
+              (text _!Das Tier lebt nicht mehr ._!)))
+          (Nucleus
+            (leaf 21)
+            (rel2par joint)
+            (text
+              _!Eine Bestrafung des Hundehalters wird offensichtlich nicht angestrebt ._!)))))
+    (Satellite
+      (leaf 22)
+      (rel2par interpretation)
+      (text
+        _!Gut , dass der Bürgermeister wenigstens nun angewiesen hat , solche Anzeigen sofort an die zuständige Behörde im Kreis weiterzuleiten ._!))))

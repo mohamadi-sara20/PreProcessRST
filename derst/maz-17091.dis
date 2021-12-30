@@ -1,0 +1,129 @@
+(Root
+  (span 1 17)
+  (Nucleus
+    (leaf 1)
+    (rel2par virtual-root)
+    (text _!Nach dem großen Coup_!))
+  (Nucleus
+    (span 2 17)
+    (rel2par virtual-root)
+    (Satellite
+      (span 2 14)
+      (rel2par cause)
+      (Satellite
+        (span 2 6)
+        (rel2par antithesis)
+        (Nucleus
+          (span 2 3)
+          (rel2par span)
+          (Nucleus
+            (leaf 2)
+            (rel2par joint)
+            (text
+              _!Die Weiße Stadt in Oranienburg war vor wenigen Jahren ein gefeiertes Modellprojekt ._!))
+          (Nucleus
+            (leaf 3)
+            (rel2par joint)
+            (text
+              _!Firmenchef Klaus Kesting gelang ein großer Coup ._!)))
+        (Satellite
+          (span 4 6)
+          (rel2par elaboration)
+          (Satellite
+            (leaf 4)
+            (rel2par circumstance)
+            (text
+              _!Noch vor dem endgültigen Abzug der russischen Armee 1994 begann er mit dem Umbau von Kasernen zu Sozial- und Eigentumswohnungen ._!))
+          (Nucleus
+            (span 5 6)
+            (rel2par span)
+            (Nucleus
+              (leaf 5)
+              (rel2par list)
+              (text
+                _!Der Unternehmer erhielt für das Vorhaben viele Fördermillionen ,_!))
+            (Nucleus
+              (leaf 6)
+              (rel2par list)
+              (text
+                _!eine 60_000 Quadratmeter große Fläche erwarb er für eine Mark ._!)))))
+      (Nucleus
+        (span 7 14)
+        (rel2par span)
+        (Satellite
+          (span 7 10)
+          (rel2par cause)
+          (Satellite
+            (leaf 7)
+            (rel2par interpretation)
+            (text _!1997 folgte der große Katzenjammer ._!))
+          (Nucleus
+            (span 8 10)
+            (rel2par span)
+            (Nucleus
+              (leaf 8)
+              (rel2par span)
+              (text
+                _!Die Gesellschaft Kesting Fertigbau musste Konkurs anmelden ._!))
+            (Satellite
+              (span 9 10)
+              (rel2par result)
+              (Nucleus
+                (leaf 9)
+                (rel2par list)
+                (text
+                  _!Mehrere beteiligte Firmen erhielten kein Geld ,_!))
+              (Nucleus
+                (leaf 10)
+                (rel2par list)
+                (text
+                  _!ausstehende Bauabschnitte konnten nicht fortgeführt werden ._!)))))
+        (Nucleus
+          (span 11 14)
+          (rel2par span)
+          (Satellite
+            (leaf 11)
+            (rel2par background)
+            (text _!Seitdem führt ein Zwangsverwalter das Zepter ._!))
+          (Nucleus
+            (span 12 14)
+            (rel2par span)
+            (Satellite
+              (span 12 13)
+              (rel2par cause)
+              (Nucleus
+                (leaf 12)
+                (rel2par list)
+                (text
+                  _!Der Verkauf des Wohngebiets und neue Geldgeber sind nicht in Sicht ._!))
+              (Nucleus
+                (leaf 13)
+                (rel2par list)
+                (text
+                  _!Für Investitionen in die Infrastruktur der einstigen Heinkel-Siedlung gibt es keine müde Mark ._!)))
+            (Nucleus
+              (leaf 14)
+              (rel2par span)
+              (text
+                _!Die Folgen sind Stagnation und stellenweise schon Verwahrlosung ._!))))))
+    (Nucleus
+      (span 15 17)
+      (rel2par span)
+      (Satellite
+        (span 15 16)
+        (rel2par background)
+        (Nucleus
+          (leaf 15)
+          (rel2par span)
+          (text
+            _!Damit will sich der jetzt gegründete Bürgerverein nicht abfinden ._!))
+        (Satellite
+          (leaf 16)
+          (rel2par elaboration)
+          (text
+            _!Dass seine Mitstreiter durchaus etwas erreichen können , haben sie bereits bewiesen ._!)))
+      (Nucleus
+        (leaf 17)
+        (rel2par span)
+        (text
+          _!Entgegen der ursprünglichen Planung wurde jetzt auch die Weiße Stadt in das EU-Förderprogramm " Zukunft im Stadtteil " aufgenommen ._!)))))

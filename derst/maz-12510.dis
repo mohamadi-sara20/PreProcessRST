@@ -1,0 +1,116 @@
+(Root
+  (span 1 17)
+  (Nucleus
+    (leaf 1)
+    (rel2par virtual-root)
+    (text _!Wunsch nach Frieden_!))
+  (Nucleus
+    (span 2 17)
+    (rel2par virtual-root)
+    (Nucleus
+      (span 2 4)
+      (rel2par joint)
+      (Nucleus
+        (span 2 3)
+        (rel2par span)
+        (Nucleus
+          (leaf 2)
+          (rel2par span)
+          (text
+            _!Der Wunsch nach Frieden wächst in Zeiten des Krieges ._!))
+        (Satellite
+          (leaf 3)
+          (rel2par elaboration)
+          (text
+            _!Erst recht , wenn der Krieg dem eigenen Land gefährlich nahe rückt ._!)))
+      (Satellite
+        (leaf 4)
+        (rel2par reason)
+        (text
+          _!Afghanistan ist seit dem vom Bundestag abgesegneten Bündnis-Marschbefehl für deutsche Soldaten näher , als es viele wahrhaben wollen ._!)))
+    (Nucleus
+      (span 5 7)
+      (rel2par joint)
+      (Satellite
+        (leaf 5)
+        (rel2par preparation)
+        (text
+          _!Diese Situation beschäftigt auch die MAZ-Jugendredakteure ._!))
+      (Nucleus
+        (span 6 7)
+        (rel2par span)
+        (Nucleus
+          (leaf 6)
+          (rel2par joint)
+          (text
+            _!Wen lässt ein heißer Krieg mit deutscher Beteiligung kalt ? !_!))
+        (Nucleus
+          (leaf 7)
+          (rel2par joint)
+          (text
+            _!Diesem Szenario setzen die Nachwuchsjournalisten eine Seite und den Wunsch nach Frieden entgegen ._!))))
+    (Nucleus
+      (span 8 10)
+      (rel2par joint)
+      (Satellite
+        (leaf 8)
+        (rel2par background)
+        (text
+          _!Eben dem verleihen Menschen seit vielen Generationen Ausdruck mit Symbolen : Peace-Zeichen , Friedenspfeife , Regenbogen , Olivenzweig , Kerzen , Friedenstaube ..._!))
+      (Nucleus
+        (span 9 10)
+        (rel2par span)
+        (Nucleus
+          (leaf 9)
+          (rel2par joint)
+          (text _!Wann werden Friedenstauben weltweit fliegen ?_!))
+        (Nucleus (leaf 10) (rel2par joint) (text _!Wohl nie ._!))))
+    (Nucleus
+      (span 11 15)
+      (rel2par joint)
+      (Nucleus
+        (span 11 12)
+        (rel2par span)
+        (Nucleus
+          (leaf 11)
+          (rel2par span)
+          (text
+            _!Dazu ist das Unrecht auf unserem Planeten viel zu groß ,_!))
+        (Satellite
+          (leaf 12)
+          (rel2par evidence)
+          (text
+            _!wie Kriegsberichte aus Afghanistan , Israel und Afrika täglich im Fernsehen verdeutlichen ._!)))
+      (Satellite
+        (span 13 15)
+        (rel2par reason)
+        (Satellite
+          (leaf 13)
+          (rel2par reason)
+          (text
+            _!Zu weit klafft die Schere zwischen Arm und Reich auseinander ._!))
+        (Nucleus
+          (span 14 15)
+          (rel2par span)
+          (Nucleus
+            (leaf 14)
+            (rel2par span)
+            (text
+              _!Sozialer Sprengstoff , der Unmenschen wie bin Laden stark und unberechenbar gemacht hat ._!))
+          (Satellite
+            (leaf 15)
+            (rel2par evidence)
+            (text
+              _!Das haben die Anschläge vom 11. September gezeigt ._!)))))
+    (Nucleus
+      (span 16 17)
+      (rel2par joint)
+      (Nucleus
+        (leaf 16)
+        (rel2par joint)
+        (text
+          _!Aber heiligt der Kampf gegen den Top-Terroristen und seine Helfer jedes kriegerische Mittel ?_!))
+      (Nucleus
+        (leaf 17)
+        (rel2par joint)
+        (text _!Auch diese Frage muss erlaubt sein ._!)))))

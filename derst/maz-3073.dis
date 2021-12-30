@@ -1,0 +1,139 @@
+(Root
+  (span 1 19)
+  (Nucleus (leaf 1) (rel2par virtual-root) (text _!Ä(E)hrenvoll_!))
+  (Nucleus
+    (span 2 19)
+    (rel2par virtual-root)
+    (Nucleus
+      (span 2 18)
+      (rel2par span)
+      (Satellite
+        (span 2 7)
+        (rel2par background)
+        (Nucleus
+          (span 2 4)
+          (rel2par span)
+          (Satellite
+            (leaf 2)
+            (rel2par result)
+            (text
+              _!Während der vergangenen Monate - und das gilt auch für die Wochenenden - waren sie selten daheim anzutreffen , die Landwirte und Wiedereinrichter ._!))
+          (Nucleus
+            (span 3 4)
+            (rel2par span)
+            (Nucleus
+              (leaf 3)
+              (rel2par span)
+              (text
+                _!In der Erntezeit wird eben jede Schönwetterstunde bis zur letzten Minute ausgenutzt ._!))
+            (Satellite
+              (leaf 4)
+              (rel2par elaboration)
+              (text
+                _!Ganz gleich , ob Ähren vom Halm oder Kartoffeln aus dem Boden zu holen sind ._!))))
+        (Satellite
+          (span 5 7)
+          (rel2par evaluation-s)
+          (Satellite
+            (leaf 5)
+            (rel2par concession)
+            (text
+              _!Und auch , wenn nicht alle Blütenträume gereift sind ,_!))
+          (Nucleus
+            (span 6 7)
+            (rel2par span)
+            (Nucleus
+              (leaf 6)
+              (rel2par span)
+              (text
+                _!zeigen sich die Landwirte nicht unzufrieden ._!))
+            (Satellite
+              (leaf 7)
+              (rel2par elaboration)
+              (text
+                _!" Da " , so heißt es in diesen Tagen , " haben wir schon ganz andere Jahre erlebt . "_!)))))
+      (Nucleus
+        (span 8 18)
+        (rel2par span)
+        (Nucleus
+          (span 8 13)
+          (rel2par span)
+          (Nucleus
+            (span 8 9)
+            (rel2par span)
+            (Satellite
+              (leaf 8)
+              (rel2par condition)
+              (text
+                _!Wer die Arbeit dieser Frauen und Männer übers Jahr verfolgt ,_!))
+            (Nucleus
+              (leaf 9)
+              (rel2par span)
+              (text
+                _!versteht , warum sie sich trotz vieler Mühen das Erntefest nie entgehen lassen ._!)))
+          (Satellite
+            (span 10 13)
+            (rel2par reason)
+            (Nucleus
+              (leaf 10)
+              (rel2par conjunction)
+              (text _!Es ist nicht nur ein alter Brauch ._!))
+            (Nucleus
+              (span 11 13)
+              (rel2par conjunction)
+              (Nucleus
+                (leaf 11)
+                (rel2par span)
+                (text _!Es ist zugleich eine Bühne ,_!))
+              (Satellite
+                (span 12 13)
+                (rel2par e-elaboration)
+                (Satellite
+                  (leaf 12)
+                  (rel2par preparation)
+                  (text
+                    _!auf der sich mit berechtigtem Stolz ausrufen lässt :_!))
+                (Nucleus
+                  (leaf 13)
+                  (rel2par span)
+                  (text
+                    _!Seht her , was Mensch , Tier und Technik der Natur abgerungen haben ._!))))))
+        (Satellite
+          (span 14 18)
+          (rel2par elaboration)
+          (Nucleus
+            (span 14 15)
+            (rel2par joint)
+            (Nucleus
+              (leaf 14)
+              (rel2par span)
+              (text
+                _!Und die Freude in den Gesichtern der Leute , die Handwagen ziehen , Pferdegespanne führen oder Erntemaschinen lenken , ist mindestens genau so groß wie der Ehrgeiz ,_!))
+            (Satellite
+              (leaf 15)
+              (rel2par e-elaboration)
+              (text
+                _!mit dem sie sich im kommenden Jahr wieder in die Arbeit stürzen ._!)))
+          (Nucleus
+            (span 16 18)
+            (rel2par joint)
+            (Nucleus
+              (span 16 17)
+              (rel2par span)
+              (Nucleus
+                (leaf 16)
+                (rel2par disjunction)
+                (text _!Irre ich mich ,_!))
+              (Nucleus
+                (leaf 17)
+                (rel2par disjunction)
+                (text
+                  _!oder werden es von Jahr zu Jahr mehr Menschen , die dem lustigen Landvolk winken und applaudieren ?_!)))
+            (Satellite
+              (leaf 18)
+              (rel2par evaluation-s)
+              (text _!Recht so !_!))))))
+    (Satellite
+      (leaf 19)
+      (rel2par evaluation-s)
+      (text _!Ä(E)hre , wem Ä(E)hre gebührt ._!))))

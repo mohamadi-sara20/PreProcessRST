@@ -1,0 +1,107 @@
+(Root
+  (span 1 15)
+  (Nucleus (leaf 1) (rel2par virtual-root) (text _!Alarmsignal_!))
+  (Nucleus
+    (span 2 15)
+    (rel2par virtual-root)
+    (Satellite
+      (span 2 3)
+      (rel2par background)
+      (Nucleus
+        (leaf 2)
+        (rel2par span)
+        (text
+          _!Es brodelt an der CDU-Basis in Werder und Umgebung ._!))
+      (Satellite
+        (leaf 3)
+        (rel2par reason)
+        (text
+          _!Der Grund ist die Weigerung des Innenministers und Parteivorsitzenden Jörg Schönbohm , dem eindeutigen Bürgerwillen der Golmer nach Eingliederung in die Stadt Werder nachzukommen ._!)))
+    (Nucleus
+      (span 4 15)
+      (rel2par span)
+      (Nucleus
+        (span 4 7)
+        (rel2par list)
+        (Satellite
+          (leaf 4)
+          (rel2par interpretation)
+          (text
+            _!Ein Alarmsignal für Schönbohm müsste es jedenfalls sein ,_!))
+        (Nucleus
+          (span 5 7)
+          (rel2par span)
+          (Nucleus
+            (leaf 5)
+            (rel2par conjunction)
+            (text
+              _!wenn sich jetzt die Junge Union in Werder scharf gegen seinen Kurs wendet_!))
+          (Nucleus
+            (span 6 7)
+            (rel2par conjunction)
+            (Nucleus
+              (leaf 6)
+              (rel2par span)
+              (text
+                _!und ein CDU-Stadtverordneter gar mit seinem sofortigen Austritt aus der Christlich Demokratischen Union droht ,_!))
+            (Satellite
+              (leaf 7)
+              (rel2par cause)
+              (text
+                _!weil für ihn demokratische Spielregeln eklatant verletzt wurden ._!)))))
+      (Nucleus
+        (span 8 10)
+        (rel2par list)
+        (Satellite
+          (leaf 8)
+          (rel2par cause)
+          (text
+            _!Durchaus brisant wird die Situation für den Parteivorsitzenden auch dadurch , dass er gleich zwei CDU-Bürgermeister gegen sich aufgebracht hat_!))
+        (Nucleus
+          (span 9 10)
+          (rel2par span)
+          (Nucleus
+            (leaf 9)
+            (rel2par span)
+            (text
+              _!und damit dort Ansehen und Rückhalt verlieren wird , wo sie mit Sicherheit jede Partei bitter nötig hat -_!))
+          (Satellite
+            (leaf 10)
+            (rel2par e-elaboration)
+            (text _!nämlich an der Basis ._!))))
+      (Nucleus
+        (span 11 15)
+        (rel2par list)
+        (Nucleus
+          (span 11 12)
+          (rel2par span)
+          (Nucleus
+            (leaf 11)
+            (rel2par conjunction)
+            (text
+              _!Dazu kommt , dass in Werder am 24. Februar ein Bürgermeister gewählt wird_!))
+          (Nucleus
+            (leaf 12)
+            (rel2par conjunction)
+            (text
+              _!und es bisher als sicher galt , dass CDU-Amtsinhaber Werner Große unangefochten bleibt ._!)))
+        (Satellite
+          (span 13 15)
+          (rel2par interpretation)
+          (Satellite
+            (leaf 13)
+            (rel2par concession)
+            (text _!Das muss sich nicht ändern ,_!))
+          (Nucleus
+            (span 14 15)
+            (rel2par span)
+            (Satellite
+              (leaf 14)
+              (rel2par condition)
+              (text
+                _!doch wenn der eigene Parteichef dem Kandidaten so derb in die Parade einer erfolgreichen Amtszeit fährt ,_!))
+            (Nucleus
+              (leaf 15)
+              (rel2par span)
+              (text
+                _!werden andere Parteien nicht säumen , ihre Ansprüche deutlicher als bisher anzumelden ._!))))))))

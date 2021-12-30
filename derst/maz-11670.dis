@@ -1,0 +1,119 @@
+(Root
+  (span 1 16)
+  (Nucleus (leaf 1) (rel2par virtual-root) (text _!Tränen_!))
+  (Nucleus
+    (span 2 16)
+    (rel2par virtual-root)
+    (Nucleus
+      (span 2 15)
+      (rel2par span)
+      (Satellite
+        (span 2 3)
+        (rel2par background)
+        (Satellite
+          (leaf 2)
+          (rel2par result)
+          (text
+            _!Tränen flossen gestern zum Volkstrauertag auf dem Friedhof von Langen ._!))
+        (Nucleus
+          (leaf 3)
+          (rel2par span)
+          (text
+            _!Noch mehr als 56 Jahre nach dem Ende des Zweiten Weltkriegs trauern Menschen um den Verlust eines geliebten Mannes , Vaters oder Kindes ._!)))
+      (Nucleus
+        (span 4 15)
+        (rel2par span)
+        (Satellite
+          (span 4 7)
+          (rel2par background)
+          (Satellite
+            (leaf 4)
+            (rel2par circumstance)
+            (text
+              _!Mit dem Krieg beschäftigte sich am Sonnabend auch die Kreissynode der Evangelischen Kirche ._!))
+          (Nucleus
+            (span 5 7)
+            (rel2par span)
+            (Nucleus
+              (leaf 5)
+              (rel2par span)
+              (text
+                _!Sie verabschiedete eine Resolution gegen den Krieg in Afghanistan ._!))
+            (Satellite
+              (span 6 7)
+              (rel2par e-elaboration)
+              (Satellite
+                (leaf 6)
+                (rel2par reason)
+                (text
+                  _!Das Papier ist - zugegeben - vorsichtig gefasst ,_!))
+              (Nucleus
+                (leaf 7)
+                (rel2par span)
+                (text
+                  _!vielleicht gab es auch deshalb keine Gegenstimme ._!)))))
+        (Nucleus
+          (span 8 15)
+          (rel2par span)
+          (Nucleus
+            (span 8 11)
+            (rel2par joint)
+            (Nucleus
+              (leaf 8)
+              (rel2par span)
+              (text _!Die Stimmung hat sich gewandelt ,_!))
+            (Satellite
+              (span 9 11)
+              (rel2par circumstance)
+              (Nucleus
+                (leaf 9)
+                (rel2par span)
+                (text
+                  _!seit klar ist , was vielen vorher klar war :_!))
+              (Satellite
+                (span 10 11)
+                (rel2par elaboration)
+                (Nucleus
+                  (leaf 10)
+                  (rel2par conjunction)
+                  (text
+                    _!" Saubere chirurgische Schnitte " gegen Terroristen gibt es mit Flächenbombardements nicht_!))
+                (Nucleus
+                  (leaf 11)
+                  (rel2par conjunction)
+                  (text
+                    _!und selbst High-Tech-Bomben verfehlen oft genug ihr Ziel ._!)))))
+          (Nucleus
+            (span 12 15)
+            (rel2par joint)
+            (Nucleus
+              (span 12 14)
+              (rel2par span)
+              (Nucleus
+                (leaf 12)
+                (rel2par list)
+                (text
+                  _!In Afghanistan sterben Frauen und alte Männer ._!))
+              (Nucleus
+                (span 13 14)
+                (rel2par list)
+                (Nucleus
+                  (leaf 13)
+                  (rel2par span)
+                  (text
+                    _!Bombensplitter zerfetzen afghanische Kinder ,_!))
+                (Satellite
+                  (leaf 14)
+                  (rel2par e-elaboration)
+                  (text
+                    _!die in ihren armseligen Hütten von einem New York noch nie etwas gehört haben ._!))))
+            (Satellite
+              (leaf 15)
+              (rel2par interpretation)
+              (text
+                _!Alle , die Krieg für notwendig halten , nehmen auch diese unschuldigen Opfer in Kauf ._!))))))
+    (Satellite
+      (leaf 16)
+      (rel2par interpretation)
+      (text
+        _!Dabei sollten wir uns gerade am Volkstrauertag erinnern können , wie es sich anfühlt , wenn das tote Kind auf dem Fernsehschirm nicht mehr " irgendein Asiate " ist , sondern unser eigenes Kind ._!))))

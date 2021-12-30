@@ -1,0 +1,120 @@
+(Root
+  (span 1 16)
+  (Nucleus
+    (leaf 1)
+    (rel2par virtual-root)
+    (text _!Zuschlag für den Besseren_!))
+  (Nucleus
+    (span 2 16)
+    (rel2par virtual-root)
+    (Satellite
+      (span 2 6)
+      (rel2par background)
+      (Satellite
+        (leaf 2)
+        (rel2par circumstance)
+        (text
+          _!Die Anhörung zur Zukunft des Paracelsus-Krankenhauses ist vorbei ._!))
+      (Nucleus
+        (span 3 6)
+        (rel2par span)
+        (Nucleus
+          (span 3 4)
+          (rel2par span)
+          (Nucleus
+            (leaf 3)
+            (rel2par sequence)
+            (text
+              _!Die Kreistagsabgeordneten im Kreis- und Krankenhausausschuss haben viele Argumente gehört_!))
+          (Nucleus
+            (leaf 4)
+            (rel2par sequence)
+            (text _!und müssen sich nun entscheiden ._!)))
+        (Satellite
+          (span 5 6)
+          (rel2par interpretation)
+          (Satellite
+            (leaf 5)
+            (rel2par reason)
+            (text
+              _!Landrat Burkhard Schröder hat bereits angedeutet , dass er diese Entscheidungen den Mitgliedern des Kreistages überlassen will ._!))
+          (Nucleus
+            (leaf 6)
+            (rel2par span)
+            (text
+              _!So darf man auf die Vorlage aus der Kreisverwaltung gespannt sein ._!)))))
+    (Nucleus
+      (span 7 16)
+      (rel2par span)
+      (Nucleus
+        (span 7 9)
+        (rel2par span)
+        (Satellite
+          (leaf 7)
+          (rel2par preparation)
+          (text _!Es gibt zwei Möglichkeiten :_!))
+        (Nucleus
+          (span 8 9)
+          (rel2par span)
+          (Nucleus
+            (leaf 8)
+            (rel2par disjunction)
+            (text
+              _!Entweder das Paracelsus-Krankenhaus bildet einen regionalen Klinikverbund mit der Nauener Havellandklinik unter dem Dach einer kreiseigenen GmbH_!))
+          (Nucleus
+            (leaf 9)
+            (rel2par disjunction)
+            (text
+              _!oder das Rathenower Krankenhaus wird an einen Freien Träger abgegeben ._!))))
+      (Satellite
+        (span 10 16)
+        (rel2par interpretation)
+        (Satellite
+          (span 10 11)
+          (rel2par antithesis)
+          (Satellite
+            (leaf 10)
+            (rel2par condition)
+            (text
+              _!Will der Kreistag auch in Rathenow seinen Einfluss auf die Krankenhausentwicklung behalten ,_!))
+          (Nucleus
+            (leaf 11)
+            (rel2par span)
+            (text
+              _!wird er sich kaum für einen Freien Träger entscheiden können ._!)))
+        (Nucleus
+          (span 12 16)
+          (rel2par span)
+          (Nucleus
+            (leaf 12)
+            (rel2par joint)
+            (text
+              _!Doch das allein darf nicht Grundlage für diesen wichtigen Beschluss sein ._!))
+          (Nucleus
+            (span 13 16)
+            (rel2par joint)
+            (Satellite
+              (span 13 14)
+              (rel2par reason)
+              (Nucleus
+                (leaf 13)
+                (rel2par conjunction)
+                (text
+                  _!Das Krankenhaus soll der bekommen , der die wohnortnahe Versorgung von Patienten in Rathenow sicherstellen kann_!))
+              (Nucleus
+                (leaf 14)
+                (rel2par conjunction)
+                (text
+                  _!und darüberhinaus die betriebswirtschaftliche und medizinische Qualität des Paracelsus-Krankenhauses nicht nur erhält sondern stabilisiert ._!)))
+            (Nucleus
+              (span 15 16)
+              (rel2par span)
+              (Satellite
+                (leaf 15)
+                (rel2par condition)
+                (text
+                  _!Wenn ein Freier Träger das besser kann als eine Kreis-GmbH ,_!))
+              (Nucleus
+                (leaf 16)
+                (rel2par span)
+                (text _!dann soll er das Krankenhaus haben ._!)))))))))

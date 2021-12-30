@@ -1,0 +1,134 @@
+(Root
+  (span 1 18)
+  (Nucleus
+    (leaf 1)
+    (rel2par virtual-root)
+    (text _!Ganz schön mutig_!))
+  (Nucleus
+    (span 2 18)
+    (rel2par virtual-root)
+    (Nucleus
+      (span 2 16)
+      (rel2par span)
+      (Satellite
+        (span 2 6)
+        (rel2par background)
+        (Nucleus
+          (span 2 4)
+          (rel2par span)
+          (Satellite
+            (span 2 3)
+            (rel2par evaluation-n)
+            (Satellite
+              (leaf 2)
+              (rel2par concession)
+              (text
+                _!Es herrscht kein Wohnungsnotstand in Wusterhausen ._!))
+            (Nucleus
+              (leaf 3)
+              (rel2par span)
+              (text
+                _!Dennoch war sich die Gemeindevertretung sicher , dass man ein neues Wohngebiet ausweisen müsse ._!)))
+          (Nucleus
+            (leaf 4)
+            (rel2par span)
+            (text
+              _!Was nach der Idee kam , ging dann erstaunlich schnell ._!)))
+        (Satellite
+          (span 5 6)
+          (rel2par evidence)
+          (Nucleus
+            (leaf 5)
+            (rel2par sequence)
+            (text
+              _!Nicht einmal ein Jahr ist seit Fassen des Aufstellungsbeschlusses und Beginn der Erschließungsarbeiten vergangen ._!))
+          (Nucleus
+            (leaf 6)
+            (rel2par sequence)
+            (text
+              _!Demnächst wird man schon trockenen Fußes voll erschlossene Parzellen in Augenschein nehmen können ._!))))
+      (Nucleus
+        (span 7 16)
+        (rel2par span)
+        (Nucleus
+          (span 7 11)
+          (rel2par joint)
+          (Nucleus
+            (span 7 9)
+            (rel2par span)
+            (Nucleus
+              (leaf 7)
+              (rel2par span)
+              (text
+                _!Martina Vogel , die Bauamtsleiterin in der Großgemeinde , zu der ja auch die Stadt gehört , erhofft sich davon Ködereffekt ._!))
+            (Satellite
+              (span 8 9)
+              (rel2par elaboration)
+              (Satellite
+                (leaf 8)
+                (rel2par condition)
+                (text
+                  _!Wenn die Leute übersichtlich angeboten bekommen , was sie mal selber nutzen können ,_!))
+              (Nucleus
+                (leaf 9)
+                (rel2par span)
+                (text
+                  _!kriegen sie leichter Appetit , so die Hoffnung ._!))))
+          (Satellite
+            (span 10 11)
+            (rel2par evaluation-s)
+            (Nucleus
+              (leaf 10)
+              (rel2par span)
+              (text _!Das wird auch notwendig sein ,_!))
+            (Satellite
+              (leaf 11)
+              (rel2par evidence)
+              (text
+                _!denn die Gemeinde ist erst einmal mit 1,2 Millionen Mark in Vorleistung gegangen ._!))))
+        (Nucleus
+          (span 12 16)
+          (rel2par joint)
+          (Nucleus
+            (span 12 13)
+            (rel2par span)
+            (Satellite
+              (leaf 12)
+              (rel2par means)
+              (text
+                _!In der löblichen Absicht , besonders jungen Familien das Hierbleiben lukrativ zu machen_!))
+            (Nucleus
+              (leaf 13)
+              (rel2par span)
+              (text
+                _!und somit einer Pflicht nachzukommen , die jede Kommune hat , ist Risiko nie auszuschließen ._!)))
+          (Satellite
+            (span 14 16)
+            (rel2par e-elaboration)
+            (Nucleus
+              (leaf 14)
+              (rel2par span)
+              (text _!In Wusterhausen erhöht es sich noch ,_!))
+            (Satellite
+              (span 15 16)
+              (rel2par cause)
+              (Nucleus
+                (leaf 15)
+                (rel2par span)
+                (text
+                  _!weil man auch im nahen Bantikow Bauplätze findet ,_!))
+              (Satellite
+                (leaf 16)
+                (rel2par concession)
+                (text _!wenngleich nicht zu diesem Preis ._!)))))))
+    (Satellite
+      (span 17 18)
+      (rel2par evaluation-s)
+      (Nucleus
+        (leaf 17)
+        (rel2par joint)
+        (text _!Also haben die Gemeindevertreter Mut gezeigt ._!))
+      (Nucleus
+        (leaf 18)
+        (rel2par joint)
+        (text _!Möge er belohnt werden ._!)))))

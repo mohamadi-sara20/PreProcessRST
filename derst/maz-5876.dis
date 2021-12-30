@@ -1,0 +1,115 @@
+(Root
+  (span 1 17)
+  (Nucleus (leaf 1) (rel2par virtual-root) (text _!Einmalig_!))
+  (Nucleus
+    (span 2 17)
+    (rel2par virtual-root)
+    (Satellite
+      (span 2 7)
+      (rel2par background)
+      (Nucleus
+        (span 2 6)
+        (rel2par span)
+        (Satellite
+          (leaf 2)
+          (rel2par preparation)
+          (text _!Unvorstellbar , aber wahr :_!))
+        (Nucleus
+          (span 3 6)
+          (rel2par span)
+          (Satellite
+            (leaf 3)
+            (rel2par circumstance)
+            (text
+              _!Eine Medizinerin lässt ihre Patienten , ihr Personal und die Kassenärztliche Vereinigung völlig im Unklaren ._!))
+          (Nucleus
+            (span 4 6)
+            (rel2par span)
+            (Nucleus
+              (leaf 4)
+              (rel2par list)
+              (text _!Niemand weiß , warum sie nicht kommt ,_!))
+            (Nucleus
+              (leaf 5)
+              (rel2par list)
+              (text _!wer sie vertritt ,_!))
+            (Nucleus
+              (leaf 6)
+              (rel2par list)
+              (text _!wann oder ob sie wiederkommt ._!)))))
+      (Satellite
+        (leaf 7)
+        (rel2par elaboration)
+        (text
+          _!Ein solcher Fall wie in Ludwigsfelde sei ihm in den sieben Jahren , die er jetzt Pressesprecher der Kassenärztlichen Vereinigung Brandenburg ist , " noch nicht bekannt geworden " , sagt Ralf Herre ._!)))
+    (Nucleus
+      (span 8 17)
+      (rel2par span)
+      (Satellite
+        (span 8 11)
+        (rel2par concession)
+        (Satellite
+          (span 8 10)
+          (rel2par result)
+          (Nucleus
+            (span 8 9)
+            (rel2par span)
+            (Nucleus
+              (leaf 8)
+              (rel2par span)
+              (text _!Mediziner stehen im Land nicht Schlange ,_!))
+            (Satellite
+              (leaf 9)
+              (rel2par purpose)
+              (text _!um sich niederzulassen ._!)))
+          (Satellite
+            (leaf 10)
+            (rel2par elaboration)
+            (text
+              _!132 allgemeinärztliche und 60 fachärztliche Praxen könnten noch besetzt werden ._!)))
+        (Nucleus
+          (leaf 11)
+          (rel2par span)
+          (text
+            _!Das hat ganz sicher damit zu tun , dass in Brandenburg die niedrigsten Arzthonorare der ganzen Bundesrepublik gezahlt werden ._!)))
+      (Nucleus
+        (span 12 17)
+        (rel2par span)
+        (Nucleus
+          (span 12 13)
+          (rel2par span)
+          (Satellite
+            (leaf 12)
+            (rel2par evaluation-n)
+            (text
+              _!Doch das , was sich bei 3600 Praxen im Land in dieser einen Praxis in Ludwigsfelde abspielt ,_!))
+          (Nucleus
+            (leaf 13)
+            (rel2par span)
+            (text _!das geht rein menschlich nicht ._!)))
+        (Satellite
+          (span 14 17)
+          (rel2par reason)
+          (Nucleus
+            (leaf 14)
+            (rel2par list)
+            (text
+              _!Weder in der Familie noch unter Kollegen oder Freunden lässt man Leute einfach stehen ._!))
+          (Nucleus
+            (leaf 15)
+            (rel2par list)
+            (text
+              _!Abgesehen vom Verfahren über den Zulassungsentzug und davon , dass eine nicht anwesende Ärztin nicht helfen kann -_!))
+          (Nucleus
+            (span 16 17)
+            (rel2par list)
+            (Nucleus
+              (leaf 16)
+              (rel2par span)
+              (text
+                _!ohne Verabredungen einzuhalten steht auch eine noch so gute Medizinerin auf dem Abstellgleis ._!))
+            (Satellite
+              (leaf 17)
+              (rel2par elaboration)
+              (text
+                _!Und Sprechzeiten sind für Patienten und Personal eine solche feste Verabredung ._!))))))))

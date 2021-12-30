@@ -1,0 +1,136 @@
+(Root
+  (span 1 19)
+  (Nucleus (leaf 1) (rel2par virtual-root) (text _!Taktik_!))
+  (Nucleus
+    (span 2 19)
+    (rel2par virtual-root)
+    (Satellite
+      (span 2 9)
+      (rel2par background)
+      (Nucleus
+        (span 2 6)
+        (rel2par span)
+        (Nucleus
+          (span 2 3)
+          (rel2par span)
+          (Satellite
+            (leaf 2)
+            (rel2par antithesis)
+            (text
+              _!Die Berliner PDS lässt sich bei den Koalitionsverhandlungen mit der regierenden SPD in puncto Flughafenausbau in Schönefeld alles offen -_!))
+          (Nucleus
+            (leaf 3)
+            (rel2par span)
+            (text
+              _!obwohl im Wahlkampf ein klares Nein verkündet wurde ._!)))
+        (Satellite
+          (span 4 6)
+          (rel2par interpretation)
+          (Nucleus
+            (span 4 5)
+            (rel2par span)
+            (Nucleus
+              (leaf 4)
+              (rel2par span)
+              (text _!Aha , alle Politiker lügen ,_!))
+            (Satellite
+              (leaf 5)
+              (rel2par condition)
+              (text _!sobald sie die Macht riechen ,_!)))
+          (Satellite
+            (leaf 6)
+            (rel2par interpretation)
+            (text _!könnte man sagen ._!))))
+      (Satellite
+        (span 7 9)
+        (rel2par interpretation)
+        (Satellite
+          (leaf 7)
+          (rel2par concession)
+          (text
+            _!Und natürlich ist es so , dass Kompromisse machen muss , wer in einer Koalition mitregieren will ._!))
+        (Nucleus
+          (span 8 9)
+          (rel2par span)
+          (Nucleus
+            (leaf 8)
+            (rel2par conjunction)
+            (text
+              _!Es kommt allerdings darauf an , wie wichtig die Sache ist , in der man nachgibt ._!))
+          (Nucleus
+            (leaf 9)
+            (rel2par conjunction)
+            (text
+              _!Und an der Flughafen-Frage hängt schon viel Glaubwürdigkeit der PDS ._!)))))
+    (Nucleus
+      (span 10 19)
+      (rel2par span)
+      (Nucleus
+        (span 10 16)
+        (rel2par span)
+        (Nucleus
+          (span 10 12)
+          (rel2par span)
+          (Satellite
+            (leaf 10)
+            (rel2par interpretation)
+            (text
+              _!Die gemäßigte Reaktion der Parteibasis lässt aber noch eine andere Vermutung zu :_!))
+          (Nucleus
+            (span 11 12)
+            (rel2par span)
+            (Nucleus
+              (leaf 11)
+              (rel2par span)
+              (text
+                _!Gysi will die Chance der PDS zum Mitregieren in der Bundeshauptstadt nicht für etwas vertun ,_!))
+            (Satellite
+              (leaf 12)
+              (rel2par e-elaboration)
+              (text
+                _!was sich in einem Jahr womöglich von allein erledigt ._!))))
+        (Satellite
+          (span 13 16)
+          (rel2par reason)
+          (Nucleus
+            (span 13 15)
+            (rel2par span)
+            (Nucleus
+              (span 13 14)
+              (rel2par span)
+              (Satellite
+                (leaf 13)
+                (rel2par circumstance)
+                (text
+                  _!Denn dass der Flughafenausbau in der ursprünglich vom Bund und von den Ländern Berlin und Brandenburg geplanten Dimension noch zum Tragen kommt ,_!))
+              (Nucleus
+                (leaf 14)
+                (rel2par span)
+                (text _!das glauben wohl nur noch die Wenigsten -_!)))
+            (Satellite
+              (leaf 15)
+              (rel2par elaboration)
+              (text _!geschweige denn ein Jurist wie Gysi ._!)))
+          (Satellite
+            (leaf 16)
+            (rel2par reason)
+            (text
+              _!Nicht umsonst hat er mehrfach auf die zu erwartenden Gerichtsprozesse um den geplanten Flughafen verwiesen ._!))))
+      (Satellite
+        (span 17 19)
+        (rel2par interpretation)
+        (Nucleus
+          (leaf 17)
+          (rel2par span)
+          (text _!Wer wollte ihm da seine Taktik verübeln ?_!))
+        (Satellite
+          (span 18 19)
+          (rel2par restatement)
+          (Satellite
+            (leaf 18)
+            (rel2par condition)
+            (text _!Wenn diese Taktik aufgeht ,_!))
+          (Nucleus
+            (leaf 19)
+            (rel2par span)
+            (text _!war sie richtig ._!)))))))

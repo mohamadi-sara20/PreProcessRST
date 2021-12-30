@@ -1,0 +1,114 @@
+(Root
+  (span 1 16)
+  (Nucleus (leaf 1) (rel2par virtual-root) (text _!Schwere Zeiten_!))
+  (Nucleus
+    (span 2 16)
+    (rel2par virtual-root)
+    (Satellite
+      (span 2 4)
+      (rel2par background)
+      (Satellite
+        (leaf 2)
+        (rel2par background)
+        (text
+          _!Die Wiederwahl von Landrat Schröder galt schon vor der gestrigen Wahl als sicher ._!))
+      (Nucleus
+        (span 3 4)
+        (rel2par span)
+        (Nucleus
+          (leaf 3)
+          (rel2par joint)
+          (text
+            _!Neben den nur wenig bestrittenen Qualitäten des Verwaltungschefs dürfte auch ein anderer Punkt den Ausschlag gegeben dafür haben , dass sich kein Konkurrent um den Posten gefunden hat :_!))
+        (Nucleus
+          (leaf 4)
+          (rel2par joint)
+          (text _!Die Zeiten werden nicht leichter ._!))))
+    (Nucleus
+      (span 5 16)
+      (rel2par span)
+      (Nucleus
+        (span 5 15)
+        (rel2par span)
+        (Nucleus
+          (span 5 11)
+          (rel2par span)
+          (Nucleus
+            (span 5 6)
+            (rel2par span)
+            (Satellite
+              (leaf 5)
+              (rel2par concession)
+              (text
+                _!Sicher waren früheren " Schlachten " ( O-Ton Schröder ) um Kreissitz , MBS , Verkehrsbetriebe oder Verwaltungsbauten auch keine einfachen ,_!))
+            (Nucleus
+              (leaf 6)
+              (rel2par span)
+              (text
+                _!gemessen an den kommenden wirken sie aber wie Sandkastenspiele ._!)))
+          (Satellite
+            (span 7 11)
+            (rel2par reason)
+            (Nucleus
+              (span 7 8)
+              (rel2par span)
+              (Satellite
+                (leaf 7)
+                (rel2par antithesis)
+                (text
+                  _!Waren die Auseinandersetzungen früher laut , emotional und leidenschaftlich ,_!))
+              (Nucleus
+                (leaf 8)
+                (rel2par span)
+                (text _!werden sie nun subtil und diffizil ._!)))
+            (Satellite
+              (span 9 11)
+              (rel2par reason)
+              (Satellite
+                (leaf 9)
+                (rel2par antithesis)
+                (text _!Jetzt kämpft man nicht mehr um Meinungen ,_!))
+              (Nucleus
+                (span 10 11)
+                (rel2par span)
+                (Nucleus
+                  (leaf 10)
+                  (rel2par span)
+                  (text _!sondern um Geld und die Freiräume ,_!))
+                (Satellite
+                  (leaf 11)
+                  (rel2par purpose)
+                  (text
+                    _!wenigstens noch etwas gestalten zu können ._!))))))
+        (Satellite
+          (span 12 15)
+          (rel2par evidence)
+          (Satellite
+            (leaf 12)
+            (rel2par preparation)
+            (text
+              _!Einen Vorgeschmack hat die Verwaltungsspitze aktuell bekommen ._!))
+          (Nucleus
+            (span 13 15)
+            (rel2par span)
+            (Satellite
+              (leaf 13)
+              (rel2par antithesis)
+              (text
+                _!Hatte sie es von ' 94 bis ' 99 mühselig geschafft , 14 Millionen Defizit der Altkreise abzubauen ,_!))
+            (Nucleus
+              (span 14 15)
+              (rel2par span)
+              (Nucleus
+                (leaf 14)
+                (rel2par span)
+                (text
+                  _!klaffen nun immer neue Millionenlöcher , beispielsweise im Sozialetat ,_!))
+              (Satellite
+                (leaf 15)
+                (rel2par e-elaboration)
+                (text _!die kaum noch zu stopfen sind ._!))))))
+      (Satellite
+        (leaf 16)
+        (rel2par interpretation)
+        (text _!Schwere Zeiten ._!)))))

@@ -1,0 +1,103 @@
+(Root
+  (span 1 14)
+  (Nucleus (leaf 1) (rel2par virtual-root) (text _!Gewissensfrage_!))
+  (Nucleus
+    (span 2 14)
+    (rel2par virtual-root)
+    (Satellite
+      (span 2 4)
+      (rel2par background)
+      (Satellite
+        (leaf 2)
+        (rel2par interpretation)
+        (text
+          _!Schwerer hätten sich die Güterfelder Gemeindevertreter wohl kaum aus ihrer Eigenständigkeit verabschieden können ._!))
+      (Nucleus
+        (span 3 4)
+        (rel2par span)
+        (Nucleus
+          (leaf 3)
+          (rel2par span)
+          (text
+            _!In ihrer letzten Sitzung vor der Eingemeindung nach Stahnsdorf stehen sie heute vor der Gewissensfrage , sich zum Ausgliederungsverfahren für das Gewerbegebiet im Priesterweg aus dem Landschaftsschutzgebiet " Parforceheide " positionieren zu müssen ._!))
+        (Satellite
+          (leaf 4)
+          (rel2par elaboration)
+          (text
+            _!Auch in Güterfelde gibt es dazu bekanntlich gegensätzliche Meinungen ._!))))
+    (Nucleus
+      (span 5 14)
+      (rel2par span)
+      (Nucleus
+        (span 5 13)
+        (rel2par span)
+        (Satellite
+          (span 5 9)
+          (rel2par circumstance)
+          (Nucleus
+            (span 5 6)
+            (rel2par list)
+            (Nucleus
+              (leaf 5)
+              (rel2par span)
+              (text
+                _!Dabei geht es nicht allein um den Bauernmarkt ,_!))
+            (Satellite
+              (leaf 6)
+              (rel2par e-elaboration)
+              (text
+                _!mit dem einige Abgeordnete nach den jüngsten Ereignissen wohl sowieso schon längst abgeschlossen haben ._!)))
+          (Nucleus
+            (span 7 9)
+            (rel2par list)
+            (Nucleus
+              (leaf 7)
+              (rel2par span)
+              (text
+                _!Es wird auch die Zukunft der anderen Betriebe zu bewerten sein ,_!))
+            (Satellite
+              (span 8 9)
+              (rel2par e-elaboration)
+              (Satellite
+                (leaf 8)
+                (rel2par concession)
+                (text _!die keine Nutzungsuntersagung erhielten ,_!))
+              (Nucleus
+                (leaf 9)
+                (rel2par span)
+                (text
+                  _!aber seinerzeit auch nicht durch einen Bauantrag auffielen ._!)))))
+        (Nucleus
+          (span 10 13)
+          (rel2par span)
+          (Satellite
+            (leaf 10)
+            (rel2par concession)
+            (text
+              _!Trotz der rechtlichen Verfehlungen , die dem Marktbetreiber Jürgen Wache sicher vorzuwerfen sind ,_!))
+          (Nucleus
+            (span 11 13)
+            (rel2par span)
+            (Nucleus
+              (leaf 11)
+              (rel2par span)
+              (text
+                _!sollte den Güterfelder Gemeindevertretern bei ihrer heutigen Entscheidung eines klar sein :_!))
+            (Satellite
+              (span 12 13)
+              (rel2par elaboration)
+              (Satellite
+                (leaf 12)
+                (rel2par condition)
+                (text
+                  _!Wer fest entschlossen zurück zur Natur will ,_!))
+              (Nucleus
+                (leaf 13)
+                (rel2par span)
+                (text
+                  _!hat jetzt auch das Schicksal von Menschen zu verantworten , deren Arbeitsplätze er dafür gleichzeitig opfert ._!))))))
+      (Satellite
+        (leaf 14)
+        (rel2par interpretation)
+        (text
+          _!Egal , ob öffentlich oder insgeheim - diesem Gewissenskonflikt wird sich jeder Volksvertreter zu stellen haben ._!)))))

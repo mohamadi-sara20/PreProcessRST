@@ -1,0 +1,130 @@
+(Root
+  (span 1 17)
+  (Nucleus
+    (leaf 1)
+    (rel2par virtual-root)
+    (text _!Sie bleiben Wittstocker_!))
+  (Nucleus
+    (span 2 17)
+    (rel2par virtual-root)
+    (Satellite
+      (span 2 9)
+      (rel2par background)
+      (Satellite
+        (span 2 7)
+        (rel2par cause)
+        (Nucleus
+          (span 2 6)
+          (rel2par span)
+          (Satellite
+            (leaf 2)
+            (rel2par background)
+            (text
+              _!Die Haushaltsdiskussion in Wittstock ist in vollem Gange ._!))
+          (Nucleus
+            (span 3 6)
+            (rel2par span)
+            (Nucleus
+              (span 3 5)
+              (rel2par contrast)
+              (Nucleus
+                (leaf 3)
+                (rel2par span)
+                (text
+                  _!Derzeit will jeder Fachausschuss die eigenen finanziellen Interessen sichern -_!))
+              (Satellite
+                (span 4 5)
+                (rel2par elaboration)
+                (Nucleus
+                  (leaf 4)
+                  (rel2par disjunction)
+                  (text
+                    _!zum Beispiel Eigenmittel für Investitionen_!))
+                (Nucleus
+                  (leaf 5)
+                  (rel2par disjunction)
+                  (text
+                    _!oder Zuschüsse für Betriebs- und Unterhaltskosten von Einrichtungen freier Träger ._!))))
+            (Nucleus
+              (leaf 6)
+              (rel2par contrast)
+              (text
+                _!Andererseits muss der Haushalt ausgeglichen sein ._!))))
+        (Satellite
+          (leaf 7)
+          (rel2par interpretation)
+          (text
+            _!Ohne Rotstift wird wohl die Rechnerei nicht aufgehen ._!)))
+      (Nucleus
+        (span 8 9)
+        (rel2par span)
+        (Nucleus
+          (leaf 8)
+          (rel2par span)
+          (text
+            _!Kein Wunder also , dass jetzt jeder einzelne Haushaltsposten auf den Prüfstand kommt ._!))
+        (Satellite
+          (leaf 9)
+          (rel2par elaboration)
+          (text
+            _!Auch für das kaum öffentlich gemachte Thema der Sozialfürsorgepflicht der Kommune kann keine Schranke gelten ._!))))
+    (Nucleus
+      (span 10 17)
+      (rel2par span)
+      (Nucleus
+        (span 10 13)
+        (rel2par span)
+        (Nucleus
+          (span 10 12)
+          (rel2par span)
+          (Satellite
+            (leaf 10)
+            (rel2par cause)
+            (text
+              _!Vom eigenen Obdachlosenheim hat sich die Stadt vor über einem Jahr getrennt ._!))
+          (Nucleus
+            (span 11 12)
+            (rel2par span)
+            (Nucleus
+              (leaf 11)
+              (rel2par sequence)
+              (text
+                _!Die obdachlosen Wittstocker kamen nach Heinrichsfelde_!))
+            (Nucleus
+              (leaf 12)
+              (rel2par sequence)
+              (text _!und müssen demnächst nach Kyritz ziehen ._!))))
+        (Satellite
+          (leaf 13)
+          (rel2par cause)
+          (text
+            _!Geld an den Betreiber der Unterkünfte zu zahlen , ist für die Stadt billiger ._!)))
+      (Satellite
+        (span 14 17)
+        (rel2par interpretation)
+        (Satellite
+          (span 14 15)
+          (rel2par reason)
+          (Nucleus
+            (leaf 14)
+            (rel2par joint)
+            (text
+              _!Die soziale Lage der Betroffenen ändert sich bei diesem Rechenbeispiel aber nicht ._!))
+          (Nucleus
+            (leaf 15)
+            (rel2par joint)
+            (text
+              _!Die moralische Verantwortung bleibt außen vor ._!)))
+        (Nucleus
+          (span 16 17)
+          (rel2par span)
+          (Nucleus
+            (leaf 16)
+            (rel2par span)
+            (text
+              _!Die Frage stellt sich , ob nicht die Randgruppe der Obdachlosen auch mit dem neuen Quartier in Kyritz weiter auf das Abstellgleich geschoben werden ._!))
+          (Satellite
+            (leaf 17)
+            (rel2par reason)
+            (text
+              _!Denn eigentlich sind sie ja in Wittstock zu Hause ._!)))))))

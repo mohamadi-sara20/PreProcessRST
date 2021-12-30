@@ -1,0 +1,163 @@
+(Root
+  (span 1 23)
+  (Nucleus (leaf 1) (rel2par virtual-root) (text _!Alarmsignal_!))
+  (Nucleus
+    (span 2 23)
+    (rel2par virtual-root)
+    (Satellite
+      (span 2 11)
+      (rel2par background)
+      (Nucleus
+        (span 2 9)
+        (rel2par span)
+        (Satellite
+          (span 2 6)
+          (rel2par circumstance)
+          (Nucleus
+            (span 2 3)
+            (rel2par span)
+            (Nucleus
+              (leaf 2)
+              (rel2par span)
+              (text
+                _!Mit Helga Kaden streicht eine der namhaftesten Geschäftsleute der Stadt die Segel ._!))
+            (Satellite
+              (leaf 3)
+              (rel2par cause)
+              (text
+                _!Sie konnte ihr traditionsreiches Geschäft wegen der anhaltenden Kundenflaute nicht mehr über Wasser halten ._!)))
+          (Satellite
+            (span 4 6)
+            (rel2par interpretation)
+            (Nucleus
+              (span 4 5)
+              (rel2par contrast)
+              (Nucleus
+                (leaf 4)
+                (rel2par span)
+                (text _!Mag sein , das ihr Konzept nicht aufging ._!))
+              (Satellite
+                (leaf 5)
+                (rel2par elaboration)
+                (text _!Die exklusiven Sachen hatten ihren Preis ._!)))
+            (Nucleus
+              (leaf 6)
+              (rel2par contrast)
+              (text
+                _!Nur - es gab ja Zeiten , da verkaufte sich das sehr gut ._!))))
+        (Nucleus
+          (span 7 9)
+          (rel2par span)
+          (Satellite
+            (leaf 7)
+            (rel2par reason)
+            (text
+              _!Es wird schon gemunkelt , dass weitere dem Beispiel folgen werden ._!))
+          (Nucleus
+            (span 8 9)
+            (rel2par span)
+            (Nucleus
+              (leaf 8)
+              (rel2par span)
+              (text
+                _!Ausgerechnet in der schönen Weihnachtszeit offenbart sich das Elend des innerstädtischen Einzelhandels ._!))
+            (Satellite
+              (leaf 9)
+              (rel2par elaboration)
+              (text
+                _!Und zwar an einer Ecke , die eine Art Aushängeschild für die Stadt ist ._!)))))
+      (Satellite
+        (span 10 11)
+        (rel2par interpretation)
+        (Satellite
+          (leaf 10)
+          (rel2par cause)
+          (text
+            _!Ein leerer Laden ist alles andere als einladend für den Schwenk in die City ._!))
+        (Nucleus
+          (leaf 11)
+          (rel2par span)
+          (text _!Ein Alarmsignal für den neuen Bürgermeister ._!))))
+    (Nucleus
+      (span 12 23)
+      (rel2par span)
+      (Nucleus
+        (span 12 22)
+        (rel2par span)
+        (Satellite
+          (span 12 13)
+          (rel2par preparation)
+          (Satellite
+            (leaf 12)
+            (rel2par concession)
+            (text _!Die Stadt kann nur bedingt helfen ,_!))
+          (Nucleus
+            (leaf 13)
+            (rel2par span)
+            (text _!aber sie muss es endlich tun ._!)))
+        (Nucleus
+          (span 14 22)
+          (rel2par span)
+          (Nucleus
+            (span 14 15)
+            (rel2par list)
+            (Satellite
+              (leaf 14)
+              (rel2par preparation)
+              (text _!Erstens :_!))
+            (Nucleus
+              (leaf 15)
+              (rel2par span)
+              (text
+                _!Die Parkgebühren in der Einkaufszone müssen weg ._!)))
+          (Nucleus
+            (span 16 20)
+            (rel2par list)
+            (Satellite
+              (leaf 16)
+              (rel2par preparation)
+              (text _!Zweitens :_!))
+            (Nucleus
+              (span 17 20)
+              (rel2par span)
+              (Nucleus
+                (leaf 17)
+                (rel2par span)
+                (text _!Ein anziehender Branchenmix muss her -_!))
+              (Satellite
+                (span 18 20)
+                (rel2par elaboration)
+                (Satellite
+                  (leaf 18)
+                  (rel2par condition)
+                  (text
+                    _!wo es die Stadt nicht selbst in der Hand hat ,_!))
+                (Nucleus
+                  (span 19 20)
+                  (rel2par span)
+                  (Satellite
+                    (leaf 19)
+                    (rel2par circumstance)
+                    (text _!muss sie es mehr fordern ,_!))
+                  (Nucleus
+                    (leaf 20)
+                    (rel2par span)
+                    (text
+                      _!notfalls den Eigentümern geeignete gewerbliche Mieter selbst vermitteln ._!))))))
+          (Nucleus
+            (span 21 22)
+            (rel2par list)
+            (Satellite
+              (leaf 21)
+              (rel2par preparation)
+              (text _!Drittens :_!))
+            (Nucleus
+              (leaf 22)
+              (rel2par span)
+              (text
+                _!Im Umgang mit hilfesuchenden Händlern muss der Grundsatz gelten - nichts ist unmöglich ._!)))))
+      (Satellite
+        (leaf 23)
+        (rel2par reason)
+        (text
+          _!So lässt sich das schlingernde City-Schiff vielleicht doch noch auf einen erfolgversprechenden Kurs bringen ._!)))))

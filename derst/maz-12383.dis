@@ -1,0 +1,141 @@
+(Root
+  (span 1 19)
+  (Nucleus
+    (leaf 1)
+    (rel2par virtual-root)
+    (text _!Aber doch nicht bei uns !_!))
+  (Nucleus
+    (span 2 19)
+    (rel2par virtual-root)
+    (Satellite
+      (span 2 4)
+      (rel2par background)
+      (Satellite
+        (leaf 2)
+        (rel2par interpretation)
+        (text
+          _!Wie naiv können manche Schulleiter eigentlich sein ?_!))
+      (Nucleus
+        (span 3 4)
+        (rel2par span)
+        (Satellite
+          (leaf 3)
+          (rel2par antithesis)
+          (text
+            _!" Drogen ? An unserer Schule kein Problem " , hört man immer wieder ._!))
+        (Nucleus
+          (leaf 4)
+          (rel2par span)
+          (text _!Die Polizei weiß es besser ._!))))
+    (Nucleus
+      (span 5 19)
+      (rel2par span)
+      (Nucleus
+        (span 5 11)
+        (rel2par joint)
+        (Nucleus
+          (span 5 8)
+          (rel2par span)
+          (Satellite
+            (span 5 7)
+            (rel2par antithesis)
+            (Satellite
+              (leaf 5)
+              (rel2par concession)
+              (text _!Und mancher Rektor weiß es auch ._!))
+            (Nucleus
+              (span 6 7)
+              (rel2par span)
+              (Nucleus
+                (leaf 6)
+                (rel2par span)
+                (text
+                  _!Bloß : Es soll nichts nach außen dringen , weil die Schülerzahlen sinken und die Schließung droht ,_!))
+              (Satellite
+                (leaf 7)
+                (rel2par circumstance)
+                (text
+                  _!wenn die Schule erst einmal in Verruf kommt ._!))))
+          (Nucleus
+            (leaf 8)
+            (rel2par span)
+            (text
+              _!Durch Verschweigen bekommt man das Problem allerdings nicht aus der Welt ._!)))
+        (Satellite
+          (span 9 11)
+          (rel2par reason)
+          (Nucleus
+            (leaf 9)
+            (rel2par span)
+            (text
+              _!Unter dem Deckmantel des Wegschauens und Verheimlichens blüht der Drogenhandel und -konsum noch viel ungestörter als dort ,_!))
+          (Satellite
+            (span 10 11)
+            (rel2par e-elaboration)
+            (Nucleus
+              (leaf 10)
+              (rel2par conjunction)
+              (text _!wo alle die Augen offen halten_!))
+            (Nucleus
+              (leaf 11)
+              (rel2par conjunction)
+              (text _!und über das Problem sprechen ._!)))))
+      (Nucleus
+        (span 12 19)
+        (rel2par joint)
+        (Satellite
+          (span 12 13)
+          (rel2par reason)
+          (Nucleus
+            (leaf 12)
+            (rel2par conjunction)
+            (text
+              _!Die riesigen Gewinnspannen des Drogenhandels locken Kriminelle an_!))
+          (Nucleus
+            (leaf 13)
+            (rel2par conjunction)
+            (text
+              _!und die immensen Preise für illegale Drogen zwingen die Abhängigen , sich das Geld durch Einbrüche und Überfälle zu verschaffen ._!)))
+        (Nucleus
+          (span 14 19)
+          (rel2par span)
+          (Nucleus
+            (leaf 14)
+            (rel2par span)
+            (text
+              _!Schade ist es deshalb auch , dass sich die Eltern der Jugendlichen im Amtsbereich Temnitz am Dienstag so wenig für die Tipps der Polizei interessierten ._!))
+          (Satellite
+            (span 15 19)
+            (rel2par reason)
+            (Nucleus
+              (span 15 18)
+              (rel2par joint)
+              (Nucleus
+                (leaf 15)
+                (rel2par list)
+                (text
+                  _!Wie ein Joint eigentlich aussieht und riecht ,_!))
+              (Nucleus
+                (span 16 18)
+                (rel2par list)
+                (Nucleus
+                  (leaf 16)
+                  (rel2par span)
+                  (text _!was erweiterte Pupillen verraten ,_!))
+                (Satellite
+                  (span 17 18)
+                  (rel2par elaboration)
+                  (Nucleus
+                    (leaf 17)
+                    (rel2par span)
+                    (text _!die sich auch dann nicht schließen ,_!))
+                  (Satellite
+                    (leaf 18)
+                    (rel2par circumstance)
+                    (text
+                      _!wenn man der Tochter mit der Taschenlampe ins Auge leuchtet -_!)))))
+            (Nucleus
+              (leaf 19)
+              (rel2par joint)
+              (text
+                _!all dieses Wissen könnte manch ahnungsloser Mutter die Augen öffnen ._!))))))))

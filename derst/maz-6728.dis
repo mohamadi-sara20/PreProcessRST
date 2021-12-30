@@ -1,0 +1,111 @@
+(Root
+  (span 1 15)
+  (Nucleus (leaf 1) (rel2par virtual-root) (text _!Ansturm_!))
+  (Nucleus
+    (span 2 15)
+    (rel2par virtual-root)
+    (Nucleus
+      (span 2 13)
+      (rel2par span)
+      (Satellite
+        (span 2 11)
+        (rel2par reason)
+        (Nucleus
+          (span 2 8)
+          (rel2par span)
+          (Nucleus
+            (span 2 5)
+            (rel2par span)
+            (Nucleus
+              (leaf 2)
+              (rel2par span)
+              (text
+                _!Das Schulmuseum in Reckahn erlebt einen wahren Besucheransturm ._!))
+            (Satellite
+              (span 3 5)
+              (rel2par cause)
+              (Nucleus
+                (leaf 3)
+                (rel2par contrast)
+                (text
+                  _!War das von Friedrich Eberhard von Rochow initiierte Haus im 18. und 19. Jahrhundert Vorbild für die Entwicklung der Volksschulen ,_!))
+              (Nucleus
+                (span 4 5)
+                (rel2par contrast)
+                (Nucleus
+                  (leaf 4)
+                  (rel2par span)
+                  (text
+                    _!wollen heute Tausende das Flair eines historischen Klassenzimmers kennen lernen ,_!))
+                (Satellite
+                  (leaf 5)
+                  (rel2par e-elaboration)
+                  (text
+                    _!wie sie nur noch wenige in Deutschland existieren ._!)))))
+          (Satellite
+            (span 6 8)
+            (rel2par reason)
+            (Nucleus
+              (leaf 6)
+              (rel2par span)
+              (text
+                _!Ohne Zweifel profitiert die vom Landkreis getragene Einrichtung von der im August im benachbarten Barockschloss eröffneten Ausstellung zur brandenburgisch-preußischen Schulgeschichte ._!))
+            (Satellite
+              (span 7 8)
+              (rel2par reason)
+              (Satellite
+                (leaf 7)
+                (rel2par condition)
+                (text
+                  _!Denn wer das mit großem Aufwand sanierte Schloss besucht ,_!))
+              (Nucleus
+                (leaf 8)
+                (rel2par span)
+                (text
+                  _!kommt zwangsläufig an der alten Dorfschule vorbei ._!)))))
+        (Satellite
+          (span 9 11)
+          (rel2par evidence)
+          (Nucleus
+            (leaf 9)
+            (rel2par span)
+            (text
+              _!In diesen knapp drei Monaten wurden 2700 Gäste durch das Museum geführt ._!))
+          (Satellite
+            (span 10 11)
+            (rel2par elaboration)
+            (Nucleus
+              (leaf 10)
+              (rel2par span)
+              (text
+                _!Viele von ihnen kamen übers Wochenende nach Reckahn ,_!))
+            (Satellite
+              (leaf 11)
+              (rel2par reason)
+              (text
+                _!was wohl auf die kompakte Werbung für das Preußenjahr zurückzuführen ist ._!)))))
+      (Nucleus
+        (span 12 13)
+        (rel2par span)
+        (Nucleus
+          (leaf 12)
+          (rel2par span)
+          (text
+            _!Der Verein " Historisches Reckahn " mit seinem Vorsitzenden Otto-Günther Beckmann kann stolz auf die große Resonanz seiner Arbeit in der Öffentlichkeit sein ._!))
+        (Satellite
+          (leaf 13)
+          (rel2par reason)
+          (text
+            _!Er hat Reckahn mit unermüdlichem Engagement weit über den Kreis hinaus bekannt gemacht ._!))))
+    (Satellite
+      (span 14 15)
+      (rel2par summary)
+      (Satellite
+        (leaf 14)
+        (rel2par antithesis)
+        (text _!Das Preußenjahr geht zu Ende ,_!))
+      (Nucleus
+        (leaf 15)
+        (rel2par span)
+        (text
+          _!doch Schloss- und Schulmuseum werden weiter von sich reden machen ._!)))))

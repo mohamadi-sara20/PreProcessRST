@@ -1,0 +1,96 @@
+(Root
+  (span 1 13)
+  (Nucleus (leaf 1) (rel2par virtual-root) (text _!Uneinsichtig_!))
+  (Nucleus
+    (span 2 13)
+    (rel2par virtual-root)
+    (Satellite
+      (span 2 5)
+      (rel2par background)
+      (Satellite
+        (span 2 3)
+        (rel2par antithesis)
+        (Nucleus
+          (leaf 2)
+          (rel2par joint)
+          (text
+            _!Im Streit um die fragwürdige Spendenpraxis der stadteigenen Kommunalen Wohnungsbaugesellschaft ( KWR ) schlugen gestern Abend im Stadtparlament die Wogen erneut hoch ._!))
+        (Nucleus
+          (leaf 3)
+          (rel2par joint)
+          (text
+            _!Die eigentlich sachlich zu führende Auseinandersetzung um die Parteispenden von KWR-Chef Richter an Bürgermeister Lünsers Politverein Pro Rathenow wird zunehmend emotionaler ._!)))
+      (Nucleus
+        (span 4 5)
+        (rel2par span)
+        (Nucleus
+          (leaf 4)
+          (rel2par sequence)
+          (text
+            _!Knapp einen Monat nach Ausbruch der Rathenower Parteispendenaffäre_!))
+        (Nucleus
+          (leaf 5)
+          (rel2par sequence)
+          (text
+            _!scheint sich nunmehr aber wenigstens der Gedanke durchzusetzen , die Spenden als moralisch nicht akzeptabel zu werten ._!))))
+    (Nucleus
+      (span 6 13)
+      (rel2par span)
+      (Satellite
+        (span 6 9)
+        (rel2par circumstance)
+        (Nucleus
+          (span 6 7)
+          (rel2par sequence)
+          (Nucleus
+            (leaf 6)
+            (rel2par span)
+            (text
+              _!Nachdem nach langem Zögern auch die CDU-Fraktion sich dieser Auffassung anschloss_!))
+          (Satellite
+            (leaf 7)
+            (rel2par result)
+            (text
+              _!und Bürgermeister Lünser damit von der Fahne wich ,_!)))
+        (Nucleus
+          (span 8 9)
+          (rel2par sequence)
+          (Nucleus
+            (leaf 8)
+            (rel2par span)
+            (text
+              _!hat das Umdenken nun auch in Teilen von Pro Rathenow eingesetzt ._!))
+          (Satellite
+            (leaf 9)
+            (rel2par elaboration)
+            (text
+              _!Als erster seiner Fraktion sprach gestern der Abgeordnete Otto Timm von einem Fehler ._!))))
+      (Nucleus
+        (span 10 13)
+        (rel2par span)
+        (Satellite
+          (leaf 10)
+          (rel2par antithesis)
+          (text
+            _!Während Timm mit diesem Verhalten Pro Rathenow helfen dürfte ,_!))
+        (Nucleus
+          (span 11 13)
+          (rel2par span)
+          (Nucleus
+            (span 11 12)
+            (rel2par span)
+            (Nucleus
+              (leaf 11)
+              (rel2par span)
+              (text
+                _!nimmt das Verhalten von Bürgermeister Lünser langsam groteske Züge an ._!))
+            (Satellite
+              (leaf 12)
+              (rel2par evidence)
+              (text
+                _!Als Legitimation für die Spenden will er nun Belege vorlegen , dass in Potsdam kommunale Betriebe jahrelang Parteien sponserten ._!)))
+          (Satellite
+            (leaf 13)
+            (rel2par evaluation-s)
+            (text
+              _!Für Einsicht in Unrecht spricht auch das erneut nicht ._!)))))))

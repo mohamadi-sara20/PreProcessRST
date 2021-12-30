@@ -1,0 +1,125 @@
+(Root
+  (span 1 17)
+  (Nucleus (leaf 1) (rel2par virtual-root) (text _!Zum Angewöhnen_!))
+  (Nucleus
+    (span 2 17)
+    (rel2par virtual-root)
+    (Nucleus
+      (span 2 15)
+      (rel2par span)
+      (Satellite
+        (span 2 4)
+        (rel2par concession)
+        (Satellite
+          (span 2 3)
+          (rel2par background)
+          (Satellite
+            (leaf 2)
+            (rel2par background)
+            (text
+              _!Die Diskussion , wie teuer die neue Wittstocker Stadthalle für Vereine und Veranstalter wird , hat einige Zeit in Anspruch genommen ._!))
+          (Nucleus
+            (leaf 3)
+            (rel2par span)
+            (text
+              _!Bei der jüngsten Sitzung haben die Stadtverordneten entschieden ._!)))
+        (Nucleus
+          (leaf 4)
+          (rel2par span)
+          (text
+            _!Vor allem kommerzielle Veranstalter werden ab 2002 gut zur Kasse gebeten ._!)))
+      (Nucleus
+        (span 5 15)
+        (rel2par span)
+        (Nucleus
+          (span 5 10)
+          (rel2par joint)
+          (Satellite
+            (span 5 6)
+            (rel2par reason)
+            (Nucleus
+              (leaf 5)
+              (rel2par span)
+              (text
+                _!Die Einnahmen sind dennoch nur ein Tropfen auf den heißen Stein ._!))
+            (Satellite
+              (leaf 6)
+              (rel2par evidence)
+              (text
+                _!Die Betriebskosten für den schmucken Veranstaltungsort sind hoch ._!)))
+          (Nucleus
+            (span 7 10)
+            (rel2par span)
+            (Nucleus
+              (span 7 9)
+              (rel2par span)
+              (Nucleus
+                (leaf 7)
+                (rel2par span)
+                (text
+                  _!Jetzt wird es darum gehen , die Halle so oft wie möglich zu füllen ._!))
+              (Satellite
+                (span 8 9)
+                (rel2par reason)
+                (Nucleus
+                  (leaf 8)
+                  (rel2par conjunction)
+                  (text _!Je mehr Veranstaltungen stattfinden ,_!))
+                (Nucleus
+                  (leaf 9)
+                  (rel2par conjunction)
+                  (text
+                    _!desto weniger wird der Stadthaushalt belastet ._!))))
+            (Satellite
+              (leaf 10)
+              (rel2par summary)
+              (text _!Die Halle muss ausgelastet sein ._!))))
+        (Nucleus
+          (span 11 15)
+          (rel2par joint)
+          (Satellite
+            (span 11 12)
+            (rel2par antithesis)
+            (Nucleus
+              (leaf 11)
+              (rel2par span)
+              (text _!Und in der Region gibt es Konkurrenz ._!))
+            (Satellite
+              (leaf 12)
+              (rel2par evidence)
+              (text
+                _!Auch die Nachbarstädte bieten Veranstaltern genügend Platz ._!)))
+          (Nucleus
+            (span 13 15)
+            (rel2par span)
+            (Nucleus
+              (leaf 13)
+              (rel2par span)
+              (text
+                _!Wittstock dagegen muss sich erst einen Namen machen ._!))
+            (Satellite
+              (span 14 15)
+              (rel2par evidence)
+              (Nucleus
+                (leaf 14)
+                (rel2par span)
+                (text
+                  _!Das Oktoberfest hat gezeigt , dass es eine Anlaufzeit braucht ._!))
+              (Satellite
+                (leaf 15)
+                (rel2par reason)
+                (text
+                  _!Die Gäste aus nah und fern müssen sich erst daran gewöhnen , nach Wittstock und Richtung Gymnasium zu pilgern ._!)))))))
+    (Satellite
+      (span 16 17)
+      (rel2par interpretation)
+      (Nucleus
+        (leaf 16)
+        (rel2par span)
+        (text
+          _!Fest steht , dass die Dosse-Stadt als Mittelzentrum ohne einen ansehnlichen Veranstaltungsort mit ausreichend Platz fürs Publikum nicht auskommt ._!))
+      (Satellite
+        (leaf 17)
+        (rel2par restatement)
+        (text
+          _!Ohne die Halle würde Wittstock bald ins Hintertreffen geraten ._!)))))

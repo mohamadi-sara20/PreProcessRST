@@ -1,0 +1,91 @@
+(Root
+  (span 1 12)
+  (Nucleus
+    (leaf 1)
+    (rel2par virtual-root)
+    (text _!Glückliche Hühner_!))
+  (Nucleus
+    (span 2 12)
+    (rel2par virtual-root)
+    (Satellite
+      (span 2 7)
+      (rel2par evaluation-n)
+      (Satellite
+        (leaf 2)
+        (rel2par interpretation)
+        (text
+          _!Um die deutschen Legehennen ist heftiger politischer Streit entbrannt ._!))
+      (Nucleus
+        (span 3 7)
+        (rel2par span)
+        (Satellite
+          (span 3 4)
+          (rel2par cause)
+          (Nucleus
+            (leaf 3)
+            (rel2par contrast)
+            (text
+              _!Bundesagrarministerin Renate Künast will das Halten der Tiere in engen Legebatterien bereits vom Jahr 2006 an verbieten ._!))
+          (Nucleus
+            (leaf 4)
+            (rel2par contrast)
+            (text
+              _!In den EU-Nachbarländern soll das erst fünf Jahre später gelten ._!)))
+        (Nucleus
+          (span 5 7)
+          (rel2par span)
+          (Nucleus
+            (leaf 5)
+            (rel2par span)
+            (text
+              _!Eier-Produzenten aus der ganzen Republik machen gegen Künasts Pläne mobil ._!))
+          (Satellite
+            (span 6 7)
+            (rel2par elaboration)
+            (Nucleus
+              (leaf 6)
+              (rel2par list)
+              (text
+                _!Die Betriebe im Osten fürchten , dass die hohen Investitionen , die sie in moderne Legebatterien nach europäischem Standard gesteckt haben , umsonst gewesen sind ._!))
+            (Nucleus
+              (leaf 7)
+              (rel2par list)
+              (text
+                _!Im Westen herrscht die Sorge vor , ausländische Konkurrenten könnten dann mit Billig-Eiern aus Legebatterien den deutschen Markt überschwemmen ._!))))))
+    (Nucleus
+      (span 8 12)
+      (rel2par span)
+      (Satellite
+        (leaf 8)
+        (rel2par reason)
+        (text
+          _!Beide Bedenken sind nicht einfach von der Hand zu weisen ._!))
+      (Nucleus
+        (span 9 12)
+        (rel2par span)
+        (Nucleus
+          (leaf 9)
+          (rel2par joint)
+          (text
+            _!Ministerin Künast muss zumindest über längere Übergangsfristen nachdenken ._!))
+        (Nucleus
+          (span 10 12)
+          (rel2par joint)
+          (Nucleus
+            (leaf 10)
+            (rel2par span)
+            (text
+              _!Am Grundsatz , die Käfighaltung abzuschaffen , sollte sie nicht rütteln ._!))
+          (Satellite
+            (span 11 12)
+            (rel2par reason)
+            (Nucleus
+              (leaf 11)
+              (rel2par list)
+              (text
+                _!Artgerechte Tierhaltung gehört schließlich zu den Eckpunkten der von ihr propagierten Agrarwende ._!))
+            (Nucleus
+              (leaf 12)
+              (rel2par list)
+              (text
+                _!Und schließlich greifen immer mehr Verbraucher beim Einkauf bewußt zu den tierfreundlich erzeugten Eiern ._!))))))))

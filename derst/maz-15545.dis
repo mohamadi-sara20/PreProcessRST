@@ -1,0 +1,125 @@
+(Root
+  (span 1 17)
+  (Nucleus
+    (leaf 1)
+    (rel2par virtual-root)
+    (text _!Nicht so schnell_!))
+  (Nucleus
+    (span 2 17)
+    (rel2par virtual-root)
+    (Nucleus
+      (span 2 5)
+      (rel2par joint)
+      (Satellite
+        (span 2 3)
+        (rel2par antithesis)
+        (Nucleus
+          (leaf 2)
+          (rel2par joint)
+          (text
+            _!Die Falkenseer Verwaltung und Havelbus wollen die Buslinie Bahnhof Falkensee - Dallgow näher an die Leute bringen ._!))
+        (Nucleus
+          (leaf 3)
+          (rel2par joint)
+          (text
+            _!Der Bus würde Straßen im Wohnviertel durchfahren ._!)))
+      (Nucleus
+        (span 4 5)
+        (rel2par span)
+        (Nucleus
+          (leaf 4)
+          (rel2par span)
+          (text
+            _!Doch das Angebot , nahe der Haustür den Personennahverkehr nutzen zu können , wollen nicht alle ._!))
+        (Satellite
+          (leaf 5)
+          (rel2par cause)
+          (text
+            _!Er gefährde spielende Kinder und ließe Kaffeetische wackeln ._!))))
+    (Nucleus
+      (span 6 12)
+      (rel2par joint)
+      (Nucleus
+        (leaf 6)
+        (rel2par span)
+        (text
+          _!Die Ablehnung hat in der Verwaltung eine gewisse Verwunderung hervorgerufen ._!))
+      (Satellite
+        (span 7 12)
+        (rel2par cause)
+        (Nucleus
+          (leaf 7)
+          (rel2par list)
+          (text
+            _!Denn auf eine Ansiedlung von etwa 3000 Menschen sollte eine vernünftige Kommunalpolitik mit einem attraktiven Verkehrsangebot reagieren ._!))
+        (Nucleus
+          (span 8 12)
+          (rel2par list)
+          (Nucleus
+            (leaf 8)
+            (rel2par span)
+            (text
+              _!Außerdem hatte der Bauherr vor Jahren bei Verkauf und Vermietung der Häuser eine Busanbindung versprochen ._!))
+          (Satellite
+            (span 9 12)
+            (rel2par cause)
+            (Nucleus
+              (leaf 9)
+              (rel2par span)
+              (text
+                _!Handelte es sich doch vornehmlich um Bürger ,_!))
+            (Satellite
+              (span 10 12)
+              (rel2par e-elaboration)
+              (Satellite
+                (leaf 10)
+                (rel2par concession)
+                (text
+                  _!die zwar ihre Wohnung in Berlin verließen ,_!))
+              (Nucleus
+                (span 11 12)
+                (rel2par span)
+                (Nucleus
+                  (leaf 11)
+                  (rel2par conjunction)
+                  (text _!dort aber nach wie vor arbeiten_!))
+                (Nucleus
+                  (leaf 12)
+                  (rel2par conjunction)
+                  (text _!und daher täglich fahren ._!))))))))
+    (Nucleus
+      (span 13 17)
+      (rel2par joint)
+      (Nucleus
+        (span 13 15)
+        (rel2par span)
+        (Satellite
+          (leaf 13)
+          (rel2par antithesis)
+          (text
+            _!Die Verwaltung hat inzwischen beschwichtigend wissen lassen , nicht gegen den Willen der Bewohner zu handeln ._!))
+        (Nucleus
+          (span 14 15)
+          (rel2par span)
+          (Nucleus
+            (leaf 14)
+            (rel2par list)
+            (text
+              _!Doch sind 80 Unterschriften der Wille der Bewohner ?_!))
+          (Nucleus
+            (leaf 15)
+            (rel2par list)
+            (text
+              _!Gibt es in der Parkstadt nicht auch Bürger , die den Bus dem Verkehr vieler einzelner Autos vorziehen ?_!))))
+      (Satellite
+        (span 16 17)
+        (rel2par interpretation)
+        (Satellite
+          (leaf 16)
+          (rel2par preparation)
+          (text _!Achtung !_!))
+        (Nucleus
+          (leaf 17)
+          (rel2par span)
+          (text
+            _!Eine vorschnelle Entscheidung könnte sich gegen den Willen der tatsächlichen Mehrheit richten ._!))))))

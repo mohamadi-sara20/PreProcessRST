@@ -1,0 +1,140 @@
+(Root
+  (span 1 21)
+  (Nucleus (leaf 1) (rel2par virtual-root) (text _!Veronas Tränen_!))
+  (Nucleus
+    (span 2 21)
+    (rel2par virtual-root)
+    (Nucleus
+      (span 2 17)
+      (rel2par span)
+      (Satellite
+        (span 2 11)
+        (rel2par background)
+        (Satellite
+          (span 2 7)
+          (rel2par background)
+          (Satellite
+            (span 2 3)
+            (rel2par preparation)
+            (Nucleus
+              (leaf 2)
+              (rel2par joint)
+              (text _!Seit dem 11. September ist alles anders ?_!))
+            (Nucleus (leaf 3) (rel2par joint) (text _!Von wegen ._!)))
+          (Nucleus
+            (span 4 7)
+            (rel2par span)
+            (Satellite
+              (span 4 6)
+              (rel2par antithesis)
+              (Nucleus
+                (leaf 4)
+                (rel2par list)
+                (text _!Bin Laden hat Amerika getroffen ,_!))
+              (Nucleus
+                (leaf 5)
+                (rel2par list)
+                (text _!die westliche Welt herausgefordert_!))
+              (Nucleus
+                (leaf 6)
+                (rel2par list)
+                (text _!und Krieg ausgelöst -_!)))
+            (Nucleus
+              (leaf 7)
+              (rel2par span)
+              (text _!die deutsche Spaßkultur widersteht ihm ._!))))
+        (Nucleus
+          (span 8 11)
+          (rel2par span)
+          (Nucleus
+            (span 8 9)
+            (rel2par conjunction)
+            (Satellite
+              (leaf 8)
+              (rel2par preparation)
+              (text _!Deutschland diskutiert :_!))
+            (Nucleus
+              (leaf 9)
+              (rel2par span)
+              (text _!Waren Veronas Tränen echt ?_!)))
+          (Nucleus
+            (span 10 11)
+            (rel2par conjunction)
+            (Satellite
+              (leaf 10)
+              (rel2par circumstance)
+              (text
+                _!Und Johannes B. Kerner gibt Interviews über seine Vermittlerrolle im Ehekrieg ,_!))
+            (Nucleus
+              (leaf 11)
+              (rel2par span)
+              (text
+                _!gegen die Bushs Medienauftritte alt aussehen ._!)))))
+      (Nucleus
+        (span 12 17)
+        (rel2par span)
+        (Nucleus
+          (span 12 15)
+          (rel2par span)
+          (Nucleus
+            (span 12 13)
+            (rel2par joint)
+            (Satellite
+              (leaf 12)
+              (rel2par condition)
+              (text
+                _!Wer gehofft hatte , dass uns künftig wenigstens Veronas Tränen und Dieters Geschwätz auf dem Bildschirm erspart bleiben ,_!))
+            (Nucleus
+              (leaf 13)
+              (rel2par span)
+              (text _!sieht sich getäuscht ._!)))
+          (Nucleus
+            (span 14 15)
+            (rel2par joint)
+            (Nucleus
+              (leaf 14)
+              (rel2par span)
+              (text _!Es muss wohl mehr passieren ,_!))
+            (Satellite
+              (leaf 15)
+              (rel2par purpose)
+              (text
+                _!bevor der Boulevard sich von seinen Schießbudenfiguren trennt ._!))))
+        (Satellite
+          (span 16 17)
+          (rel2par summary)
+          (Satellite
+            (leaf 16)
+            (rel2par circumstance)
+            (text
+              _!Solange wir sie sehen , lesen , kaufen und darüber reden wollen ,_!))
+          (Nucleus
+            (leaf 17)
+            (rel2par span)
+            (text _!werden wir damit leben müssen ._!)))))
+    (Satellite
+      (span 18 21)
+      (rel2par interpretation)
+      (Nucleus
+        (span 18 19)
+        (rel2par joint)
+        (Nucleus
+          (leaf 18)
+          (rel2par joint)
+          (text _!Einen Trost gibt es :_!))
+        (Nucleus
+          (leaf 19)
+          (rel2par joint)
+          (text
+            _!Veronas Tränen sind stärker als bin Ladens Schläfer ._!)))
+      (Nucleus
+        (span 20 21)
+        (rel2par joint)
+        (Nucleus
+          (leaf 20)
+          (rel2par joint)
+          (text _!Berlusconi hat schon Recht :_!))
+        (Nucleus
+          (leaf 21)
+          (rel2par joint)
+          (text _!Der Westen ist dem Islam überlegen ._!))))))

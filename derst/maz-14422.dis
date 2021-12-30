@@ -1,0 +1,133 @@
+(Root
+  (span 1 18)
+  (Nucleus
+    (leaf 1)
+    (rel2par virtual-root)
+    (text _!Was wirklich zählt_!))
+  (Nucleus
+    (span 2 18)
+    (rel2par virtual-root)
+    (Satellite
+      (span 2 11)
+      (rel2par background)
+      (Nucleus
+        (span 2 5)
+        (rel2par span)
+        (Satellite
+          (span 2 4)
+          (rel2par concession)
+          (Nucleus
+            (leaf 2)
+            (rel2par list)
+            (text
+              _!Es ist zweifellos ein großer Zugewinn , dass Eltern heute unter Kindertagesstätten wählen können , die unterschiedliche pädagogische Konzepte bieten ._!))
+          (Nucleus
+            (span 3 4)
+            (rel2par list)
+            (Nucleus
+              (leaf 3)
+              (rel2par span)
+              (text
+                _!Es ist auch von Vorteil , dass die Kitas einer strengen Aufsicht unterliegen ,_!))
+            (Satellite
+              (leaf 4)
+              (rel2par e-elaboration)
+              (text _!die über die räumlichen Bedingungen wacht ._!))))
+        (Nucleus
+          (leaf 5)
+          (rel2par span)
+          (text
+            _!Doch wichtiger als die Quadratmetergrößen von Spielzimmern , die Qualität von Bodenbelägen und aseptische Waschräume erachten die meisten Eltern andere Richtwerte ._!)))
+      (Satellite
+        (span 6 11)
+        (rel2par elaboration)
+        (Nucleus
+          (span 6 7)
+          (rel2par joint)
+          (Nucleus
+            (leaf 6)
+            (rel2par list)
+            (text
+              _!Sie wollen vor allem , dass ihr Kind in einer harmonischen Umgebung den Tag verbringt ,_!))
+          (Nucleus
+            (leaf 7)
+            (rel2par list)
+            (text
+              _!dass es ständige Bezugspersonen hat , die ihm Liebe und Wärme und Konsequenz entgegen bringen ._!)))
+        (Nucleus
+          (span 8 11)
+          (rel2par joint)
+          (Satellite
+            (leaf 8)
+            (rel2par condition)
+            (text _!Wenn die Knirpse herausgewachsen sind ,_!))
+          (Nucleus
+            (span 9 11)
+            (rel2par span)
+            (Nucleus
+              (leaf 9)
+              (rel2par list)
+              (text
+                _!erinnern sie sich vor allem , ob sie in ihrem Kindergarten glücklich waren ,_!))
+            (Nucleus
+              (span 10 11)
+              (rel2par list)
+              (Nucleus
+                (leaf 10)
+                (rel2par disjunction)
+                (text _!ob sie die Tanten leiden mochten_!))
+              (Nucleus
+                (leaf 11)
+                (rel2par disjunction)
+                (text
+                  _!oder nur sehnsüchtig den Abend herbeisehnten ._!)))))))
+    (Nucleus
+      (span 12 18)
+      (rel2par span)
+      (Satellite
+        (span 12 15)
+        (rel2par reason)
+        (Nucleus
+          (span 12 13)
+          (rel2par span)
+          (Nucleus
+            (leaf 12)
+            (rel2par span)
+            (text
+              _!Im " Spatzennest " Groß Glienicke gehört das Klima zu den Stärken des Hauses ,_!))
+          (Satellite
+            (leaf 13)
+            (rel2par concession)
+            (text _!auch wenn das manchmal nach Essen riecht ._!)))
+        (Satellite
+          (span 14 15)
+          (rel2par reason)
+          (Nucleus
+            (leaf 14)
+            (rel2par span)
+            (text
+              _!Aber die Kinder sehen noch , wie gekocht wird ,_!))
+          (Satellite
+            (leaf 15)
+            (rel2par antithesis)
+            (text
+              _!anstatt mit Assiettenkost abgespeist zu werden ._!))))
+      (Nucleus
+        (span 16 18)
+        (rel2par span)
+        (Satellite
+          (leaf 16)
+          (rel2par cause)
+          (text _!All das weiß man im Ort zu schätzen ,_!))
+        (Nucleus
+          (span 17 18)
+          (rel2par span)
+          (Nucleus
+            (leaf 17)
+            (rel2par span)
+            (text
+              _!darum setzt nun , da ein Betrugsskandal das Haus erschüttert , eine Rettungsaktion ein ,_!))
+          (Satellite
+            (leaf 18)
+            (rel2par evaluation-s)
+            (text _!der man nur Erfolg wünschen kann ._!)))))))

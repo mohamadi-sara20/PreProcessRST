@@ -1,0 +1,119 @@
+(Root
+  (span 1 17)
+  (Nucleus (leaf 1) (rel2par virtual-root) (text _!Abwägen_!))
+  (Nucleus
+    (span 2 17)
+    (rel2par virtual-root)
+    (Satellite
+      (span 2 3)
+      (rel2par background)
+      (Satellite
+        (leaf 2)
+        (rel2par antithesis)
+        (text
+          _!Richtig , als Nicht-Teschendorfer erlebt man die Sorgen und Nöte um den Lkw-Verkehr im Griebener Weg nicht jeden Tag hautnah und live mit ._!))
+      (Nucleus
+        (leaf 3)
+        (rel2par span)
+        (text
+          _!Aber gerade deshalb ist es einem Auswärtigen wohl ganz gut möglich , sich ein objektives Bild von der Situation vor Ort zu machen ._!)))
+    (Nucleus
+      (span 4 17)
+      (rel2par span)
+      (Nucleus
+        (span 4 16)
+        (rel2par span)
+        (Satellite
+          (span 4 13)
+          (rel2par solutionhood)
+          (Nucleus
+            (span 4 8)
+            (rel2par contrast)
+            (Satellite
+              (span 4 6)
+              (rel2par reason)
+              (Nucleus
+                (leaf 4)
+                (rel2par conjunction)
+                (text
+                  _!Häufigen Lkw-Verkehr vor der Haustür finde ich auch nicht gerade toll ._!))
+              (Nucleus
+                (span 5 6)
+                (rel2par conjunction)
+                (Satellite
+                  (leaf 5)
+                  (rel2par condition)
+                  (text
+                    _!Und wenn sich die Brummis nicht an die Geschwindigkeitsbegrenzung von 30 km/h halten ,_!))
+                (Nucleus
+                  (leaf 6)
+                  (rel2par span)
+                  (text _!sind Lärm und Ärger vorprogrammiert ._!))))
+            (Nucleus
+              (span 7 8)
+              (rel2par span)
+              (Nucleus
+                (leaf 7)
+                (rel2par conjunction)
+                (text
+                  _!Ordentliche Straßen und Tempokontrollen zu fordern , ist deshalb völlig legitim ._!))
+              (Nucleus
+                (leaf 8)
+                (rel2par conjunction)
+                (text
+                  _!Und die Gemeinde hat bereits signalisiert , die Anlieger dabei unterstützen zu wollen ._!))))
+          (Nucleus
+            (span 9 13)
+            (rel2par contrast)
+            (Satellite
+              (leaf 9)
+              (rel2par preparation)
+              (text _!Nun zu den Argumenten der Gegenseite ._!))
+            (Nucleus
+              (span 10 13)
+              (rel2par span)
+              (Nucleus
+                (leaf 10)
+                (rel2par span)
+                (text
+                  _!Ein Zweischichtsystem ohne wirtschaftliche Notwendigkeit auf eine Schicht reduzieren zu müssen , bringt gegenüber der Konkurrenz zwangsläufig Nachteile mit sich ,_!))
+              (Satellite
+                (span 11 13)
+                (rel2par elaboration)
+                (Nucleus
+                  (leaf 11)
+                  (rel2par list)
+                  (text _!die bis zur Unrentabilität ,_!))
+                (Nucleus
+                  (leaf 12)
+                  (rel2par list)
+                  (text _!Aufgabe des Firmenstandortes_!))
+                (Nucleus
+                  (leaf 13)
+                  (rel2par list)
+                  (text
+                    _!und den Verlust von Arbeitsplätzen führen ._!))))))
+        (Nucleus
+          (span 14 16)
+          (rel2par span)
+          (Satellite
+            (span 14 15)
+            (rel2par evaluation-n)
+            (Satellite
+              (leaf 14)
+              (rel2par preparation)
+              (text
+                _!Bleibt unterm Strich die Frage aller Fragen :_!))
+            (Nucleus
+              (leaf 15)
+              (rel2par span)
+              (text
+                _!Sozialer Frieden für rund 200 Arbeitnehmer und deren Angehörige oder private Ruhe für etwa zehn Anlieger ?_!)))
+          (Nucleus
+            (leaf 16)
+            (rel2par span)
+            (text _!Ehrlich , ich ziehe Arbeit vor ._!))))
+      (Satellite
+        (leaf 17)
+        (rel2par elaboration)
+        (text _!Und wie würden Sie entscheiden ?_!)))))

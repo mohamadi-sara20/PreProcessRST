@@ -1,0 +1,175 @@
+(Root
+  (span 1 24)
+  (Nucleus
+    (leaf 1)
+    (rel2par virtual-root)
+    (text _!Alles wie gehabt_!))
+  (Nucleus
+    (span 2 24)
+    (rel2par virtual-root)
+    (Satellite
+      (span 2 8)
+      (rel2par background)
+      (Satellite
+        (span 2 7)
+        (rel2par background)
+        (Nucleus
+          (leaf 2)
+          (rel2par joint)
+          (text
+            _!Der Kurzfilm zu Silvester ist immer noch ein Renner ._!))
+        (Nucleus
+          (span 3 4)
+          (rel2par joint)
+          (Nucleus
+            (leaf 3)
+            (rel2par conjunction)
+            (text
+              _!Eine Frau von Adel sitzt mit unsichtbaren Gästen am Tisch_!))
+          (Nucleus
+            (leaf 4)
+            (rel2par conjunction)
+            (text
+              _!und trinkt sich langsam aber sicher ins Abseits ._!)))
+        (Nucleus
+          (span 5 7)
+          (rel2par joint)
+          (Satellite
+            (leaf 5)
+            (rel2par preparation)
+            (text _!Sie betont jedoch :_!))
+          (Nucleus
+            (span 6 7)
+            (rel2par span)
+            (Nucleus
+              (leaf 6)
+              (rel2par span)
+              (text _!" Same procedure as every year " ,_!))
+            (Satellite
+              (leaf 7)
+              (rel2par interpretation)
+              (text _!alles soll so ablaufen , wie jedes Jahr ._!)))))
+      (Nucleus
+        (leaf 8)
+        (rel2par span)
+        (text
+          _!Der Satz trifft auch auf die Wittstocker Region zu ._!)))
+    (Nucleus
+      (span 9 24)
+      (rel2par span)
+      (Satellite
+        (span 9 12)
+        (rel2par reason)
+        (Satellite
+          (leaf 9)
+          (rel2par interpretation)
+          (text
+            _!Die Bürgerinitiative Freie Heide lässt nicht locker ._!))
+        (Nucleus
+          (span 10 12)
+          (rel2par span)
+          (Satellite
+            (leaf 10)
+            (rel2par circumstance)
+            (text
+              _!Der Streit um den Schießplatz dauert nun schon ein Jahrzehnt ._!))
+          (Nucleus
+            (span 11 12)
+            (rel2par span)
+            (Nucleus
+              (leaf 11)
+              (rel2par span)
+              (text
+                _!Die Meldung in der Zeitung , dass es am Neujahrstag wieder eine Protestwanderung gibt , wäre gar nicht nötig ._!))
+            (Satellite
+              (leaf 12)
+              (rel2par reason)
+              (text _!Es ist bekannt : same procedure ._!)))))
+      (Nucleus
+        (span 13 24)
+        (rel2par span)
+        (Nucleus
+          (span 13 18)
+          (rel2par span)
+          (Nucleus
+            (span 13 14)
+            (rel2par span)
+            (Satellite
+              (leaf 13)
+              (rel2par preparation)
+              (text
+                _!Deshalb könnte auch der gleiche Kommentar abgegeben werden :_!))
+            (Nucleus
+              (leaf 14)
+              (rel2par span)
+              (text _!Der Streit muss endlich entschieden werden ._!)))
+          (Satellite
+            (span 15 18)
+            (rel2par reason)
+            (Nucleus
+              (leaf 15)
+              (rel2par conjunction)
+              (text
+                _!Er nutzt keinem - weder der Bundeswehr noch den Schießplatzgemeinden und der Region ._!))
+            (Nucleus
+              (span 16 18)
+              (rel2par conjunction)
+              (Nucleus
+                (leaf 16)
+                (rel2par span)
+                (text
+                  _!Und die Stadt Wittstock hat mit einem schlechten Image zu kämpfen ._!))
+              (Satellite
+                (span 17 18)
+                (rel2par reason)
+                (Nucleus
+                  (leaf 17)
+                  (rel2par contrast)
+                  (text _!Den Streit kennt fast jeder ,_!))
+                (Nucleus
+                  (leaf 18)
+                  (rel2par contrast)
+                  (text _!die Stadt selbst nicht ._!))))))
+        (Satellite
+          (span 19 24)
+          (rel2par interpretation)
+          (Nucleus
+            (span 19 22)
+            (rel2par span)
+            (Nucleus
+              (leaf 19)
+              (rel2par span)
+              (text
+                _!Aber irgendwann ist der Platz sowieso nicht mehr nötig ._!))
+            (Satellite
+              (span 20 22)
+              (rel2par reason)
+              (Nucleus
+                (leaf 20)
+                (rel2par span)
+                (text _!Dann muss kein Tornado mehr üben ,_!))
+              (Satellite
+                (span 21 22)
+                (rel2par cause)
+                (Nucleus
+                  (leaf 21)
+                  (rel2par conjunction)
+                  (text _!weil Geschosse unbemannt fliegen_!))
+                (Nucleus
+                  (leaf 22)
+                  (rel2par conjunction)
+                  (text
+                    _!und via Satellit ins Ziel gebracht werden ._!)))))
+          (Satellite
+            (span 23 24)
+            (rel2par interpretation)
+            (Satellite
+              (leaf 23)
+              (rel2par concession)
+              (text
+                _!Das ist zwar auch keine angenehme Zukunftsvision ,_!))
+            (Nucleus
+              (leaf 24)
+              (rel2par span)
+              (text
+                _!aber der Streit wäre dann endlich vom Tisch ._!))))))))

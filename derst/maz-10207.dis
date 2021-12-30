@@ -1,0 +1,133 @@
+(Root
+  (span 1 18)
+  (Nucleus
+    (leaf 1)
+    (rel2par virtual-root)
+    (text _!Alles beim Alten_!))
+  (Nucleus
+    (span 2 18)
+    (rel2par virtual-root)
+    (Nucleus
+      (span 2 17)
+      (rel2par span)
+      (Satellite
+        (span 2 6)
+        (rel2par background)
+        (Nucleus
+          (span 2 5)
+          (rel2par span)
+          (Nucleus
+            (span 2 4)
+            (rel2par span)
+            (Satellite
+              (span 2 3)
+              (rel2par interpretation)
+              (Satellite
+                (leaf 2)
+                (rel2par preparation)
+                (text _!Nun ist es heraus :_!))
+              (Nucleus
+                (leaf 3)
+                (rel2par span)
+                (text
+                  _!Wie schon auf Kreisebene , so bleibt auch an der Verwaltungsspitze der Städte Perleberg und Pritzwalk alles beim Alten ._!)))
+            (Nucleus
+              (leaf 4)
+              (rel2par span)
+              (text
+                _!Die Amtsinhaber sind beide im ersten Wahlgang in ihren Ämtern bestätigt worden -_!)))
+          (Satellite
+            (leaf 5)
+            (rel2par interpretation)
+            (text
+              _!Gratulation an beide dazu natürlich auch von der MAZ ._!)))
+        (Satellite
+          (leaf 6)
+          (rel2par interpretation)
+          (text _!Das konnte man so erwarten ._!)))
+      (Nucleus
+        (span 7 17)
+        (rel2par span)
+        (Nucleus
+          (span 7 11)
+          (rel2par list)
+          (Satellite
+            (span 7 8)
+            (rel2par concession)
+            (Nucleus
+              (leaf 7)
+              (rel2par span)
+              (text
+                _!Lediglich in Pritzwalk hatte die Möglichkeit eines zweiten Wahlgangs bestanden ,_!))
+            (Satellite
+              (leaf 8)
+              (rel2par e-elaboration)
+              (text
+                _!sie schien angesichts dreier Kandidaten auch nicht unbedingt unwahrscheinlich ._!)))
+          (Nucleus
+            (span 9 11)
+            (rel2par span)
+            (Nucleus
+              (leaf 9)
+              (rel2par list)
+              (text
+                _!Doch die Dömnitzstädter setzten nicht auf Wechsel ,_!))
+            (Nucleus
+              (leaf 10)
+              (rel2par list)
+              (text
+                _!bescherten Wolfgang Brockmann einen großartigen Erfolg_!))
+            (Nucleus
+              (leaf 11)
+              (rel2par list)
+              (text _!und sorgten für klare Verhältnisse ._!))))
+        (Nucleus
+          (span 12 17)
+          (rel2par list)
+          (Satellite
+            (leaf 12)
+            (rel2par justify)
+            (text
+              _!Mit denen war in Perleberg sowieso zu rechnen ._!))
+          (Nucleus
+            (span 13 17)
+            (rel2par span)
+            (Nucleus
+              (leaf 13)
+              (rel2par span)
+              (text
+                _!Angesichts dessen aber hat sich der junge Herausforderer Thomas Domres gegen Bürgermeister Dietmar Zigan durchaus achtbar geschlagen ._!))
+            (Satellite
+              (span 14 17)
+              (rel2par interpretation)
+              (Nucleus
+                (span 14 15)
+                (rel2par joint)
+                (Satellite
+                  (leaf 14)
+                  (rel2par concession)
+                  (text
+                    _!Das kann bedeuten , dass die Bürger zwar Kontinuität wollten ,_!))
+                (Nucleus
+                  (leaf 15)
+                  (rel2par span)
+                  (text
+                    _!aber mit einem simplen " Weiter so " eben nicht einverstanden wären ._!)))
+              (Nucleus
+                (span 16 17)
+                (rel2par joint)
+                (Nucleus
+                  (leaf 16)
+                  (rel2par span)
+                  (text
+                    _!Gleichwohl hat auch Zigan sich acht weitere Jahre im Amt gesichert ,_!))
+                (Satellite
+                  (leaf 17)
+                  (rel2par interpretation)
+                  (text
+                    _!die er nach eigenem Bekunden auch voll erfüllen will ._!))))))))
+    (Satellite
+      (leaf 18)
+      (rel2par interpretation)
+      (text
+        _!Bleibt zu hoffen dass sich mit den alten Namen der Amtsträger künftig auch neue , die Region weiterführende Ideen verbinden ._!))))

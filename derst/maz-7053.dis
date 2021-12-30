@@ -1,0 +1,127 @@
+(Root
+  (span 1 17)
+  (Nucleus
+    (leaf 1)
+    (rel2par virtual-root)
+    (text _!Unangenehm aber fair_!))
+  (Nucleus
+    (span 2 17)
+    (rel2par virtual-root)
+    (Satellite
+      (span 2 9)
+      (rel2par background)
+      (Satellite
+        (span 2 7)
+        (rel2par cause)
+        (Satellite
+          (span 2 4)
+          (rel2par evaluation-n)
+          (Nucleus
+            (leaf 2)
+            (rel2par joint)
+            (text
+              _!Im Löwenberger Land steht eine Änderung der Kita-Öffnungszeiten bevor ._!))
+          (Nucleus
+            (span 3 4)
+            (rel2par joint)
+            (Nucleus
+              (leaf 3)
+              (rel2par span)
+              (text
+                _!Die Verwaltung reagiert damit auf eine Analyse ,_!))
+            (Satellite
+              (leaf 4)
+              (rel2par e-elaboration)
+              (text
+                _!die sich vor allem mit der Anzahl betreuter Kinder zu den verschiedenen Tageszeiten beschäftigt ._!))))
+        (Nucleus
+          (span 5 7)
+          (rel2par span)
+          (Nucleus
+            (span 5 6)
+            (rel2par span)
+            (Satellite
+              (leaf 5)
+              (rel2par condition)
+              (text
+                _!Wer hinter den neuen Betreuungszeiten Sparabsichten vermutet ,_!))
+            (Nucleus
+              (leaf 6)
+              (rel2par span)
+              (text _!liegt richtig ._!)))
+          (Satellite
+            (leaf 7)
+            (rel2par reason)
+            (text
+              _!Bekanntlich sitzt der Landesregierung beim Thema Kinderbetreuung der Rotstift nach wie vor viel zu locker ._!))))
+      (Nucleus
+        (span 8 9)
+        (rel2par span)
+        (Nucleus
+          (leaf 8)
+          (rel2par span)
+          (text
+            _!Mit den Folgen müssen sich die Verwaltungen vor Ort herumplagen ._!))
+        (Satellite
+          (leaf 9)
+          (rel2par elaboration)
+          (text
+            _!Unpopuläre Entscheidungen , die bis zur Schließung führen , sind die Folge ._!))))
+    (Nucleus
+      (span 10 17)
+      (rel2par span)
+      (Satellite
+        (span 10 15)
+        (rel2par evaluation-n)
+        (Satellite
+          (span 10 11)
+          (rel2par background)
+          (Nucleus
+            (leaf 10)
+            (rel2par joint)
+            (text
+              _!Davon wissen auch die Löwenberger ein trauriges Lied zu singen ._!))
+          (Nucleus
+            (leaf 11)
+            (rel2par joint)
+            (text
+              _!Die eingangs erwähnte Analyse ist der Versuch , auf weniger Geld für Kinderbetreuung möglichst objektiv zu reagieren ._!)))
+        (Nucleus
+          (span 12 15)
+          (rel2par span)
+          (Nucleus
+            (span 12 13)
+            (rel2par list)
+            (Satellite
+              (leaf 12)
+              (rel2par circumstance)
+              (text _!Nunmehr soll eine Kita öffnen ,_!))
+            (Nucleus
+              (leaf 13)
+              (rel2par span)
+              (text
+                _!wenn zwischen zehn und 15 Prozent ( schon diese Spanne ist ein Zugeständnis ) der insgesamt betreuten Mädchen und Jungen in der Einrichtung sind ._!)))
+          (Nucleus
+            (span 14 15)
+            (rel2par list)
+            (Nucleus
+              (leaf 14)
+              (rel2par span)
+              (text _!Die Einrichtung schließt ,_!))
+            (Satellite
+              (leaf 15)
+              (rel2par condition)
+              (text _!werden die Zahlen unterschritten ._!)))))
+      (Nucleus
+        (span 16 17)
+        (rel2par span)
+        (Nucleus
+          (leaf 16)
+          (rel2par span)
+          (text
+            _!Aus demokratischer Sicht ( die Mehrheit entscheidet ) und auch unter wirtschaftlichem Aspekt ( woher nehmen und nicht stehlen ? ) eine faire Entscheidung ,_!))
+        (Satellite
+          (leaf 17)
+          (rel2par e-elaboration)
+          (text
+            _!die zudem bei veränderten Kinderzahlen jederzeit korrigierbar ist ._!))))))

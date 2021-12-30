@@ -1,0 +1,134 @@
+(Root
+  (span 1 19)
+  (Nucleus
+    (leaf 1)
+    (rel2par virtual-root)
+    (text _!Bauernregeln sind passé_!))
+  (Nucleus
+    (span 2 19)
+    (rel2par virtual-root)
+    (Satellite
+      (span 2 10)
+      (rel2par background)
+      (Satellite
+        (span 2 4)
+        (rel2par background)
+        (Satellite
+          (span 2 3)
+          (rel2par antithesis)
+          (Nucleus
+            (leaf 2)
+            (rel2par list)
+            (text
+              _!Land- , Forst- und Tierwirte sind nicht nur mit Kordhut , Blaumann und Gummistiefeln unterwegs ,_!))
+          (Nucleus
+            (leaf 3)
+            (rel2par list)
+            (text
+              _!fahren nicht nur tagein , tagaus mit dem Traktor über das Feld ._!)))
+        (Nucleus
+          (leaf 4)
+          (rel2par span)
+          (text
+            _!Heute ist ihr Job , der kein Berufszweig für Romantiker ohne Zukunft ist , ein anderer ._!)))
+      (Nucleus
+        (span 5 10)
+        (rel2par span)
+        (Nucleus
+          (span 5 6)
+          (rel2par span)
+          (Nucleus
+            (leaf 5)
+            (rel2par span)
+            (text
+              _!Die Landwirtschaft stellt in Brandenburg - trotz des hohen Beschäftigungsrückgangs nach der Wende - noch immer einen wichtigen Wirtschaftszweig dar ,_!))
+          (Satellite
+            (leaf 6)
+            (rel2par elaboration)
+            (text
+              _!der darüber hinaus viele Arbeits- und Ausbildungsplätze schafft ._!)))
+        (Satellite
+          (span 7 10)
+          (rel2par evidence)
+          (Nucleus
+            (leaf 7)
+            (rel2par list)
+            (text
+              _!Jeder achte Job hängt im Land von der Agrarwirtschaft ab ,_!))
+          (Nucleus
+            (leaf 8)
+            (rel2par list)
+            (text
+              _!die ein Fünftel des Bruttosozialproduktes erbringt ._!))
+          (Nucleus
+            (leaf 9)
+            (rel2par list)
+            (text
+              _!80 Prozent der Fläche Brandenburgs wird nach Angaben des Landesamtes für Agarwirtschaft derzeit landwirtschaftlich genutzt ._!))
+          (Nucleus
+            (leaf 10)
+            (rel2par list)
+            (text
+              _!Darüber hinaus belebt der Wirtschaftszweig den dörflichen Raum ._!)))))
+    (Nucleus
+      (span 11 19)
+      (rel2par span)
+      (Nucleus
+        (span 11 17)
+        (rel2par span)
+        (Nucleus
+          (span 11 13)
+          (rel2par span)
+          (Nucleus
+            (leaf 11)
+            (rel2par list)
+            (text
+              _!In Zeiten von BSE müssen Agrarwirte jedoch auch umdenken ,_!))
+          (Nucleus
+            (leaf 12)
+            (rel2par list)
+            (text
+              _!sich auf neue extensive Produktionsformen einlassen_!))
+          (Nucleus
+            (leaf 13)
+            (rel2par list)
+            (text
+              _!und andere Vermarktungsmöglichkeiten erschließen ._!)))
+        (Satellite
+          (span 14 17)
+          (rel2par enablement)
+          (Nucleus
+            (span 14 15)
+            (rel2par joint)
+            (Satellite
+              (leaf 14)
+              (rel2par purpose)
+              (text _!Damit das gelingt ,_!))
+            (Nucleus
+              (leaf 15)
+              (rel2par span)
+              (text _!sollte die Ausbildung stimmen ._!)))
+          (Nucleus
+            (span 16 17)
+            (rel2par joint)
+            (Satellite
+              (leaf 16)
+              (rel2par circumstance)
+              (text
+                _!Egal ob mit einem Diplom oder Meisterbrief ausgestattet ,_!))
+            (Nucleus
+              (leaf 17)
+              (rel2par span)
+              (text _!muss ein Landwirt ständig dazulernen ._!)))))
+      (Satellite
+        (span 18 19)
+        (rel2par summary)
+        (Satellite
+          (leaf 18)
+          (rel2par antithesis)
+          (text _!Die Zeiten der Bauernregeln sind passé ._!))
+        (Nucleus
+          (leaf 19)
+          (rel2par span)
+          (text
+            _!Heute sind Kenntnisse in Management und Unternehmensführung genauso wichtig wie Fachwissen ._!))))))

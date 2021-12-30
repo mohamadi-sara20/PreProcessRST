@@ -1,0 +1,116 @@
+(Root
+  (span 1 16)
+  (Nucleus (leaf 1) (rel2par virtual-root) (text _!Falsche Bilder_!))
+  (Nucleus
+    (span 2 16)
+    (rel2par virtual-root)
+    (Satellite
+      (span 2 12)
+      (rel2par antithesis)
+      (Nucleus
+        (span 2 6)
+        (rel2par joint)
+        (Satellite
+          (leaf 2)
+          (rel2par background)
+          (text
+            _!Das Zusammenleben von Ausländern und Deutschen hier in Brandenburg , wo der Anteil der Menschen aus anderen Ländern verschwindend gering ist , war auch vor dem 11. September 2001 nicht ohne Probleme ._!))
+        (Nucleus
+          (span 3 6)
+          (rel2par span)
+          (Satellite
+            (leaf 3)
+            (rel2par preparation)
+            (text _!Im Gegenteil ._!))
+          (Nucleus
+            (span 4 6)
+            (rel2par span)
+            (Nucleus
+              (span 4 5)
+              (rel2par span)
+              (Satellite
+                (leaf 4)
+                (rel2par condition)
+                (text
+                  _!Wer etwa in den alten Bundesländern unterwegs war ,_!))
+              (Nucleus
+                (leaf 5)
+                (rel2par span)
+                (text
+                  _!der musste erleben , dass " Brandenburg " und " Ausländerfeindlichkeit " oft als Synonyme betrachtet wurden -_!)))
+            (Satellite
+              (leaf 6)
+              (rel2par evaluation-s)
+              (text _!durchaus kein angenehmer Zustand ._!)))))
+      (Nucleus
+        (span 7 12)
+        (rel2par joint)
+        (Satellite
+          (span 7 8)
+          (rel2par result)
+          (Nucleus
+            (leaf 7)
+            (rel2par sequence)
+            (text _!Nach den Anschlägen in Amerika_!))
+          (Nucleus
+            (leaf 8)
+            (rel2par sequence)
+            (text _!wurde dieser Zustand leider noch verschärft ._!)))
+        (Nucleus
+          (span 9 12)
+          (rel2par span)
+          (Nucleus
+            (span 9 10)
+            (rel2par span)
+            (Nucleus
+              (leaf 9)
+              (rel2par conjunction)
+              (text
+                _!Denn inzwischen hatte sich der wachsame Deutsche bekanntlich im Kopf sein eigenes Bild des islamistischen Kämpfers zurechtgelegt ._!))
+            (Nucleus
+              (leaf 10)
+              (rel2par conjunction)
+              (text
+                _!Und wehe dem , der diesem Bild auch nur im entferntesten ähnelte ..._!)))
+          (Satellite
+            (span 11 12)
+            (rel2par interpretation)
+            (Nucleus
+              (leaf 11)
+              (rel2par list)
+              (text
+                _!Es schien , als sei das Bemühen um ein friedliches Miteinandern um Jahre zurückgeworfen worden ._!))
+            (Nucleus
+              (leaf 12)
+              (rel2par list)
+              (text
+                _!Es schien , als hätten diejenigen verspielt , die das Multikulturelle gesellschaftsfähig machen wollten ._!))))))
+    (Nucleus
+      (span 13 16)
+      (rel2par span)
+      (Nucleus
+        (span 13 15)
+        (rel2par span)
+        (Nucleus
+          (leaf 13)
+          (rel2par list)
+          (text
+            _!Gut , dass inzwischen wieder länger nachgedacht wird ._!))
+        (Nucleus
+          (span 14 15)
+          (rel2par list)
+          (Nucleus
+            (leaf 14)
+            (rel2par conjunction)
+            (text
+              _!Gut , dass Veranstaltungen wie die Interkulturelle Woche in Ludwigsfelde weitergeführt_!))
+          (Nucleus
+            (leaf 15)
+            (rel2par conjunction)
+            (text
+              _!und als Forum der Verständigung für Deutsche und Ausländer genutzt werden ._!))))
+      (Satellite
+        (leaf 16)
+        (rel2par evidence)
+        (text
+          _!Denn nur so , mit Beharrlichkeit , werden falsche Bilder in den Köpfen zurechtgerückt ._!)))))

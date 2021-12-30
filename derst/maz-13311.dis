@@ -1,0 +1,96 @@
+(Root
+  (span 1 13)
+  (Nucleus
+    (leaf 1)
+    (rel2par virtual-root)
+    (text _!Spaß in der ersten Reihe_!))
+  (Nucleus
+    (span 2 13)
+    (rel2par virtual-root)
+    (Satellite
+      (span 2 7)
+      (rel2par background)
+      (Satellite
+        (span 2 3)
+        (rel2par background)
+        (Nucleus
+          (leaf 2)
+          (rel2par conjunction)
+          (text _!Das ganze Leben ist ein Quiz_!))
+        (Nucleus
+          (leaf 3)
+          (rel2par conjunction)
+          (text
+            _!und wir sind nur die Kandidaten , sang bereits vor zehn Jahren Hape Kerkeling ._!)))
+      (Nucleus
+        (span 4 7)
+        (rel2par span)
+        (Satellite
+          (leaf 4)
+          (rel2par preparation)
+          (text
+            _!Nun bestätigt eine Studie den weitsichtigen Entertainer :_!))
+        (Nucleus
+          (span 5 7)
+          (rel2par span)
+          (Nucleus
+            (leaf 5)
+            (rel2par span)
+            (text
+              _!Die Entwicklung - vor allem im öffentlich-rechtlichen Fernsehen - geht stramm in Richtung Unterhaltung ._!))
+          (Satellite
+            (span 6 7)
+            (rel2par evidence)
+            (Nucleus
+              (leaf 6)
+              (rel2par conjunction)
+              (text
+                _!Der Anteil politischer Sendungen am Programm hat weiter abgenommen_!))
+            (Nucleus
+              (leaf 7)
+              (rel2par conjunction)
+              (text _!und ein Ende ist nicht in Sicht ._!))))))
+    (Nucleus
+      (span 8 13)
+      (rel2par span)
+      (Nucleus
+        (span 8 11)
+        (rel2par span)
+        (Satellite
+          (leaf 8)
+          (rel2par concession)
+          (text
+            _!Dass private Anbieter , die sich nur durch Werbung finanzieren , publikumswirksame Unterhaltungssendungen in den Vordergrund stellen , ist verständlich ._!))
+        (Nucleus
+          (span 9 11)
+          (rel2par span)
+          (Nucleus
+            (leaf 9)
+            (rel2par span)
+            (text
+              _!Dass aber die gebührenfinanzierten Programme ihren Auftrag - die fernsehpublizistische und politische Grundversorgung zu sichern - zunehmend ignorieren , ist mehr als bedenklich ._!))
+          (Satellite
+            (span 10 11)
+            (rel2par reason)
+            (Nucleus
+              (leaf 10)
+              (rel2par span)
+              (text
+                _!Denn das öffentliche Mandat fordert eine gesunde Mischung von Unterhaltung und Information ._!))
+            (Satellite
+              (leaf 11)
+              (rel2par justify)
+              (text _!Dafür zahlen wir Gebühren ._!)))))
+      (Satellite
+        (span 12 13)
+        (rel2par interpretation)
+        (Satellite
+          (leaf 12)
+          (rel2par concession)
+          (text
+            _!Wenn an Katastrophen-Tagen Sondersendungen wie der " ARD-Brennpunkt " laufen ,_!))
+        (Nucleus
+          (leaf 13)
+          (rel2par span)
+          (text
+            _!kann das nicht darüber hinwegtäuschen , dass die Spaßgesellschaft längst auch beim öffentlich-rechtlichen Rundfunk den Ton angibt ._!))))))

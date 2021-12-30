@@ -1,0 +1,140 @@
+(Root
+  (span 1 19)
+  (Nucleus
+    (leaf 1)
+    (rel2par virtual-root)
+    (text _!Schätze gehoben_!))
+  (Nucleus
+    (span 2 19)
+    (rel2par virtual-root)
+    (Satellite
+      (span 2 3)
+      (rel2par background)
+      (Satellite
+        (leaf 2)
+        (rel2par circumstance)
+        (text
+          _!Als Raubritter Bassewitz die Kyritzer einst bedrängte ,_!))
+      (Nucleus
+        (leaf 3)
+        (rel2par span)
+        (text
+          _!sollen sich die Bewohner mit Knatterkrapfen gestärkt haben ._!)))
+    (Nucleus
+      (span 4 19)
+      (rel2par span)
+      (Nucleus
+        (span 4 13)
+        (rel2par sequence)
+        (Nucleus
+          (span 4 6)
+          (rel2par joint)
+          (Nucleus
+            (span 4 5)
+            (rel2par span)
+            (Nucleus
+              (leaf 4)
+              (rel2par span)
+              (text
+                _!Der Kyritzer Bäckermeister Thomas Haupt brachte gestern zum Spezialitätenwettbewerb der Prignitzer Bäcker-Innung eine Tafel mit ,_!))
+            (Satellite
+              (leaf 5)
+              (rel2par e-elaboration)
+              (text
+                _!auf der von dieser Begebenheit berichtet wird ._!)))
+          (Satellite
+            (leaf 6)
+            (rel2par elaboration)
+            (text
+              _!Die Rezeptur für seinen Knatterkrapfen hat er von seiner Großmutter übernommen ._!)))
+        (Nucleus
+          (span 7 13)
+          (rel2par joint)
+          (Nucleus
+            (span 7 8)
+            (rel2par span)
+            (Nucleus
+              (leaf 7)
+              (rel2par span)
+              (text
+                _!Auch die anderen Bäckermeister stellten Rezepturen vor ,_!))
+            (Satellite
+              (leaf 8)
+              (rel2par e-elaboration)
+              (text _!die so wohl kaum bekannt waren ._!)))
+          (Satellite
+            (span 9 13)
+            (rel2par e-elaboration)
+            (Nucleus
+              (leaf 9)
+              (rel2par list)
+              (text
+                _!Einmalig dürfte das geflochtene Bunte Brot von Winfried Höfler aus Perleberg sein ,_!))
+            (Nucleus
+              (leaf 10)
+              (rel2par list)
+              (text
+                _!ebenso einmalig wie die Elbwelle von Wolfgang Grünberg aus Lenzen ._!))
+            (Nucleus
+              (span 11 13)
+              (rel2par list)
+              (Nucleus
+                (leaf 11)
+                (rel2par span)
+                (text
+                  _!Eine Neuentwicklung präsentierte auch der Fretzdorfer Thomas Hausbalk mit seinem Schrotbrot ,_!))
+              (Satellite
+                (span 12 13)
+                (rel2par e-elaboration)
+                (Satellite
+                  (leaf 12)
+                  (rel2par antithesis)
+                  (text _!dass sich nicht nur lange frisch hält ,_!))
+                (Nucleus
+                  (leaf 13)
+                  (rel2par span)
+                  (text
+                    _!sondern auch den Ansprüchen gesunder Ernährung entspricht ._!)))))))
+      (Nucleus
+        (span 14 19)
+        (rel2par sequence)
+        (Nucleus
+          (span 14 15)
+          (rel2par joint)
+          (Nucleus
+            (leaf 14)
+            (rel2par conjunction)
+            (text
+              _!Die Meister werden nun ihre Spezialitäten auf der Grünen Woche vorstellen_!))
+          (Nucleus
+            (leaf 15)
+            (rel2par conjunction)
+            (text _!und damit für die Prignitz werben ._!)))
+        (Nucleus
+          (span 16 19)
+          (rel2par joint)
+          (Nucleus
+            (span 16 17)
+            (rel2par joint)
+            (Nucleus
+              (leaf 16)
+              (rel2par span)
+              (text
+                _!Der Wettbewerb hat jedoch auch gezeigt , dass im Handwerk verborgene Schätze schlummern -_!))
+            (Satellite
+              (leaf 17)
+              (rel2par elaboration)
+              (text _!mehr als man sich denkt ._!)))
+          (Nucleus
+            (span 18 19)
+            (rel2par joint)
+            (Satellite
+              (leaf 18)
+              (rel2par antithesis)
+              (text
+                _!Oft fehlt es nur am Mut , mit diesen Schätzen an die Öffentlichkeit zu gehen ._!))
+            (Nucleus
+              (leaf 19)
+              (rel2par span)
+              (text
+                _!Mit der PR-Aktion wurde eben auch eine Hemmschwelle überwunden ._!))))))))

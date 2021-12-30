@@ -1,0 +1,141 @@
+(Root
+  (span 1 19)
+  (Nucleus
+    (leaf 1)
+    (rel2par virtual-root)
+    (text _!Nostalgie und frische Luft_!))
+  (Nucleus
+    (span 2 19)
+    (rel2par virtual-root)
+    (Nucleus
+      (span 2 18)
+      (rel2par span)
+      (Satellite
+        (span 2 12)
+        (rel2par background)
+        (Nucleus
+          (span 2 5)
+          (rel2par span)
+          (Satellite
+            (span 2 3)
+            (rel2par background)
+            (Satellite
+              (leaf 2)
+              (rel2par condition)
+              (text
+                _!Wenn ältere Pritzwalker aufs Hainholz zu sprechen kommen ,_!))
+            (Nucleus
+              (leaf 3)
+              (rel2par span)
+              (text
+                _!da können sie schon in Erinnerungen schwelgen ._!)))
+          (Nucleus
+            (span 4 5)
+            (rel2par span)
+            (Nucleus
+              (leaf 4)
+              (rel2par span)
+              (text
+                _!Voll des Lobes waren Mitglieder des Pritzwalker Bauausschusses am Mittwoch ,_!))
+            (Satellite
+              (leaf 5)
+              (rel2par circumstance)
+              (text
+                _!als ein Bericht über die Bewirtschaftung des Stadtforstes auf der Tagesordnung ihrer Sitzung stand ._!))))
+        (Satellite
+          (span 6 12)
+          (rel2par evidence)
+          (Nucleus
+            (span 6 7)
+            (rel2par list)
+            (Nucleus
+              (leaf 6)
+              (rel2par span)
+              (text
+                _!" Pritzwalk kann auf seinen Stadtwald stolz sein ._!))
+            (Satellite
+              (leaf 7)
+              (rel2par reason)
+              (text
+                _!Sowas gibt es selten " , schwärmte etwa Wolfgang Eichhorst ._!)))
+          (Nucleus
+            (span 8 10)
+            (rel2par list)
+            (Satellite
+              (leaf 8)
+              (rel2par preparation)
+              (text _!Und Dietrich Kurtz sagte :_!))
+            (Nucleus
+              (span 9 10)
+              (rel2par span)
+              (Nucleus
+                (leaf 9)
+                (rel2par span)
+                (text
+                  _!" Früher als Jungs und mit der Clique sind wir oft ins Hainholz gegangen ._!))
+              (Satellite
+                (leaf 10)
+                (rel2par elaboration)
+                (text
+                  _!Das war damals für die Jugend selbstverständlich . "_!))))
+          (Nucleus
+            (span 11 12)
+            (rel2par list)
+            (Satellite
+              (leaf 11)
+              (rel2par circumstance)
+              (text
+                _!Ob sie sich da vielleicht heimlich mit Mädchen getroffen hätten , wollten neugierige Sitzungsteilnehmer wissen :_!))
+            (Nucleus
+              (leaf 12)
+              (rel2par span)
+              (text
+                _!" Klar sind da auch mal Mädels dabei gewesen " , gestand Kurtz ._!)))))
+      (Nucleus
+        (span 13 18)
+        (rel2par span)
+        (Nucleus
+          (span 13 15)
+          (rel2par contrast)
+          (Nucleus
+            (leaf 13)
+            (rel2par joint)
+            (text
+              _!Der wunderbare Mischwald am Rande der Stadt entfaltet aber nicht nur eine nostalgische Wirkung auf die Menschen ._!))
+          (Nucleus
+            (span 14 15)
+            (rel2par joint)
+            (Nucleus
+              (leaf 14)
+              (rel2par span)
+              (text
+                _!Er ist nach wie vor Anziehungspunkt für Spaziergänger , Radler , Läufer und Naturliebhaber jeden Alters -_!))
+            (Satellite
+              (leaf 15)
+              (rel2par concession)
+              (text
+                _!wenngleich es vielleicht nicht mehr so ist wie früher ._!))))
+        (Nucleus
+          (span 16 18)
+          (rel2par contrast)
+          (Nucleus
+            (leaf 16)
+            (rel2par conjunction)
+            (text _!Aber vielleicht täuscht dieser Eindruck nur_!))
+          (Nucleus
+            (span 17 18)
+            (rel2par conjunction)
+            (Nucleus
+              (leaf 17)
+              (rel2par span)
+              (text
+                _!und man nimmt die vielen , Erholung suchenden Leute im Hainholz gar nicht wahr ,_!))
+            (Satellite
+              (leaf 18)
+              (rel2par cause)
+              (text _!weil man selbst zu selten dort ist ._!))))))
+    (Satellite
+      (leaf 19)
+      (rel2par interpretation)
+      (text
+        _!Also , was hält Sie von einem Dezemberausflug ins Grüne ab ?_!))))

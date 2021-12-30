@@ -1,0 +1,160 @@
+(Root
+  (span 1 22)
+  (Nucleus
+    (leaf 1)
+    (rel2par virtual-root)
+    (text _!Sündensuche im Hinterhof_!))
+  (Nucleus
+    (span 2 22)
+    (rel2par virtual-root)
+    (Satellite
+      (span 2 13)
+      (rel2par background)
+      (Satellite
+        (span 2 3)
+        (rel2par interpretation)
+        (Satellite
+          (leaf 2)
+          (rel2par concession)
+          (text
+            _!Bekanntlich ist Vertrauen gut und Kontrolle besser ._!))
+        (Nucleus
+          (leaf 3)
+          (rel2par span)
+          (text
+            _!Manchmal hilft es aber auch , mit dem Bürger einfach zu reden ._!)))
+      (Nucleus
+        (span 4 13)
+        (rel2par span)
+        (Nucleus
+          (span 4 8)
+          (rel2par joint)
+          (Satellite
+            (span 4 5)
+            (rel2par antithesis)
+            (Nucleus
+              (leaf 4)
+              (rel2par span)
+              (text _!Das hatte die Bauaufsicht nicht getan ,_!))
+            (Satellite
+              (leaf 5)
+              (rel2par circumstance)
+              (text
+                _!als sie ihren unbegründeten Baustopp-Bescheid gegen einen Grundbesitzer abschickte ._!)))
+          (Nucleus
+            (span 6 8)
+            (rel2par span)
+            (Nucleus
+              (leaf 6)
+              (rel2par sequence)
+              (text
+                _!Statt dessen stiefelte ein Mitarbeiter auf das Grundstück ,_!))
+            (Nucleus
+              (leaf 7)
+              (rel2par sequence)
+              (text _!knipste , was ihm verdächtig vorkam_!))
+            (Nucleus
+              (leaf 8)
+              (rel2par sequence)
+              (text
+                _!und löste dann den bürokratischen Gang der Dinge aus ._!))))
+        (Nucleus
+          (span 9 13)
+          (rel2par joint)
+          (Satellite
+            (leaf 9)
+            (rel2par preparation)
+            (text
+              _!Ein Anruf oder eine kurze Nachforschung hätte den Sachverhalt aufklären können :_!))
+          (Nucleus
+            (span 10 13)
+            (rel2par span)
+            (Satellite
+              (span 10 11)
+              (rel2par cause)
+              (Satellite
+                (leaf 10)
+                (rel2par concession)
+                (text
+                  _!Dass das Hinterhofgebäude zwar reichlich baubedürftig aussieht ,_!))
+              (Nucleus
+                (leaf 11)
+                (rel2par span)
+                (text
+                  _!dort aber seit der Wende kein Handschlag mehr getan wurde ,_!)))
+            (Nucleus
+              (span 12 13)
+              (rel2par span)
+              (Nucleus
+                (leaf 12)
+                (rel2par span)
+                (text _!folglich gar keine Baustelle existiert ,_!))
+              (Satellite
+                (leaf 13)
+                (rel2par e-elaboration)
+                (text _!die gestoppt werden könnte ._!)))))))
+    (Nucleus
+      (span 14 22)
+      (rel2par span)
+      (Nucleus
+        (span 14 18)
+        (rel2par joint)
+        (Satellite
+          (span 14 15)
+          (rel2par concession)
+          (Nucleus
+            (leaf 14)
+            (rel2par conjunction)
+            (text _!Nun gut , Fehler kommen vor_!))
+          (Nucleus
+            (leaf 15)
+            (rel2par conjunction)
+            (text
+              _!und die Bauaufsicht hat den Bescheid inzwischen zurückgenommen ._!)))
+        (Nucleus
+          (span 16 18)
+          (rel2par span)
+          (Nucleus
+            (leaf 16)
+            (rel2par span)
+            (text _!Doch es geht um mehr als einen Einzelfall ._!))
+          (Satellite
+            (span 17 18)
+            (rel2par reason)
+            (Satellite
+              (leaf 17)
+              (rel2par cause)
+              (text
+                _!Die Bauverwaltung ist personell offenbar so gut ausgestattet ,_!))
+            (Nucleus
+              (leaf 18)
+              (rel2par span)
+              (text
+                _!dass es sich ihre Mitarbeiter leisten können , auf der Suche nach Bausündern systematisch alle Straßen und Hinterhöfe zu durchkämmen ._!)))))
+      (Nucleus
+        (span 19 22)
+        (rel2par joint)
+        (Satellite
+          (leaf 19)
+          (rel2par concession)
+          (text _!Natürlich sind Kontrollen notwendig ._!))
+        (Nucleus
+          (span 20 22)
+          (rel2par span)
+          (Nucleus
+            (leaf 20)
+            (rel2par span)
+            (text _!Viele Bürger hätten aber mehr davon ,_!))
+          (Satellite
+            (span 21 22)
+            (rel2par condition)
+            (Nucleus
+              (leaf 21)
+              (rel2par conjunction)
+              (text
+                _!wenn in den Amtsstuben etwas mehr Vertrauen waltete_!))
+            (Nucleus
+              (leaf 22)
+              (rel2par conjunction)
+              (text
+                _!und die überschüssige Kraft in die schnelle Bearbeitung von Bauanträgen gesteckt würde ._!))))))))

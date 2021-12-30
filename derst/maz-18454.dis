@@ -1,0 +1,181 @@
+(Root
+  (span 1 25)
+  (Nucleus
+    (leaf 1)
+    (rel2par virtual-root)
+    (text _!Bürger-Entscheid_!))
+  (Nucleus
+    (span 2 25)
+    (rel2par virtual-root)
+    (Satellite
+      (span 2 19)
+      (rel2par solutionhood)
+      (Nucleus
+        (span 2 7)
+        (rel2par joint)
+        (Satellite
+          (span 2 4)
+          (rel2par background)
+          (Nucleus
+            (leaf 2)
+            (rel2par joint)
+            (text
+              _!Soll das Stadtteilfest , so der Streit derzeit in der Brandenburger Vorstadt , jährlich stattfinden oder in größerem Abstand ?_!))
+          (Nucleus
+            (span 3 4)
+            (rel2par joint)
+            (Satellite
+              (leaf 3)
+              (rel2par antithesis)
+              (text _!So einfach die Frage ist ,_!))
+            (Nucleus
+              (leaf 4)
+              (rel2par span)
+              (text
+                _!so laufen die Beteiligten doch Gefahr , sich vor Gericht zu treffen ._!))))
+        (Nucleus
+          (span 5 7)
+          (rel2par span)
+          (Nucleus
+            (leaf 5)
+            (rel2par span)
+            (text _!Eine bedauerliche Eskalation ._!))
+          (Satellite
+            (span 6 7)
+            (rel2par reason)
+            (Nucleus
+              (leaf 6)
+              (rel2par span)
+              (text
+                _!Das Fest , das tausende Besucher anlockt , hat es nicht verdient , als Zankapfel herzuhalten ._!))
+            (Satellite
+              (leaf 7)
+              (rel2par reason)
+              (text
+                _!Zumal alle Beteiligten ehrenwerte Ziele verfolgen ._!)))))
+      (Nucleus
+        (span 8 19)
+        (rel2par joint)
+        (Nucleus
+          (span 8 14)
+          (rel2par span)
+          (Nucleus
+            (span 8 12)
+            (rel2par span)
+            (Nucleus
+              (span 8 10)
+              (rel2par contrast)
+              (Nucleus
+                (leaf 8)
+                (rel2par span)
+                (text
+                  _!Der Verein Brandenburger Vorstadt plädiert für ein Fest von Bürgern für Bürger ._!))
+              (Satellite
+                (span 9 10)
+                (rel2par interpretation)
+                (Nucleus
+                  (leaf 9)
+                  (rel2par span)
+                  (text _!Ein gutes Konzept ,_!))
+                (Satellite
+                  (leaf 10)
+                  (rel2par e-elaboration)
+                  (text
+                    _!das sich aber - da rein ehrenamtlich - nur in größeren Abständen verwirklichen lässt ._!))))
+            (Nucleus
+              (span 11 12)
+              (rel2par contrast)
+              (Nucleus
+                (leaf 11)
+                (rel2par conjunction)
+                (text
+                  _!Der Aktionskreis um Martin Zühlke zieht die Grenzen lockerer_!))
+              (Nucleus
+                (leaf 12)
+                (rel2par conjunction)
+                (text _!und votiert für jährliche Termine ._!))))
+          (Satellite
+            (span 13 14)
+            (rel2par interpretation)
+            (Satellite
+              (leaf 13)
+              (rel2par circumstance)
+              (text _!Beide Ansätze orientieren sich am Bürger ,_!))
+            (Nucleus
+              (leaf 14)
+              (rel2par span)
+              (text _!worin eine mögliche Lösung liegt ._!))))
+        (Satellite
+          (span 15 19)
+          (rel2par elaboration)
+          (Nucleus
+            (span 15 17)
+            (rel2par joint)
+            (Satellite
+              (span 15 16)
+              (rel2par cause)
+              (Satellite
+                (leaf 15)
+                (rel2par concession)
+                (text
+                  _!Der Verein hat zwar Rechte am Namen von " Affe , Schaf und Känguru " ,_!))
+              (Nucleus
+                (leaf 16)
+                (rel2par span)
+                (text
+                  _!das Hausrecht für den Stadtteil hat er nicht ._!)))
+            (Nucleus
+              (leaf 17)
+              (rel2par span)
+              (text
+                _!Andere Feste ( selbst semi-professionelle ) kann er nicht untersagen ._!)))
+          (Nucleus
+            (span 18 19)
+            (rel2par joint)
+            (Nucleus
+              (leaf 18)
+              (rel2par span)
+              (text _!Zühlke bietet einen jährlichen Wechsel an -_!))
+            (Satellite
+              (leaf 19)
+              (rel2par evaluation-s)
+              (text _!ein Schnitt , der Frieden bringen könnte ._!))))))
+    (Nucleus
+      (span 20 25)
+      (rel2par span)
+      (Nucleus
+        (span 20 21)
+        (rel2par span)
+        (Satellite
+          (leaf 20)
+          (rel2par cause)
+          (text _!Da sich beide Seiten auf die Bürger berufen ,_!))
+        (Nucleus
+          (leaf 21)
+          (rel2par span)
+          (text _!sollten sie die auch entscheiden lassen :_!)))
+      (Satellite
+        (span 22 25)
+        (rel2par elaboration)
+        (Nucleus
+          (span 22 23)
+          (rel2par contrast)
+          (Satellite
+            (leaf 22)
+            (rel2par condition)
+            (text _!Lehnen sie Zühlkes Fest ab ,_!))
+          (Nucleus
+            (leaf 23)
+            (rel2par span)
+            (text _!hat sich der Spaß nach einem Jahr erledigt ._!)))
+        (Nucleus
+          (span 24 25)
+          (rel2par contrast)
+          (Satellite
+            (leaf 24)
+            (rel2par condition)
+            (text _!Wird die Sache ein Erfolg ,_!))
+          (Nucleus
+            (leaf 25)
+            (rel2par span)
+            (text _!muss der Verein dies als Votum akzeptieren ._!)))))))

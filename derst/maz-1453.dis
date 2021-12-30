@@ -1,0 +1,119 @@
+(Root
+  (span 1 16)
+  (Nucleus
+    (leaf 1)
+    (rel2par virtual-root)
+    (text _!Zeit für Frieden_!))
+  (Nucleus
+    (span 2 16)
+    (rel2par virtual-root)
+    (Nucleus
+      (span 2 15)
+      (rel2par span)
+      (Satellite
+        (span 2 5)
+        (rel2par background)
+        (Nucleus
+          (leaf 2)
+          (rel2par span)
+          (text
+            _!Mit großer Mehrheit haben sich die Damsdorfer am Sonntag für den Wechsel und für Lehnin entschieden ._!))
+        (Satellite
+          (span 3 5)
+          (rel2par evaluation-s)
+          (Satellite
+            (leaf 3)
+            (rel2par preparation)
+            (text
+              _!Als Erfolg können sich die Damsdorfer Kommunalpolitiker vor allem eins anrechnen :_!))
+          (Nucleus
+            (span 4 5)
+            (rel2par span)
+            (Satellite
+              (leaf 4)
+              (rel2par evidence)
+              (text
+                _!Dass es ihnen gelungen ist , fast 700 Menschen zum Urnengang zu mobilisieren ._!))
+            (Nucleus
+              (leaf 5)
+              (rel2par span)
+              (text
+                _!Die Damsdorfer haben gezeigt , dass die Bevölkerung das Recht auf einen Bürgerentscheid sehr wohl zu schätzen weiß ._!)))))
+      (Nucleus
+        (span 6 15)
+        (rel2par span)
+        (Satellite
+          (leaf 6)
+          (rel2par preparation)
+          (text
+            _!Aus dem Ergebnis lassen sich drei Dinge ablesen :_!))
+        (Nucleus
+          (span 7 15)
+          (rel2par span)
+          (Nucleus
+            (span 7 8)
+            (rel2par list)
+            (Nucleus
+              (leaf 7)
+              (rel2par span)
+              (text
+                _!Die Damsdorfer haben von Emster-Havel , vom dortigen Amtsausschuss und peinlichen Gezänk , die Nase voll ._!))
+            (Satellite
+              (leaf 8)
+              (rel2par elaboration)
+              (text
+                _!Nach dem Motto , schlechter kann es woanders kaum werden ._!)))
+          (Nucleus
+            (span 9 12)
+            (rel2par list)
+            (Satellite
+              (leaf 9)
+              (rel2par preparation)
+              (text _!Punkt zwei :_!))
+            (Nucleus
+              (span 10 12)
+              (rel2par span)
+              (Nucleus
+                (leaf 10)
+                (rel2par span)
+                (text
+                  _!Die Lehniner Gemeinden machen nach außen hin - trotz aller Meinungsverschiedenheiten - einen relativ geschlossenen Eindruck ._!))
+              (Satellite
+                (span 11 12)
+                (rel2par reason)
+                (Nucleus
+                  (leaf 11)
+                  (rel2par span)
+                  (text
+                    _!Die Politik im dortigen Amtsausschuss läuft eben nicht nach dem Emster-Muster :_!))
+                (Satellite
+                  (leaf 12)
+                  (rel2par e-elaboration)
+                  (text
+                    _!Dorf gegen Dorf , Bündnis gegen Bündnis ._!)))))
+          (Nucleus
+            (span 13 15)
+            (rel2par list)
+            (Nucleus
+              (span 13 14)
+              (rel2par span)
+              (Nucleus
+                (leaf 13)
+                (rel2par span)
+                (text
+                  _!Aus dem Ergebnis lässt sich drittens ableiten , dass sich die Damsdorfer längst vom Emster-Amt verabschiedet haben ._!))
+              (Satellite
+                (leaf 14)
+                (rel2par reason)
+                (text
+                  _!Sie wollen das vollzogen wissen , was sie täglich leben , die Nähe zu Lehnin ._!)))
+            (Satellite
+              (leaf 15)
+              (rel2par elaboration)
+              (text
+                _!Davon konnte sie auch die Bürgerinitiative Pro Emster nicht abbringen ._!))))))
+    (Satellite
+      (leaf 16)
+      (rel2par evaluation-s)
+      (text
+        _!Jetzt ist Zeit , in die Reform- Debatte endlich zivilisierten Frieden einkehren zu lassen ._!))))

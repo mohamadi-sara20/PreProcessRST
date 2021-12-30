@@ -1,0 +1,95 @@
+(Root
+  (span 1 13)
+  (Nucleus (leaf 1) (rel2par virtual-root) (text _!Zu spät_!))
+  (Nucleus
+    (span 2 13)
+    (rel2par virtual-root)
+    (Satellite
+      (span 2 3)
+      (rel2par background)
+      (Nucleus
+        (leaf 2)
+        (rel2par joint)
+        (text
+          _!Die Ketziner und Paretzer werden heute aus der Zeitung erfahren , dass sie ab Mittwoch nach Uetz , Marquardt und Potsdam nur noch über Falkenrehde fahren können ._!))
+      (Nucleus
+        (leaf 3)
+        (rel2par joint)
+        (text
+          _!Weder das Wasserstraßenneubauamt Berlin als Bauherr , noch die bauausführende Firma oder die Straßenverkehrsbehörde Nauen hatten bis gestern Informationen dazu veröffentlicht ._!)))
+    (Nucleus
+      (span 4 13)
+      (rel2par span)
+      (Nucleus
+        (span 4 10)
+        (rel2par span)
+        (Nucleus
+          (span 4 5)
+          (rel2par span)
+          (Nucleus
+            (leaf 4)
+            (rel2par joint)
+            (text
+              _!Abgesehen von der in Paretz herrschenden generellen Ablehnung gegen den Havelausbau und den damit verbundenen Brückenneubau -_!))
+          (Nucleus
+            (leaf 5)
+            (rel2par joint)
+            (text
+              _!die Bürger quasi bis fünf Minuten vor Zwölf im Regen stehen zu lassen , ist nicht zu fassen bei solch einem Großprojekt ._!)))
+        (Satellite
+          (span 6 10)
+          (rel2par reason)
+          (Nucleus
+            (span 6 9)
+            (rel2par span)
+            (Satellite
+              (leaf 6)
+              (rel2par concession)
+              (text
+                _!Zwar ist die Umleitung laut Bauherr nur 4,5 Kilometer lang ._!))
+            (Nucleus
+              (span 7 9)
+              (rel2par span)
+              (Nucleus
+                (leaf 7)
+                (rel2par list)
+                (text
+                  _!Aber was machen die Wanderer und Radfahrer ?_!))
+              (Nucleus
+                (span 8 9)
+                (rel2par list)
+                (Satellite
+                  (leaf 8)
+                  (rel2par evaluation-s)
+                  (text _!Und noch schlimmer -_!))
+                (Nucleus
+                  (leaf 9)
+                  (rel2par span)
+                  (text
+                    _!wie kommen die Landwirte mit ihren Traktoren ab Mittwoch auf die Felder jenseits des Kanals ?_!)))))
+          (Satellite
+            (leaf 10)
+            (rel2par evaluation-s)
+            (text
+              _!Hier hat das Wasserstraßenneubauamt versagt - ohne Wenn und Aber ._!))))
+      (Satellite
+        (span 11 13)
+        (rel2par concession)
+        (Nucleus
+          (leaf 11)
+          (rel2par span)
+          (text
+            _!Wofür die Behörde jedoch nichts kann , ist der unglückliche Zeitpunkt des Baubeginns so kurz nach der Wiedereröffnung des Schlosses ._!))
+        (Satellite
+          (span 12 13)
+          (rel2par reason)
+          (Nucleus
+            (leaf 12)
+            (rel2par contrast)
+            (text
+              _!Seit einem Jahr ist klar , dass es nach der Buga los geht ._!))
+          (Nucleus
+            (leaf 13)
+            (rel2par contrast)
+            (text
+              _!Der enorme Zeitverzug beim Schloss war nicht vorhersehbar ._!)))))))

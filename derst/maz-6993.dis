@@ -1,0 +1,104 @@
+(Root
+  (span 1 14)
+  (Nucleus
+    (leaf 1)
+    (rel2par virtual-root)
+    (text _!Drei leere Kassen_!))
+  (Nucleus
+    (span 2 14)
+    (rel2par virtual-root)
+    (Satellite
+      (span 2 6)
+      (rel2par background)
+      (Satellite
+        (span 2 4)
+        (rel2par antithesis)
+        (Nucleus
+          (span 2 3)
+          (rel2par span)
+          (Nucleus
+            (leaf 2)
+            (rel2par span)
+            (text _!Diepensee siedelt um ._!))
+          (Satellite
+            (leaf 3)
+            (rel2par elaboration)
+            (text _!Ohne Wenn und Aber ._!)))
+        (Satellite
+          (leaf 4)
+          (rel2par elaboration)
+          (text
+            _!Dessen konnten sich die vor dem möglichen Ausbau des Flughafens Schönefeld weichenden Dorfbewohner gewiss sein ._!)))
+      (Nucleus
+        (span 5 6)
+        (rel2par span)
+        (Satellite
+          (leaf 5)
+          (rel2par interpretation)
+          (text
+            _!Bis eine Presseinformation der Ausbau-Planer einschlug , wie eine Bombe ._!))
+        (Nucleus
+          (leaf 6)
+          (rel2par span)
+          (text
+            _!Umsiedlung , hieß es da , nur vorbehaltlich der Privatisierung der Flughafen-Holding ._!))))
+    (Nucleus
+      (span 7 14)
+      (rel2par span)
+      (Satellite
+        (span 7 8)
+        (rel2par background)
+        (Satellite
+          (leaf 7)
+          (rel2par result)
+          (text
+            _!Überrascht reagierte auch der Königs-Wusterhausener Bürgermeister Jochen Wagner ._!))
+        (Nucleus
+          (leaf 8)
+          (rel2par span)
+          (text
+            _!Schließlich gaben die Stadtverordneten erst Montagabend grünes Licht für die weitere Erschließung des neuen Ortsteils Diepensee ._!)))
+      (Nucleus
+        (span 9 14)
+        (rel2par span)
+        (Nucleus
+          (leaf 9)
+          (rel2par joint)
+          (text
+            _!Soll dieser Beschluss bald nicht mal mehr das Papier wert sein , auf dem er gedruckt wurde ?_!))
+        (Nucleus
+          (span 10 14)
+          (rel2par joint)
+          (Nucleus
+            (leaf 10)
+            (rel2par span)
+            (text _!Das wäre denkbar ._!))
+          (Satellite
+            (span 11 14)
+            (rel2par reason)
+            (Nucleus
+              (leaf 11)
+              (rel2par joint)
+              (text
+                _!Schließlich läuft Ende Oktober die Angebotsfrist für die Privatisierung der Flughafen-Holding aus ._!))
+            (Nucleus
+              (span 12 14)
+              (rel2par joint)
+              (Nucleus
+                (span 12 13)
+                (rel2par span)
+                (Satellite
+                  (leaf 12)
+                  (rel2par circumstance)
+                  (text
+                    _!Möglicherweise legt das Baukonzern-Bieterkonsortium wieder keinen verhandelbaren Vorschlag auf den Tisch ._!))
+                (Nucleus
+                  (leaf 13)
+                  (rel2par span)
+                  (text
+                    _!Dann müssten die Holding-Gesellschafter - Bund , Brandenburg und Berlin - sowohl die Kosten für den Ausbau und die Anbindung des Flughafens Schönefeld , als auch für die Umsiedlung Diepensees aufbringen ._!)))
+              (Satellite
+                (leaf 14)
+                (rel2par interpretation)
+                (text
+                  _!Vorbehalte scheinen da angesichts leerer Kassen aller drei Gesellschafter durchaus angebracht ._!)))))))))

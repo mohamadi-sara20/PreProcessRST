@@ -1,0 +1,95 @@
+(Root
+  (span 1 13)
+  (Nucleus
+    (leaf 1)
+    (rel2par virtual-root)
+    (text _!Fachliche Leistung_!))
+  (Nucleus
+    (span 2 13)
+    (rel2par virtual-root)
+    (Satellite
+      (leaf 2)
+      (rel2par background)
+      (text
+        _!Heute verleiht das brandenburgische Umweltministerium den mit 10_000 Mark dotierten Erwin-Strittmatter-Preis an die Schriftstellerin Susanne Paulsen ._!))
+    (Nucleus
+      (span 3 13)
+      (rel2par span)
+      (Nucleus
+        (span 3 5)
+        (rel2par joint)
+        (Satellite
+          (leaf 3)
+          (rel2par evaluation-n)
+          (text
+            _!Mit der Auszeichnung sollen " Literatur und Autoren geehrt werden , die sich in Umweltbelange einmischen " ._!))
+        (Nucleus
+          (span 4 5)
+          (rel2par span)
+          (Nucleus
+            (leaf 4)
+            (rel2par joint)
+            (text
+              _!Das klingt fast so , als sei Gut-Gemeintes preisverdächtig ._!))
+          (Nucleus
+            (leaf 5)
+            (rel2par joint)
+            (text
+              _!Eine solche Fördermaßnahme für Öko-Literatur verkennt , dass es immer nur gelungene und missratene Texte gibt ._!))))
+      (Nucleus
+        (span 6 9)
+        (rel2par joint)
+        (Satellite
+          (span 6 7)
+          (rel2par evaluation-n)
+          (Nucleus
+            (leaf 6)
+            (rel2par span)
+            (text
+              _!Das Verhältnis zur Natur ist für viele Dichter ein großes Thema ._!))
+          (Satellite
+            (leaf 7)
+            (rel2par elaboration)
+            (text
+              _!Den Literaturpreis haben bisher Schöngeister wie Hanns Cibulka und Wulf Kirsten , Volker Braun und Thomas Rosenlöcher bekommen ._!)))
+        (Nucleus
+          (span 8 9)
+          (rel2par span)
+          (Satellite
+            (leaf 8)
+            (rel2par condition)
+            (text
+              _!Wer aus ihren Gedichten ein umweltpolitisches Engagement ableitet ,_!))
+          (Nucleus
+            (leaf 9)
+            (rel2par span)
+            (text _!instrumentalisiert die Literatur ideologisch ._!))))
+      (Nucleus
+        (span 10 13)
+        (rel2par joint)
+        (Satellite
+          (leaf 10)
+          (rel2par reason)
+          (text
+            _!Die Zeiten , da die Literatur Aufklärungs- und Bekenntnisarbeit mitleisten musste , sind zum Glück vorbei ._!))
+        (Nucleus
+          (span 11 13)
+          (rel2par span)
+          (Nucleus
+            (leaf 11)
+            (rel2par span)
+            (text
+              _!Deshalb ist es auch gut , dass das Umweltministerium in diesem Jahr in engerem Sinne auf fachliche Leistungen setzt ._!))
+          (Satellite
+            (span 12 13)
+            (rel2par evidence)
+            (Nucleus
+              (leaf 12)
+              (rel2par span)
+              (text
+                _!Susanne Paulsen bekommt den Preis für ein erzählendes Sachbuch ,_!))
+            (Satellite
+              (leaf 13)
+              (rel2par elaboration)
+              (text
+                _!das dem Leser die rätselhafte Welt der Pflanzen näherbringt ._!))))))))

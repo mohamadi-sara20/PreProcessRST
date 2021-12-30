@@ -1,0 +1,150 @@
+(Root
+  (span 1 21)
+  (Nucleus (leaf 1) (rel2par virtual-root) (text _!Es wird_!))
+  (Nucleus
+    (span 2 21)
+    (rel2par virtual-root)
+    (Satellite
+      (span 2 6)
+      (rel2par background)
+      (Satellite
+        (span 2 3)
+        (rel2par circumstance)
+        (Satellite
+          (leaf 2)
+          (rel2par reason)
+          (text
+            _!Westernreiter kennen sich aus mit dem Überwinden von Stock und Stein ._!))
+        (Nucleus
+          (leaf 3)
+          (rel2par span)
+          (text
+            _!Also dürften sie kein Problem haben , die zurzeit noch katastrophale Parkfläche an der Graf-von-Lindenau-Halle in Kauf zu nehmen ._!)))
+      (Nucleus
+        (span 4 6)
+        (rel2par span)
+        (Nucleus
+          (leaf 4)
+          (rel2par span)
+          (text _!Sie machen das auch ,_!))
+        (Satellite
+          (span 5 6)
+          (rel2par concession)
+          (Satellite
+            (leaf 5)
+            (rel2par antithesis)
+            (text
+              _!wenngleich wir uns dessen bewusst sind , dass hier böser Sarkasmus die Zeilen prägt ,_!))
+          (Nucleus
+            (leaf 6)
+            (rel2par span)
+            (text
+              _!der aber seine Berechtigung in absehbarer Zeit verloren hat ._!)))))
+    (Nucleus
+      (span 7 21)
+      (rel2par span)
+      (Satellite
+        (span 7 12)
+        (rel2par background)
+        (Nucleus
+          (leaf 7)
+          (rel2par joint)
+          (text
+            _!Am Parkplatz , der von Anfang an ein Ärgernis war , tut sich nämlich etwas ._!))
+        (Nucleus
+          (span 8 12)
+          (rel2par joint)
+          (Nucleus
+            (leaf 8)
+            (rel2par span)
+            (text
+              _!Die Initiative dazu ging von der Neustädter Verwaltung aus ._!))
+          (Satellite
+            (span 9 12)
+            (rel2par reason)
+            (Nucleus
+              (leaf 9)
+              (rel2par span)
+              (text _!Die hatte auch gar keine andere Wahl ,_!))
+            (Satellite
+              (span 10 12)
+              (rel2par reason)
+              (Satellite
+                (leaf 10)
+                (rel2par reason)
+                (text
+                  _!nachdem das juristische Tauziehen mit dem bauausführenden Betrieb verloren worden war ._!))
+              (Nucleus
+                (span 11 12)
+                (rel2par span)
+                (Nucleus
+                  (leaf 11)
+                  (rel2par span)
+                  (text
+                    _!Was blieb , war die total misslungene Abstellfläche ,_!))
+                (Satellite
+                  (leaf 12)
+                  (rel2par e-elaboration)
+                  (text
+                    _!bei der sich zu spät herausstellte , dass die vielen Besucher für die Halle einfach zu viel waren ._!)))))))
+      (Nucleus
+        (span 13 21)
+        (rel2par span)
+        (Satellite
+          (span 13 15)
+          (rel2par circumstance)
+          (Nucleus
+            (leaf 13)
+            (rel2par sequence)
+            (text
+              _!War schon in der Zeitung zu lesen , dass Geld lockergemacht worden ist ,_!))
+          (Nucleus
+            (span 14 15)
+            (rel2par sequence)
+            (Satellite
+              (leaf 14)
+              (rel2par preparation)
+              (text
+                _!so ist nun von einem ersten Ergebnis zu berichten ._!))
+            (Nucleus (leaf 15) (rel2par span) (text _!Man baut ._!))))
+        (Nucleus
+          (span 16 21)
+          (rel2par span)
+          (Nucleus
+            (span 16 19)
+            (rel2par span)
+            (Satellite
+              (span 16 18)
+              (rel2par concession)
+              (Satellite
+                (leaf 16)
+                (rel2par interpretation)
+                (text _!Das geht nicht von jetzt auf gleich ._!))
+              (Nucleus
+                (span 17 18)
+                (rel2par span)
+                (Satellite
+                  (leaf 17)
+                  (rel2par circumstance)
+                  (text _!Dieses Jahr wird vergehen ,_!))
+                (Nucleus
+                  (leaf 18)
+                  (rel2par span)
+                  (text
+                    _!bis auch bei Regen die stiefelfreie Zeit für alle Besucher anbricht ._!))))
+            (Nucleus
+              (leaf 19)
+              (rel2par span)
+              (text
+                _!Beim CSI , dem hochdotierten Reitturnier im Januar , sollen die Nägel Köpfe haben ._!)))
+          (Satellite
+            (span 20 21)
+            (rel2par evaluation-s)
+            (Nucleus
+              (leaf 20)
+              (rel2par span)
+              (text _!Bis dahin müssen sich alle dreinfügen -_!))
+            (Satellite
+              (leaf 21)
+              (rel2par e-elaboration)
+              (text _!wie die Westernreiter und ihre Fans ._!))))))))

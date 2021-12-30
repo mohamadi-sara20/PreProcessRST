@@ -1,0 +1,130 @@
+(Root
+  (span 1 18)
+  (Nucleus (leaf 1) (rel2par virtual-root) (text _!In Sorge_!))
+  (Nucleus
+    (span 2 18)
+    (rel2par virtual-root)
+    (Satellite
+      (span 2 6)
+      (rel2par background)
+      (Nucleus
+        (span 2 4)
+        (rel2par joint)
+        (Nucleus
+          (span 2 3)
+          (rel2par span)
+          (Nucleus
+            (leaf 2)
+            (rel2par span)
+            (text _!Schon machen die ersten Witze die Runde ._!))
+          (Satellite
+            (leaf 3)
+            (rel2par e-elaboration)
+            (text _!Darin kommt weißes Pulver vor ._!)))
+        (Satellite
+          (leaf 4)
+          (rel2par interpretation)
+          (text
+            _!Makabres wird immer aus todernster Wirklichkeit geboren ._!)))
+      (Nucleus
+        (span 5 6)
+        (rel2par joint)
+        (Nucleus
+          (leaf 5)
+          (rel2par span)
+          (text
+            _!Es hat wieder den Anschein , als würden Menschen nur galgenhumorig Tatsachen ins Auge sehen können ,_!))
+        (Satellite
+          (leaf 6)
+          (rel2par e-elaboration)
+          (text _!denen sie machtlos ausgeliefert sind ._!))))
+    (Nucleus
+      (span 7 18)
+      (rel2par span)
+      (Satellite
+        (span 7 16)
+        (rel2par reason)
+        (Satellite
+          (leaf 7)
+          (rel2par circumstance)
+          (text
+            _!Jetzt haben sich auch die Verantwortlichen des Landkreises mit der Weltlage beschäftigen müssen ._!))
+        (Nucleus
+          (span 8 16)
+          (rel2par span)
+          (Nucleus
+            (span 8 13)
+            (rel2par span)
+            (Satellite
+              (span 8 11)
+              (rel2par reason)
+              (Satellite
+                (span 8 10)
+                (rel2par evaluation-n)
+                (Nucleus
+                  (span 8 9)
+                  (rel2par span)
+                  (Nucleus
+                    (leaf 8)
+                    (rel2par span)
+                    (text
+                      _!Der zuständige Stab kennt Gefahrenlagen , die von schweren Unglücken ausgehen können ,_!))
+                  (Satellite
+                    (leaf 9)
+                    (rel2par e-elaboration)
+                    (text _!zum Beispiel mit Zügen ._!)))
+                (Satellite
+                  (leaf 10)
+                  (rel2par elaboration)
+                  (text
+                    _!Auf dem Bahnhof Neustadt hat man schon mehrfach Szenarien durchgespielt und Gegenmaßnahmen geprobt ._!)))
+              (Nucleus
+                (leaf 11)
+                (rel2par span)
+                (text _!Das reicht nicht mehr aus ._!)))
+            (Nucleus
+              (span 12 13)
+              (rel2par span)
+              (Nucleus
+                (leaf 12)
+                (rel2par span)
+                (text
+                  _!Und so muss Landrat Christian Gilde jetzt eine gewisse Hilflosigkeit erkennen lassen ,_!))
+              (Satellite
+                (leaf 13)
+                (rel2par circumstance)
+                (text
+                  _!was das Reagieren auf möglichen Terror und seine Folgen angeht ._!))))
+          (Satellite
+            (span 14 16)
+            (rel2par evaluation-s)
+            (Nucleus
+              (leaf 14)
+              (rel2par span)
+              (text _!Da ist nichts vorzuwerfen ._!))
+            (Satellite
+              (span 15 16)
+              (rel2par reason)
+              (Nucleus
+                (leaf 15)
+                (rel2par span)
+                (text
+                  _!Niemand hat verschlampt , was er besser hätte vorbereiten sollen ._!))
+              (Satellite
+                (leaf 16)
+                (rel2par reason)
+                (text
+                  _!Keiner hat sich schließlich vor dem 11. September vorstellen können , wozu Menschen , von Fanatismus getrieben , fähig sind ._!))))))
+      (Nucleus
+        (span 17 18)
+        (rel2par span)
+        (Nucleus
+          (leaf 17)
+          (rel2par joint)
+          (text
+            _!Nun wird der Katastrophenschutz einen neuen Stellenwert bekommen ._!))
+        (Nucleus
+          (leaf 18)
+          (rel2par joint)
+          (text
+            _!Der Landkreis und die Kommunen , vordergründig bedroht oder einfach nur in verständlicher Sorge , sind auf Hilfe angewiesen ._!))))))

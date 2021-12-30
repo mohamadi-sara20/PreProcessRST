@@ -1,0 +1,173 @@
+(Root
+  (span 1 23)
+  (Nucleus
+    (leaf 1)
+    (rel2par virtual-root)
+    (text _!Unverständlicher Streit um Religion_!))
+  (Nucleus
+    (span 2 23)
+    (rel2par virtual-root)
+    (Satellite
+      (span 2 6)
+      (rel2par background)
+      (Satellite
+        (span 2 4)
+        (rel2par antithesis)
+        (Satellite
+          (leaf 2)
+          (rel2par preparation)
+          (text _!Eine Kollegin meinte kürzlich :_!))
+        (Nucleus
+          (span 3 4)
+          (rel2par span)
+          (Nucleus
+            (leaf 3)
+            (rel2par span)
+            (text
+              _!" Bei uns an der Schule ist das doch zum Glück kein Problem mehr !_!))
+          (Satellite
+            (leaf 4)
+            (rel2par cause)
+            (text
+              _!Unsere Schüler können ja frei wählen zwischen LER und Religion . "_!))))
+      (Nucleus
+        (span 5 6)
+        (rel2par span)
+        (Satellite
+          (leaf 5)
+          (rel2par preparation)
+          (text
+            _!Leider musste ich sie eines Schlechteren belehren :_!))
+        (Nucleus
+          (leaf 6)
+          (rel2par span)
+          (text
+            _!Der Gesetzgeber hinkt dieser Wirklichkeit weit hinterher ._!))))
+    (Nucleus
+      (span 7 23)
+      (rel2par span)
+      (Nucleus
+        (span 7 17)
+        (rel2par span)
+        (Nucleus
+          (span 7 11)
+          (rel2par joint)
+          (Satellite
+            (leaf 7)
+            (rel2par interpretation)
+            (text
+              _!Und nun scheint sogar unsere Landesregierung entschlossen , diese ( scheinbare ! ) Gleichbehandlung der beiden Fächer endgültig zu beseitigen ._!))
+          (Nucleus
+            (span 8 11)
+            (rel2par span)
+            (Nucleus
+              (span 8 9)
+              (rel2par span)
+              (Satellite
+                (leaf 8)
+                (rel2par concession)
+                (text
+                  _!Stolpe , Reiche & Co. sagen zwar Ja zu einem möglichen Kompromissangebot aus Karlsruhe ,_!))
+              (Nucleus
+                (leaf 9)
+                (rel2par span)
+                (text
+                  _!dekretieren aber : Einen Wahlpflichtbereich LER / Religion kann es nicht geben ._!)))
+            (Satellite
+              (span 10 11)
+              (rel2par interpretation)
+              (Nucleus
+                (leaf 10)
+                (rel2par joint)
+                (text
+                  _!Wer versteht da noch Debatte und dahinter stehende Interessen ?_!))
+              (Nucleus
+                (leaf 11)
+                (rel2par joint)
+                (text
+                  _!Die Schulpolitik in Brandenburg scheint zur Spielwiese für profilierungssüchtige Politiker zu verkommen ._!)))))
+        (Nucleus
+          (span 12 17)
+          (rel2par joint)
+          (Nucleus
+            (span 12 16)
+            (rel2par span)
+            (Satellite
+              (span 12 14)
+              (rel2par antithesis)
+              (Nucleus
+                (leaf 12)
+                (rel2par span)
+                (text
+                  _!Statt für eine solide finanzierte , langfristige Bildungspolitik zu sorgen ,_!))
+              (Satellite
+                (span 13 14)
+                (rel2par elaboration)
+                (Nucleus
+                  (leaf 13)
+                  (rel2par conjunction)
+                  (text _!die ruhiges Arbeiten erlaubt_!))
+                (Nucleus
+                  (leaf 14)
+                  (rel2par conjunction)
+                  (text _!und sich an Bedürfnissen orientiert ,_!))))
+            (Nucleus
+              (span 15 16)
+              (rel2par span)
+              (Nucleus
+                (leaf 15)
+                (rel2par span)
+                (text _!wird hektisch auf jeden Trend reagiert :_!))
+              (Satellite
+                (leaf 16)
+                (rel2par e-elaboration)
+                (text
+                  _!Medienoffensive , Schnellläuferklassen , Zentralabitur ..._!))))
+          (Satellite
+            (leaf 17)
+            (rel2par interpretation)
+            (text
+              _!Demokratische Prozesse von unten werden nicht abgewartet ._!))))
+      (Satellite
+        (span 18 23)
+        (rel2par interpretation)
+        (Satellite
+          (leaf 18)
+          (rel2par circumstance)
+          (text _!Leidtragende sind die Lehrer und Schüler ._!))
+        (Nucleus
+          (span 19 23)
+          (rel2par span)
+          (Satellite
+            (span 19 22)
+            (rel2par evaluation-n)
+            (Nucleus
+              (span 19 21)
+              (rel2par span)
+              (Satellite
+                (span 19 20)
+                (rel2par antithesis)
+                (Satellite
+                  (leaf 19)
+                  (rel2par purpose)
+                  (text
+                    _!LER- und Religionslehrer haben sich mit persönlichem Einsatz weitergebildet ,_!))
+                (Nucleus
+                  (leaf 20)
+                  (rel2par span)
+                  (text _!um ihr Fach unterrichten zu können -_!)))
+              (Nucleus
+                (leaf 21)
+                (rel2par span)
+                (text
+                  _!und die Regierung schiebt die Anerkennung einer sich bewährenden Praxis hinaus ._!)))
+            (Satellite
+              (leaf 22)
+              (rel2par reason)
+              (text
+                _!Man muss ihr unterstellen , kein Interesse am kirchlichen Mitwirken in der Schule zu haben ._!)))
+          (Nucleus
+            (leaf 23)
+            (rel2par span)
+            (text
+              _!Dabei sollte sie alle begrüßen , die zur qualifizierten Mitarbeit in dieser Problemzone unserer Gesellschaft bereit sind ._!)))))))

@@ -1,0 +1,124 @@
+(Root
+  (span 1 17)
+  (Nucleus (leaf 1) (rel2par virtual-root) (text _!Füllhorn_!))
+  (Nucleus
+    (span 2 17)
+    (rel2par virtual-root)
+    (Satellite
+      (span 2 13)
+      (rel2par reason)
+      (Satellite
+        (leaf 2)
+        (rel2par interpretation)
+        (text
+          _!Vergeblich hat der Noch-Finanzbeigeordnete Hans-Joachim Bosse den Stadtverordneten bei der Einbringung des Haushalts 2002 ins Gewissen geredet ._!))
+      (Nucleus
+        (span 3 13)
+        (rel2par span)
+        (Satellite
+          (leaf 3)
+          (rel2par concession)
+          (text
+            _!Zwar machten die Haushaltspolitiker der SPD im Vorfeld ihrer Wochenendklausur große Welle mit Horrorlisten möglicher Sparpositionen ._!))
+        (Nucleus
+          (span 4 13)
+          (rel2par span)
+          (Nucleus
+            (span 4 10)
+            (rel2par span)
+            (Nucleus
+              (span 4 8)
+              (rel2par span)
+              (Nucleus
+                (span 4 5)
+                (rel2par span)
+                (Satellite
+                  (leaf 4)
+                  (rel2par interpretation)
+                  (text _!Am Ende aber bleibt alles beim Alten :_!))
+                (Nucleus
+                  (leaf 5)
+                  (rel2par span)
+                  (text
+                    _!Dass Millionen fehlen , hindert nicht daran , sie zu verteilen ._!)))
+              (Satellite
+                (span 6 8)
+                (rel2par evidence)
+                (Satellite
+                  (leaf 6)
+                  (rel2par antithesis)
+                  (text
+                    _!Bosse hatte empfohlen , auf den teuren Theaterneubau zu verzichten ._!))
+                (Nucleus
+                  (span 7 8)
+                  (rel2par span)
+                  (Satellite
+                    (leaf 7)
+                    (rel2par reason)
+                    (text
+                      _!Doch der Versuch , das Projekt sterben zu lassen , hätte angesichts der dünnen SPD-CDU-Mehrheit im Desaster geendet ._!))
+                  (Nucleus
+                    (leaf 8)
+                    (rel2par span)
+                    (text
+                      _!Also bekannte man sich lieber einmütig zu dem Vorhaben ._!)))))
+            (Satellite
+              (span 9 10)
+              (rel2par evidence)
+              (Nucleus
+                (leaf 9)
+                (rel2par span)
+                (text
+                  _!Wie bei der Kammerakademie soll die Verwaltung hier und da ein bisschen umschichten ,_!))
+              (Satellite
+                (leaf 10)
+                (rel2par elaboration)
+                (text _!nirgendwo darf es richtig weh tut ._!))))
+          (Satellite
+            (span 11 13)
+            (rel2par evidence)
+            (Nucleus
+              (leaf 11)
+              (rel2par span)
+              (text
+                _!Das Füllhorn schließlich schüttet man über Kitas und Schulen aus ._!))
+            (Satellite
+              (span 12 13)
+              (rel2par reason)
+              (Nucleus
+                (leaf 12)
+                (rel2par list)
+                (text
+                  _!Dank der Kooperationsvereinbarung mit der CDU hat man deren Zustimmung schon in der Tasche ._!))
+              (Nucleus
+                (leaf 13)
+                (rel2par list)
+                (text _!Die PDS wird nichts dagegen haben ._!)))))))
+    (Nucleus
+      (span 14 17)
+      (rel2par span)
+      (Nucleus
+        (span 14 15)
+        (rel2par joint)
+        (Satellite
+          (leaf 14)
+          (rel2par purpose)
+          (text
+            _!Um die sicher notwendigen Investitionen tätigen zu können ,_!))
+        (Nucleus
+          (leaf 15)
+          (rel2par span)
+          (text
+            _!bleibt aber am Ende wieder nur der Verkauf von Tafelsilber ._!)))
+      (Nucleus
+        (span 16 17)
+        (rel2par joint)
+        (Nucleus
+          (leaf 16)
+          (rel2par span)
+          (text
+            _!Dieses Problem und das Haushaltsloch werden nicht verschwinden ,_!))
+        (Satellite
+          (leaf 17)
+          (rel2par circumstance)
+          (text _!wenn man Bosse in die Wüste geschickt hat ._!))))))

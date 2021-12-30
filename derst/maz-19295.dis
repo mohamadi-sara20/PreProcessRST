@@ -1,0 +1,93 @@
+(Root
+  (span 1 13)
+  (Nucleus (leaf 1) (rel2par virtual-root) (text _!K-Frage_!))
+  (Nucleus
+    (span 2 13)
+    (rel2par virtual-root)
+    (Satellite
+      (span 2 8)
+      (rel2par background)
+      (Nucleus
+        (span 2 5)
+        (rel2par joint)
+        (Nucleus
+          (span 2 4)
+          (rel2par span)
+          (Satellite
+            (span 2 3)
+            (rel2par condition)
+            (Nucleus
+              (leaf 2)
+              (rel2par list)
+              (text
+                _!Angenommen , nur mal angenommen , der CDU-Landesvorsitzende S. im Land B. hätte sich für Edmund Stoiber als Kanzlerkandidaten der Union entschieden ._!))
+            (Nucleus
+              (leaf 3)
+              (rel2par list)
+              (text
+                _!Nehmen wir weiter an , dass die CDU-Basis im Bundesland B. eher ihrer Parteichefin Angela Merkel zuneigt ,_!)))
+          (Nucleus
+            (leaf 4)
+            (rel2par span)
+            (text
+              _!dürfte Landeschef S. dann guten Gewissens im CDU-Bundesvorstand für Stoiber votieren ?_!)))
+        (Satellite
+          (leaf 5)
+          (rel2par interpretation)
+          (text _!Alles nur Gedankenspiele ._!)))
+      (Nucleus
+        (span 6 8)
+        (rel2par joint)
+        (Nucleus
+          (leaf 6)
+          (rel2par span)
+          (text _!Niemand wagt sich bislang aus der Deckung ._!))
+        (Satellite
+          (span 7 8)
+          (rel2par elaboration)
+          (Satellite
+            (leaf 7)
+            (rel2par cause)
+            (text
+              _!Tatsächlich ist die Kür des Kanzlerkandidaten so streng geheim ,_!))
+          (Nucleus
+            (leaf 8)
+            (rel2par span)
+            (text
+              _!dass sie nur unter dem Code-Wort " K-Frage " gehandelt wird ._!)))))
+    (Nucleus
+      (span 9 13)
+      (rel2par span)
+      (Satellite
+        (span 9 11)
+        (rel2par solutionhood)
+        (Nucleus
+          (leaf 9)
+          (rel2par span)
+          (text
+            _!Bei Lichte und mit dem nötigen Ernst betrachtet , gibt es bei den Spitzenkandidaturen ein Legitimationsproblem ._!))
+        (Satellite
+          (span 10 11)
+          (rel2par evidence)
+          (Nucleus
+            (leaf 10)
+            (rel2par list)
+            (text
+              _!Mitglieder-Entscheide haben schon oft - siehe Berliner SPD - den falschen Frontmann auf den Schild gehoben ._!))
+          (Nucleus
+            (leaf 11)
+            (rel2par list)
+            (text
+              _!Kungelrunden gehen bewusst an der Basis vorbei ._!))))
+      (Nucleus
+        (span 12 13)
+        (rel2par span)
+        (Satellite
+          (leaf 12)
+          (rel2par preparation)
+          (text
+            _!Die Lösung des Problems ist ebenso schlicht wie anspruchsvoll :_!))
+        (Nucleus
+          (leaf 13)
+          (rel2par span)
+          (text _!unbezweifelbare , überzeugende Autorität ._!))))))

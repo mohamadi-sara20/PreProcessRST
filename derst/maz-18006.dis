@@ -1,0 +1,108 @@
+(Root
+  (span 1 15)
+  (Nucleus (leaf 1) (rel2par virtual-root) (text _!Muffensausen_!))
+  (Nucleus
+    (span 2 15)
+    (rel2par virtual-root)
+    (Nucleus
+      (span 2 12)
+      (rel2par span)
+      (Satellite
+        (span 2 3)
+        (rel2par background)
+        (Satellite
+          (leaf 2)
+          (rel2par result)
+          (text
+            _!Fast möchte man meinen , Gerd Stuckenbrok macht jetzt Wahlkampf für die CDU ._!))
+        (Nucleus
+          (leaf 3)
+          (rel2par span)
+          (text
+            _!Was hat den SPD-Chef geritten , obwohl ihm seine Fraktion die Zustimmung dafür verweigerte , einen derart beleidigenden Brief über die OB-Kandidatin Tiemann in die Welt zu schicken ?_!)))
+      (Nucleus
+        (span 4 12)
+        (rel2par span)
+        (Satellite
+          (span 4 6)
+          (rel2par antithesis)
+          (Satellite
+            (leaf 4)
+            (rel2par interpretation)
+            (text
+              _!Süffisant , lächelnd und mit feinem Florett hätte er ihr aufs Brot schmieren können ,_!))
+          (Nucleus
+            (span 5 6)
+            (rel2par span)
+            (Nucleus
+              (leaf 5)
+              (rel2par span)
+              (text
+                _!dass sie wohl ein wenig vorschnell gewesen sei ,_!))
+            (Satellite
+              (leaf 6)
+              (rel2par circumstance)
+              (text
+                _!als sie den Markt noch vor Weihnachten zuschütten wollte ._!))))
+        (Nucleus
+          (span 7 12)
+          (rel2par span)
+          (Nucleus
+            (span 7 8)
+            (rel2par joint)
+            (Satellite
+              (leaf 7)
+              (rel2par preparation)
+              (text _!Aber nein :_!))
+            (Nucleus
+              (leaf 8)
+              (rel2par span)
+              (text
+                _!Stuckenbrok nahm den Krummsäbel und schlug zu ._!)))
+          (Nucleus
+            (span 9 12)
+            (rel2par joint)
+            (Nucleus
+              (leaf 9)
+              (rel2par span)
+              (text _!Getroffen hat er nur sich ._!))
+            (Satellite
+              (span 10 12)
+              (rel2par reason)
+              (Nucleus
+                (leaf 10)
+                (rel2par list)
+                (text
+                  _!Mit den Sprüchen vom " RFT - Reichtum für Tiemann " schafft er es nicht einmal die Lufthoheit über die Stammtische zu bekommen ._!))
+              (Nucleus
+                (span 11 12)
+                (rel2par list)
+                (Nucleus
+                  (leaf 11)
+                  (rel2par span)
+                  (text
+                    _!Und auch die Seitenhiebe auf die " einzige örtliche Tageszeitung " , die sich von Havel-Berlusconi Tiemann domestizieren lasse und mit ins Loch steige , wird ihm niemand abnehmen ._!))
+                (Satellite
+                  (leaf 12)
+                  (rel2par reason)
+                  (text
+                    _!Ist doch hinlänglich bekannt , dass es keine Partei intensiver versucht hat als die SPD - über welchen Umweg auch immer - Einfluss auf kritische Berichterstattung zu nehmen ._!))))))))
+    (Satellite
+      (span 13 15)
+      (rel2par interpretation)
+      (Nucleus
+        (leaf 13)
+        (rel2par span)
+        (text
+          _!Rational ist Gerd Stuckenbroks verbaler Schnellschuss mit Tendenz zur Beleidigung nicht zu erklären ._!))
+      (Satellite
+        (span 14 15)
+        (rel2par unless)
+        (Nucleus
+          (leaf 14)
+          (rel2par span)
+          (text _!Es sei denn , der Genosse bekommt Muffensausen ,_!))
+        (Satellite
+          (leaf 15)
+          (rel2par cause)
+          (text _!weil ihm die Felle davonschwimmen ..._!))))))

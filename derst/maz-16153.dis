@@ -1,0 +1,108 @@
+(Root
+  (span 1 15)
+  (Nucleus (leaf 1) (rel2par virtual-root) (text _!Alles offen_!))
+  (Nucleus
+    (span 2 15)
+    (rel2par virtual-root)
+    (Satellite
+      (span 2 7)
+      (rel2par background)
+      (Nucleus
+        (span 2 5)
+        (rel2par span)
+        (Nucleus
+          (span 2 3)
+          (rel2par span)
+          (Nucleus
+            (leaf 2)
+            (rel2par span)
+            (text
+              _!In Berlin haben die rot-roten Verhandlungspartner eine wichtige Regel von Koalitionsrunden befolgt ,_!))
+          (Satellite
+            (leaf 3)
+            (rel2par e-elaboration)
+            (text
+              _!nämlich die " heißen Eisen " möglichst gleich anzupacken ._!)))
+        (Satellite
+          (span 4 5)
+          (rel2par elaboration)
+          (Nucleus
+            (leaf 4)
+            (rel2par list)
+            (text _!Olympia war ein " heißes Eisen " ,_!))
+          (Nucleus
+            (leaf 5)
+            (rel2par list)
+            (text _!das andere der Ausbau Schönefelds ._!))))
+      (Satellite
+        (span 6 7)
+        (rel2par interpretation)
+        (Satellite
+          (leaf 6)
+          (rel2par antithesis)
+          (text
+            _!Die Absage an eine Olympiabewerbung und der Verweis auf die desolate Haushaltslage sind einleuchtend ._!))
+        (Nucleus
+          (leaf 7)
+          (rel2par span)
+          (text _!Weit verwirrender ist das Flughafen-Votum ._!))))
+    (Nucleus
+      (span 8 15)
+      (rel2par span)
+      (Satellite
+        (leaf 8)
+        (rel2par antithesis)
+        (text
+          _!Nach außen wird der Eindruck vermittelt , ein Streitthema sei vom Tisch , die PDS habe klein beigegeben ._!))
+      (Nucleus
+        (span 9 15)
+        (rel2par span)
+        (Nucleus
+          (span 9 14)
+          (rel2par span)
+          (Satellite
+            (leaf 9)
+            (rel2par preparation)
+            (text
+              _!Doch beim genauen Lesen des Beschlusses wird deutlich :_!))
+          (Nucleus
+            (span 10 14)
+            (rel2par span)
+            (Satellite
+              (span 10 11)
+              (rel2par interpretation)
+              (Nucleus
+                (leaf 10)
+                (rel2par span)
+                (text
+                  _!Die Verhandlungspartner haben eine geschickte , weil weit interpretierbare Formel gefunden ,_!))
+              (Satellite
+                (leaf 11)
+                (rel2par e-elaboration)
+                (text
+                  _!mit der sie sich gegen alle Risiken absichern ._!)))
+            (Nucleus
+              (span 12 14)
+              (rel2par span)
+              (Satellite
+                (span 12 13)
+                (rel2par concession)
+                (Nucleus
+                  (leaf 12)
+                  (rel2par span)
+                  (text
+                    _!Zwar wird das Planfeststellungsverfahren fortgesetzt ,_!))
+                (Satellite
+                  (leaf 13)
+                  (rel2par cause)
+                  (text
+                    _!weil auch die PDS erkennen musste , dass es kein Zurück gibt ,_!)))
+              (Nucleus
+                (leaf 14)
+                (rel2par span)
+                (text _!doch die Bedenken bleiben ._!)))))
+        (Satellite
+          (leaf 15)
+          (rel2par reason)
+          (text
+            _!Wie es weitergeht , wenn die Privatisierung der Flughafengesellschaft nicht zustande kommt , steht in den Sternen ._!))))))

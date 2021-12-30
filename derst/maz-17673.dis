@@ -1,0 +1,153 @@
+(Root
+  (span 1 21)
+  (Nucleus
+    (leaf 1)
+    (rel2par virtual-root)
+    (text _!Unbestechliche Zeugen_!))
+  (Nucleus
+    (span 2 21)
+    (rel2par virtual-root)
+    (Nucleus
+      (span 2 19)
+      (rel2par span)
+      (Satellite
+        (span 2 9)
+        (rel2par cause)
+        (Nucleus
+          (span 2 3)
+          (rel2par span)
+          (Satellite
+            (leaf 2)
+            (rel2par interpretation)
+            (text
+              _!Die Rathenower Polizeibeamten haben gestern enorme Verstärkung erhalten ._!))
+          (Nucleus
+            (leaf 3)
+            (rel2par span)
+            (text
+              _!Drei hochmoderne Videokameras werden sie bei der Beobachtung des Dancehouse-Geländes unterstützen ._!)))
+        (Satellite
+          (span 4 9)
+          (rel2par result)
+          (Nucleus
+            (span 4 8)
+            (rel2par span)
+            (Nucleus
+              (span 4 5)
+              (rel2par list)
+              (Nucleus
+                (leaf 4)
+                (rel2par span)
+                (text
+                  _!Vorbei die Zeiten , in denen ein Einsatzbus mit mehreren Beamten auf dem Parkplatz stundenlang Position beziehen musste ,_!))
+              (Satellite
+                (leaf 5)
+                (rel2par purpose)
+                (text
+                  _!um mögliche Gewalttäter von ihrem Tun abzuhalten ._!)))
+            (Nucleus
+              (span 6 8)
+              (rel2par list)
+              (Nucleus
+                (leaf 6)
+                (rel2par span)
+                (text
+                  _!Vorbei auch die Zeiten , in denen gewaltbereite Jugendliche ihr Katz- und Maus-Spielchen mit den Polizisten trieben ,_!))
+              (Satellite
+                (span 7 8)
+                (rel2par means)
+                (Nucleus
+                  (leaf 7)
+                  (rel2par span)
+                  (text _!indem sie provozierten ,_!))
+                (Satellite
+                  (leaf 8)
+                  (rel2par circumstance)
+                  (text _!ohne straffällig zu werden ._!)))))
+          (Satellite
+            (leaf 9)
+            (rel2par restatement)
+            (text _!Vorbei ._!))))
+      (Nucleus
+        (span 10 19)
+        (rel2par span)
+        (Nucleus
+          (span 10 11)
+          (rel2par span)
+          (Satellite
+            (leaf 10)
+            (rel2par condition)
+            (text
+              _!Wer sich jetzt etwas zu Schulden kommen lässt ,_!))
+          (Nucleus
+            (leaf 11)
+            (rel2par span)
+            (text
+              _!muss damit rechnen , unverzüglich und beweiskräftig überführt zu werden ._!)))
+        (Satellite
+          (span 12 19)
+          (rel2par reason)
+          (Nucleus
+            (span 12 13)
+            (rel2par span)
+            (Satellite
+              (leaf 12)
+              (rel2par interpretation)
+              (text _!Die Kameras sind unbestechlich ._!))
+            (Nucleus
+              (leaf 13)
+              (rel2par span)
+              (text
+                _!Aus der Distanz beobachten sie das Geschehen und geben den Beamten an den Monitoren die Möglichkeit , die Lage nüchtern und mit klarem Kopf einzuschätzen ._!)))
+          (Satellite
+            (span 14 19)
+            (rel2par result)
+            (Nucleus
+              (span 14 15)
+              (rel2par list)
+              (Satellite
+                (leaf 14)
+                (rel2par cause)
+                (text
+                  _!Provokateuren wird das Objekt ihrer Aggression genommen ,_!))
+              (Nucleus
+                (leaf 15)
+                (rel2par span)
+                (text _!ihre Sticheleien laufen ins Leere ._!)))
+            (Nucleus
+              (span 16 19)
+              (rel2par list)
+              (Nucleus
+                (span 16 17)
+                (rel2par span)
+                (Satellite
+                  (leaf 16)
+                  (rel2par condition)
+                  (text _!Und wer straffällig wird ,_!))
+                (Nucleus
+                  (leaf 17)
+                  (rel2par span)
+                  (text
+                    _!der braucht nicht darauf zu hoffen , dass sein Tun unbemerkt bleibt ._!)))
+              (Satellite
+                (span 18 19)
+                (rel2par evidence)
+                (Nucleus
+                  (leaf 18)
+                  (rel2par conjunction)
+                  (text _!Die technischen Augen sehen alles_!))
+                (Nucleus
+                  (leaf 19)
+                  (rel2par conjunction)
+                  (text _!und liefern die entsprechenden Beweise ._!))))))))
+    (Satellite
+      (span 20 21)
+      (rel2par evaluation-s)
+      (Nucleus
+        (leaf 20)
+        (rel2par joint)
+        (text _!Das ist das Ziel der Videoüberwachung ._!))
+      (Nucleus
+        (leaf 21)
+        (rel2par joint)
+        (text _!Einwände dagegen zu finden , fällt schwer ._!)))))

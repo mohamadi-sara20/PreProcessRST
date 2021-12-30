@@ -1,0 +1,112 @@
+(Root
+  (span 1 15)
+  (Nucleus
+    (leaf 1)
+    (rel2par virtual-root)
+    (text _!Der dritte Kandidat_!))
+  (Nucleus
+    (span 2 15)
+    (rel2par virtual-root)
+    (Satellite
+      (span 2 7)
+      (rel2par background)
+      (Nucleus
+        (span 2 3)
+        (rel2par span)
+        (Nucleus
+          (leaf 2)
+          (rel2par span)
+          (text _!Dietmar Zigan ist ein Glückspilz -_!))
+        (Satellite
+          (leaf 3)
+          (rel2par circumstance)
+          (text
+            _!zumindest im Vergleich zu seinem Wittenberger Amts- und Parteikollegen Klaus Petry ._!)))
+      (Satellite
+        (span 4 7)
+        (rel2par reason)
+        (Nucleus
+          (span 4 5)
+          (rel2par span)
+          (Nucleus
+            (leaf 4)
+            (rel2par joint)
+            (text
+              _!Nicht nur , dass SPD-Mann Zigan seine Wiederwahl schon hinter sich hat :_!))
+          (Nucleus
+            (leaf 5)
+            (rel2par joint)
+            (text
+              _!Angesichts von nur einem Gegenkandidaten hatte er auch vor der Abstimmung schon einigermaßen ruhig schlafen können ._!)))
+        (Satellite
+          (span 6 7)
+          (rel2par elaboration)
+          (Satellite
+            (leaf 6)
+            (rel2par condition)
+            (text
+              _!Anders wäre es gewesen , wenn auch die CDU einen guten Kandidaten ins Rennen geschickt hätte ._!))
+          (Nucleus
+            (leaf 7)
+            (rel2par span)
+            (text
+              _!Dann hätte Zigan durchaus ein zweiter Wahlgang mit ungewissem Ausgang geblüht ._!)))))
+    (Nucleus
+      (span 8 15)
+      (rel2par span)
+      (Nucleus
+        (leaf 8)
+        (rel2par span)
+        (text _!Das aber könnte Petry passieren ._!))
+      (Satellite
+        (span 9 15)
+        (rel2par reason)
+        (Nucleus
+          (span 9 11)
+          (rel2par joint)
+          (Satellite
+            (span 9 10)
+            (rel2par circumstance)
+            (Nucleus
+              (leaf 9)
+              (rel2par span)
+              (text
+                _!Denn neben dem CDU-Kandidaten Karl-Heinz Straßburg ist nun ein zweiter ernst zu nehmender Gegner da :_!))
+            (Satellite
+              (leaf 10)
+              (rel2par evidence)
+              (text _!Die UBG hat Horst Jaruczewski aufgestellt ._!)))
+          (Nucleus
+            (leaf 11)
+            (rel2par span)
+            (text
+              _!Damit ist ein Sprecher derjenigen , die schon vor einem Jahr Petry aus dem Amt heben wollten , erneut in den Ring gestiegen ._!)))
+        (Nucleus
+          (span 12 15)
+          (rel2par joint)
+          (Nucleus
+            (leaf 12)
+            (rel2par span)
+            (text
+              _!Die Aussichten , dem gleichen Anliegen mehr Nachdruck zu verleihen , sind dabei deutlich besser als damals :_!))
+          (Satellite
+            (span 13 15)
+            (rel2par reason)
+            (Nucleus
+              (span 13 14)
+              (rel2par conjunction)
+              (Satellite
+                (leaf 13)
+                (rel2par reason)
+                (text
+                  _!Denn Petrys Haupttrumpfkarte , die Ansiedlung eines Industriepark Holz , wird wohl nicht stechen_!))
+              (Nucleus
+                (leaf 14)
+                (rel2par span)
+                (text
+                  _!und damit dem Vorwurf , er sei nicht der richtige Mann für einen Aufschwung Wittenberges , neue Nahrung verleihen ._!)))
+            (Nucleus
+              (leaf 15)
+              (rel2par conjunction)
+              (text
+                _!Und : Im Gegensatz zu damals haben Petrys Kontrahenten jetzt ein Gesicht ._!))))))))

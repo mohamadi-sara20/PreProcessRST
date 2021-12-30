@@ -1,0 +1,150 @@
+(Root
+  (span 1 21)
+  (Nucleus (leaf 1) (rel2par virtual-root) (text _!Wendefehler_!))
+  (Nucleus
+    (span 2 21)
+    (rel2par virtual-root)
+    (Nucleus
+      (span 2 18)
+      (rel2par span)
+      (Nucleus
+        (span 2 10)
+        (rel2par span)
+        (Nucleus
+          (span 2 7)
+          (rel2par joint)
+          (Satellite
+            (span 2 5)
+            (rel2par reason)
+            (Satellite
+              (span 2 4)
+              (rel2par antithesis)
+              (Satellite
+                (span 2 3)
+                (rel2par solutionhood)
+                (Nucleus
+                  (leaf 2)
+                  (rel2par joint)
+                  (text
+                    _!Heranwachsende haben seit jeher und überall ein Problem gehabt :_!))
+                (Nucleus
+                  (leaf 3)
+                  (rel2par joint)
+                  (text
+                    _!Sie sind rebellisch und machen dumme Sachen ._!)))
+              (Nucleus
+                (leaf 4)
+                (rel2par span)
+                (text
+                  _!Sie wegzuschließen , scheint eine Lösung zu sein ._!)))
+            (Nucleus
+              (leaf 5)
+              (rel2par span)
+              (text
+                _!Aber nicht alle Jugendlichen lassen sich während schwieriger Lebensphasen einfach wegsperren ._!)))
+          (Nucleus
+            (span 6 7)
+            (rel2par span)
+            (Nucleus
+              (leaf 6)
+              (rel2par span)
+              (text
+                _!Deshalb ist es sehr lobenswert , dass sich auch in Königs Wusterhausen der Verein Jugendrechtshaus gegründet hat ._!))
+            (Satellite
+              (leaf 7)
+              (rel2par elaboration)
+              (text
+                _!38 Männer und Frauen aus dem Ort erklärten sich bereit ohne Gegenleistung in die Zukunft zu investieren : in Kinder und Jugendliche ._!))))
+        (Nucleus
+          (span 8 10)
+          (rel2par joint)
+          (Nucleus
+            (leaf 8)
+            (rel2par list)
+            (text _!Sie wollen Rechtsbewusstsein lehren ,_!))
+          (Nucleus
+            (leaf 9)
+            (rel2par list)
+            (text _!Ansprechpartner sein_!))
+          (Nucleus
+            (leaf 10)
+            (rel2par list)
+            (text
+              _!und die jungen Leute an die Regeln des menschlichen Zusammenlebens heranführen ._!))))
+      (Satellite
+        (span 11 18)
+        (rel2par reason)
+        (Nucleus
+          (leaf 11)
+          (rel2par span)
+          (text
+            _!Auch weil Elternhäuser und Schulen dies nicht immer schaffen ._!))
+        (Satellite
+          (span 12 18)
+          (rel2par reason)
+          (Satellite
+            (span 12 16)
+            (rel2par background)
+            (Satellite
+              (leaf 12)
+              (rel2par concession)
+              (text _!Orientierungslose Menschen gibt es überall ._!))
+            (Nucleus
+              (span 13 16)
+              (rel2par span)
+              (Nucleus
+                (span 13 14)
+                (rel2par list)
+                (Nucleus
+                  (leaf 13)
+                  (rel2par span)
+                  (text
+                    _!Vielen Ostdeutschen wurde wendebedingt jedoch eingeredet : Ihr habt alles falsch gemacht !_!))
+                (Satellite
+                  (leaf 14)
+                  (rel2par interpretation)
+                  (text _!Und das irritiert ._!)))
+              (Nucleus
+                (span 15 16)
+                (rel2par list)
+                (Nucleus
+                  (leaf 15)
+                  (rel2par span)
+                  (text
+                    _!Zudem verlor ein Großteil der ehemaligen DDR-Bürger die Arbeit ,_!))
+                (Satellite
+                  (leaf 16)
+                  (rel2par result)
+                  (text _!damit den sozialen Halt ._!)))))
+          (Nucleus
+            (span 17 18)
+            (rel2par span)
+            (Satellite
+              (leaf 17)
+              (rel2par reason)
+              (text
+                _!Eltern , die selbst um ihr Gleichgewicht kämpfen , haben mit sich selbst zu tun ._!))
+            (Nucleus
+              (leaf 18)
+              (rel2par span)
+              (text
+                _!Sie können nur bedingt Gesprächspartner und Vorbilder sein ._!))))))
+    (Satellite
+      (span 19 21)
+      (rel2par interpretation)
+      (Satellite
+        (leaf 19)
+        (rel2par evaluation-n)
+        (text
+          _!Die Vereinsmitglieder des Jugendrechtshauses wollen zuhören ._!))
+      (Nucleus
+        (span 20 21)
+        (rel2par span)
+        (Nucleus
+          (leaf 20)
+          (rel2par joint)
+          (text _!Und das ist ein guter erster Schritt ._!))
+        (Nucleus
+          (leaf 21)
+          (rel2par joint)
+          (text _!Hoffentlich folgen weitere ._!))))))

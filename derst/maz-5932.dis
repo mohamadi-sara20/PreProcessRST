@@ -1,0 +1,97 @@
+(Root
+  (span 1 13)
+  (Nucleus
+    (leaf 1)
+    (rel2par virtual-root)
+    (text _!Das kleinere Übel_!))
+  (Nucleus
+    (span 2 13)
+    (rel2par virtual-root)
+    (Satellite
+      (span 2 11)
+      (rel2par evaluation-n)
+      (Nucleus
+        (span 2 6)
+        (rel2par joint)
+        (Nucleus
+          (span 2 4)
+          (rel2par span)
+          (Satellite
+            (span 2 3)
+            (rel2par interpretation)
+            (Nucleus
+              (leaf 2)
+              (rel2par span)
+              (text
+                _!Es hat lange gedauert , bis sich im Bereich des Amtes Dahme etwas bewegt hat ._!))
+            (Satellite
+              (leaf 3)
+              (rel2par elaboration)
+              (text
+                _!Die zahlreichen Appelle , die in der Landeshauptstadt Potsdam formuliert wurden , verhallten in der Provinz meist ohne Wirkung zu zeigen ._!)))
+          (Nucleus
+            (leaf 4)
+            (rel2par span)
+            (text
+              _!Die lokalen Akteure legten bei der Bildung größerer Gemeinden wahrlich keine Eile an den Tag ._!)))
+        (Satellite
+          (span 5 6)
+          (rel2par reason)
+          (Satellite
+            (leaf 5)
+            (rel2par preparation)
+            (text _!Hauptgrund für dieses Zaudern :_!))
+          (Nucleus
+            (leaf 6)
+            (rel2par span)
+            (text
+              _!Die als hoch verschuldet geltende Stadt Dahme erschien den umliegenden Dörfern kein geeigneter Partner zu sein ._!))))
+      (Nucleus
+        (span 7 11)
+        (rel2par joint)
+        (Nucleus
+          (span 7 9)
+          (rel2par span)
+          (Nucleus
+            (leaf 7)
+            (rel2par span)
+            (text
+              _!Mittlerweile haben sich indes auch in der Dahmer Region neue politische Strukturen manifestiert ._!))
+          (Satellite
+            (span 8 9)
+            (rel2par evidence)
+            (Nucleus
+              (leaf 8)
+              (rel2par span)
+              (text
+                _!Beschlossene Sache ist die Fusion von Ihlow , Illmersdorf , Rietdorf , Niendorf , Bollensdorf und Mehlsdorf zu Groß-Ihlow ._!))
+            (Satellite
+              (leaf 9)
+              (rel2par elaboration)
+              (text
+                _!Dieses neue Gebilde ist sowohl von den Bürgern als auch durch den Kreistag legitimiert ._!))))
+        (Satellite
+          (span 10 11)
+          (rel2par elaboration)
+          (Satellite
+            (leaf 10)
+            (rel2par preparation)
+            (text _!Was die anderen größeren Gemeinden betrifft ,_!))
+          (Nucleus
+            (leaf 11)
+            (rel2par span)
+            (text
+              _!so wird sich beim Urnengang am nächsten Sonntag erweisen , ob sie dem Willen der Einwohner entsprechen ._!)))))
+    (Nucleus
+      (span 12 13)
+      (rel2par span)
+      (Satellite
+        (leaf 12)
+        (rel2par concession)
+        (text
+          _!Große Ämter und Gemeinden sind sicherlich nicht der Weisheit letzter Schluss ._!))
+      (Nucleus
+        (leaf 13)
+        (rel2par span)
+        (text
+          _!Im Vergleich zur bislang praktizierten Kleinstaaterei im ländlich geprägten Süden des Kreisgebietes sind sie jedoch das kleinere Übel ._!)))))

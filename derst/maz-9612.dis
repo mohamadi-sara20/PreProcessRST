@@ -1,0 +1,101 @@
+(Root
+  (span 1 14)
+  (Nucleus
+    (leaf 1)
+    (rel2par virtual-root)
+    (text _!Alle sind es nicht_!))
+  (Nucleus
+    (span 2 14)
+    (rel2par virtual-root)
+    (Nucleus
+      (span 2 5)
+      (rel2par joint)
+      (Nucleus
+        (span 2 3)
+        (rel2par span)
+        (Nucleus
+          (leaf 2)
+          (rel2par span)
+          (text
+            _!Die Bundeswehr geht davon aus , dass ihre geplanten Aktivitäten aus der Luft " keine relevanten Auswirkungen auf die Entwicklung der Region im touristischen Bereich " haben werden ._!))
+        (Satellite
+          (leaf 3)
+          (rel2par evidence)
+          (text
+            _!Jahrelange Erfahrungen in anderen Gebieten der Bundesrepublik hätten gezeigt , dass militärische Einrichtungen durchaus mit den Interessen des Tourismus in Einklang zu bringen seien ._!)))
+      (Satellite
+        (span 4 5)
+        (rel2par elaboration)
+        (Nucleus
+          (leaf 4)
+          (rel2par span)
+          (text
+            _!So jedenfalls steht es in der Erläuterung zum Luft/Bodenschießplatz bei Wittstock ._!))
+        (Satellite
+          (leaf 5)
+          (rel2par background)
+          (text
+            _!Dazu werden in der kommenden Woche die betroffenen Gemeinden angehört ._!))))
+    (Nucleus
+      (span 6 11)
+      (rel2par joint)
+      (Nucleus
+        (span 6 8)
+        (rel2par span)
+        (Satellite
+          (leaf 6)
+          (rel2par preparation)
+          (text _!Stopp , die Aussage ist nicht ganz korrekt ._!))
+        (Nucleus
+          (span 7 8)
+          (rel2par span)
+          (Nucleus
+            (leaf 7)
+            (rel2par span)
+            (text _!Alle werden es nicht sein ,_!))
+          (Satellite
+            (leaf 8)
+            (rel2par reason)
+            (text
+              _!denn es liegt auf der Hand , dass sich auch wenigstens Teile des ehemaligen Kreises Kyritz darüber Gedanken machen müssen , wie sie mit den Überfliegern klarkommen ._!))))
+      (Satellite
+        (span 9 11)
+        (rel2par cause)
+        (Satellite
+          (leaf 9)
+          (rel2par background)
+          (text
+            _!Massiver Widerstand hat sich bisher nicht geregt ._!))
+        (Nucleus
+          (span 10 11)
+          (rel2par span)
+          (Satellite
+            (leaf 10)
+            (rel2par concession)
+            (text _!Spät werden jetzt vereinzelt Proteste laut ,_!))
+          (Nucleus
+            (leaf 11)
+            (rel2par span)
+            (text
+              _!angeregt und unterstützt allerdings auch nur von Einzelpersonen ._!)))))
+    (Nucleus
+      (span 12 14)
+      (rel2par joint)
+      (Nucleus
+        (span 12 13)
+        (rel2par span)
+        (Nucleus
+          (leaf 12)
+          (rel2par span)
+          (text
+            _!Die Kommunen sind bisher sehr gelassen mit dem Problem umgegangen ._!))
+        (Satellite
+          (leaf 13)
+          (rel2par interpretation)
+          (text
+            _!Sie haben es dem Landkreis Ost-prignitz-Ruppin überlassen , die nichtmilitärische Nutzung der Kyritz-Ruppiner Heide einzufordern ._!)))
+      (Satellite
+        (leaf 14)
+        (rel2par interpretation)
+        (text
+          _!Überzeugung oder einfach nur Verdrängung - die Frage bleibt offen ._!)))))

@@ -1,0 +1,90 @@
+(Root
+  (span 1 12)
+  (Nucleus
+    (leaf 1)
+    (rel2par virtual-root)
+    (text _!Wichtige Botschaft_!))
+  (Nucleus
+    (span 2 12)
+    (rel2par virtual-root)
+    (Satellite
+      (span 2 5)
+      (rel2par evaluation-n)
+      (Nucleus
+        (span 2 3)
+        (rel2par span)
+        (Satellite
+          (leaf 2)
+          (rel2par antithesis)
+          (text
+            _!Lange hat sich die Europäische Zentralbank gesträubt ._!))
+        (Nucleus
+          (leaf 3)
+          (rel2par span)
+          (text
+            _!Doch gestern hat sie auf die schwache Konjunktur mit einer kräftigen Leitzinssenkung um 0,5 Prozentpunkte auf 3,25 Prozent reagiert ._!)))
+      (Satellite
+        (span 4 5)
+        (rel2par cause)
+        (Satellite
+          (leaf 4)
+          (rel2par concession)
+          (text
+            _!Auch wenn sich EZB-Chef Wim Duisenberg weiter weigert , das böse R-Wort " Rezession " in den Mund zu nehmen -_!))
+        (Nucleus
+          (leaf 5)
+          (rel2par span)
+          (text
+            _!dass die Weltwirtschaft in eine schwere Krise rutscht , bestreitet niemand mehr ._!))))
+    (Nucleus
+      (span 6 12)
+      (rel2par span)
+      (Nucleus
+        (span 6 8)
+        (rel2par joint)
+        (Nucleus
+          (leaf 6)
+          (rel2par span)
+          (text
+            _!Fraglich ist aber , ob niedrige Zinsen und damit billigeres Geld für mehr Investitionen und Konsum und so für den erhofften raschen Aufschwung sorgen ._!))
+        (Satellite
+          (span 7 8)
+          (rel2par evidence)
+          (Nucleus
+            (leaf 7)
+            (rel2par list)
+            (text
+              _!Die Verunsicherung von Verbrauchern und Unternehmern ist seit dem 11. September weniger ökonomisch als psychologisch begründet ._!))
+          (Nucleus
+            (leaf 8)
+            (rel2par list)
+            (text
+              _!Außerdem wirkt Geldpolitik erfahrungsgemäß erst nach einem Jahr ._!))))
+      (Nucleus
+        (span 9 12)
+        (rel2par joint)
+        (Satellite
+          (leaf 9)
+          (rel2par preparation)
+          (text
+            _!Die wichtigste Botschaft der Zinsentscheidung ist deshalb eine andere :_!))
+        (Nucleus
+          (span 10 12)
+          (rel2par span)
+          (Satellite
+            (leaf 10)
+            (rel2par circumstance)
+            (text _!Die Währungshüter haben ihren Teil getan ,_!))
+          (Nucleus
+            (span 11 12)
+            (rel2par span)
+            (Satellite
+              (leaf 11)
+              (rel2par antithesis)
+              (text
+                _!jetzt können die Politiker nicht mehr die Verantwortung abschieben ,_!))
+            (Nucleus
+              (leaf 12)
+              (rel2par span)
+              (text
+                _!sondern müssen selbst mit ihren Mitteln aktiv werden ._!))))))))

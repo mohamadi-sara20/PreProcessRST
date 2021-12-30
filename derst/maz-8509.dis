@@ -1,0 +1,143 @@
+(Root
+  (span 1 19)
+  (Nucleus
+    (leaf 1)
+    (rel2par virtual-root)
+    (text _!Barbies im Laubsack_!))
+  (Nucleus
+    (span 2 19)
+    (rel2par virtual-root)
+    (Nucleus
+      (span 2 16)
+      (rel2par span)
+      (Satellite
+        (span 2 12)
+        (rel2par reason)
+        (Nucleus
+          (span 2 9)
+          (rel2par span)
+          (Satellite
+            (span 2 5)
+            (rel2par background)
+            (Satellite
+              (span 2 4)
+              (rel2par cause)
+              (Nucleus
+                (leaf 2)
+                (rel2par joint)
+                (text
+                  _!Reste vom Sonntagsbraten , leere Milchtüten oder die alte Barbiepuppe gehören nicht in den Laubsack ._!))
+              (Nucleus
+                (span 3 4)
+                (rel2par joint)
+                (Satellite
+                  (leaf 3)
+                  (rel2par antithesis)
+                  (text _!Das weiß jedes Kind ,_!))
+                (Nucleus
+                  (leaf 4)
+                  (rel2par span)
+                  (text _!aber nicht jeder hält sich daran ._!))))
+            (Nucleus
+              (leaf 5)
+              (rel2par span)
+              (text
+                _!Alle Jahre wieder findet sich in vielen Säcken Unrat und so manche Kuriosität ._!)))
+          (Nucleus
+            (span 6 9)
+            (rel2par span)
+            (Nucleus
+              (span 6 8)
+              (rel2par span)
+              (Nucleus
+                (leaf 6)
+                (rel2par span)
+                (text
+                  _!In Nauen beispielsweise bleibt inzwischen jeder sechste der jährlich anfallenden 4000 Säcke an der Straße zurück ,_!))
+              (Satellite
+                (span 7 8)
+                (rel2par cause)
+                (Satellite
+                  (leaf 7)
+                  (rel2par antithesis)
+                  (text
+                    _!weil er nicht mit Laub von Straßenbäumen ,_!))
+                (Nucleus
+                  (leaf 8)
+                  (rel2par span)
+                  (text
+                    _!sondern mit Garten- oder Hausabfällen gefüllt ist ._!))))
+            (Satellite
+              (leaf 9)
+              (rel2par elaboration)
+              (text _!Tendenz steigend ._!))))
+        (Satellite
+          (span 10 12)
+          (rel2par interpretation)
+          (Nucleus
+            (span 10 11)
+            (rel2par span)
+            (Nucleus
+              (leaf 10)
+              (rel2par span)
+              (text
+                _!Immer mehr verantwortungslose Zeitgenossen versuchen , ihren Müll illegal loszuwerden_!))
+            (Satellite
+              (leaf 11)
+              (rel2par antithesis)
+              (text _!statt ihn ordnungsgemäß zu entsorgen ._!)))
+          (Satellite
+            (leaf 12)
+            (rel2par interpretation)
+            (text
+              _!Das wird letztlich alle teuer zu stehen kommen ._!))))
+      (Nucleus
+        (span 13 16)
+        (rel2par span)
+        (Nucleus
+          (span 13 14)
+          (rel2par span)
+          (Satellite
+            (leaf 13)
+            (rel2par cause)
+            (text
+              _!Denn angesichts des zunehmenden Missbrauchs und leerer Kassen_!))
+          (Nucleus
+            (leaf 14)
+            (rel2par span)
+            (text
+              _!ist es nur noch eine Frage der Zeit , bis die Stadtväter die für den Bürger kostenlose Laubentsorgung einstellen ._!)))
+        (Satellite
+          (span 15 16)
+          (rel2par reason)
+          (Nucleus
+            (leaf 15)
+            (rel2par span)
+            (text
+              _!Immerhin rund 26_000 Mark ließen sich damit pro Jahr einsparen ,_!))
+          (Satellite
+            (leaf 16)
+            (rel2par e-elaboration)
+            (text
+              _!Geld , das an anderen Stellen dringend benötigt wird ._!)))))
+    (Satellite
+      (span 17 19)
+      (rel2par restatement)
+      (Nucleus
+        (leaf 17)
+        (rel2par span)
+        (text
+          _!Entsorgung nur noch gegen Vorkasse , das könnte schon bald Realität werden ._!))
+      (Satellite
+        (span 18 19)
+        (rel2par reason)
+        (Nucleus
+          (leaf 18)
+          (rel2par contrast)
+          (text
+            _!Denn seit Jahren appelliert die Stadt an die Einsicht ihrer Bürger ,_!))
+        (Nucleus
+          (leaf 19)
+          (rel2par contrast)
+          (text
+            _!und jedes Jahr aufs Neue zeigt sich , dass diese Appelle ( bisher ) umsonst sind ._!))))))

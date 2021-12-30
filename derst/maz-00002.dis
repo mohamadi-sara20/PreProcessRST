@@ -1,0 +1,135 @@
+(Root
+  (span 1 19)
+  (Nucleus (leaf 1) (rel2par virtual-root) (text _!Das Büchergeld_!))
+  (Nucleus
+    (span 2 19)
+    (rel2par virtual-root)
+    (Satellite
+      (span 2 6)
+      (rel2par background)
+      (Nucleus
+        (span 2 5)
+        (rel2par span)
+        (Satellite
+          (leaf 2)
+          (rel2par preparation)
+          (text _!Die Litanei ist nicht neu :_!))
+        (Nucleus
+          (span 3 5)
+          (rel2par span)
+          (Nucleus
+            (leaf 3)
+            (rel2par list)
+            (text
+              _!Eltern beschweren sich über veraltete Schulbücher ,_!))
+          (Nucleus
+            (leaf 4)
+            (rel2par list)
+            (text _!Kommunen jammern über leere Kassen_!))
+          (Nucleus
+            (leaf 5)
+            (rel2par list)
+            (text
+              _!und Schulbuchverlage beklagen Umsatzeinbrüche ._!))))
+      (Satellite
+        (leaf 6)
+        (rel2par evaluation-s)
+        (text _!Trommeln gehört halt zum Geschäft ._!)))
+    (Nucleus
+      (span 7 19)
+      (rel2par span)
+      (Nucleus
+        (span 7 14)
+        (rel2par contrast)
+        (Nucleus
+          (leaf 7)
+          (rel2par span)
+          (text
+            _!Doch unterm Strich stehen Brandenburgs Schulen ganz gut da ._!))
+        (Satellite
+          (span 8 14)
+          (rel2par evidence)
+          (Nucleus
+            (span 8 9)
+            (rel2par span)
+            (Nucleus
+              (leaf 8)
+              (rel2par conjunction)
+              (text
+                _!Zum einen wurden nach der Wende fast alle Schulbuchbestände ausgetauscht ,_!))
+            (Nucleus
+              (leaf 9)
+              (rel2par conjunction)
+              (text
+                _!zum anderen müssen sich märkische Eltern am Buchkauf beteiligen ._!)))
+          (Satellite
+            (span 10 14)
+            (rel2par elaboration)
+            (Nucleus
+              (leaf 10)
+              (rel2par span)
+              (text
+                _!Dafür gibt es sogar Lob von den Schulbuchverlagen ._!))
+            (Satellite
+              (span 11 14)
+              (rel2par reason)
+              (Nucleus
+                (span 11 12)
+                (rel2par span)
+                (Nucleus
+                  (leaf 11)
+                  (rel2par span)
+                  (text
+                    _!Denn in vielen alten Bundesländern gilt noch immer die Lernmittelfreiheit :_!))
+                (Satellite
+                  (leaf 12)
+                  (rel2par elaboration)
+                  (text _!Eltern müssen nichts zuzahlen ._!)))
+              (Satellite
+                (span 13 14)
+                (rel2par evaluation-s)
+                (Nucleus
+                  (leaf 13)
+                  (rel2par span)
+                  (text _!Der Preis dafür ist hoch -_!))
+                (Satellite
+                  (leaf 14)
+                  (rel2par elaboration)
+                  (text
+                    _!gerade dort wird oft mit völlig veraltetem Material gearbeitet ._!)))))))
+      (Nucleus
+        (span 15 19)
+        (rel2par contrast)
+        (Nucleus
+          (leaf 15)
+          (rel2par span)
+          (text _!Doch auch Brandenburg muss aufpassen ._!))
+        (Satellite
+          (span 16 19)
+          (rel2par reason)
+          (Satellite
+            (span 16 17)
+            (rel2par reason)
+            (Satellite
+              (leaf 16)
+              (rel2par condition)
+              (text
+                _!Wenn immer mehr Kommunen finanziell ausbluten ,_!))
+            (Nucleus
+              (leaf 17)
+              (rel2par span)
+              (text
+                _!wird die regelmäßige Schulbucherneuerung zur Illusion ._!)))
+          (Nucleus
+            (span 18 19)
+            (rel2par span)
+            (Satellite
+              (leaf 18)
+              (rel2par preparation)
+              (text
+                _!Deshalb ist auch die Landesregierung gefragt :_!))
+            (Nucleus
+              (leaf 19)
+              (rel2par span)
+              (text
+                _!Es kann nicht sein , dass für teure Modellprojekte wie Schnellläuferklassen oder Ganztagsschulen Geld locker gemacht , aber an der Grundausstattung gespart wird ._!))))))))

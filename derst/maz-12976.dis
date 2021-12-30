@@ -1,0 +1,99 @@
+(Root
+  (span 1 14)
+  (Nucleus (leaf 1) (rel2par virtual-root) (text _!Normal-Krise_!))
+  (Nucleus
+    (span 2 14)
+    (rel2par virtual-root)
+    (Satellite
+      (span 2 5)
+      (rel2par background)
+      (Satellite
+        (span 2 3)
+        (rel2par evaluation-n)
+        (Satellite
+          (leaf 2)
+          (rel2par preparation)
+          (text
+            _!Umweltminister Jürgen Trittin hat es erst gestern wieder unumwunden ausgesprochen :_!))
+        (Nucleus
+          (leaf 3)
+          (rel2par span)
+          (text _!Die Krise ist bei den Grünen der Normalzustand ._!)))
+      (Nucleus
+        (span 4 5)
+        (rel2par span)
+        (Satellite
+          (leaf 4)
+          (rel2par concession)
+          (text
+            _!So schonungslose Offenheit ist an sich zwar bemerkenswert ,_!))
+        (Nucleus
+          (leaf 5)
+          (rel2par span)
+          (text
+            _!sie beantwortet aber nicht die Frage , weshalb man eine " Krisenpartei " in der Bundesregierung braucht ._!))))
+    (Nucleus
+      (span 6 14)
+      (rel2par span)
+      (Nucleus
+        (span 6 10)
+        (rel2par joint)
+        (Satellite
+          (span 6 7)
+          (rel2par evaluation-n)
+          (Satellite
+            (leaf 6)
+            (rel2par condition)
+            (text _!Wenn die Vorzeichen nicht trügen ,_!))
+          (Nucleus
+            (leaf 7)
+            (rel2par span)
+            (text
+              _!so könnte in Rostock in der Tat wieder einmal ein klassischer Kompromiss herauskommen - gegen den Militär-Einsatz und für die weitere Beteiligung an der Bundesregierung ._!)))
+        (Nucleus
+          (span 8 10)
+          (rel2par span)
+          (Nucleus
+            (leaf 8)
+            (rel2par span)
+            (text
+              _!Außenminister Joschka Fischer freilich darf seiner Basis solche politischen Kindereien nicht durchgehen lassen ._!))
+          (Satellite
+            (span 9 10)
+            (rel2par reason)
+            (Nucleus
+              (leaf 9)
+              (rel2par conjunction)
+              (text
+                _!Es kann nicht sein , dass die Basis gewissermaßen die Moral pachtet_!))
+            (Nucleus
+              (leaf 10)
+              (rel2par conjunction)
+              (text
+                _!und ihn die realpolitische Schmutzarbeit machen lässt ._!)))))
+      (Nucleus
+        (span 11 14)
+        (rel2par joint)
+        (Nucleus
+          (leaf 11)
+          (rel2par span)
+          (text
+            _!Den Einsatz " zur Kenntnis zu nehmen " , wie Brandenburgs Grüne dies wollen , ist der Gipfel parteipolitischer Bigotterie :_!))
+        (Satellite
+          (span 12 14)
+          (rel2par reason)
+          (Nucleus
+            (span 12 13)
+            (rel2par span)
+            (Nucleus
+              (leaf 12)
+              (rel2par conjunction)
+              (text _!Entweder die Basis stützt den Minister_!))
+            (Nucleus
+              (leaf 13)
+              (rel2par conjunction)
+              (text _!oder sie stürzt ihn ._!)))
+          (Satellite
+            (leaf 14)
+            (rel2par elaboration)
+            (text _!Dazwischen gibt es nichts ._!)))))))

@@ -1,0 +1,137 @@
+(Root
+  (span 1 20)
+  (Nucleus
+    (leaf 1)
+    (rel2par virtual-root)
+    (text _!Kontrolle ist besser_!))
+  (Nucleus
+    (span 2 20)
+    (rel2par virtual-root)
+    (Nucleus
+      (span 2 9)
+      (rel2par joint)
+      (Nucleus
+        (span 2 4)
+        (rel2par span)
+        (Satellite
+          (leaf 2)
+          (rel2par circumstance)
+          (text
+            _!Jeder , der sein Kind in einen Schulbus einsteigen sieht , hofft , dass es am Ende der Fahrt heil und gesund wieder aussteigt ._!))
+        (Nucleus
+          (span 3 4)
+          (rel2par span)
+          (Nucleus
+            (leaf 3)
+            (rel2par span)
+            (text
+              _!Die Kampagne des Amtes für Arbeitsschutz , Bus und Fahrer vor Beginn einer Klassenfahrt zu prüfen , ist wichtig :_!))
+          (Satellite
+            (leaf 4)
+            (rel2par reason)
+            (text
+              _!Kontrollen dieser Art erhöhen die Sicherheit der jungen Passagiere ._!))))
+      (Satellite
+        (span 5 9)
+        (rel2par reason)
+        (Nucleus
+          (span 5 6)
+          (rel2par list)
+          (Nucleus
+            (leaf 5)
+            (rel2par span)
+            (text
+              _!Übermüdete Fahrer sind jedoch nur eine Gefahr ,_!))
+          (Satellite
+            (leaf 6)
+            (rel2par e-elaboration)
+            (text _!die gebannt werden muss ._!)))
+        (Nucleus
+          (span 7 8)
+          (rel2par list)
+          (Satellite
+            (leaf 7)
+            (rel2par circumstance)
+            (text
+              _!Wie das Unglück von Altlandsberg vor zwei Jahren zeigt ,_!))
+          (Nucleus
+            (leaf 8)
+            (rel2par span)
+            (text
+              _!stellen auch übermütige , schlecht beaufsichtigte Kinder ein Risiko dar ._!)))
+        (Nucleus
+          (leaf 9)
+          (rel2par list)
+          (text
+            _!Dazu kommen noch die Fehler der anderen Verkehrsteilnehmer ._!))))
+    (Nucleus
+      (span 10 17)
+      (rel2par joint)
+      (Satellite
+        (span 10 16)
+        (rel2par antithesis)
+        (Nucleus
+          (leaf 10)
+          (rel2par span)
+          (text _!Absolute Sicherheit kann es nicht geben ._!))
+        (Satellite
+          (span 11 16)
+          (rel2par reason)
+          (Satellite
+            (span 11 14)
+            (rel2par condition)
+            (Nucleus
+              (leaf 11)
+              (rel2par list)
+              (text _!Selbst wenn der Bus tipptopp in Schuss ist ,_!))
+            (Nucleus
+              (leaf 12)
+              (rel2par list)
+              (text _!die Fahrer ausgeruht ,_!))
+            (Nucleus
+              (leaf 13)
+              (rel2par list)
+              (text _!die Kinder gesittet_!))
+            (Nucleus
+              (leaf 14)
+              (rel2par list)
+              (text
+                _!und alle anderen Autofahrer rücksichtsvoll sind ,_!)))
+          (Nucleus
+            (span 15 16)
+            (rel2par span)
+            (Nucleus
+              (leaf 15)
+              (rel2par span)
+              (text
+                _!besteht immer noch die Gefahr von höherer Gewalt -_!))
+            (Satellite
+              (leaf 16)
+              (rel2par restatement)
+              (text
+                _!der sprichwörtliche Blitzschlag lässt sich nicht vermeiden ._!)))))
+      (Nucleus
+        (leaf 17)
+        (rel2par span)
+        (text
+          _!Die Wahrscheinlichkeit solcher Unglücke tendiert jedoch gegen Null ._!)))
+    (Nucleus
+      (span 18 20)
+      (rel2par joint)
+      (Nucleus
+        (leaf 18)
+        (rel2par joint)
+        (text
+          _!Größer ist die Bedrohung durch so genanntes menschliches und technisches Versagen ._!))
+      (Nucleus
+        (span 19 20)
+        (rel2par joint)
+        (Nucleus
+          (leaf 19)
+          (rel2par span)
+          (text _!Und die kann man vermeiden :_!))
+        (Satellite
+          (leaf 20)
+          (rel2par means)
+          (text
+            _!Indem man die Fahrtüchtigkeit aller , die am Verkehrsgeschehen beteiligt sind - Fahrer , Passagiere und Fahrzeuge - prüft ._!))))))

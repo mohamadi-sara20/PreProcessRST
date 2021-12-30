@@ -1,0 +1,81 @@
+(Root
+  (span 1 12)
+  (Nucleus (leaf 1) (rel2par virtual-root) (text _!Notsignale_!))
+  (Nucleus
+    (span 2 12)
+    (rel2par virtual-root)
+    (Nucleus
+      (span 2 9)
+      (rel2par span)
+      (Nucleus
+        (span 2 3)
+        (rel2par span)
+        (Satellite
+          (leaf 2)
+          (rel2par background)
+          (text
+            _!Die Oranienburger Mittelstadt kann sich glücklich schätzen , dass sie zu den 15 ausgewählten Stadtteilen im Land Brandenburg gehört , die in den nächsten fünf Jahren vom 220 Millionen Mark schweren EU-Förderprogramm " Zukunft im Stadtteil " ( ZiS ) profitieren werden ._!))
+        (Nucleus
+          (leaf 3)
+          (rel2par span)
+          (text
+            _!Eine erste Bestandsaufnahme der Situation in der Mittelstadt brachte nun ein überraschend negatives Bild ._!)))
+      (Satellite
+        (span 4 9)
+        (rel2par evidence)
+        (Satellite
+          (span 4 5)
+          (rel2par antithesis)
+          (Satellite
+            (leaf 4)
+            (rel2par concession)
+            (text
+              _!Bisher wurde ihr Zustand zwar als nicht unproblematisch eingeschätzt ,_!))
+          (Nucleus
+            (leaf 5)
+            (rel2par span)
+            (text
+              _!einen Vergleich mit schwer gebeutelten Neubaugebieten , wie etwa Velten-Süd , hätten Kommunalpolitiker aber abgelehnt ._!)))
+        (Nucleus
+          (span 6 9)
+          (rel2par span)
+          (Nucleus
+            (leaf 6)
+            (rel2par list)
+            (text
+              _!Eine Bürgerbefragung ergab jedoch , dass mehr als die Hälfte der Bewohner der Mittelstadt schon über den Wegzug nachgedacht hat ._!))
+          (Nucleus
+            (leaf 7)
+            (rel2par list)
+            (text
+              _!Eine bedeutende Minderheit schätzt die Wohnqualität als " schlecht " oder " sehr schlecht " ein ._!))
+          (Nucleus
+            (leaf 8)
+            (rel2par list)
+            (text
+              _!Als deutliches Zeichen für den beginnenen Abstieg wird der Einbau von Sperrgittern an Durchgängen zu Wohnanlagen gewertet ._!))
+          (Nucleus
+            (leaf 9)
+            (rel2par list)
+            (text
+              _!Einwohner sprechen von ständigem Vandalismus im Umfeld der Schulen ._!)))))
+    (Satellite
+      (span 10 12)
+      (rel2par interpretation)
+      (Satellite
+        (span 10 11)
+        (rel2par concession)
+        (Nucleus
+          (leaf 10)
+          (rel2par span)
+          (text
+            _!Dass es nach den Notsignalen wieder Zeichen der Hoffnung gibt ,_!))
+        (Satellite
+          (leaf 11)
+          (rel2par means)
+          (text _!dafür könnte das ZiS-Programm sorgen ._!)))
+      (Nucleus
+        (leaf 12)
+        (rel2par span)
+        (text
+          _!Das aber wird ohne ein Mitwirken der Mieter und Vermieter in der Mittelstadt nicht funktionieren ._!)))))

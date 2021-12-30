@@ -1,0 +1,157 @@
+(Root
+  (span 1 22)
+  (Nucleus
+    (leaf 1)
+    (rel2par virtual-root)
+    (text _!Spatz in der Hand_!))
+  (Nucleus
+    (span 2 18)
+    (rel2par virtual-root)
+    (Satellite
+      (span 2 12)
+      (rel2par evaluation-n)
+      (Satellite
+        (span 2 4)
+        (rel2par reason)
+        (Nucleus
+          (span 2 3)
+          (rel2par span)
+          (Nucleus
+            (leaf 2)
+            (rel2par conjunction)
+            (text
+              _!Rüdiger Kadatz hat seine Meinung zum Rheinsberger Thermalbad ,_!))
+          (Nucleus
+            (leaf 3)
+            (rel2par conjunction)
+            (text _!und er will sie nicht in Frage stellen :_!)))
+        (Satellite
+          (leaf 4)
+          (rel2par elaboration)
+          (text
+            _!Nach einem Jahr Verhandelns habe Rheinsbergs Favorit Rogner verspielt ._!)))
+      (Nucleus
+        (span 5 12)
+        (rel2par span)
+        (Nucleus
+          (span 5 6)
+          (rel2par span)
+          (Nucleus
+            (leaf 5)
+            (rel2par conjunction)
+            (text _!Ein neuer Investor muss her ,_!))
+          (Nucleus
+            (leaf 6)
+            (rel2par conjunction)
+            (text
+              _!und den hatte Kadatz am Mittwochabend in der Stadtverordnetenversammlung parat - die Lielje-Gruppe ._!)))
+        (Satellite
+          (span 7 12)
+          (rel2par elaboration)
+          (Nucleus
+            (leaf 7)
+            (rel2par list)
+            (text
+              _!Dass die nur ein Bad , kein Hotel bauen will , interessierte Kadatz weniger ._!))
+          (Nucleus
+            (span 8 12)
+            (rel2par list)
+            (Nucleus
+              (leaf 8)
+              (rel2par span)
+              (text
+                _!Auch nicht die letzten Gespräche mit Rogner ._!))
+            (Satellite
+              (span 9 12)
+              (rel2par elaboration)
+              (Nucleus
+                (span 9 10)
+                (rel2par joint)
+                (Nucleus
+                  (leaf 9)
+                  (rel2par list)
+                  (text _!Neue Entwicklungen ?_!))
+                (Nucleus
+                  (leaf 10)
+                  (rel2par list)
+                  (text _!Wozu noch ?_!)))
+              (Nucleus
+                (span 11 12)
+                (rel2par joint)
+                (Satellite
+                  (leaf 11)
+                  (rel2par preparation)
+                  (text _!Für Kadatz war klar :_!))
+                (Nucleus
+                  (leaf 12)
+                  (rel2par span)
+                  (text
+                    _!Lieber den Spatz in der Hand als die Taube auf dem Dach ._!))))))))
+    (Nucleus
+      (span 13 18)
+      (rel2par span)
+      (Nucleus
+        (span 13 17)
+        (rel2par span)
+        (Satellite
+          (span 13 14)
+          (rel2par circumstance)
+          (Satellite
+            (leaf 13)
+            (rel2par concession)
+            (text _!Eine verständliche Einstellung -_!))
+          (Nucleus
+            (leaf 14)
+            (rel2par span)
+            (text _!wenn es denn einen Spatz gäbe ._!)))
+        (Nucleus
+          (span 15 17)
+          (rel2par span)
+          (Nucleus
+            (span 15 16)
+            (rel2par span)
+            (Satellite
+              (leaf 15)
+              (rel2par condition)
+              (text _!Wenn man genauer hinsieht ,_!))
+            (Nucleus
+              (leaf 16)
+              (rel2par span)
+              (text
+                _!halten die Rheinsberger vom zweiten Thermalbad-Bewerber nicht mehr in der Hand als vom ersten ._!)))
+          (Satellite
+            (leaf 17)
+            (rel2par reason)
+            (text
+              _!Ein paar vage mündliche Finanzierungs-Versprechen , die Skizze des einzigen anderen Bades , das ist alles , was Lielje vorweisen kann ._!))))
+      (Satellite
+        (leaf 18)
+        (rel2par evaluation-s)
+        (text _!Eine echte Alternative sieht anders aus ._!))))
+  (Nucleus
+    (span 19 22)
+    (rel2par virtual-root)
+    (Satellite
+      (span 19 20)
+      (rel2par evaluation-n)
+      (Nucleus
+        (leaf 19)
+        (rel2par span)
+        (text
+          _!Doch immerhin bewegt sich etwas im Rheinsberger Thermalbad-Rennen ._!))
+      (Satellite
+        (leaf 20)
+        (rel2par evidence)
+        (text _!Rogner ist willig , Finanziers sind gefunden ._!)))
+    (Nucleus
+      (span 21 22)
+      (rel2par span)
+      (Nucleus
+        (leaf 21)
+        (rel2par span)
+        (text
+          _!Es wäre unverantwortlich , Rogner so kurz vor der Ziellinie die Luft aus den Reifen zu lassen ._!))
+      (Satellite
+        (leaf 22)
+        (rel2par reason)
+        (text _!Am Ende steht Rheinsberg ohne Investor da ._!)))))

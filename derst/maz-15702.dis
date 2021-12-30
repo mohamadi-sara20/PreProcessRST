@@ -1,0 +1,119 @@
+(Root
+  (span 1 16)
+  (Nucleus
+    (leaf 1)
+    (rel2par virtual-root)
+    (text _!Eigentlich fehlt ja keiner ..._!))
+  (Nucleus
+    (span 2 16)
+    (rel2par virtual-root)
+    (Nucleus
+      (span 2 9)
+      (rel2par span)
+      (Satellite
+        (span 2 8)
+        (rel2par reason)
+        (Nucleus
+          (span 2 6)
+          (rel2par span)
+          (Satellite
+            (span 2 3)
+            (rel2par preparation)
+            (Satellite
+              (leaf 2)
+              (rel2par concession)
+              (text
+                _!Von spektakulären Ausbrüchen aus den Gefängnissen ist Justizminister Schelter bislang verschont geblieben ._!))
+            (Nucleus
+              (leaf 3)
+              (rel2par span)
+              (text
+                _!Für seine Amtszeit verbucht die Justizchronik nun aber einen Vorgang der besonderen Art ._!)))
+          (Nucleus
+            (span 4 6)
+            (rel2par span)
+            (Nucleus
+              (span 4 5)
+              (rel2par sequence)
+              (Nucleus
+                (leaf 4)
+                (rel2par span)
+                (text
+                  _!Die Haftanstalt in Spremberg hat am Dienstag einen Häftling freigelassen , der gar nicht zur Entlassung anstand ._!))
+              (Satellite
+                (leaf 5)
+                (rel2par elaboration)
+                (text
+                  _!Schlicht durch eine Namensverwechslung konnte der verurteilte Dieb das Gefängnistor passieren ._!)))
+            (Nucleus
+              (leaf 6)
+              (rel2par sequence)
+              (text _!Seither ist er verschwunden ._!))))
+        (Satellite
+          (span 7 8)
+          (rel2par result)
+          (Satellite
+            (leaf 7)
+            (rel2par concession)
+            (text
+              _!Gefährlich sei er nicht , beeilte sich das Justizministerium gestern mitzuteilen ,_!))
+          (Nucleus
+            (leaf 8)
+            (rel2par span)
+            (text
+              _!aber - klar doch - in die Freiheit gehört er auch noch nicht ._!))))
+      (Nucleus
+        (leaf 9)
+        (rel2par span)
+        (text
+          _!Der Minister muss sich natürlich fragen lassen , was in Spremberg los ist ._!)))
+    (Satellite
+      (span 10 16)
+      (rel2par reason)
+      (Nucleus
+        (span 10 13)
+        (rel2par span)
+        (Nucleus
+          (span 10 11)
+          (rel2par conjunction)
+          (Nucleus
+            (leaf 10)
+            (rel2par span)
+            (text _!Da bekommt einer Entlassungspapiere ,_!))
+          (Satellite
+            (leaf 11)
+            (rel2par cause)
+            (text
+              _!nur weil er zufällig den selben Nachnamen wie ein Mitgefangener trägt ._!)))
+        (Nucleus
+          (span 12 13)
+          (rel2par conjunction)
+          (Satellite
+            (leaf 12)
+            (rel2par condition)
+            (text
+              _!Und hätte die Frau des eigentlich zu Entlassenden nicht nachgefragt , wo ihr Mann eigentlich bleibt ,_!))
+          (Nucleus
+            (leaf 13)
+            (rel2par span)
+            (text
+              _!wäre der falsche Abgänger vielleicht noch immer nicht aufgefallen ._!))))
+      (Satellite
+        (span 14 16)
+        (rel2par interpretation)
+        (Nucleus
+          (leaf 14)
+          (rel2par joint)
+          (text
+            _!In Spremberg verfahren die Wärter offenbar nach der einfachen Rechnung :_!))
+        (Nucleus
+          (span 15 16)
+          (rel2par joint)
+          (Nucleus
+            (leaf 15)
+            (rel2par span)
+            (text _!Hauptsache die Gesamtzahl stimmt ,_!))
+          (Satellite
+            (leaf 16)
+            (rel2par circumstance)
+            (text _!wenn abends zugeschlossen wird ._!)))))))

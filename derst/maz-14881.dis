@@ -1,0 +1,123 @@
+(Root
+  (span 1 18)
+  (Nucleus (leaf 1) (rel2par virtual-root) (text _!Schildbürger_!))
+  (Nucleus
+    (span 2 18)
+    (rel2par virtual-root)
+    (Nucleus
+      (span 2 14)
+      (rel2par span)
+      (Satellite
+        (span 2 3)
+        (rel2par interpretation)
+        (Nucleus
+          (leaf 2)
+          (rel2par joint)
+          (text
+            _!Lange geplant , endlich gebaut - und nun doch an der Realität vorbei ?_!))
+        (Nucleus
+          (leaf 3)
+          (rel2par joint)
+          (text
+            _!Der Bürger schüttelt verständnislos den Kopf über so viel Unverstand ._!)))
+      (Nucleus
+        (span 4 14)
+        (rel2par span)
+        (Nucleus
+          (span 4 7)
+          (rel2par span)
+          (Nucleus
+            (span 4 5)
+            (rel2par joint)
+            (Satellite
+              (leaf 4)
+              (rel2par condition)
+              (text
+                _!Wenn die geplanten Bushaltestellen für die B_96-Ortsdurchfahrt Groß Machnow ungünstig sind -_!))
+            (Nucleus
+              (leaf 5)
+              (rel2par span)
+              (text
+                _!warum hat dann die Verkehrsgesellschaft nicht rechtzeitig während der Planungsphase ihre Einwände erhoben und Vorschläge gemacht ?_!)))
+          (Nucleus
+            (span 6 7)
+            (rel2par joint)
+            (Satellite
+              (leaf 6)
+              (rel2par preparation)
+              (text _!Die Antwort :_!))
+            (Nucleus
+              (leaf 7)
+              (rel2par span)
+              (text _!Man hat das wohl schlichtweg verschlafen ._!))))
+        (Satellite
+          (span 8 14)
+          (rel2par result)
+          (Satellite
+            (leaf 8)
+            (rel2par preparation)
+            (text _!Mit ärgerlichen Folgen :_!))
+          (Nucleus
+            (span 9 14)
+            (rel2par span)
+            (Nucleus
+              (span 9 10)
+              (rel2par list)
+              (Nucleus
+                (leaf 9)
+                (rel2par conjunction)
+                (text _!Die Fahrgäste stehen teilweise im Gras_!))
+              (Nucleus
+                (leaf 10)
+                (rel2par conjunction)
+                (text
+                  _!und müssen bei Schlechtwetter über einen schlammigen Trampelpfad zum nächsten befestigten Bürgersteig laufen ._!)))
+            (Nucleus
+              (leaf 11)
+              (rel2par list)
+              (text
+                _!Beim Neubau hätten gleich Bustaschen , Bussteige und Wartehäuschen entstehen können ._!))
+            (Nucleus
+              (leaf 12)
+              (rel2par list)
+              (text
+                _!Eine Fußgänger-insel wäre sinnvollerweise dort gebaut worden , wo sich der Busbetrieb jetzt die Haltestelle wünscht ._!))
+            (Nucleus
+              (span 13 14)
+              (rel2par list)
+              (Nucleus
+                (leaf 13)
+                (rel2par span)
+                (text
+                  _!Die extra breit für den Bus ausgelegten Ein- und Ausfahrten scheinen nun für die Katz' ._!))
+              (Satellite
+                (leaf 14)
+                (rel2par interpretation)
+                (text _!Der Steuerzahler hat 's ja ._!)))))))
+    (Satellite
+      (span 15 18)
+      (rel2par evaluation-s)
+      (Satellite
+        (leaf 15)
+        (rel2par condition)
+        (text
+          _!Wenn jetzt nachträglich woanders Haltestellen gebaut werden müssen ,_!))
+      (Nucleus
+        (span 16 18)
+        (rel2par span)
+        (Nucleus
+          (leaf 16)
+          (rel2par span)
+          (text
+            _!so wirkt das wie jener Streich der Schildbürger ,_!))
+        (Satellite
+          (span 17 18)
+          (rel2par e-elaboration)
+          (Nucleus
+            (leaf 17)
+            (rel2par span)
+            (text _!die Licht ins Rathaus tragen wollten ,_!))
+          (Satellite
+            (leaf 18)
+            (rel2par cause)
+            (text _!weil sie die Fenster vergessen hatten ._!)))))))

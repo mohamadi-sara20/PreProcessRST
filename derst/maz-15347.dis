@@ -1,0 +1,139 @@
+(Root
+  (span 1 20)
+  (Nucleus (leaf 1) (rel2par virtual-root) (text _!Unterschiede_!))
+  (Nucleus
+    (span 2 20)
+    (rel2par virtual-root)
+    (Nucleus
+      (span 2 17)
+      (rel2par span)
+      (Satellite
+        (span 2 10)
+        (rel2par antithesis)
+        (Satellite
+          (span 2 8)
+          (rel2par result)
+          (Nucleus
+            (leaf 2)
+            (rel2par joint)
+            (text
+              _!Auch bei den Senioren hatte sie zugeschlagen : die ABM-Lücke ._!))
+          (Nucleus
+            (span 3 6)
+            (rel2par joint)
+            (Nucleus
+              (leaf 3)
+              (rel2par span)
+              (text
+                _!Immer wieder sorgen die Übergangszeiten zwischen zwei Maßnahmen für Ungewissheit ._!))
+            (Satellite
+              (span 4 6)
+              (rel2par elaboration)
+              (Nucleus
+                (leaf 4)
+                (rel2par list)
+                (text _!Was wird aus uns ,_!))
+              (Nucleus
+                (leaf 5)
+                (rel2par list)
+                (text _!geht es überhaupt weiter_!))
+              (Nucleus
+                (leaf 6)
+                (rel2par list)
+                (text _!oder steht eine Schließung bevor ?_!))))
+          (Nucleus
+            (span 7 8)
+            (rel2par joint)
+            (Nucleus
+              (leaf 7)
+              (rel2par list)
+              (text
+                _!Solche Fragen beschäftigten auch die Besucher , die regelmäßig in den Klub in der Papenbrucher Chaussee kommen ._!))
+            (Nucleus
+              (leaf 8)
+              (rel2par list)
+              (text
+                _!Ähnliche Probleme kennt man zum Beispiel auch vom Arbeitslosentreff in der Rheinsberger Straße oder dem Frauen- und Mädchentreff am Marktplatz ._!))))
+        (Nucleus
+          (span 9 10)
+          (rel2par span)
+          (Satellite
+            (leaf 9)
+            (rel2par cause)
+            (text _!ABM sind immer nur Übergangslösungen ,_!))
+          (Nucleus
+            (leaf 10)
+            (rel2par span)
+            (text
+              _!deshalb sind sie auch nur kurzfristig angelegt ._!))))
+      (Nucleus
+        (span 11 17)
+        (rel2par span)
+        (Nucleus
+          (span 11 12)
+          (rel2par span)
+          (Nucleus
+            (leaf 11)
+            (rel2par joint)
+            (text _!Doch nicht jede ABM ist gleich ._!))
+          (Nucleus
+            (leaf 12)
+            (rel2par joint)
+            (text
+              _!Zumindest bei Stellen im sozialen Bereich , die die Betreuung von Menschen betreffen , sollten schon Unterschiede gemacht werden ._!)))
+        (Satellite
+          (span 13 17)
+          (rel2par reason)
+          (Nucleus
+            (span 13 14)
+            (rel2par joint)
+            (Satellite
+              (leaf 13)
+              (rel2par antithesis)
+              (text
+                _!Schließlich geht es dann nicht einfach um das Erledigen von Arbeiten ,_!))
+            (Nucleus
+              (leaf 14)
+              (rel2par span)
+              (text _!sondern auch um Vertrauen und Nähe ._!)))
+          (Nucleus
+            (span 15 17)
+            (rel2par joint)
+            (Nucleus
+              (span 15 16)
+              (rel2par span)
+              (Satellite
+                (leaf 15)
+                (rel2par concession)
+                (text
+                  _!Das heißt nicht , dass der Nachfolger es nicht ebenso gut machen kann ._!))
+              (Nucleus
+                (leaf 16)
+                (rel2par span)
+                (text
+                  _!Aber er muss wieder von ganz vorn anfangen ._!)))
+            (Satellite
+              (leaf 17)
+              (rel2par evaluation-s)
+              (text
+                _!Und das ist der Sache im Allgemeinen nicht zuträglich ._!))))))
+    (Satellite
+      (span 18 20)
+      (rel2par interpretation)
+      (Satellite
+        (leaf 18)
+        (rel2par concession)
+        (text
+          _!So schön wie es ist , dass der Treff für ein weiteres Jahr gesichert ist :_!))
+      (Nucleus
+        (span 19 20)
+        (rel2par span)
+        (Satellite
+          (leaf 19)
+          (rel2par interpretation)
+          (text _!Arno Rentsch hat recht ,_!))
+        (Nucleus
+          (leaf 20)
+          (rel2par span)
+          (text
+            _!wenn er sagt , dass ABM noch nicht die endgültige Lösung ist ._!))))))

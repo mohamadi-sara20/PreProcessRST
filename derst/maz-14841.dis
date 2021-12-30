@@ -1,0 +1,124 @@
+(Root
+  (span 1 17)
+  (Nucleus (leaf 1) (rel2par virtual-root) (text _!Auf und Ab_!))
+  (Nucleus
+    (span 2 17)
+    (rel2par virtual-root)
+    (Satellite
+      (span 2 6)
+      (rel2par antithesis)
+      (Satellite
+        (leaf 2)
+        (rel2par background)
+        (text
+          _!Noch 29 Tage , dann ist unsere geliebte D-Mark keine offizielle Währung mehr ._!))
+      (Nucleus
+        (span 3 6)
+        (rel2par span)
+        (Nucleus
+          (span 3 4)
+          (rel2par span)
+          (Nucleus
+            (leaf 3)
+            (rel2par span)
+            (text
+              _!Mit der Einführung des Euros wird vieles teurer ,_!))
+          (Satellite
+            (leaf 4)
+            (rel2par cause)
+            (text
+              _!weil Pfennig- zu Centbeträge sicher eher auf- statt abgerundet werden ._!)))
+        (Satellite
+          (span 5 6)
+          (rel2par reason)
+          (Nucleus
+            (leaf 5)
+            (rel2par span)
+            (text
+              _!Manche Geschäftsleute werden vor der Währungsumstellung noch schnell ihre Ware verteuern ,_!))
+          (Satellite
+            (leaf 6)
+            (rel2par purpose)
+            (text _!damit sie sich besser umrechnen lässt ._!)))))
+    (Nucleus
+      (span 7 17)
+      (rel2par span)
+      (Nucleus
+        (span 7 14)
+        (rel2par span)
+        (Nucleus
+          (span 7 11)
+          (rel2par joint)
+          (Satellite
+            (span 7 9)
+            (rel2par interpretation)
+            (Nucleus
+              (span 7 8)
+              (rel2par span)
+              (Satellite
+                (leaf 7)
+                (rel2par condition)
+                (text _!Da ist es um so erfreulicher ,_!))
+              (Nucleus
+                (leaf 8)
+                (rel2par span)
+                (text _!wenn ausnahmsweise etwas billiger wird ._!)))
+            (Satellite
+              (leaf 9)
+              (rel2par elaboration)
+              (text _!Und noch dazu etwas , dass jeder braucht ._!)))
+          (Nucleus
+            (span 10 11)
+            (rel2par span)
+            (Nucleus
+              (leaf 10)
+              (rel2par span)
+              (text
+                _!Die Gasversorgung Zehdenick wird den Erdgaspreis senken ._!))
+            (Satellite
+              (leaf 11)
+              (rel2par result)
+              (text
+                _!Ein vierköpfiger Haushalt spart dann im kommenden Jahr immerhin etwa 57,50 Mark gegenüber 2001 ._!))))
+        (Nucleus
+          (span 12 14)
+          (rel2par joint)
+          (Satellite
+            (leaf 12)
+            (rel2par concession)
+            (text
+              _!Beim Strom ließ sich die Preissteigerung wegen der neuen Ökosteuer-Stufe zwar nicht stabil halten ._!))
+          (Nucleus
+            (span 13 14)
+            (rel2par span)
+            (Nucleus
+              (leaf 13)
+              (rel2par contrast)
+              (text
+                _!Die Stadtwerke haben aber auf den Preis ausschließlich die Ökosteuererhöhung umgelegt ._!))
+            (Nucleus
+              (leaf 14)
+              (rel2par contrast)
+              (text
+                _!Preiserhöhungen des Zulieferers dagegen blieben unberücksichtigt ._!)))))
+      (Satellite
+        (span 15 17)
+        (rel2par interpretation)
+        (Satellite
+          (leaf 15)
+          (rel2par reason)
+          (text
+            _!Die schwierige Wirtschaftslage jedenfalls muss nicht zwangsläufig zu Preissteigerungen führen ._!))
+        (Nucleus
+          (span 16 17)
+          (rel2par span)
+          (Nucleus
+            (leaf 16)
+            (rel2par joint)
+            (text
+              _!Für den Verbraucher wächst die Hoffnung , dass es vielleicht auch der Bäcker , Frisör und Kaufmannsladen nebenan halten wie die Stadtwerke Zehdenick :_!))
+          (Nucleus
+            (leaf 17)
+            (rel2par joint)
+            (text
+              _!Preise runter oder wenigstens nur das Nötigste umlegen ._!)))))))

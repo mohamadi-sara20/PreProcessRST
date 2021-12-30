@@ -1,0 +1,142 @@
+(Root
+  (span 1 22)
+  (Nucleus (leaf 1) (rel2par virtual-root) (text _!Spendenjagd_!))
+  (Nucleus
+    (span 2 22)
+    (rel2par virtual-root)
+    (Satellite
+      (span 2 6)
+      (rel2par background)
+      (Satellite
+        (span 2 5)
+        (rel2par background)
+        (Nucleus
+          (leaf 2)
+          (rel2par list)
+          (text _!Ein Hilfstransport jagt den nächsten ._!))
+        (Nucleus
+          (leaf 3)
+          (rel2par list)
+          (text
+            _!In regelmäßigen Abständen sind in den Zeitungen neue Spendenaufrufe oder Berichte von Hilfstransporten zu lesen ._!))
+        (Nucleus
+          (leaf 4)
+          (rel2par list)
+          (text _!Überall starten Sendungen ,_!))
+        (Nucleus
+          (leaf 5)
+          (rel2par list)
+          (text
+            _!Vereine engagieren sich , Kirchengruppen , Familien ._!)))
+      (Nucleus
+        (leaf 6)
+        (rel2par span)
+        (text
+          _!Die Aktion der Kirchengemeinden Templin und Lindow für ein Siebenbürger Krankenhaus ist ein Körnchen im Sandberg ._!)))
+    (Nucleus
+      (span 7 22)
+      (rel2par span)
+      (Satellite
+        (span 7 13)
+        (rel2par antithesis)
+        (Satellite
+          (span 7 11)
+          (rel2par cause)
+          (Nucleus
+            (leaf 7)
+            (rel2par span)
+            (text
+              _!Nach dem Motto " jeden Tag eine gute Tat " werden die Sammelaktionen immer mehr ._!))
+          (Satellite
+            (span 8 11)
+            (rel2par evidence)
+            (Nucleus
+              (leaf 8)
+              (rel2par list)
+              (text _!Hilfe für die Krankenhäuser in Rumänien ,_!))
+            (Nucleus
+              (leaf 9)
+              (rel2par list)
+              (text
+                _!Unterstützung für die hungernden Menschen im Sudan ,_!))
+            (Nucleus
+              (leaf 10)
+              (rel2par list)
+              (text
+                _!Geld für die Opfer einer vernichtenden Überschwemmung ,_!))
+            (Nucleus
+              (leaf 11)
+              (rel2par list)
+              (text
+                _!Spenden , um die Kinder in Afghanistan durch den Winter zu bringen :_!))))
+        (Nucleus
+          (span 12 13)
+          (rel2par span)
+          (Nucleus
+            (leaf 12)
+            (rel2par span)
+            (text
+              _!Die verwirrende Zahl von Spendenbegehren kann einen schnell verzweifeln lassen ._!))
+          (Satellite
+            (leaf 13)
+            (rel2par restatement)
+            (text
+              _!Da muss mancher zweifeln , ob denn so viele Spendenappelle nötig sind ._!))))
+      (Nucleus
+        (span 14 22)
+        (rel2par span)
+        (Satellite
+          (span 14 20)
+          (rel2par reason)
+          (Satellite
+            (leaf 14)
+            (rel2par interpretation)
+            (text
+              _!Für Dirk Bock und alle anderen Helfer ist das keine Frage ._!))
+          (Nucleus
+            (span 15 20)
+            (rel2par span)
+            (Satellite
+              (span 15 18)
+              (rel2par condition)
+              (Nucleus
+                (leaf 15)
+                (rel2par list)
+                (text
+                  _!Wer erlebt hat , in welchem Elend andere Menschen leben ,_!))
+              (Nucleus
+                (leaf 16)
+                (rel2par list)
+                (text _!wie sie hungern ,_!))
+              (Nucleus
+                (leaf 17)
+                (rel2par list)
+                (text _!keine Kleidung haben_!))
+              (Nucleus
+                (leaf 18)
+                (rel2par list)
+                (text
+                  _!oder ein Kinderkrankenhaus einfach ohne Lebensmittel dasteht ,_!)))
+            (Nucleus
+              (span 19 20)
+              (rel2par span)
+              (Satellite
+                (leaf 19)
+                (rel2par preparation)
+                (text _!für den ist das ganz klar :_!))
+              (Nucleus
+                (leaf 20)
+                (rel2par span)
+                (text
+                  _!Von selbst können sich die Ärmsten der Armen nicht retten ._!)))))
+        (Nucleus
+          (span 21 22)
+          (rel2par span)
+          (Satellite
+            (leaf 21)
+            (rel2par antithesis)
+            (text _!Es kommt weniger darauf an , wem man hilft ,_!))
+          (Nucleus
+            (leaf 22)
+            (rel2par span)
+            (text _!wichtig ist vor allem , dass man hilft ._!)))))))

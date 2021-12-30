@@ -1,0 +1,134 @@
+(Root
+  (span 1 19)
+  (Nucleus
+    (leaf 1)
+    (rel2par virtual-root)
+    (text _!Nicht mehr so lax_!))
+  (Nucleus
+    (span 2 19)
+    (rel2par virtual-root)
+    (Satellite
+      (span 2 4)
+      (rel2par background)
+      (Nucleus
+        (leaf 2)
+        (rel2par span)
+        (text _!Der Ton macht die Musik ._!))
+      (Satellite
+        (span 3 4)
+        (rel2par evidence)
+        (Satellite
+          (leaf 3)
+          (rel2par circumstance)
+          (text _!Das zeigt sich wohl auch gerade jetzt ,_!))
+        (Nucleus
+          (leaf 4)
+          (rel2par span)
+          (text
+            _!wo die Sache mit den Urlaubsscheinen für Asylbewerber nicht mehr so lax gehandhabt wird ._!))))
+    (Nucleus
+      (span 5 19)
+      (rel2par span)
+      (Nucleus
+        (span 5 9)
+        (rel2par joint)
+        (Nucleus
+          (span 5 7)
+          (rel2par span)
+          (Satellite
+            (leaf 5)
+            (rel2par circumstance)
+            (text _!Schön ist es ja nun wirklich nicht ,_!))
+          (Nucleus
+            (span 6 7)
+            (rel2par span)
+            (Nucleus
+              (leaf 6)
+              (rel2par span)
+              (text
+                _!wenn man als Beamter jemandem einen Konzertbesuch oder eine Geburtstagsfete vermasseln muss ,_!))
+            (Satellite
+              (leaf 7)
+              (rel2par cause)
+              (text
+                _!weil die allgemeine Weltlage das gegenwärtig nicht zulässt ._!))))
+        (Satellite
+          (span 8 9)
+          (rel2par elaboration)
+          (Nucleus
+            (leaf 8)
+            (rel2par conjunction)
+            (text
+              _!Da spielt eben auch eine Rolle , wie menschlich man sich in solchen Situationen verhält_!))
+          (Nucleus
+            (leaf 9)
+            (rel2par conjunction)
+            (text _!und mit welchen Worten man das rüberbringt ._!))))
+      (Nucleus
+        (span 10 11)
+        (rel2par joint)
+        (Nucleus
+          (leaf 10)
+          (rel2par joint)
+          (text
+            _!Dass sich manches auch in Deutschland nach dem 11. September verändert hat ,_!))
+        (Nucleus
+          (leaf 11)
+          (rel2par joint)
+          (text
+            _!dafür gibt es ja auch bei den oft abgeschottet lebenden Asylbewerbern Verständnis ._!)))
+      (Nucleus
+        (span 12 19)
+        (rel2par joint)
+        (Nucleus
+          (span 12 16)
+          (rel2par contrast)
+          (Nucleus
+            (leaf 12)
+            (rel2par span)
+            (text
+              _!Schade ist nur bei all diesen strengeren Regelungen , dass es wohl wieder mal zum großen Teil die Falschen trifft ._!))
+          (Satellite
+            (span 13 16)
+            (rel2par elaboration)
+            (Nucleus
+              (leaf 13)
+              (rel2par list)
+              (text
+                _!Nämlich jene , die sich artig an die Spielregeln halten ,_!))
+            (Nucleus
+              (leaf 14)
+              (rel2par list)
+              (text _!sich in Deutschland integrieren wollen_!))
+            (Nucleus
+              (span 15 16)
+              (rel2par list)
+              (Nucleus
+                (leaf 15)
+                (rel2par conjunction)
+                (text
+                  _!und vorschriftsmäßig ihre geplanten Fahrten bei den zuständigen Stellen ankündigen_!))
+              (Nucleus
+                (leaf 16)
+                (rel2par conjunction)
+                (text _!und genehmigen lassen wollen ._!)))))
+        (Nucleus
+          (span 17 19)
+          (rel2par contrast)
+          (Satellite
+            (span 17 18)
+            (rel2par condition)
+            (Nucleus
+              (leaf 17)
+              (rel2par conjunction)
+              (text _!Wer durch die Gegend fährt_!))
+            (Nucleus
+              (leaf 18)
+              (rel2par conjunction)
+              (text
+                _!und auf alle nunmal existierenden Vorschriften pfeift ,_!)))
+          (Nucleus
+            (leaf 19)
+            (rel2par span)
+            (text
+              _!wird wohl kaum gemerkt haben , dass irgend etwas anders ist ._!)))))))

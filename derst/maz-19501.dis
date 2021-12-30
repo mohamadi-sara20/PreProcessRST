@@ -1,0 +1,127 @@
+(Root
+  (span 1 17)
+  (Nucleus
+    (leaf 1)
+    (rel2par virtual-root)
+    (text _!Es bleibt spannend_!))
+  (Nucleus
+    (span 2 17)
+    (rel2par virtual-root)
+    (Nucleus
+      (span 2 16)
+      (rel2par span)
+      (Satellite
+        (span 2 10)
+        (rel2par circumstance)
+        (Satellite
+          (leaf 2)
+          (rel2par interpretation)
+          (text _!Die Deutsche Bahn AG macht es richtig spannend ._!))
+        (Nucleus
+          (span 3 10)
+          (rel2par span)
+          (Satellite
+            (span 3 5)
+            (rel2par background)
+            (Satellite
+              (span 3 4)
+              (rel2par cause)
+              (Nucleus
+                (leaf 3)
+                (rel2par conjunction)
+                (text
+                  _!Sie hatte das Ergebnis der Wirtschaftlichkeitsrechnung für den Betrieb der Stammbahn von Potsdam nach Berlin in diesem Jahr immer wieder angekündigt_!))
+              (Nucleus
+                (leaf 4)
+                (rel2par conjunction)
+                (text
+                  _!und verschob die Bekanntgabe der Zahlen mit schöner Regelmäßigkeit ._!)))
+            (Nucleus
+              (leaf 5)
+              (rel2par span)
+              (text
+                _!Das Unternehmen nährte dadurch Spekulationen , dass die bis 1945 existierende Bahnstrecke wohl doch keine Chance auf Wiederaufbau habe ._!)))
+          (Nucleus
+            (span 6 10)
+            (rel2par span)
+            (Nucleus
+              (span 6 7)
+              (rel2par joint)
+              (Satellite
+                (leaf 6)
+                (rel2par condition)
+                (text
+                  _!Glaubt man den neuesten Verlautbarungen des Bahnsprechers und der Kleinmachnower Initiative " Stammbahn "_!))
+              (Nucleus
+                (leaf 7)
+                (rel2par span)
+                (text _!ist dem nicht so ._!)))
+            (Nucleus
+              (span 8 10)
+              (rel2par joint)
+              (Nucleus
+                (leaf 8)
+                (rel2par span)
+                (text
+                  _!Vielmehr brütet man über einer abgespeckten Variante ,_!))
+              (Satellite
+                (span 9 10)
+                (rel2par e-elaboration)
+                (Nucleus
+                  (leaf 9)
+                  (rel2par conjunction)
+                  (text _!die Kosten sparen_!))
+                (Nucleus
+                  (leaf 10)
+                  (rel2par conjunction)
+                  (text
+                    _!und die Belastungen für die Länder Berlin und Brandenburg minimieren soll ._!)))))))
+      (Nucleus
+        (span 11 16)
+        (rel2par span)
+        (Nucleus
+          (leaf 11)
+          (rel2par span)
+          (text
+            _!Für die Realisierung des Projekts wird die Zeit langsam knapp ._!))
+        (Satellite
+          (span 12 16)
+          (rel2par reason)
+          (Nucleus
+            (span 12 15)
+            (rel2par list)
+            (Nucleus
+              (span 12 13)
+              (rel2par joint)
+              (Nucleus
+                (leaf 12)
+                (rel2par span)
+                (text
+                  _!Denn der Bund ging bereits mit 50 Millionen Mark in Vorleistung ,_!))
+              (Satellite
+                (leaf 13)
+                (rel2par purpose)
+                (text
+                  _!um die Einführung der Gleise in den Berliner Tiergartentunnel zu gewährleisten ._!)))
+            (Nucleus
+              (span 14 15)
+              (rel2par joint)
+              (Satellite
+                (leaf 14)
+                (rel2par condition)
+                (text _!Fährt die Stammbahn bis 2006 nicht ,_!))
+              (Nucleus
+                (leaf 15)
+                (rel2par span)
+                (text
+                  _!muss die Deutsche Bahn AG dieses Geld zurückerstatten ._!))))
+          (Nucleus
+            (leaf 16)
+            (rel2par list)
+            (text
+              _!Der Klärung bedarf außerdem , wie das Problem des Schallschutzes für betroffene Anwohner in Kleinmachnow und Berlin gelöst werden soll ._!)))))
+    (Satellite
+      (leaf 17)
+      (rel2par interpretation)
+      (text
+        _!Es bleibt also spannend beim Endlos-Thema " Stammbahn " ._!))))

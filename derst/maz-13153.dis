@@ -1,0 +1,105 @@
+(Root
+  (span 1 15)
+  (Nucleus (leaf 1) (rel2par virtual-root) (text _!Nachahmenswert_!))
+  (Nucleus
+    (span 2 15)
+    (rel2par virtual-root)
+    (Nucleus
+      (span 2 4)
+      (rel2par joint)
+      (Satellite
+        (span 2 3)
+        (rel2par background)
+        (Nucleus
+          (leaf 2)
+          (rel2par span)
+          (text _!Integration ist ein wichtiges Anliegen ._!))
+        (Satellite
+          (leaf 3)
+          (rel2par restatement)
+          (text
+            _!Ja , heutzutage ist es sogar wichtiger denn je , dass gesellschaftliche Gruppen nicht ausgegrenzt werden ._!)))
+      (Nucleus
+        (leaf 4)
+        (rel2par span)
+        (text
+          _!Angesichts der seit Jahren obwaltenden rechtsradikalen Umtriebe sind insbesondere die Bemühungen um die Integration hier lebender Nicht-Deutscher und Aussiedler wichtig ._!)))
+    (Nucleus
+      (span 5 11)
+      (rel2par joint)
+      (Nucleus
+        (span 5 8)
+        (rel2par list)
+        (Satellite
+          (leaf 5)
+          (rel2par reason)
+          (text
+            _!Und wie könnte so etwas besser funktionieren als über gemeinsame sportliche Aktivitäten ?_!))
+        (Nucleus
+          (span 6 8)
+          (rel2par span)
+          (Nucleus
+            (span 6 7)
+            (rel2par span)
+            (Nucleus
+              (leaf 6)
+              (rel2par span)
+              (text _!So ist es aller Ehren wert ,_!))
+            (Satellite
+              (leaf 7)
+              (rel2par evaluation-n)
+              (text
+                _!wenn der Verein Freizeitpark Wittenberge die Integrationsprogramme der Brandenburgischen Sportjugend seit Jahren intensiv unterstützt ._!)))
+          (Satellite
+            (leaf 8)
+            (rel2par elaboration)
+            (text
+              _!Und zwar so intensiv , dass deren Funktionäre bereits eine Vorliebe für die Prignitz entwickelt haben ._!))))
+      (Nucleus
+        (span 9 11)
+        (rel2par list)
+        (Nucleus
+          (leaf 9)
+          (rel2par span)
+          (text
+            _!Aber darüber hinaus gibt es in diesem Kreis ebenso ehrenamtliches Engagement im Dienste dieser guten Sache ._!))
+        (Satellite
+          (span 10 11)
+          (rel2par evidence)
+          (Nucleus
+            (leaf 10)
+            (rel2par span)
+            (text
+              _!Einer , der sie sich zu eigen gemacht hat , erhielt am Sonnabend eine Auszeichnung :_!))
+          (Satellite
+            (leaf 11)
+            (rel2par elaboration)
+            (text
+              _!Der Pritzwalker Harry Stüwe , regelmäßigen Lesern unserer Lokal-Sportseiten bestens bekannt , wird in der Urkunde eine schöne Bestätigung für sein Engagement sehen ._!)))))
+    (Nucleus
+      (span 12 15)
+      (rel2par joint)
+      (Nucleus
+        (span 12 14)
+        (rel2par span)
+        (Satellite
+          (leaf 12)
+          (rel2par preparation)
+          (text _!Und zum Weitermachen :_!))
+        (Nucleus
+          (span 13 14)
+          (rel2par span)
+          (Nucleus
+            (leaf 13)
+            (rel2par conjunction)
+            (text
+              _!Solche Aktivitäten sind nicht nur nachahmenswert ,_!))
+          (Nucleus
+            (leaf 14)
+            (rel2par conjunction)
+            (text
+              _!sondern auch ein Aushängeschild für die Region ._!))))
+      (Satellite
+        (leaf 15)
+        (rel2par evaluation-s)
+        (text _!Sie bedürfen unser aller Unterstützung ._!)))))

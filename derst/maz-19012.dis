@@ -1,0 +1,150 @@
+(Root
+  (span 1 21)
+  (Nucleus
+    (leaf 1)
+    (rel2par virtual-root)
+    (text _!Schnee zu Heiligabend_!))
+  (Nucleus
+    (span 2 21)
+    (rel2par virtual-root)
+    (Nucleus
+      (span 2 13)
+      (rel2par joint)
+      (Nucleus
+        (span 2 10)
+        (rel2par span)
+        (Satellite
+          (span 2 9)
+          (rel2par evidence)
+          (Nucleus
+            (span 2 6)
+            (rel2par span)
+            (Satellite
+              (span 2 5)
+              (rel2par background)
+              (Satellite
+                (span 2 3)
+                (rel2par cause)
+                (Nucleus
+                  (leaf 2)
+                  (rel2par span)
+                  (text
+                    _!Der Traum vieler Menschen von der weißen Weihnacht ist diesmal in der Prignitz teilweise wahr geworden ._!))
+                (Satellite
+                  (leaf 3)
+                  (rel2par evidence)
+                  (text
+                    _!Denn an Heiligabend hüllte sich die Landschaft in ein Schneekleid ._!)))
+              (Nucleus
+                (span 4 5)
+                (rel2par span)
+                (Satellite
+                  (leaf 4)
+                  (rel2par concession)
+                  (text
+                    _!Und auch wenn an den beiden Feiertagen ein Großteil wieder weg getaut ist ,_!))
+                (Nucleus
+                  (leaf 5)
+                  (rel2par span)
+                  (text
+                    _!so dürften sich vor allem die Kinder über ein standesgemäßes Fest gefreut haben ._!))))
+            (Nucleus
+              (leaf 6)
+              (rel2par span)
+              (text _!Übrigens zum zweiten Mal nacheinander ._!)))
+          (Satellite
+            (span 7 9)
+            (rel2par cause)
+            (Nucleus
+              (leaf 7)
+              (rel2par span)
+              (text
+                _!Denn wer erinnert sich nicht an den Schneeeinbruch im Vorjahr ,_!))
+            (Satellite
+              (span 8 9)
+              (rel2par e-elaboration)
+              (Nucleus
+                (leaf 8)
+                (rel2par conjunction)
+                (text
+                  _!der rechtzeitig zum Fest die Prignitz erreichte_!))
+              (Nucleus
+                (leaf 9)
+                (rel2par conjunction)
+                (text
+                  _!und sogar über die Feiertage hinaus für eine Winterlandschaft sorgte ?_!)))))
+        (Nucleus
+          (leaf 10)
+          (rel2par span)
+          (text
+            _!Es kann also keine Rede davon sein , dass die weiße Weihnacht ein Phänomen ist , das der Vergangenheit angehört ._!)))
+      (Satellite
+        (span 11 13)
+        (rel2par evidence)
+        (Nucleus
+          (leaf 11)
+          (rel2par span)
+          (text
+            _!In diesem Jahr reichte sie bis weit in den Süden ._!))
+        (Satellite
+          (span 12 13)
+          (rel2par elaboration)
+          (Nucleus
+            (leaf 12)
+            (rel2par span)
+            (text _!Selbst auf Mallorca lag zum Fest Schnee -_!))
+          (Satellite
+            (leaf 13)
+            (rel2par concession)
+            (text _!wenn auch nur in 1000 Meter Höhe ._!)))))
+    (Nucleus
+      (span 14 15)
+      (rel2par joint)
+      (Nucleus
+        (leaf 14)
+        (rel2par span)
+        (text
+          _!Anderswo wiederum wird des Fest immer bei sengender Hitze gefeiert -_!))
+      (Satellite
+        (leaf 15)
+        (rel2par interpretation)
+        (text _!unvorstellbar für uns ._!)))
+    (Nucleus
+      (leaf 16)
+      (rel2par joint)
+      (text
+        _!Immerhin bleiben den Menschen in diesen Regionen die Wetterunbilden auf den Straßen erspart ._!))
+    (Nucleus
+      (span 17 21)
+      (rel2par joint)
+      (Nucleus
+        (span 17 18)
+        (rel2par span)
+        (Satellite
+          (leaf 17)
+          (rel2par condition)
+          (text _!Doch folgt man dem Polizeibericht ,_!))
+        (Nucleus
+          (leaf 18)
+          (rel2par span)
+          (text
+            _!so hielten sich die Folgen in der Prignitz in Grenzen ._!)))
+      (Satellite
+        (span 19 21)
+        (rel2par reason)
+        (Nucleus
+          (leaf 19)
+          (rel2par disjunction)
+          (text
+            _!Die meisten Menschen waren wohl auf den Wetterumschwung eingestellt ._!))
+        (Nucleus
+          (span 20 21)
+          (rel2par disjunction)
+          (Nucleus
+            (leaf 20)
+            (rel2par span)
+            (text _!Oder blieben ganz einfach zu Hause ,_!))
+          (Satellite
+            (leaf 21)
+            (rel2par evaluation-s)
+            (text _!wie sich das zu Weihnachten gehört ._!)))))))

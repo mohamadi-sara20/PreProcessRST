@@ -1,0 +1,110 @@
+(Root
+  (span 1 15)
+  (Nucleus
+    (leaf 1)
+    (rel2par virtual-root)
+    (text _!Einsteins Lorbeeren_!))
+  (Nucleus
+    (span 2 15)
+    (rel2par virtual-root)
+    (Satellite
+      (span 2 12)
+      (rel2par reason)
+      (Satellite
+        (leaf 2)
+        (rel2par background)
+        (text
+          _!Unter den vielen Lobreden wäre gestern am neuen Hauptsitz des Instituts für Klimafolgenforschung fast die Tatsache in Vergessenheit geraten , dass dessen Direktor Schellnhuber kürzlich um ein Haar ins Ausland abgewandert wäre ._!))
+      (Nucleus
+        (span 3 12)
+        (rel2par span)
+        (Satellite
+          (span 3 4)
+          (rel2par solutionhood)
+          (Satellite
+            (leaf 3)
+            (rel2par concession)
+            (text
+              _!Dass er doch geblieben ist , hat vordergründig mit mehr Geld fürs Institut zu tun :_!))
+          (Nucleus
+            (leaf 4)
+            (rel2par span)
+            (text
+              _!Wieso Spitzenforscher aus aller Welt in Potsdam arbeiten wollen , erklärt das alleine nicht ._!)))
+        (Nucleus
+          (span 5 12)
+          (rel2par span)
+          (Nucleus
+            (leaf 5)
+            (rel2par span)
+            (text _!Die Stadt hat was ._!))
+          (Satellite
+            (span 6 12)
+            (rel2par evidence)
+            (Satellite
+              (leaf 6)
+              (rel2par preparation)
+              (text _!Aber was ?_!))
+            (Nucleus
+              (span 7 12)
+              (rel2par span)
+              (Nucleus
+                (span 7 8)
+                (rel2par list)
+                (Nucleus
+                  (leaf 7)
+                  (rel2par span)
+                  (text
+                    _!Legendäre Wissenschaftstempel wie das astrophysikalische Institut haben Tradition und Flair -_!))
+                (Satellite
+                  (leaf 8)
+                  (rel2par elaboration)
+                  (text
+                    _!das treibt dem ehemaligen AIP-Direktor Hasinger die Gänsehaut in den Nacken ._!)))
+              (Nucleus
+                (span 9 10)
+                (rel2par list)
+                (Nucleus
+                  (leaf 9)
+                  (rel2par span)
+                  (text
+                    _!Die Nähe zur Landesregierung ist ein Standortvorteil ,_!))
+                (Satellite
+                  (leaf 10)
+                  (rel2par evidence)
+                  (text
+                    _!wie das Tauziehen um Schellnhuber beweist ._!)))
+              (Nucleus
+                (span 11 12)
+                (rel2par list)
+                (Nucleus
+                  (leaf 11)
+                  (rel2par span)
+                  (text
+                    _!Und kaum eine Region Deutschlands hat ein derart dichtes Netz von kooperierenden Wissenschaftseinrichtungen zu bieten -_!))
+                (Satellite
+                  (leaf 12)
+                  (rel2par evidence)
+                  (text
+                    _!der Erfolg des interdisziplinären Helmholtz-Instituts für die Schulung an Supercomputern spricht Bände ._!))))))))
+    (Nucleus
+      (span 13 15)
+      (rel2par span)
+      (Nucleus
+        (span 13 14)
+        (rel2par joint)
+        (Nucleus
+          (leaf 13)
+          (rel2par span)
+          (text
+            _!Nun kommt es darauf an , sich nicht auf Einsteins Lorbeeren auszuruhen ._!))
+        (Satellite
+          (leaf 14)
+          (rel2par reason)
+          (text
+            _!Denn weiche Standortfaktoren allein reichen nicht aus ._!)))
+      (Nucleus
+        (leaf 15)
+        (rel2par joint)
+        (text
+          _!Brandenburg muss endlich die rote Laterne in der Wissenschaftsförderung abgeben ._!)))))

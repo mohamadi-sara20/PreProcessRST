@@ -1,0 +1,116 @@
+(Root
+  (span 1 16)
+  (Nucleus (leaf 1) (rel2par virtual-root) (text _!Letzte Bastion_!))
+  (Nucleus
+    (span 2 16)
+    (rel2par virtual-root)
+    (Satellite
+      (span 2 5)
+      (rel2par background)
+      (Satellite
+        (span 2 4)
+        (rel2par circumstance)
+        (Nucleus
+          (leaf 2)
+          (rel2par joint)
+          (text
+            _!Amerikaner würden sich bei dieser Frage wahrscheinlich auf den Boden werfen und lauthals lachen :_!))
+        (Nucleus
+          (span 3 4)
+          (rel2par joint)
+          (Nucleus
+            (leaf 3)
+            (rel2par span)
+            (text _!Rauchen in einer Stadthalle ,_!))
+          (Satellite
+            (leaf 4)
+            (rel2par e-elaboration)
+            (text
+              _!in der die meiste Zeit über Kinder und Jugendliche Sport treiben und dabei kräftig atmen ?_!))))
+      (Nucleus
+        (leaf 5)
+        (rel2par span)
+        (text
+          _!Schon der Gedanke daran wäre undenkbar in einem Land , in dem der Nikotinkonsum in öffentlichen Gebäuden , auf Flughäfen und auch in Restaurants ( sogar an Tischen im Freien mitten in Manhattan ! ) unter Strafe steht ._!)))
+    (Nucleus
+      (span 6 16)
+      (rel2par span)
+      (Satellite
+        (span 6 9)
+        (rel2par reason)
+        (Satellite
+          (leaf 6)
+          (rel2par preparation)
+          (text _!Und Deutschland ?_!))
+        (Nucleus
+          (span 7 9)
+          (rel2par span)
+          (Nucleus
+            (leaf 7)
+            (rel2par conjunction)
+            (text _!Ungehemmtes Qualmen und Paffen überall ,_!))
+          (Nucleus
+            (span 8 9)
+            (rel2par conjunction)
+            (Nucleus
+              (leaf 8)
+              (rel2par span)
+              (text
+                _!und oft schlägt einem Nichtraucher sogar noch Aggression entgegen ,_!))
+            (Satellite
+              (leaf 9)
+              (rel2par condition)
+              (text
+                _!weist er freundlich darauf hin , dass es unerträglich müffelt ..._!)))))
+      (Nucleus
+        (span 10 16)
+        (rel2par span)
+        (Nucleus
+          (leaf 10)
+          (rel2par span)
+          (text
+            _!Insofern ist die Beharrlichkeit zu loben , mit der die Falkenseer Stadtverwaltung einer Berliner Musikgruppe die Konzerterlaubnis für die Stadthalle - quasi eine der letzten rauchfreien Bastionen - eben nicht erteilt ._!))
+        (Satellite
+          (span 11 16)
+          (rel2par reason)
+          (Nucleus
+            (span 11 14)
+            (rel2par span)
+            (Satellite
+              (leaf 11)
+              (rel2par preparation)
+              (text _!Auch wenn es übertrieben klingen mag :_!))
+            (Nucleus
+              (span 12 14)
+              (rel2par span)
+              (Satellite
+                (leaf 12)
+                (rel2par condition)
+                (text
+                  _!Wer ernsthaft über Jugendschutz redet ( Stichwort Suchtgefahren ) ,_!))
+              (Nucleus
+                (span 13 14)
+                (rel2par span)
+                (Nucleus
+                  (leaf 13)
+                  (rel2par span)
+                  (text
+                    _!der sollte kleine Leute nicht an einen Ort zum Bodenturnen schicken ,_!))
+                (Satellite
+                  (leaf 14)
+                  (rel2par e-elaboration)
+                  (text
+                    _!in dem es riecht wie in einer Kneipe am Morgen nach der Weihnachtsfeier ._!)))))
+          (Satellite
+            (span 15 16)
+            (rel2par evaluation-s)
+            (Satellite
+              (leaf 15)
+              (rel2par cause)
+              (text
+                _!Dieses Prinzip ist den Verantwortlichen zu Recht so teuer ,_!))
+            (Nucleus
+              (leaf 16)
+              (rel2par span)
+              (text
+                _!dass sie es sich für ein paar Mark Hallenmiete nicht abkaufen lassen ._!))))))))

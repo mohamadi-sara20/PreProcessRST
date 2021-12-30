@@ -1,0 +1,125 @@
+(Root
+  (span 1 18)
+  (Nucleus
+    (leaf 1)
+    (rel2par virtual-root)
+    (text _!Spähen , nicht spitzeln_!))
+  (Nucleus
+    (span 2 18)
+    (rel2par virtual-root)
+    (Nucleus
+      (span 2 6)
+      (rel2par joint)
+      (Satellite
+        (span 2 3)
+        (rel2par background)
+        (Satellite
+          (leaf 2)
+          (rel2par circumstance)
+          (text
+            _!Den Hut von Marlowe , die Pfeife von Maigret oder das Strickzeug von Miss Marple kennt Detektiv T. aus Hennigsdorf vom Schmökern ._!))
+        (Nucleus
+          (leaf 3)
+          (rel2par span)
+          (text
+            _!Und er hat aus den Krimis , die mit der Wirklichkeit so viel zu tun haben wie der Traum von der Gerechtigkeit mit dem realen Leben , viel gelernt ._!)))
+      (Nucleus
+        (span 4 6)
+        (rel2par span)
+        (Satellite
+          (leaf 4)
+          (rel2par circumstance)
+          (text
+            _!Vor allem , sagt er mit Augenzwinkern , habe er zwischen den Zeilen gelesen_!))
+        (Nucleus
+          (span 5 6)
+          (rel2par span)
+          (Nucleus
+            (leaf 5)
+            (rel2par span)
+            (text
+              _!und sei dabei auf etwas ganz Wichtiges gestoßen ._!))
+          (Satellite
+            (leaf 6)
+            (rel2par e-elaboration)
+            (text
+              _!Den feinen Unterschied nämlich zwischen dem Spähen und dem Spitzeln ._!)))))
+    (Nucleus
+      (span 7 15)
+      (rel2par joint)
+      (Satellite
+        (span 7 8)
+        (rel2par concession)
+        (Nucleus
+          (leaf 7)
+          (rel2par contrast)
+          (text
+            _!Während den Detektiv immer ein Tatbestand zum Handeln fordere ,_!))
+        (Nucleus
+          (leaf 8)
+          (rel2par contrast)
+          (text
+            _!sei das Aushorchen unseligen Angedenkens nicht damit vergleichbar ._!)))
+      (Nucleus
+        (span 9 15)
+        (rel2par span)
+        (Nucleus
+          (span 9 14)
+          (rel2par span)
+          (Nucleus
+            (leaf 9)
+            (rel2par span)
+            (text
+              _!Und doch macht der junge Mann auch keinen Schmus darum , dass er natürlich auch mal ein bisschen lavieren müsse ,_!))
+          (Satellite
+            (span 10 14)
+            (rel2par purpose)
+            (Nucleus
+              (leaf 10)
+              (rel2par span)
+              (text _!um an Informationen zu kommen ,_!))
+            (Satellite
+              (span 11 14)
+              (rel2par e-elaboration)
+              (Nucleus
+                (leaf 11)
+                (rel2par list)
+                (text _!die Verwicklungen aufhellen_!))
+              (Nucleus
+                (leaf 12)
+                (rel2par list)
+                (text _!oder Menschen Gewissheit geben ,_!))
+              (Nucleus
+                (leaf 13)
+                (rel2par list)
+                (text
+                  _!die schwarze Schafe entweder kräftig abseifen_!))
+              (Nucleus
+                (leaf 14)
+                (rel2par list)
+                (text _!oder Einsicht wecken ._!)))))
+        (Satellite
+          (leaf 15)
+          (rel2par cause)
+          (text
+            _!Im Unterschied zu Detektiven der bekannteren Prägung nämlich hat T. keine Rechte , die ihm bei Ermittlungen helfen ._!))))
+    (Nucleus
+      (span 16 18)
+      (rel2par joint)
+      (Satellite
+        (leaf 16)
+        (rel2par interpretation)
+        (text
+          _!Eines aber hat er mit seinen berühmten Kollegen gemein ._!))
+      (Nucleus
+        (span 17 18)
+        (rel2par span)
+        (Nucleus
+          (leaf 17)
+          (rel2par joint)
+          (text
+            _!Gute Krimis sind immer ein Spiegelbild der Probleme Gesellschaft gewesen ._!))
+        (Nucleus
+          (leaf 18)
+          (rel2par joint)
+          (text _!Auch T. arbeitet in diesem Spannungsfeld ._!))))))

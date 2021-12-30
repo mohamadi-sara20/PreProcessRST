@@ -1,0 +1,119 @@
+(Root
+  (span 1 17)
+  (Nucleus (leaf 1) (rel2par virtual-root) (text _!Ein Fels_!))
+  (Nucleus
+    (span 2 17)
+    (rel2par virtual-root)
+    (Nucleus
+      (span 2 13)
+      (rel2par contrast)
+      (Satellite
+        (span 2 3)
+        (rel2par interpretation)
+        (Satellite
+          (leaf 2)
+          (rel2par concession)
+          (text
+            _!Es war sicher nicht die letzte Lobpreisung für Hans-Joachim Giersberg ._!))
+        (Nucleus
+          (leaf 3)
+          (rel2par span)
+          (text
+            _!Doch dürfte ihm die Ehrenbürgerwürde , die ihm Potsdam gestern verlieh , wertvoller sein als mancher Preis , der da noch kommen mag ._!)))
+      (Nucleus
+        (span 4 13)
+        (rel2par span)
+        (Nucleus
+          (span 4 7)
+          (rel2par span)
+          (Satellite
+            (leaf 4)
+            (rel2par interpretation)
+            (text _!Ist es doch die Anerkennung dafür ,_!))
+          (Nucleus
+            (span 5 7)
+            (rel2par span)
+            (Satellite
+              (leaf 5)
+              (rel2par antithesis)
+              (text
+                _!dass der frühere Generaldirektor der Schlösserstiftung nicht allein von der Sorge um die anvertrauten Kunstschätze getrieben war ,_!))
+            (Nucleus
+              (span 6 7)
+              (rel2par span)
+              (Nucleus
+                (leaf 6)
+                (rel2par span)
+                (text _!sondern von der Vision einer Stadt ,_!))
+              (Satellite
+                (leaf 7)
+                (rel2par e-elaboration)
+                (text _!die durch diese Kunst lebt ._!)))))
+        (Satellite
+          (span 8 13)
+          (rel2par evidence)
+          (Nucleus
+            (span 8 9)
+            (rel2par list)
+            (Nucleus
+              (leaf 8)
+              (rel2par span)
+              (text
+                _!So stand Giersberg nicht nur wie der Fels in der Brandung ,_!))
+            (Satellite
+              (leaf 9)
+              (rel2par circumstance)
+              (text
+                _!als die Kommerzialisierungswogen an die Schlossmauern schlugen ._!)))
+          (Nucleus
+            (span 10 11)
+            (rel2par list)
+            (Nucleus
+              (leaf 10)
+              (rel2par span)
+              (text
+                _!Sein stilles , aber nachhaltiges Eintreten für die Qualitäten der Kulturlandschaft außerhalb seiner Gärten , allzuoft als Sichtachsen-Fetischismus benörgelt , hat dazu beigetragen , die Landeshauptstadt als Gesamtkunstwerk erfahrbar zu machen ._!))
+            (Satellite
+              (leaf 11)
+              (rel2par evaluation-s)
+              (text _!Dafür hat ihm Potsdam zu danken ._!)))
+          (Nucleus
+            (span 12 13)
+            (rel2par list)
+            (Nucleus
+              (leaf 12)
+              (rel2par span)
+              (text
+                _!Mit seinem Ja zu den Schlössernächten übersprang er am Ende sogar den Schatten des nur ängstlichen Bewahrers ,_!))
+            (Satellite
+              (leaf 13)
+              (rel2par e-elaboration)
+              (text _!als der er lange galt ._!))))))
+    (Nucleus
+      (span 14 17)
+      (rel2par contrast)
+      (Satellite
+        (leaf 14)
+        (rel2par interpretation)
+        (text _!Dennoch endet mit Giersberg eine Ära ._!))
+      (Nucleus
+        (span 15 17)
+        (rel2par span)
+        (Satellite
+          (leaf 15)
+          (rel2par antithesis)
+          (text
+            _!Sein Nachfolger wird nicht allein am Kunstsinn gemessen werden ,_!))
+        (Nucleus
+          (span 16 17)
+          (rel2par span)
+          (Nucleus
+            (leaf 16)
+            (rel2par joint)
+            (text
+              _!er wird mehr von dem haben müssen , was Giersberg lästig war :_!))
+          (Nucleus
+            (leaf 17)
+            (rel2par joint)
+            (text
+              _!Sinn für das Geld - und damit für alle " niederen " Bedürfnisse ._!)))))))

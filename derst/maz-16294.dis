@@ -1,0 +1,125 @@
+(Root
+  (span 1 17)
+  (Nucleus
+    (leaf 1)
+    (rel2par virtual-root)
+    (text _!Ein bisschen dafür_!))
+  (Nucleus
+    (span 2 17)
+    (rel2par virtual-root)
+    (Nucleus
+      (span 2 16)
+      (rel2par span)
+      (Satellite
+        (span 2 4)
+        (rel2par background)
+        (Nucleus
+          (leaf 2)
+          (rel2par span)
+          (text
+            _!Der Ausbau des Flughafens Schönefeld wird nun auch für die PDS zu einer echten Gretchenfrage ._!))
+        (Satellite
+          (span 3 4)
+          (rel2par reason)
+          (Satellite
+            (leaf 3)
+            (rel2par cause)
+            (text
+              _!Kaum haben sich ihre Verhandlungsführer in Berlin mit der SPD darauf geeinigt ,_!))
+          (Nucleus
+            (leaf 4)
+            (rel2par span)
+            (text
+              _!reiben sich die Genossen in der Region verwundert die Augen ._!))))
+      (Nucleus
+        (span 5 16)
+        (rel2par span)
+        (Nucleus
+          (span 5 6)
+          (rel2par span)
+          (Satellite
+            (leaf 5)
+            (rel2par concession)
+            (text _!Sicher , entschieden ist noch lange nichts ._!))
+          (Nucleus
+            (leaf 6)
+            (rel2par span)
+            (text
+              _!Doch was jetzt an Nachrichten aus der Hauptstadt ins Dahmeland hinüber schwappt , hört sich so ganz anders an als das , was PDS-Spitzen unlängst noch im Bürgermeisterwahlkampf verkündeten ._!)))
+        (Satellite
+          (span 7 16)
+          (rel2par elaboration)
+          (Nucleus
+            (span 7 12)
+            (rel2par contrast)
+            (Nucleus
+              (leaf 7)
+              (rel2par span)
+              (text
+                _!Den Standort Schönefeld lehnten sie kategorisch ab ._!))
+            (Satellite
+              (span 8 12)
+              (rel2par elaboration)
+              (Satellite
+                (leaf 8)
+                (rel2par concession)
+                (text
+                  _!Zwar immer mit dem leisen Hinweis darauf , dass man sich stets auch an dem zu orientieren habe , was in den Planungen längst auf den Weg gebracht ist ._!))
+              (Nucleus
+                (span 9 12)
+                (rel2par span)
+                (Satellite
+                  (leaf 9)
+                  (rel2par cause)
+                  (text _!Aber immer noch deutlich genug ,_!))
+                (Nucleus
+                  (span 10 12)
+                  (rel2par span)
+                  (Nucleus
+                    (leaf 10)
+                    (rel2par span)
+                    (text
+                      _!dass die vielen Standortgegner in den Gemeinden die Botschaft wohl verstanden :_!))
+                  (Satellite
+                    (span 11 12)
+                    (rel2par e-elaboration)
+                    (Nucleus
+                      (leaf 11)
+                      (rel2par list)
+                      (text
+                        _!die PDS-Leute setzen sich für unsere Interessen ein ,_!))
+                    (Nucleus
+                      (leaf 12)
+                      (rel2par list)
+                      (text
+                        _!sie sind in der Politik unsere Verbündeten ._!)))))))
+          (Nucleus
+            (span 13 16)
+            (rel2par contrast)
+            (Nucleus
+              (leaf 13)
+              (rel2par span)
+              (text _!Jetzt sind sie doch ein bisschen dafür ._!))
+            (Satellite
+              (span 14 16)
+              (rel2par result)
+              (Nucleus
+                (leaf 14)
+                (rel2par list)
+                (text
+                  _!Prompt spricht der Bürgerverein BVBB von " politisch-moralischer Verkommenheit " ,_!))
+              (Nucleus
+                (leaf 15)
+                (rel2par list)
+                (text
+                  _!ist Schulzendorfs Bürgermeister enttäuscht ,_!))
+              (Nucleus
+                (leaf 16)
+                (rel2par list)
+                (text
+                  _!sieht Königs Wusterhausens künftiger Bürgermeister Widersprüchliches ._!)))))))
+    (Satellite
+      (leaf 17)
+      (rel2par evaluation-s)
+      (text
+        _!Die Genossen von der PDS haben jetzt einiges aufzuarbeiten ._!))))

@@ -1,0 +1,112 @@
+(Root
+  (span 1 15)
+  (Nucleus
+    (leaf 1)
+    (rel2par virtual-root)
+    (text _!Anders als gedacht_!))
+  (Nucleus
+    (span 2 15)
+    (rel2par virtual-root)
+    (Nucleus
+      (span 2 11)
+      (rel2par span)
+      (Satellite
+        (span 2 4)
+        (rel2par reason)
+        (Satellite
+          (leaf 2)
+          (rel2par interpretation)
+          (text
+            _!So träge wie allgemein oft angenommen , scheint die Jugend im Fläming nun doch nicht zu sein ._!))
+        (Nucleus
+          (span 3 4)
+          (rel2par span)
+          (Satellite
+            (leaf 3)
+            (rel2par evidence)
+            (text
+              _!Denn wenn sich jetzt unterstützt von Schülern auch in Wiesenburg ein Förderverein für die Grund- und Gesamtschule gründet ,_!))
+          (Nucleus
+            (leaf 4)
+            (rel2par span)
+            (text
+              _!zeigt dies , welchen Stellenwert einer guten schulischen Ausbildung inzwischen eingeräumt wird ._!))))
+      (Nucleus
+        (span 5 11)
+        (rel2par span)
+        (Nucleus
+          (span 5 8)
+          (rel2par span)
+          (Nucleus
+            (span 5 6)
+            (rel2par span)
+            (Satellite
+              (leaf 5)
+              (rel2par circumstance)
+              (text
+                _!Wie anderswo bereits seit längerem erfolgreich praktiziert ,_!))
+            (Nucleus
+              (leaf 6)
+              (rel2par span)
+              (text
+                _!wird die Schule so stärker in den Mittelpunkt der Gesellschaft gerückt ._!)))
+          (Satellite
+            (span 7 8)
+            (rel2par elaboration)
+            (Satellite
+              (leaf 7)
+              (rel2par antithesis)
+              (text _!Sie ist kein abgeschottetetes Gebilde mehr ,_!))
+            (Nucleus
+              (leaf 8)
+              (rel2par span)
+              (text _!sondern Teil der Kommunen ._!))))
+        (Satellite
+          (span 9 11)
+          (rel2par interpretation)
+          (Nucleus
+            (span 9 10)
+            (rel2par span)
+            (Nucleus
+              (leaf 9)
+              (rel2par span)
+              (text
+                _!An die Stelle von " die da oben müssten mal ... " ist Eigeninitiative getreten ._!))
+            (Satellite
+              (leaf 10)
+              (rel2par restatement)
+              (text
+                _!Selbst etwas anpacken und nicht auf Allmosen warten , scheint nun die Devise zu sein ._!)))
+          (Satellite
+            (leaf 11)
+            (rel2par evaluation-s)
+            (text _!Das ist gut so ._!)))))
+    (Satellite
+      (span 12 15)
+      (rel2par interpretation)
+      (Nucleus
+        (span 12 14)
+        (rel2par span)
+        (Nucleus
+          (leaf 12)
+          (rel2par span)
+          (text
+            _!Bleibt zu hoffen , dass sich nicht nur dem Wiesenburger Förderverein möglichst viele Menschen aus diversen Gruppen der Gesellschaft anschließen ._!))
+        (Satellite
+          (span 13 14)
+          (rel2par elaboration)
+          (Nucleus
+            (leaf 13)
+            (rel2par disjunction)
+            (text
+              _!Beispielsweise könnten Handwerker und Betriebe der Region so frühzeitig Kontakte zu künftigen Lehrlingen knüpfen_!))
+          (Nucleus
+            (leaf 14)
+            (rel2par disjunction)
+            (text
+              _!oder im Gespräch mit Lehrern ihre Anforderungen an die oft krititisierte Ausbildung in den Schulen verdeutlichen ._!))))
+      (Satellite
+        (leaf 15)
+        (rel2par interpretation)
+        (text
+          _!Dass für eigentlich normale Dinge im Schulalltag dennoch immer auch Spendengeld nötig bleibt , ist ein Wermutstropfen ._!)))))

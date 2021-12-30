@@ -1,0 +1,141 @@
+(Root
+  (span 1 20)
+  (Nucleus
+    (leaf 1)
+    (rel2par virtual-root)
+    (text _!Briefkästen trockenlegen_!))
+  (Nucleus
+    (span 2 20)
+    (rel2par virtual-root)
+    (Satellite
+      (span 2 6)
+      (rel2par background)
+      (Nucleus
+        (span 2 4)
+        (rel2par span)
+        (Satellite
+          (leaf 2)
+          (rel2par interpretation)
+          (text
+            _!Heißer als in anderen Nächten geht es Silvester zu ._!))
+        (Nucleus
+          (span 3 4)
+          (rel2par span)
+          (Nucleus
+            (leaf 3)
+            (rel2par span)
+            (text
+              _!Manche netten Mitmenschen verspüren erfahrungsgemäß gerade in den letzten Stunden des alten Jahres verstärkt den Drang zu neuen Streichen ._!))
+          (Satellite
+            (leaf 4)
+            (rel2par elaboration)
+            (text
+              _!Vor allem Briefkästen , in denen Feuerwerkskörper noch mal so schön wie an frischer Luft knallen , haben es ihnen angetan ._!))))
+      (Satellite
+        (span 5 6)
+        (rel2par result)
+        (Satellite
+          (leaf 5)
+          (rel2par cause)
+          (text _!Weil die Polizei das weiß ,_!))
+        (Nucleus
+          (leaf 6)
+          (rel2par span)
+          (text
+            _!richten sich die Beamten am Neujahrstag auf viele Anzeigen wegen Sachbeschädigung ein ._!))))
+    (Nucleus
+      (span 7 20)
+      (rel2par span)
+      (Nucleus
+        (span 7 19)
+        (rel2par span)
+        (Nucleus
+          (span 7 9)
+          (rel2par span)
+          (Satellite
+            (leaf 7)
+            (rel2par condition)
+            (text _!Wer sich den Gang zur Polizei ersparen will ,_!))
+          (Nucleus
+            (span 8 9)
+            (rel2par span)
+            (Nucleus
+              (leaf 8)
+              (rel2par conjunction)
+              (text
+                _!sollte versuchen , dummen Knallfröschen das Wasser abzugraben_!))
+            (Nucleus
+              (leaf 9)
+              (rel2par conjunction)
+              (text _!und seinen Briefkasten trockenzulegen ._!))))
+        (Satellite
+          (span 10 19)
+          (rel2par elaboration)
+          (Nucleus
+            (leaf 10)
+            (rel2par list)
+            (text _!Beispielsweise mit einer Sandfüllung ._!))
+          (Nucleus
+            (span 11 12)
+            (rel2par list)
+            (Nucleus
+              (leaf 11)
+              (rel2par span)
+              (text _!Besser wäre es , den Kasten ganz abzubauen ._!))
+            (Satellite
+              (leaf 12)
+              (rel2par reason)
+              (text
+                _!( Post wird sowieso erst wieder am 2. Januar ausgetragen )_!)))
+          (Nucleus
+            (span 13 15)
+            (rel2par list)
+            (Satellite
+              (leaf 13)
+              (rel2par condition)
+              (text _!Wenn das nicht geht ,_!))
+            (Nucleus
+              (span 14 15)
+              (rel2par span)
+              (Nucleus
+                (leaf 14)
+                (rel2par span)
+                (text
+                  _!einfach die Entleerungsklappe offen lassen ,_!))
+              (Satellite
+                (leaf 15)
+                (rel2par purpose)
+                (text
+                  _!damit der Druck beim Explodieren pyrotechnischer Erzeugnisse entweichen kann ._!))))
+          (Nucleus
+            (span 16 19)
+            (rel2par list)
+            (Satellite
+              (leaf 16)
+              (rel2par condition)
+              (text
+                _!Wer sein Posteinwurfbehältnis einmal mit ganz anderen Augen sehen will ,_!))
+            (Nucleus
+              (span 17 19)
+              (rel2par span)
+              (Nucleus
+                (leaf 17)
+                (rel2par span)
+                (text _!könnte seine künstlerische Ader ausleben ,_!))
+              (Satellite
+                (span 18 19)
+                (rel2par means)
+                (Nucleus
+                  (leaf 18)
+                  (rel2par conjunction)
+                  (text
+                    _!den Briefkasten komplett in stabiles Material hüllen_!))
+                (Nucleus
+                  (leaf 19)
+                  (rel2par conjunction)
+                  (text _!und mit Klebeband versehen ._!)))))))
+      (Satellite
+        (leaf 20)
+        (rel2par interpretation)
+        (text
+          _!Gut möglich , dass so dem einen oder anderen Knallfrosch der Spaß daran vergeht , anderen Menschen Sach-Schaden zuzufügen ._!)))))

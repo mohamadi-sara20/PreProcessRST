@@ -1,0 +1,131 @@
+(Root
+  (span 1 18)
+  (Nucleus
+    (leaf 1)
+    (rel2par virtual-root)
+    (text _!Allianz mit Fragezeichen_!))
+  (Nucleus
+    (span 2 18)
+    (rel2par virtual-root)
+    (Satellite
+      (span 2 10)
+      (rel2par antithesis)
+      (Satellite
+        (span 2 8)
+        (rel2par justify)
+        (Satellite
+          (leaf 2)
+          (rel2par circumstance)
+          (text
+            _!Manchmal sind es die kleinen Meldungen am Rande , die mehr über diesen Krieg aussagen als die Erfolgsberichte der Militärs ._!))
+        (Nucleus
+          (span 3 8)
+          (rel2par span)
+          (Nucleus
+            (span 3 5)
+            (rel2par list)
+            (Nucleus
+              (leaf 3)
+              (rel2par sequence)
+              (text _!Nach dem Fall von Masar-i-Scharif_!))
+            (Nucleus
+              (span 4 5)
+              (rel2par sequence)
+              (Nucleus
+                (leaf 4)
+                (rel2par span)
+                (text
+                  _!sollen sich vor den Friseurläden der Stadt lange Schlangen von Männern gebildet haben ,_!))
+              (Satellite
+                (leaf 5)
+                (rel2par elaboration)
+                (text
+                  _!die sich ihre Bärte abrasieren lassen wollten , hieß es gestern ._!))))
+          (Nucleus
+            (span 6 7)
+            (rel2par list)
+            (Nucleus
+              (leaf 6)
+              (rel2par span)
+              (text
+                _!Auch sei aus den Restaurants laute Musik zu hören gewesen ,_!))
+            (Satellite
+              (leaf 7)
+              (rel2par elaboration)
+              (text
+                _!was unter dem Regime der Taliban verboten war ._!)))
+          (Nucleus
+            (leaf 8)
+            (rel2par list)
+            (text
+              _!Einige Frauen hätten sich sogar getraut , ohne Schleier auf die Straße zu gehen ._!))))
+      (Nucleus
+        (span 9 10)
+        (rel2par span)
+        (Satellite
+          (leaf 9)
+          (rel2par cause)
+          (text _!Bei solchen Nachrichten_!))
+        (Nucleus
+          (leaf 10)
+          (rel2par span)
+          (text
+            _!kann man sich ein rasches Vorrücken der Nordallianz auf Kabul eigentlich nur wünschen ._!))))
+    (Nucleus
+      (span 11 18)
+      (rel2par span)
+      (Nucleus
+        (leaf 11)
+        (rel2par span)
+        (text
+          _!Wenn da nicht die politischen Bedenken wären , dass der Krieg gegen die Taliban sich zu einem neuen Bürgerkrieg ausweiten könnte ._!))
+      (Satellite
+        (span 12 18)
+        (rel2par justify)
+        (Satellite
+          (span 12 15)
+          (rel2par reason)
+          (Nucleus
+            (span 12 13)
+            (rel2par span)
+            (Satellite
+              (leaf 12)
+              (rel2par condition)
+              (text
+                _!Sollte die Nordallianz sich als Herrscher Afghanistans gebärden ,_!))
+            (Nucleus
+              (leaf 13)
+              (rel2par span)
+              (text _!dann wäre nichts gewonnen ._!)))
+          (Satellite
+            (span 14 15)
+            (rel2par interpretation)
+            (Satellite
+              (leaf 14)
+              (rel2par antithesis)
+              (text
+                _!Das lose Bündnis aus Minderheiten , das schon einmal brutal die Macht über die Paschtunen-Mehrheit ausübte , ist eben nicht nur Teil der Lösung ,_!))
+            (Nucleus
+              (leaf 15)
+              (rel2par span)
+              (text _!sondern auch Teil des Problems ._!))))
+        (Nucleus
+          (span 16 18)
+          (rel2par span)
+          (Nucleus
+            (leaf 16)
+            (rel2par span)
+            (text
+              _!Das Problem der Amerikaner ist es nun , die Nordallianz zu bremsen und deren alleinige Machtübernahme zu verhindern ._!))
+          (Satellite
+            (span 17 18)
+            (rel2par interpretation)
+            (Satellite
+              (leaf 17)
+              (rel2par condition)
+              (text _!Gelingt das nicht ,_!))
+            (Nucleus
+              (leaf 18)
+              (rel2par span)
+              (text
+                _!steht die Glaubwürdigkeit der gesamten Anti-Terror-Operation auf dem Spiel ._!))))))))

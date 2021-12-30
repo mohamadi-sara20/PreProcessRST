@@ -1,0 +1,124 @@
+(Root
+  (span 1 17)
+  (Nucleus (leaf 1) (rel2par virtual-root) (text _!Nagelprobe_!))
+  (Nucleus
+    (span 2 17)
+    (rel2par virtual-root)
+    (Satellite
+      (span 2 5)
+      (rel2par background)
+      (Satellite
+        (span 2 3)
+        (rel2par reason)
+        (Nucleus
+          (leaf 2)
+          (rel2par conjunction)
+          (text
+            _!37 Millionen Mark gibt die Stadt 2001 für die Unterhaltung eigener Immobilien aus ._!))
+        (Nucleus
+          (leaf 3)
+          (rel2par conjunction)
+          (text
+            _!Und der Wert der Liegenschaften beläuft sich auf eine halbe Milliarde Mark ._!)))
+      (Nucleus
+        (span 4 5)
+        (rel2par span)
+        (Satellite
+          (leaf 4)
+          (rel2par concession)
+          (text
+            _!Damit ist die Stadt gar nicht so arm wie sie tut ._!))
+        (Nucleus
+          (leaf 5)
+          (rel2par span)
+          (text
+            _!Nur muss sie ihr Vermögen richtig einsetzen und verwalten ._!))))
+    (Nucleus
+      (span 6 17)
+      (rel2par span)
+      (Nucleus
+        (span 6 14)
+        (rel2par span)
+        (Nucleus
+          (span 6 8)
+          (rel2par span)
+          (Nucleus
+            (leaf 6)
+            (rel2par span)
+            (text
+              _!Das will Bürgermeister Langerwisch mit dem " zentralen Gebäude- und Liegenschaftsmanagement " tun ._!))
+          (Satellite
+            (span 7 8)
+            (rel2par e-elaboration)
+            (Nucleus
+              (leaf 7)
+              (rel2par conjunction)
+              (text
+                _!Mit dem Konzept lassen sich Unterhalts- und Personalkosten einsparen_!))
+            (Nucleus
+              (leaf 8)
+              (rel2par conjunction)
+              (text
+                _!und gleichzeitig bleibt Geld für die Sanierung der oft maroden kommunalen Gebäude übrig ._!))))
+        (Satellite
+          (span 9 14)
+          (rel2par interpretation)
+          (Nucleus
+            (leaf 9)
+            (rel2par span)
+            (text
+              _!Ob und wie Langerwisch die Umsetzung gelingt , bleibt abzuwarten ._!))
+          (Satellite
+            (span 10 14)
+            (rel2par evidence)
+            (Nucleus
+              (span 10 12)
+              (rel2par list)
+              (Nucleus
+                (leaf 10)
+                (rel2par span)
+                (text
+                  _!Auch in der Verwaltung haben sich über Jahre Pfründe und Abhängigkeiten gebildet ,_!))
+              (Satellite
+                (span 11 12)
+                (rel2par e-elaboration)
+                (Nucleus
+                  (leaf 11)
+                  (rel2par conjunction)
+                  (text _!die nicht einfach aufgegeben werden_!))
+                (Nucleus
+                  (leaf 12)
+                  (rel2par conjunction)
+                  (text
+                    _!und die einer Zentralisierung im Wege stehen ._!))))
+            (Nucleus
+              (leaf 13)
+              (rel2par list)
+              (text
+                _!Bisher sprang noch jeder Strukturreformer in der Verwaltung als Tiger und landete als Bettvorleger ._!))
+            (Nucleus
+              (leaf 14)
+              (rel2par list)
+              (text
+                _!Schon die Nichteinbringung der Fachbereichsstruktur durch den OB hat Langerwisch gezeigt , wie dünn das Eis des Erfolges ist , das ihn trug ._!)))))
+      (Satellite
+        (span 15 17)
+        (rel2par interpretation)
+        (Satellite
+          (leaf 15)
+          (rel2par condition)
+          (text
+            _!Scheitert er nun auch mit dem zweifellos guten Liegenschaftskonzept ,_!))
+        (Nucleus
+          (span 16 17)
+          (rel2par span)
+          (Nucleus
+            (leaf 16)
+            (rel2par span)
+            (text
+              _!spräche dies für einen drastisch geschwundenen Einfluss in der Verwaltung und in der SVV ,_!))
+          (Satellite
+            (leaf 17)
+            (rel2par interpretation)
+            (text
+              _!was die Stadt noch unregierbarer werden ließe ._!)))))))

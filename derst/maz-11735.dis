@@ -1,0 +1,111 @@
+(Root
+  (span 1 15)
+  (Nucleus
+    (leaf 1)
+    (rel2par virtual-root)
+    (text _!Frei und unbehelligt_!))
+  (Nucleus
+    (span 2 15)
+    (rel2par virtual-root)
+    (Nucleus
+      (span 2 11)
+      (rel2par span)
+      (Satellite
+        (span 2 5)
+        (rel2par concession)
+        (Satellite
+          (leaf 2)
+          (rel2par evaluation-s)
+          (text
+            _!Eine gute Idee , künftig weltweit Terroristen das Geld zu sperren ._!))
+        (Nucleus
+          (span 3 5)
+          (rel2par span)
+          (Nucleus
+            (leaf 3)
+            (rel2par span)
+            (text
+              _!Sowohl die G-20 Gruppe , in der die Industrieländer sowie die mächtigsten Schwellenländer vertreten sind , als auch die 183 IWF-Staaten haben sich in Ottawa darauf verständigt , gemeinsam gegen Geldwäsche und die Finanzierung von Terrornetzen vorzugehen ._!))
+          (Satellite
+            (span 4 5)
+            (rel2par evaluation-s)
+            (Satellite
+              (leaf 4)
+              (rel2par concession)
+              (text
+                _!Mehr als eine Willensbekundung ist das zwar noch nicht -_!))
+            (Nucleus
+              (leaf 5)
+              (rel2par span)
+              (text _!aber immerhin ._!)))))
+      (Nucleus
+        (span 6 11)
+        (rel2par span)
+        (Nucleus
+          (leaf 6)
+          (rel2par span)
+          (text
+            _!Der unbeteiligte Beobachter fragt sich allerdings , warum erst jetzt ?_!))
+        (Satellite
+          (span 7 11)
+          (rel2par reason)
+          (Nucleus
+            (span 7 8)
+            (rel2par contrast)
+            (Nucleus
+              (leaf 7)
+              (rel2par span)
+              (text
+                _!Jahrelang wurde die Ausrede kultiviert , schärfere Kontrollen schadeten einem Finanzstandort ._!))
+            (Satellite
+              (leaf 8)
+              (rel2par restatement)
+              (text
+                _!Kapital müsse frei und unbehelligt fließen können ._!)))
+          (Nucleus
+            (span 9 11)
+            (rel2par contrast)
+            (Nucleus
+              (leaf 9)
+              (rel2par span)
+              (text
+                _!Erst nach dem 11. September hat man offenbar begriffen , dass nicht jede Geldanlage den Wohlstand der Nationen mehrt ._!))
+            (Satellite
+              (span 10 11)
+              (rel2par evidence)
+              (Nucleus
+                (leaf 10)
+                (rel2par span)
+                (text
+                  _!Die USA präsentierten sogar jüngst eine Liste verdächtiger Gesellschaften ._!))
+              (Satellite
+                (leaf 11)
+                (rel2par evaluation-s)
+                (text
+                  _!Dumm nur , dass auf der die selben Kandidaten standen , vor denen die Uno schon seit Jahren warnt ._!)))))))
+    (Satellite
+      (span 12 15)
+      (rel2par interpretation)
+      (Satellite
+        (leaf 12)
+        (rel2par circumstance)
+        (text _!Doch nach Ottawa soll ja alles anders werden ._!))
+      (Nucleus
+        (span 13 15)
+        (rel2par span)
+        (Nucleus
+          (span 13 14)
+          (rel2par span)
+          (Nucleus
+            (leaf 13)
+            (rel2par span)
+            (text
+              _!Die Staaten haben versprochen , im Zweifelsfall nicht mehr beide Augen zuzudrücken ,_!))
+          (Satellite
+            (leaf 14)
+            (rel2par circumstance)
+            (text _!wenn es um Standortvorteile geht -_!)))
+        (Satellite
+          (leaf 15)
+          (rel2par interpretation)
+          (text _!hoffentlich ._!))))))

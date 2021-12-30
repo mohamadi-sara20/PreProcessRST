@@ -1,0 +1,111 @@
+(Root
+  (span 1 15)
+  (Nucleus (leaf 1) (rel2par virtual-root) (text _!Absicht_!))
+  (Nucleus
+    (span 2 15)
+    (rel2par virtual-root)
+    (Satellite
+      (span 2 3)
+      (rel2par background)
+      (Nucleus
+        (leaf 2)
+        (rel2par sequence)
+        (text
+          _!Erst rührt sich niemand unter den Dallgower Kommunalpolitikern ,_!))
+      (Nucleus
+        (leaf 3)
+        (rel2par sequence)
+        (text
+          _!nun überschlagen sich alle mit Anträgen zur Gemeindereform und den vorausgehenden Verhandlungen mit den südlichen Nachbarn ._!)))
+    (Nucleus
+      (span 4 15)
+      (rel2par span)
+      (Nucleus
+        (span 4 14)
+        (rel2par span)
+        (Satellite
+          (span 4 11)
+          (rel2par antithesis)
+          (Satellite
+            (leaf 4)
+            (rel2par interpretation)
+            (text
+              _!Nicht klar wird zum jetzigen Zeitpunkt , welche Absichten hinter dem plötzlichen Aktionismus stehen :_!))
+          (Nucleus
+            (span 5 11)
+            (rel2par span)
+            (Nucleus
+              (span 5 8)
+              (rel2par list)
+              (Nucleus
+                (leaf 5)
+                (rel2par contrast)
+                (text
+                  _!Will die SPD-Fraktion - bisher völlig uneins über Dallgows Zukunft - wirklich faire Verhandlungen anstreben ?_!))
+              (Nucleus
+                (span 6 8)
+                (rel2par contrast)
+                (Nucleus
+                  (leaf 6)
+                  (rel2par span)
+                  (text
+                    _!Warum stellt sie dann schier unannehmbare Bedingungen ,_!))
+                (Satellite
+                  (span 7 8)
+                  (rel2par means)
+                  (Satellite
+                    (leaf 7)
+                    (rel2par cause)
+                    (text
+                      _!indem sie den Bürgermeister mit einem solch eng geschnürten Verhandlungsmandat ausstattet ,_!))
+                  (Nucleus
+                    (leaf 8)
+                    (rel2par span)
+                    (text
+                      _!dass dieser nur noch das Wie der Eingemeindung klären darf ._!)))))
+            (Nucleus
+              (span 9 11)
+              (rel2par list)
+              (Nucleus
+                (leaf 9)
+                (rel2par span)
+                (text
+                  _!Warum beharrt die CDU auf einer neuerlichen Einwohnerversammlung ?_!))
+              (Satellite
+                (span 10 11)
+                (rel2par reason)
+                (Nucleus
+                  (leaf 10)
+                  (rel2par span)
+                  (text
+                    _!Warten die Christdemokraten nur darauf , genügend Claqueure zusammenzubekommen ,_!))
+                (Satellite
+                  (leaf 11)
+                  (rel2par e-elaboration)
+                  (text
+                    _!die sie in ihrer Ablehnung zu jeglichen Fusionen bestätigen ?_!))))))
+        (Nucleus
+          (span 12 14)
+          (rel2par span)
+          (Satellite
+            (leaf 12)
+            (rel2par interpretation)
+            (text
+              _!Allein eine Fraktion , die der Freien Wählergemeinschaft , ist bisher mit einer einheitlichen und nachvollziehbaren Argumentationslinie aufgetreten ,_!))
+          (Nucleus
+            (span 13 14)
+            (rel2par span)
+            (Nucleus
+              (leaf 13)
+              (rel2par conjunction)
+              (text _!bekennt sich zum Dreierbund_!))
+            (Nucleus
+              (leaf 14)
+              (rel2par conjunction)
+              (text
+                _!und lässt Spielraum für die Art des Zustandekommens ._!)))))
+      (Satellite
+        (leaf 15)
+        (rel2par evaluation-s)
+        (text
+          _!Die anderen werden am nächsten Mittwoch beweisen müssen , dass sie es ehrlich meinen ._!)))))

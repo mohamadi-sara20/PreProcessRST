@@ -1,0 +1,125 @@
+(Root
+  (span 1 17)
+  (Nucleus
+    (leaf 1)
+    (rel2par virtual-root)
+    (text _!In die Offensive_!))
+  (Nucleus
+    (span 2 17)
+    (rel2par virtual-root)
+    (Nucleus
+      (span 2 16)
+      (rel2par span)
+      (Satellite
+        (span 2 7)
+        (rel2par reason)
+        (Satellite
+          (span 2 3)
+          (rel2par circumstance)
+          (Nucleus
+            (leaf 2)
+            (rel2par joint)
+            (text _!Drogenprobleme an der Schule :_!))
+          (Nucleus
+            (leaf 3)
+            (rel2par joint)
+            (text _!Offen wird darüber nicht gerne geredet ._!)))
+        (Nucleus
+          (span 4 7)
+          (rel2par span)
+          (Nucleus
+            (span 4 5)
+            (rel2par span)
+            (Nucleus
+              (leaf 4)
+              (rel2par span)
+              (text _!Welcher Schulleiter hat es schon gerne ,_!))
+            (Satellite
+              (leaf 5)
+              (rel2par condition)
+              (text
+                _!wenn man sich den Mund darüber zerreißt , dass man auf dem Schulhof von Crack bis Graß alles bekommen kann , was man zu einem Tripp in die Welt der Träume braucht ?_!)))
+          (Satellite
+            (span 6 7)
+            (rel2par reason)
+            (Nucleus
+              (leaf 6)
+              (rel2par contrast)
+              (text
+                _!Schließlich will man ja zu Beginn eines neuen Schuljahres genügend Schüler bekommen ._!))
+            (Nucleus
+              (leaf 7)
+              (rel2par contrast)
+              (text
+                _!Auf eine Schule , von der jeder weiß , hier gibt es Drogen aller Art , werden Eltern ihre Sprösslinge kaum schicken wollen ._!)))))
+      (Nucleus
+        (span 8 16)
+        (rel2par span)
+        (Nucleus
+          (span 8 9)
+          (rel2par span)
+          (Nucleus
+            (leaf 8)
+            (rel2par conjunction)
+            (text
+              _!Deshalb ist die Diskussion , die ein Eltern-Stammtisch des Jahn-Gymnasiums jetzt gemeinsam mit PIRA angestoßen hat bemerkenswert_!))
+          (Nucleus
+            (leaf 9)
+            (rel2par conjunction)
+            (text
+              _!und deutlich höher zu bewerten , als eine kleine Randnotiz ._!)))
+        (Satellite
+          (span 10 16)
+          (rel2par reason)
+          (Nucleus
+            (leaf 10)
+            (rel2par span)
+            (text
+              _!Erstmals wird versucht , das Problem offensiv zu bewerten ._!))
+          (Satellite
+            (span 11 16)
+            (rel2par result)
+            (Nucleus
+              (span 11 13)
+              (rel2par joint)
+              (Nucleus
+                (leaf 11)
+                (rel2par conjunction)
+                (text _!Das Versteckspiel soll aufhören_!))
+              (Nucleus
+                (span 12 13)
+                (rel2par conjunction)
+                (Nucleus
+                  (leaf 12)
+                  (rel2par span)
+                  (text
+                    _!und eine sachliche Debatte geführt werden ,_!))
+                (Satellite
+                  (leaf 13)
+                  (rel2par elaboration)
+                  (text
+                    _!an deren Ende Hilfsangebote für betroffene Schüler und Eltern stehen könnten ._!))))
+            (Nucleus
+              (span 14 16)
+              (rel2par joint)
+              (Nucleus
+                (leaf 14)
+                (rel2par span)
+                (text _!Und alle anderen müssen mitmachen ._!))
+              (Satellite
+                (span 15 16)
+                (rel2par reason)
+                (Nucleus
+                  (leaf 15)
+                  (rel2par span)
+                  (text
+                    _!Es darf nicht sein , dass Zehnjährige zum Glimmstängel und zum Bier greifen ,_!))
+                (Satellite
+                  (leaf 16)
+                  (rel2par cause)
+                  (text _!weil sie es ohne Probleme bekommen ._!))))))))
+    (Satellite
+      (leaf 17)
+      (rel2par interpretation)
+      (text
+        _!Der Elternstammtisch des Jahn-Gymnasiums und PIRA sind in eine Vorreiterrolle geschlüpft ._!))))

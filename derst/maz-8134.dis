@@ -1,0 +1,170 @@
+(Root
+  (span 1 24)
+  (Nucleus (leaf 1) (rel2par virtual-root) (text _!Ernst nehmen_!))
+  (Nucleus
+    (span 2 24)
+    (rel2par virtual-root)
+    (Satellite
+      (span 2 14)
+      (rel2par evaluation-n)
+      (Nucleus
+        (span 2 8)
+        (rel2par contrast)
+        (Satellite
+          (span 2 3)
+          (rel2par interpretation)
+          (Nucleus
+            (leaf 2)
+            (rel2par span)
+            (text
+              _!So friedlich wie am Montag war schon lange keine Stadtverordneten-Sitzung mehr ,_!))
+          (Satellite
+            (leaf 3)
+            (rel2par circumstance)
+            (text
+              _!seit Karwe gedroht hat , sich von Neuruppin zu trennen ._!)))
+        (Nucleus
+          (span 4 8)
+          (rel2par span)
+          (Nucleus
+            (span 4 5)
+            (rel2par span)
+            (Nucleus
+              (leaf 4)
+              (rel2par list)
+              (text
+                _!Die Abgeordneten waren bemüht , den Konflikt zu schlichten ,_!))
+            (Nucleus
+              (leaf 5)
+              (rel2par list)
+              (text
+                _!die Karwer schienen froh , dass man sie erhört ._!)))
+          (Satellite
+            (span 6 8)
+            (rel2par elaboration)
+            (Nucleus
+              (leaf 6)
+              (rel2par joint)
+              (text
+                _!Selbst Worte des Dankes sprach die Ortsbürgermeisterin ._!))
+            (Nucleus
+              (span 7 8)
+              (rel2par joint)
+              (Satellite
+                (leaf 7)
+                (rel2par antithesis)
+                (text
+                  _!Dank für Dinge , die eigentlich selbstverständlich sein sollten ._!))
+              (Nucleus
+                (leaf 8)
+                (rel2par span)
+                (text _!Doch sie sind es noch nicht ._!))))))
+      (Nucleus
+        (span 9 14)
+        (rel2par contrast)
+        (Nucleus
+          (span 9 11)
+          (rel2par span)
+          (Nucleus
+            (span 9 10)
+            (rel2par span)
+            (Satellite
+              (leaf 9)
+              (rel2par concession)
+              (text
+                _!Allen Besserungs-Versprechen aus Rathaus und Ratssaal zum Trotz :_!))
+            (Nucleus
+              (leaf 10)
+              (rel2par span)
+              (text
+                _!Zwischen Neuruppin und den Dörfern steht es nicht zum Besten ._!)))
+          (Satellite
+            (leaf 11)
+            (rel2par interpretation)
+            (text _!Auch das hat sich am Montag gezeigt ._!)))
+        (Satellite
+          (span 12 14)
+          (rel2par evidence)
+          (Nucleus
+            (leaf 12)
+            (rel2par joint)
+            (text
+              _!Gleich zwei Ortsbürgermeister beklagten sich über die Zusammenarbeit mit dem Rathaus ._!))
+          (Nucleus
+            (span 13 14)
+            (rel2par joint)
+            (Satellite
+              (leaf 13)
+              (rel2par antithesis)
+              (text
+                _!Die knappe Antwort des Bürgermeisters stimmte sie dabei nicht gerade zufriedener ,_!))
+            (Nucleus
+              (leaf 14)
+              (rel2par span)
+              (text _!doch mehr gab es erst einmal nicht ._!))))))
+    (Nucleus
+      (span 15 24)
+      (rel2par span)
+      (Nucleus
+        (span 15 16)
+        (rel2par span)
+        (Satellite
+          (leaf 15)
+          (rel2par concession)
+          (text
+            _!Karwe bekommt per Beschluss mehr Geld aus dem Haushalt ,_!))
+        (Nucleus
+          (leaf 16)
+          (rel2par span)
+          (text _!doch das Problem löst die Finanzspritze nicht ._!)))
+      (Satellite
+        (span 17 24)
+        (rel2par reason)
+        (Nucleus
+          (span 17 22)
+          (rel2par span)
+          (Nucleus
+            (span 17 20)
+            (rel2par list)
+            (Nucleus
+              (span 17 19)
+              (rel2par span)
+              (Nucleus
+                (leaf 17)
+                (rel2par list)
+                (text
+                  _!Die Ortsteile wollen , dass die Abgeordneten mit ihnen sprechen ,_!))
+              (Nucleus
+                (leaf 18)
+                (rel2par list)
+                (text _!ihre Sorgen anhören ,_!))
+              (Nucleus
+                (leaf 19)
+                (rel2par list)
+                (text _!sich dafür interessieren -_!)))
+            (Satellite
+              (leaf 20)
+              (rel2par elaboration)
+              (text
+                _!ohne dass ihnen jemand die Pistole auf die Brust setzt ._!)))
+          (Nucleus
+            (leaf 21)
+            (rel2par list)
+            (text _!Sie fordern auch Geld ._!))
+          (Nucleus
+            (leaf 22)
+            (rel2par list)
+            (text
+              _!Vor allem aber wollen sie ernst genommen werden ._!)))
+        (Satellite
+          (span 23 24)
+          (rel2par interpretation)
+          (Satellite
+            (leaf 23)
+            (rel2par condition)
+            (text _!Wenn man das in Neuruppin nicht erkennt ,_!))
+          (Nucleus
+            (leaf 24)
+            (rel2par span)
+            (text
+              _!droht irgendwann der nächste Ort mit Scheidung ._!)))))))

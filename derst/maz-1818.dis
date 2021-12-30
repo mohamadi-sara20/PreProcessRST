@@ -1,0 +1,76 @@
+(Root
+  (span 1 11)
+  (Nucleus (leaf 1) (rel2par virtual-root) (text _!Naive PDS_!))
+  (Nucleus
+    (span 2 11)
+    (rel2par virtual-root)
+    (Satellite
+      (span 2 6)
+      (rel2par antithesis)
+      (Satellite
+        (leaf 2)
+        (rel2par preparation)
+        (text
+          _!Die innenpolitische Situation in Deutschland hat sich seit den Terroranschlägen in den USA grundlegend gewandelt :_!))
+      (Nucleus
+        (span 3 6)
+        (rel2par span)
+        (Nucleus
+          (leaf 3)
+          (rel2par joint)
+          (text
+            _!Wohl niemand hätte sich vor dem 11. September vorstellen können , dass die in den 70er Jahren gegen die RAF erprobte und bewährte Rasterfahndung innerhalb kürzester Zeit wieder eingeführt würde -_!))
+        (Nucleus
+          (span 4 6)
+          (rel2par joint)
+          (Nucleus
+            (leaf 4)
+            (rel2par span)
+            (text
+              _!und dass diese Maßnahme sogar selbst von den Grünen begrüßt wird ._!))
+          (Satellite
+            (span 5 6)
+            (rel2par elaboration)
+            (Satellite
+              (leaf 5)
+              (rel2par concession)
+              (text _!Auch wenn die Basis murrt ,_!))
+            (Nucleus
+              (leaf 6)
+              (rel2par span)
+              (text _!haben sie den Ernst der Lage erkannt ._!))))))
+    (Nucleus
+      (span 7 11)
+      (rel2par span)
+      (Nucleus
+        (span 7 10)
+        (rel2par span)
+        (Nucleus
+          (leaf 7)
+          (rel2par span)
+          (text
+            _!Die PDS stellt in diesen Tagen hingegen erneut unter Beweis , dass sie noch immer nicht im vereinten Deutschland angekommen ist ._!))
+        (Satellite
+          (span 8 10)
+          (rel2par evidence)
+          (Satellite
+            (leaf 8)
+            (rel2par condition)
+            (text
+              _!Wer in einem Parteitagsantrag feststellt , dass der international operierende Terrorismus allein mit " innerem Frieden und gesellschaftlichem Ausgleich " bekämpft werden kann ,_!))
+          (Nucleus
+            (span 9 10)
+            (rel2par span)
+            (Nucleus
+              (leaf 9)
+              (rel2par disjunction)
+              (text _!ist entweder grenzenlos naiv_!))
+            (Nucleus
+              (leaf 10)
+              (rel2par disjunction)
+              (text _!oder nimmt sich selbst nicht ernst ._!)))))
+      (Satellite
+        (leaf 11)
+        (rel2par evaluation-s)
+        (text
+          _!Es bleibt abzuwarten , ob das realitätsferne Herumlavieren der Partei bereits bei der Berlin-Wahl am 21. Oktober Folgen haben wird ._!)))))

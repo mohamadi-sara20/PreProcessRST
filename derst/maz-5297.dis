@@ -1,0 +1,97 @@
+(Root
+  (span 1 13)
+  (Nucleus
+    (leaf 1)
+    (rel2par virtual-root)
+    (text _!Siamesische Zwillinge_!))
+  (Nucleus
+    (span 2 13)
+    (rel2par virtual-root)
+    (Satellite
+      (span 2 8)
+      (rel2par solutionhood)
+      (Satellite
+        (leaf 2)
+        (rel2par evidence)
+        (text
+          _!Die Lausitzer Braunkohle AG ( Laubag ) hat im abgelaufenen Geschäftsjahr mit der Förderung und dem Verkauf von Braunkohle erstmals Verluste gemacht ._!))
+      (Nucleus
+        (span 3 8)
+        (rel2par span)
+        (Nucleus
+          (leaf 3)
+          (rel2par span)
+          (text
+            _!Damit wird erneut deutlich , dass eine Neuordnung der Energiewirtschaft in Ostdeutschland überfällig ist ._!))
+        (Satellite
+          (span 4 8)
+          (rel2par reason)
+          (Nucleus
+            (leaf 4)
+            (rel2par span)
+            (text
+              _!Denn die Laubag und ihr wichtigster Kunde , die Veag , hängen wie siamesische Zwillinge voneinander ab ._!))
+          (Satellite
+            (span 5 8)
+            (rel2par evidence)
+            (Nucleus
+              (span 5 6)
+              (rel2par span)
+              (Satellite
+                (leaf 5)
+                (rel2par circumstance)
+                (text
+                  _!Als die Veag wegen der Liberalisierung des Strommarktes unter Druck geriet und ihre Strompreise senken musste ,_!))
+              (Nucleus
+                (leaf 6)
+                (rel2par span)
+                (text
+                  _!hielt sie sich bei ihrem Lieferanten schadlos ._!)))
+            (Satellite
+              (span 7 8)
+              (rel2par elaboration)
+              (Nucleus
+                (leaf 7)
+                (rel2par span)
+                (text
+                  _!Die Laubag musste Preiszugeständnisse machen ,_!))
+              (Satellite
+                (leaf 8)
+                (rel2par e-elaboration)
+                (text _!die sie nun selbst in Bedrängnis bringen ._!)))))))
+    (Nucleus
+      (span 9 13)
+      (rel2par span)
+      (Nucleus
+        (span 9 10)
+        (rel2par span)
+        (Nucleus
+          (leaf 9)
+          (rel2par span)
+          (text
+            _!Einziger Weg aus dem Dilemma ist die Bildung eines neuen Energiekonzerns aus Rohstofflieferanten , Stromerzeugern und Endversorgern ,_!))
+        (Satellite
+          (leaf 10)
+          (rel2par e-elaboration)
+          (text _!in dem Risiken besser verteilt werden können ._!)))
+      (Satellite
+        (span 11 13)
+        (rel2par elaboration)
+        (Satellite
+          (leaf 11)
+          (rel2par concession)
+          (text
+            _!Die Idee , auch einen Gasversorger mit ins Boot zu holen , ist im Prinzip nicht schlecht ._!))
+        (Nucleus
+          (span 12 13)
+          (rel2par span)
+          (Satellite
+            (leaf 12)
+            (rel2par reason)
+            (text
+              _!Allerdings gilt auch hier , dass zu viele Köche den Brei verderben können ._!))
+          (Nucleus
+            (leaf 13)
+            (rel2par span)
+            (text
+              _!Zumindest muss klar sein , wer im neuen Konzern das Sagen hat ._!)))))))

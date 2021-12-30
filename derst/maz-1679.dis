@@ -1,0 +1,128 @@
+(Root
+  (span 1 17)
+  (Nucleus
+    (leaf 1)
+    (rel2par virtual-root)
+    (text _!Stadtkern aufwerten_!))
+  (Nucleus
+    (span 2 17)
+    (rel2par virtual-root)
+    (Satellite
+      (span 2 9)
+      (rel2par background)
+      (Satellite
+        (span 2 7)
+        (rel2par antithesis)
+        (Nucleus
+          (span 2 4)
+          (rel2par span)
+          (Satellite
+            (leaf 2)
+            (rel2par interpretation)
+            (text
+              _!Im Streit zwischen der Stadt Wittstock und dem Landesstraßenbauamt Kyritz hat Bürgermeister Lutz Scheidemann einen klaren Sieg errungen ._!))
+          (Nucleus
+            (span 3 4)
+            (rel2par span)
+            (Nucleus
+              (leaf 3)
+              (rel2par span)
+              (text
+                _!Wittstock wird in einigen Jahren frei von Lkw-Verkehr sein ,_!))
+            (Satellite
+              (leaf 4)
+              (rel2par cause)
+              (text _!eine Umgehung entlastet die Innenstadt ._!))))
+        (Satellite
+          (span 5 7)
+          (rel2par result)
+          (Nucleus
+            (leaf 5)
+            (rel2par list)
+            (text
+              _!Klirrende Gläser in den Wohnzimmerschränken sind dann Geschichte ._!))
+          (Nucleus
+            (span 6 7)
+            (rel2par list)
+            (Satellite
+              (leaf 6)
+              (rel2par condition)
+              (text _!Wer sein Haus bereits saniert hat ,_!))
+            (Nucleus
+              (leaf 7)
+              (rel2par span)
+              (text
+                _!muss auch nicht mehr befürchten , dass der Putz von der Fassade fällt ._!)))))
+      (Nucleus
+        (span 8 9)
+        (rel2par span)
+        (Satellite
+          (leaf 8)
+          (rel2par interpretation)
+          (text
+            _!Mit der Einigung kommt aber auf die Wittstocker eine große Herausforderung zu ._!))
+        (Nucleus
+          (leaf 9)
+          (rel2par span)
+          (text
+            _!Sie sind aufgefordert , über neue , sinnvolle Verkehrsabläufe in der Innenstadt nachzudenken ._!))))
+    (Nucleus
+      (span 10 17)
+      (rel2par span)
+      (Satellite
+        (span 10 12)
+        (rel2par antithesis)
+        (Satellite
+          (span 10 11)
+          (rel2par reason)
+          (Satellite
+            (leaf 10)
+            (rel2par antithesis)
+            (text
+              _!Die Entlastungsstraße für Lkw führt zwar um die Altstadt herum ,_!))
+          (Nucleus
+            (leaf 11)
+            (rel2par span)
+            (text
+              _!doch eine autofreie Stadt wird es nicht geben ._!)))
+        (Nucleus
+          (leaf 12)
+          (rel2par span)
+          (text
+            _!So braucht sich auch kein Geschäftsmann vor einer leeren Altstadt zu fürchten ._!)))
+      (Nucleus
+        (span 13 17)
+        (rel2par span)
+        (Nucleus
+          (span 13 16)
+          (rel2par span)
+          (Nucleus
+            (leaf 13)
+            (rel2par list)
+            (text
+              _!Gut beraten ist allerdings , wer sich jetzt ernsthafte Gedanken um kundenfreundliche Parkmöglichkeiten macht ._!))
+          (Nucleus
+            (span 14 16)
+            (rel2par list)
+            (Nucleus
+              (leaf 14)
+              (rel2par span)
+              (text
+                _!Auch Flaniermeilen in der Wittstocker Altstadt sind gefragt ._!))
+            (Satellite
+              (span 15 16)
+              (rel2par reason)
+              (Satellite
+                (leaf 15)
+                (rel2par reason)
+                (text
+                  _!Denn ohne Lkw-Verkehr wird es ruhiger werden ,_!))
+              (Nucleus
+                (leaf 16)
+                (rel2par span)
+                (text _!der Stadtbummel kann wieder Spaß machen ._!)))))
+        (Satellite
+          (leaf 17)
+          (rel2par evaluation-s)
+          (text
+            _!Deshalb müssen neue Ideen her , um die Wittstocker Altstadt lebenswerter zu machen ._!))))))

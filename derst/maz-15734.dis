@@ -1,0 +1,132 @@
+(Root
+  (span 1 18)
+  (Nucleus
+    (leaf 1)
+    (rel2par virtual-root)
+    (text _!Unübersichtlich_!))
+  (Nucleus
+    (span 2 18)
+    (rel2par virtual-root)
+    (Nucleus
+      (span 2 17)
+      (rel2par span)
+      (Satellite
+        (span 2 6)
+        (rel2par reason)
+        (Nucleus
+          (span 2 3)
+          (rel2par span)
+          (Satellite
+            (leaf 2)
+            (rel2par condition)
+            (text _!Wer vom Wursthof zum Markt will ,_!))
+          (Nucleus
+            (leaf 3)
+            (rel2par span)
+            (text _!muss gut aufpassen ._!)))
+        (Satellite
+          (span 4 6)
+          (rel2par evidence)
+          (Nucleus
+            (span 4 5)
+            (rel2par list)
+            (Nucleus
+              (leaf 4)
+              (rel2par span)
+              (text
+                _!Parkende Autos bis an die Einmündungen behindern die Sicht ._!))
+            (Satellite
+              (leaf 5)
+              (rel2par result)
+              (text
+                _!Oft ist erst auf der Straßenmitte zu sehen , ob abgebogen werden kann ._!)))
+          (Nucleus
+            (leaf 6)
+            (rel2par list)
+            (text
+              _!Fußgänger und Radfahrer wuseln dazwischen und sollen keinen Schaden nehmen ._!))))
+      (Nucleus
+        (span 7 17)
+        (rel2par span)
+        (Nucleus
+          (span 7 8)
+          (rel2par span)
+          (Nucleus
+            (leaf 7)
+            (rel2par joint)
+            (text
+              _!Da ist es gut , dass nicht alle Wünsche erfüllt werden ._!))
+          (Nucleus
+            (leaf 8)
+            (rel2par joint)
+            (text
+              _!Der nach Öffnung des Wursthofes in beide Richtungen zum Beispiel ._!)))
+        (Satellite
+          (span 9 17)
+          (rel2par reason)
+          (Satellite
+            (span 9 10)
+            (rel2par concession)
+            (Nucleus
+              (leaf 9)
+              (rel2par span)
+              (text
+                _!Sicher ist es ein seltsames Argument , dass die Bordsteine für den Verkehr in beide Richtungen zwölf Zentimeter hoch sein sollen ,_!))
+            (Satellite
+              (leaf 10)
+              (rel2par circumstance)
+              (text
+                _!wo es doch in vielen Straßen gar keine gibt ._!)))
+          (Nucleus
+            (span 11 17)
+            (rel2par span)
+            (Nucleus
+              (span 11 12)
+              (rel2par list)
+              (Nucleus
+                (leaf 11)
+                (rel2par span)
+                (text
+                  _!Aber in der Mönchen- und in der Zinnaer Straße tritt der Fußgänger eben nicht gleich auf die Fahrbahn ._!))
+              (Satellite
+                (leaf 12)
+                (rel2par cause)
+                (text
+                  _!Erst mal muss er an parkenden Autos vorbei ._!)))
+            (Nucleus
+              (span 13 15)
+              (rel2par list)
+              (Nucleus
+                (span 13 14)
+                (rel2par span)
+                (Nucleus
+                  (leaf 13)
+                  (rel2par span)
+                  (text
+                    _!Und die Mittelstraße ist nicht so einfach mit den anderen Straßen zu vergleichen ._!))
+                (Satellite
+                  (leaf 14)
+                  (rel2par evidence)
+                  (text _!Hier ist kaum Durchgangsverkehr ._!)))
+              (Satellite
+                (leaf 15)
+                (rel2par interpretation)
+                (text
+                  _!Das dürfte ein großer Unterschied sein zu den anderen Verkehrsadern der Stadt ._!)))
+            (Nucleus
+              (span 16 17)
+              (rel2par list)
+              (Satellite
+                (leaf 16)
+                (rel2par concession)
+                (text
+                  _!Der Vorschlag zu prüfen , ob eine Richtungsänderung in den vorhandenden Einbahnstraßen zu kürzeren Wegen führt , ist brauchbar ._!))
+              (Nucleus
+                (leaf 17)
+                (rel2par span)
+                (text
+                  _!Doch dann müssten diejenigen , die aus der Lessingstraße ins Zentrum wollen , Umwege fahren ._!)))))))
+    (Satellite
+      (leaf 18)
+      (rel2par summary)
+      (text _!Alle werden nie zufrieden sein ._!))))

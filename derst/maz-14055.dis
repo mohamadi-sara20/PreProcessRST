@@ -1,0 +1,112 @@
+(Root
+  (span 1 15)
+  (Nucleus
+    (leaf 1)
+    (rel2par virtual-root)
+    (text _!Zwei Wahrheiten_!))
+  (Nucleus
+    (span 2 15)
+    (rel2par virtual-root)
+    (Satellite
+      (span 2 5)
+      (rel2par background)
+      (Nucleus
+        (span 2 4)
+        (rel2par span)
+        (Satellite
+          (span 2 3)
+          (rel2par preparation)
+          (Satellite
+            (leaf 2)
+            (rel2par means)
+            (text
+              _!Man muss über keine großen Prognosequalitäten verfügen ,_!))
+          (Nucleus
+            (leaf 3)
+            (rel2par span)
+            (text
+              _!um heute schon vorauszusagen , wer den Wahlspot der CDU ausfüllen wird :_!)))
+        (Nucleus
+          (leaf 4)
+          (rel2par span)
+          (text
+            _!Gerhard Schröders leichtsinniger Satz wird es sein , nach dem er sich " am Erfolg beim Abbau der Arbeitslosigkeit messen lassen " werde ._!)))
+      (Satellite
+        (leaf 5)
+        (rel2par e-elaboration)
+        (text
+          _!Der hing ihm auch in der Debatte über den Bundeshaushalt wie eine Klette an ._!)))
+    (Nucleus
+      (span 6 15)
+      (rel2par span)
+      (Satellite
+        (span 6 8)
+        (rel2par concession)
+        (Nucleus
+          (leaf 6)
+          (rel2par list)
+          (text
+            _!Gewiss können der Kanzler und seine Minister die Verunsicherung der Verbraucher seit dem 11. September anführen ,_!))
+        (Nucleus
+          (span 7 8)
+          (rel2par list)
+          (Nucleus
+            (leaf 7)
+            (rel2par span)
+            (text _!den verschärften Konjunktureinbruch ,_!))
+          (Satellite
+            (leaf 8)
+            (rel2par e-elaboration)
+            (text
+              _!den noch vor einem Jahr kein Wirtschaftsinstitut so vorausgesehen hatte ._!))))
+      (Nucleus
+        (span 9 15)
+        (rel2par span)
+        (Nucleus
+          (span 9 10)
+          (rel2par span)
+          (Nucleus
+            (leaf 9)
+            (rel2par span)
+            (text
+              _!Doch ebenso zutreffend ist , dass der Regierung von Anfang an der Mut fehlte , den Arbeitsmarkt zu deregulieren ._!))
+          (Satellite
+            (leaf 10)
+            (rel2par elaboration)
+            (text _!Die Probe aufs Exempel steht noch immer aus ._!)))
+        (Satellite
+          (span 11 15)
+          (rel2par elaboration)
+          (Nucleus
+            (span 11 12)
+            (rel2par span)
+            (Nucleus
+              (leaf 11)
+              (rel2par span)
+              (text
+                _!Die Regierung Schröder ist der Großindustrie und den Gewerkschaften entgegengekommen ,_!))
+            (Satellite
+              (leaf 12)
+              (rel2par antithesis)
+              (text _!nicht dem Mittelstand ._!)))
+          (Satellite
+            (span 13 15)
+            (rel2par reason)
+            (Nucleus
+              (leaf 13)
+              (rel2par joint)
+              (text
+                _!Statt dereguliert hat sie noch etwas mehr reglementiert ._!))
+            (Nucleus
+              (span 14 15)
+              (rel2par joint)
+              (Satellite
+                (leaf 14)
+                (rel2par condition)
+                (text
+                  _!Wer unter diesen Rahmenbedingungen erwartet haben sollte , dass kleine und mittlere Unternehmen sowie Handwerksbetriebe bei Einstellungen etwas riskieren ,_!))
+              (Nucleus
+                (leaf 15)
+                (rel2par span)
+                (text
+                  _!der muss die teilnehmende Beobachtung schon seit längerem eingestellt haben ._!)))))))))

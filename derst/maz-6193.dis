@@ -1,0 +1,147 @@
+(Root
+  (span 1 20)
+  (Nucleus
+    (leaf 1)
+    (rel2par virtual-root)
+    (text _!Honigsüße Nachricht_!))
+  (Nucleus
+    (span 2 20)
+    (rel2par virtual-root)
+    (Nucleus
+      (span 2 4)
+      (rel2par joint)
+      (Satellite
+        (span 2 3)
+        (rel2par interpretation)
+        (Satellite
+          (leaf 2)
+          (rel2par condition)
+          (text
+            _!Sollte es Wirklichkeit werden , was die Procurand AG gestern verkündete ,_!))
+        (Nucleus
+          (leaf 3)
+          (rel2par span)
+          (text _!wäre es fast zu schön , um wahr zu sein ._!)))
+      (Nucleus
+        (leaf 4)
+        (rel2par span)
+        (text
+          _!40 neue Jobs - allein diese Nachricht ist Honig auf den Lippen vieler Mittelmärker ._!)))
+    (Nucleus
+      (span 5 19)
+      (rel2par joint)
+      (Nucleus
+        (span 5 6)
+        (rel2par span)
+        (Satellite
+          (leaf 5)
+          (rel2par antithesis)
+          (text _!Wünschenswert wäre nicht nur das ,_!))
+        (Nucleus
+          (leaf 6)
+          (rel2par span)
+          (text
+            _!sondern auch , dass mit der Investruine am Görnsee endlich etwas geschieht ._!)))
+      (Satellite
+        (span 7 19)
+        (rel2par reason)
+        (Nucleus
+          (span 7 9)
+          (rel2par list)
+          (Nucleus
+            (span 7 8)
+            (rel2par span)
+            (Nucleus
+              (leaf 7)
+              (rel2par list)
+              (text
+                _!Nie ist das halbfertige Hotel bezogen worden ._!))
+            (Nucleus
+              (leaf 8)
+              (rel2par list)
+              (text
+                _!Im Erdgeschoss und vermutlich nicht nur dort , macht sich Schimmel breit ._!)))
+          (Satellite
+            (leaf 9)
+            (rel2par restatement)
+            (text
+              _!Mit anderen Worten , die Bausubstanz wird durch den Leerstand nicht besser ._!)))
+        (Nucleus
+          (span 10 19)
+          (rel2par list)
+          (Nucleus
+            (span 10 11)
+            (rel2par span)
+            (Nucleus
+              (leaf 10)
+              (rel2par span)
+              (text
+                _!Zudem erinnert der wuchtige Mehrgeschosser an ein Kapitel der jüngsten Grebser Geschichte ,_!))
+            (Satellite
+              (leaf 11)
+              (rel2par e-elaboration)
+              (text
+                _!die nicht nur die Gemeindevertreter nur zu gerne langsam vergessen würden ._!)))
+          (Satellite
+            (span 12 19)
+            (rel2par elaboration)
+            (Nucleus
+              (span 12 15)
+              (rel2par joint)
+              (Nucleus
+                (span 12 13)
+                (rel2par span)
+                (Nucleus
+                  (leaf 12)
+                  (rel2par span)
+                  (text
+                    _!Gebaut hat das Hotel nämlich ein Investor mit Geld , das er sich von der Kommune erschlich ._!))
+                (Satellite
+                  (leaf 13)
+                  (rel2par e-elaboration)
+                  (text _!Fördergeld aus einem Kommunalkredit ._!)))
+              (Satellite
+                (span 14 15)
+                (rel2par elaboration)
+                (Satellite
+                  (leaf 14)
+                  (rel2par cause)
+                  (text _!Der Mann bezahlte viele Handwerker nicht_!))
+                (Nucleus
+                  (leaf 15)
+                  (rel2par span)
+                  (text
+                    _!und wurde voriges Jahr zu einer mehrjährigen Haftstrafe verurteilt ._!))))
+            (Nucleus
+              (span 16 19)
+              (rel2par joint)
+              (Nucleus
+                (span 16 17)
+                (rel2par span)
+                (Satellite
+                  (leaf 16)
+                  (rel2par evaluation-s)
+                  (text
+                    _!Doch seine Vergangenheit schien wie ein Fluch über dem Hotelkomplex zu liegen ._!))
+                (Nucleus
+                  (leaf 17)
+                  (rel2par span)
+                  (text
+                    _!Jahrelang hatte das Amtsgericht Potsdam umsonst versucht , es an den Mann zu bringen ._!)))
+              (Satellite
+                (span 18 19)
+                (rel2par elaboration)
+                (Satellite
+                  (leaf 18)
+                  (rel2par antithesis)
+                  (text
+                    _!Einmal schien es schon geglückt zu sein ._!))
+                (Nucleus
+                  (leaf 19)
+                  (rel2par span)
+                  (text _!Doch der Käufer zahlte nicht ._!))))))))
+    (Nucleus
+      (leaf 20)
+      (rel2par joint)
+      (text
+        _!Jetzt könnte das Seniorenheim dem Haus einen Sinn geben ._!))))

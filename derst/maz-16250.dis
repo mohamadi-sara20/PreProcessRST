@@ -1,0 +1,102 @@
+(Root
+  (span 1 15)
+  (Nucleus (leaf 1) (rel2par virtual-root) (text _!Wie Blücher_!))
+  (Nucleus
+    (span 2 15)
+    (rel2par virtual-root)
+    (Nucleus
+      (span 2 14)
+      (rel2par span)
+      (Nucleus
+        (span 2 8)
+        (rel2par joint)
+        (Satellite
+          (span 2 4)
+          (rel2par interpretation)
+          (Nucleus
+            (span 2 3)
+            (rel2par span)
+            (Nucleus
+              (leaf 2)
+              (rel2par joint)
+              (text _!Angriff ist die beste Verteidigung ._!))
+            (Nucleus
+              (leaf 3)
+              (rel2par joint)
+              (text
+                _!Wer wüsste das besser als die Strategen von der Bundeswehr ._!)))
+          (Satellite
+            (leaf 4)
+            (rel2par reason)
+            (text
+              _!In Sachen Bombodrom orientieren sich die Militärs jedenfalls ungeniert am Vorbild des alten " Marschalls Vorwärts " namens Blücher ._!)))
+        (Nucleus
+          (span 5 8)
+          (rel2par span)
+          (Satellite
+            (leaf 5)
+            (rel2par interpretation)
+            (text
+              _!Denn eines der Hauptargumente der Schießplatz-Gegner - die Gefahr für den Tourismus - wollen sie mit einem Frontalangriff aus dem Weg räumen ._!))
+          (Nucleus
+            (span 6 8)
+            (rel2par span)
+            (Nucleus
+              (span 6 7)
+              (rel2par span)
+              (Nucleus
+                (leaf 6)
+                (rel2par span)
+                (text
+                  _!So heißt es in einem Bundeswehr-Papier knapp , dass das Bombodrom " keine relevanten Auswirkungen " auf den Tourismus haben wird ._!))
+              (Satellite
+                (leaf 7)
+                (rel2par result)
+                (text _!Problem erledigt ._!)))
+            (Satellite
+              (leaf 8)
+              (rel2par evaluation-s)
+              (text _!- Das ist schon dreist ._!)))))
+      (Nucleus
+        (span 9 14)
+        (rel2par joint)
+        (Nucleus
+          (span 9 10)
+          (rel2par span)
+          (Satellite
+            (leaf 9)
+            (rel2par antithesis)
+            (text
+              _!Nun könnte man ein halbes Stündchen lang mutmaßen , wo die Militärs denn so Urlaub machen ._!))
+          (Nucleus
+            (leaf 10)
+            (rel2par span)
+            (text
+              _!Doch werden sich Zivilisten und Uniformträger dabei nicht wirklich unterscheiden ._!)))
+        (Satellite
+          (span 11 14)
+          (rel2par elaboration)
+          (Nucleus
+            (leaf 11)
+            (rel2par joint)
+            (text
+              _!Zwei Wochen mit Halbpension unter einer Autobahnbrücke , neben einem Flugplatz , inmitten einer Techno-Disko ?_!))
+          (Nucleus
+            (leaf 12)
+            (rel2par joint)
+            (text _!Nein , das tut sich niemand an ._!))
+          (Nucleus
+            (leaf 13)
+            (rel2par joint)
+            (text
+              _!Namentlich nicht die Leute , die in der Nähe von Berlin Ruhe und Natur suchen ._!))
+          (Nucleus
+            (leaf 14)
+            (rel2par joint)
+            (text
+              _!Die werden nicht wegen spektakulärer Tiefflüge an den Ruppiner See oder zum Rheinsberger Schloss strömen ._!)))))
+    (Satellite
+      (leaf 15)
+      (rel2par evaluation-s)
+      (text
+        _!Insofern wird wieder mal deutlich , dass die Bundeswehr die Region mit ihren Sorgen und mit ihren Chancen überhaupt nicht ernst nimmt ._!))))

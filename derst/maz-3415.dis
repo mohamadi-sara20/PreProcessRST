@@ -1,0 +1,174 @@
+(Root
+  (span 1 24)
+  (Nucleus
+    (leaf 1)
+    (rel2par virtual-root)
+    (text _!Der aufgezwungene Krieg_!))
+  (Nucleus
+    (span 2 24)
+    (rel2par virtual-root)
+    (Nucleus
+      (span 2 22)
+      (rel2par span)
+      (Satellite
+        (span 2 4)
+        (rel2par background)
+        (Satellite
+          (leaf 2)
+          (rel2par antithesis)
+          (text
+            _!Der Krieg , der jetzt in Afghanistan ausgefochten wird , hat nicht erst am Sonntag Abend begonnen ._!))
+        (Nucleus
+          (span 3 4)
+          (rel2par span)
+          (Nucleus
+            (leaf 3)
+            (rel2par span)
+            (text
+              _!Er begann am 11. September mit den Anschlägen von New York und Washington ,_!))
+          (Satellite
+            (leaf 4)
+            (rel2par e-elaboration)
+            (text
+              _!die in ihrer Wirkung einem geballten Raketenangriff durchaus vergleichbar sind ._!))))
+      (Nucleus
+        (span 5 22)
+        (rel2par span)
+        (Satellite
+          (span 5 9)
+          (rel2par antithesis)
+          (Nucleus
+            (leaf 5)
+            (rel2par span)
+            (text
+              _!Wenn sich hierzulande dennoch vielerorts Zweifel an Sinn und Richtigkeit der Militärschläge breitmachen ,_!))
+          (Satellite
+            (span 6 9)
+            (rel2par reason)
+            (Nucleus
+              (leaf 6)
+              (rel2par joint)
+              (text
+                _!liegt das nicht zuletzt daran , dass Freiheit und Toleranz zu den tief verwurzelten Grundwerten unserer Gesellschaft gehören :_!))
+            (Nucleus
+              (leaf 7)
+              (rel2par joint)
+              (text
+                _!Wir sind es gewohnt , dass durch friedliche Verhandlungen und Kompromiss-Suche Konflikte aus der Welt zu räumen sind ._!))
+            (Nucleus
+              (span 8 9)
+              (rel2par joint)
+              (Satellite
+                (leaf 8)
+                (rel2par cause)
+                (text
+                  _!Gewaltverzicht und Deeskalation sind uns so sehr in Fleisch und Blut übergegangen ,_!))
+              (Nucleus
+                (leaf 9)
+                (rel2par span)
+                (text
+                  _!dass wir uns schwer damit abfinden können , dass diese Prinzipien in einem einzigen Fall versagen :_!)))))
+        (Nucleus
+          (span 10 22)
+          (rel2par span)
+          (Nucleus
+            (span 10 11)
+            (rel2par list)
+            (Satellite
+              (leaf 10)
+              (rel2par reason)
+              (text
+                _!Fanatismus darf und kann man nicht mit Liberalität begegnen ._!))
+            (Nucleus
+              (leaf 11)
+              (rel2par span)
+              (text
+                _!Mit einem Selbstmord-Attentäter kann man keinen Kompromiss schließen ._!)))
+          (Nucleus
+            (span 12 22)
+            (rel2par list)
+            (Nucleus
+              (leaf 12)
+              (rel2par span)
+              (text
+                _!Auch das Suchen nach möglichen Motiven der Täter hilft da nicht weiter ._!))
+            (Satellite
+              (span 13 22)
+              (rel2par reason)
+              (Nucleus
+                (span 13 14)
+                (rel2par list)
+                (Satellite
+                  (leaf 13)
+                  (rel2par antithesis)
+                  (text
+                    _!Sie beklagen den andauernden Konflikt zwischen Israelis und Palästinensern ,_!))
+                (Nucleus
+                  (leaf 14)
+                  (rel2par span)
+                  (text
+                    _!dabei engagiert sich der Westen seit Jahren mit viel Geld und Krisendiplomatie für ein Ende der Gewalt ._!)))
+              (Nucleus
+                (span 15 16)
+                (rel2par list)
+                (Satellite
+                  (leaf 15)
+                  (rel2par antithesis)
+                  (text
+                    _!Sie beklagen die Armut der arabischen Welt ,_!))
+                (Nucleus
+                  (leaf 16)
+                  (rel2par span)
+                  (text
+                    _!dabei stehen die autokratischen und nicht selten korrupten Eliten dort meist selbst jedem Aufschwung im Weg ._!)))
+              (Nucleus
+                (span 17 18)
+                (rel2par list)
+                (Satellite
+                  (leaf 17)
+                  (rel2par antithesis)
+                  (text
+                    _!Sie beklagen die Militärpräsenz der USA in Saudi-Arabien ,_!))
+                (Nucleus
+                  (leaf 18)
+                  (rel2par span)
+                  (text
+                    _!dann hätten sie die dortige Königsfamilie attackieren müssen ._!)))
+              (Nucleus
+                (span 19 20)
+                (rel2par list)
+                (Satellite
+                  (leaf 19)
+                  (rel2par antithesis)
+                  (text
+                    _!Sie geißeln den westlichen " Kulturimperialismus "_!))
+                (Nucleus
+                  (leaf 20)
+                  (rel2par span)
+                  (text
+                    _!und verkennen , dass sie sich entscheiden müssen zwischen wirtschaftlichem Austausch und damit einhergehendem Wohlstand auf der einen und fundamentalistischer Abschottung auf der anderen Seite ._!)))
+              (Nucleus
+                (span 21 22)
+                (rel2par list)
+                (Satellite
+                  (leaf 21)
+                  (rel2par antithesis)
+                  (text
+                    _!Sie klagen den Westen an wegen der Sanktionsopfer im Irak_!))
+                (Nucleus
+                  (leaf 22)
+                  (rel2par span)
+                  (text
+                    _!und unterschlagen die aggressive Aufrüstung Saddam Husseins ._!))))))))
+    (Satellite
+      (span 23 24)
+      (rel2par summary)
+      (Satellite
+        (leaf 23)
+        (rel2par concession)
+        (text _!Diesen Krieg hat im Westen niemand gewollt ._!))
+      (Nucleus
+        (leaf 24)
+        (rel2par span)
+        (text
+          _!Deshalb aber dem Terror das Heft des Handelns zu überlassen , wäre auch keine Lösung ._!)))))

@@ -1,0 +1,107 @@
+(Root
+  (span 1 15)
+  (Nucleus (leaf 1) (rel2par virtual-root) (text _!Aufheben_!))
+  (Nucleus
+    (span 2 15)
+    (rel2par virtual-root)
+    (Satellite
+      (span 2 9)
+      (rel2par reason)
+      (Nucleus
+        (span 2 7)
+        (rel2par span)
+        (Nucleus
+          (span 2 3)
+          (rel2par span)
+          (Nucleus
+            (leaf 2)
+            (rel2par joint)
+            (text
+              _!Die Blankenfelder Gemeindevertreter haben ihren Beschluss , die Straßenlampen in der Nacht für vier Stunden auszuschalten , mit der heißen Nadel gestrickt ._!))
+          (Nucleus
+            (leaf 3)
+            (rel2par joint)
+            (text
+              _!Das sicherlich gut gemeinte Anliegen , nämlich Energiekosten zu sparen , könnte ihnen teuer zu stehen kommen ._!)))
+        (Satellite
+          (span 4 7)
+          (rel2par reason)
+          (Nucleus
+            (leaf 4)
+            (rel2par list)
+            (text
+              _!Dunkle Straßen in der Nacht sorgen nun mal nicht gerade für ein tolles Sicherheitsgefühl ._!))
+          (Nucleus
+            (leaf 5)
+            (rel2par list)
+            (text _!Auch erkennt man nicht , wohin man tritt ._!))
+          (Nucleus
+            (span 6 7)
+            (rel2par list)
+            (Nucleus
+              (leaf 6)
+              (rel2par span)
+              (text
+                _!Im schlimmsten Fall stößt man gegen eine Müll- oder Papiertonne ,_!))
+            (Satellite
+              (leaf 7)
+              (rel2par e-elaboration)
+              (text
+                _!die ja laut Abfallzweckverband bereits am Vorabend des jeweiligen Abholetages an den Straßenrand zu stellen ist ._!)))))
+      (Satellite
+        (span 8 9)
+        (rel2par reason)
+        (Nucleus
+          (leaf 8)
+          (rel2par span)
+          (text
+            _!Doch nicht allein die Fragen der Unfälle und der Haftung im Falle der Fälle sind unklar ._!))
+        (Satellite
+          (leaf 9)
+          (rel2par reason)
+          (text
+            _!Denn die Kommune muss damit rechnen , dass bei Lampen-Abschaltungen der Vertrag mit Edis über eine sehr günstige Tarifgestaltung hinfällig wird ._!))))
+    (Nucleus
+      (span 10 15)
+      (rel2par span)
+      (Satellite
+        (leaf 10)
+        (rel2par concession)
+        (text
+          _!Bei einem Defizit von einer Million Mark ist eine Gemeinde gezwungen , alle Register zu ziehen ._!))
+      (Nucleus
+        (span 11 15)
+        (rel2par span)
+        (Nucleus
+          (span 11 14)
+          (rel2par span)
+          (Satellite
+            (span 11 12)
+            (rel2par reason)
+            (Nucleus
+              (leaf 11)
+              (rel2par joint)
+              (text
+                _!Doch mit dem Abschalte-Beschluss nimmt der Gemeinderat Angst und Unsicherheit in Kauf ._!))
+            (Nucleus
+              (leaf 12)
+              (rel2par joint)
+              (text
+                _!Mehr noch , er befördert den Ort ins Mittelalter zurück ._!)))
+          (Nucleus
+            (span 13 14)
+            (rel2par span)
+            (Nucleus
+              (leaf 13)
+              (rel2par span)
+              (text
+                _!Der Gemeinderat sollte den unseligen Beschluss aufheben ,_!))
+            (Satellite
+              (leaf 14)
+              (rel2par otherwise)
+              (text
+                _!ehe sich die Bürger mit Taschenlampen versorgen ._!))))
+        (Satellite
+          (leaf 15)
+          (rel2par reason)
+          (text _!Schließlich , wir leben im 21. Jahrhundert ._!))))))

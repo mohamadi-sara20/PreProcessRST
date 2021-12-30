@@ -1,0 +1,124 @@
+(Root
+  (span 1 17)
+  (Nucleus
+    (leaf 1)
+    (rel2par virtual-root)
+    (text _!Keine Autoritäten_!))
+  (Nucleus
+    (span 2 17)
+    (rel2par virtual-root)
+    (Nucleus
+      (span 2 10)
+      (rel2par joint)
+      (Satellite
+        (span 2 6)
+        (rel2par concession)
+        (Nucleus
+          (span 2 4)
+          (rel2par span)
+          (Nucleus
+            (leaf 2)
+            (rel2par span)
+            (text
+              _!Unter den namhaften deutschen Schriftstellern , die von Gerhard Schröder am Samstagabend empfangen wurden , war kein faltenloses Gesicht ._!))
+          (Satellite
+            (span 3 4)
+            (rel2par interpretation)
+            (Nucleus
+              (leaf 3)
+              (rel2par span)
+              (text _!Das ist kein Zufall ,_!))
+            (Satellite
+              (leaf 4)
+              (rel2par reason)
+              (text
+                _!nervt doch die meisten jüngeren Autoren die ewige Besserwisserei der Altgedienten ._!))))
+        (Satellite
+          (span 5 6)
+          (rel2par interpretation)
+          (Satellite
+            (leaf 5)
+            (rel2par circumstance)
+            (text
+              _!Wenn sich Günter Grass , Christa Wolf oder Stefan Heym in politischen Angelegenheiten zu Wort melden ,_!))
+          (Nucleus
+            (leaf 6)
+            (rel2par span)
+            (text
+              _!hört ein großer Teil der deutschen Intellektuellen inzwischen bewusst weg ._!))))
+      (Nucleus
+        (span 7 10)
+        (rel2par span)
+        (Nucleus
+          (span 7 9)
+          (rel2par span)
+          (Satellite
+            (span 7 8)
+            (rel2par reason)
+            (Nucleus
+              (leaf 7)
+              (rel2par conjunction)
+              (text
+                _!Doch Schröder hat Angst , dass die öffentliche Meinung wegen der Kriegsteilnahme kippt_!))
+            (Nucleus
+              (leaf 8)
+              (rel2par conjunction)
+              (text _!und sich gegen ihn wendet ._!)))
+          (Nucleus
+            (leaf 9)
+            (rel2par span)
+            (text
+              _!Deshalb versucht er , die Tuchfühlung zu den Meinungsführern nicht zu verlieren ._!)))
+        (Satellite
+          (leaf 10)
+          (rel2par interpretation)
+          (text _!Doch wo und wer sind sie ?_!))))
+    (Nucleus
+      (span 11 13)
+      (rel2par joint)
+      (Nucleus
+        (leaf 11)
+        (rel2par conjunction)
+        (text
+          _!Die jungen Autoren wollen nur noch gute Bücher schreiben_!))
+      (Nucleus
+        (span 12 13)
+        (rel2par conjunction)
+        (Nucleus
+          (leaf 12)
+          (rel2par span)
+          (text
+            _!und behaupten nicht , dass sie dem Kanzler Ratschläge erteilen können ,_!))
+        (Satellite
+          (leaf 13)
+          (rel2par e-elaboration)
+          (text _!die besser sind als die von Normalbürgern ._!))))
+    (Nucleus
+      (span 14 17)
+      (rel2par joint)
+      (Nucleus
+        (span 14 15)
+        (rel2par span)
+        (Satellite
+          (leaf 14)
+          (rel2par reason)
+          (text
+            _!Die Nation hat sich bisher keine neuen Klassensprecher gewählt ,_!))
+        (Nucleus
+          (leaf 15)
+          (rel2par span)
+          (text
+            _!also ging der Bundeskanzler noch einmal auf die alten zu ._!)))
+      (Satellite
+        (span 16 17)
+        (rel2par interpretation)
+        (Nucleus
+          (leaf 16)
+          (rel2par joint)
+          (text
+            _!Die lasen dem Enkel von Willy Brandt nun die Leviten ._!))
+        (Nucleus
+          (leaf 17)
+          (rel2par joint)
+          (text
+            _!Glück für Schröder , dass die großen Namen nur noch wenig Autorität besitzen ._!))))))

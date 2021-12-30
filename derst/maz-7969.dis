@@ -1,0 +1,104 @@
+(Root
+  (span 1 14)
+  (Nucleus
+    (leaf 1)
+    (rel2par virtual-root)
+    (text _!Schwierige Geburt_!))
+  (Nucleus
+    (span 2 14)
+    (rel2par virtual-root)
+    (Nucleus
+      (span 2 12)
+      (rel2par span)
+      (Satellite
+        (span 2 7)
+        (rel2par evaluation-n)
+        (Satellite
+          (span 2 3)
+          (rel2par interpretation)
+          (Satellite
+            (leaf 2)
+            (rel2par concession)
+            (text _!Die Geburt war denkbar schwer ,_!))
+          (Nucleus
+            (leaf 3)
+            (rel2par span)
+            (text
+              _!doch jetzt hat das Kind sogar schon einen Namen :_!)))
+        (Nucleus
+          (span 4 7)
+          (rel2par span)
+          (Nucleus
+            (span 4 5)
+            (rel2par span)
+            (Nucleus
+              (leaf 4)
+              (rel2par span)
+              (text
+                _!Ein " Humboldt-Forum " soll anstelle des einstigen Berliner Stadtschlosses entstehen ._!))
+            (Satellite
+              (leaf 5)
+              (rel2par elaboration)
+              (text
+                _!Diese Empfehlung sprach gestern die Expertenkomission " Historische Mitte Berlins " aus ._!)))
+          (Satellite
+            (span 6 7)
+            (rel2par elaboration)
+            (Nucleus
+              (leaf 6)
+              (rel2par conjunction)
+              (text
+                _!Das Forum soll die Fassade und die Dimensionen des 1950 gesprengten Schlosses erhalten_!))
+            (Nucleus
+              (leaf 7)
+              (rel2par conjunction)
+              (text
+                _!und die Berliner Landesbibliothek , Museen und Konzertsäle aufnehmen ._!)))))
+      (Nucleus
+        (span 8 12)
+        (rel2par span)
+        (Nucleus
+          (span 8 11)
+          (rel2par span)
+          (Nucleus
+            (span 8 9)
+            (rel2par span)
+            (Satellite
+              (leaf 8)
+              (rel2par interpretation)
+              (text
+                _!Endlich eine Perspektive für den Schlossplatz nach einem Jahrzehnt der Agonie , möchte man aufseufzen ._!))
+            (Nucleus
+              (leaf 9)
+              (rel2par span)
+              (text
+                _!Die mühselige Debatte um das ob und wie der Schloss-Rekonstruktion gehört zu den ärgerlichsten Episoden der Berliner Stadtentwicklungspolitik ._!)))
+          (Satellite
+            (span 10 11)
+            (rel2par reason)
+            (Satellite
+              (leaf 10)
+              (rel2par concession)
+              (text
+                _!Es ist ja richtig , über diese Dinge zu streiten ,_!))
+            (Nucleus
+              (leaf 11)
+              (rel2par span)
+              (text
+                _!doch welche andere Hauptstadt würde es sich leisten , ausufernden Grundsatzdebatten zuliebe ihre " gute Stube " für zehn Jahre dem Unkraut zu überlassen ?_!))))
+        (Satellite
+          (leaf 12)
+          (rel2par restatement)
+          (text
+            _!Mit ihrer Entscheidungsschwäche in Sachen Schloss hat sich die Berliner Stadtpolitik ein Armutszeugnis ausgestellt ._!))))
+    (Satellite
+      (span 13 14)
+      (rel2par interpretation)
+      (Nucleus
+        (leaf 13)
+        (rel2par list)
+        (text _!Jetzt ist die Zeit des Diskutierens abgelaufen -_!))
+      (Nucleus
+        (leaf 14)
+        (rel2par list)
+        (text _!wichtig ist , dass endlich etwas passiert ._!)))))
