@@ -20,6 +20,25 @@
   "elaboration-additional-e": "elab",
   "span": "span",
   "abcccc": "abcccc",
-  "cbd": "cbd"
+  "cbd": "cbd",
+  "joint": "joint",
+  "result": "cause",
+  "interpretation": "eval",
+  "elaboration": "elab",
+  "reason": "cause",
+  "conjunction": "joint",
+  "evaluation-n": "eval",
+  "disjunction": "joint",
+  "circumstance": "circumstance",
+  "concession": "concession",
+  "sequence": "sequence",
+  "antithesis": "antithesis",
+  "preparation": "preparation",
+  "e-elaboration": "elab",
+  "list": "list",
+  "evidence": "evid",
+  "cause": "cause"
+
+
 
 }

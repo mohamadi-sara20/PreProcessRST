@@ -32,4 +32,4 @@ if __name__ == '__main__':
 
 	print(file_list)
 	print(read_conll_file('derst/maz-00001.conll'))
-	print(read_txt_files('derst/maz-00001.txt'))
+	print(read_txt_files('derst/maz.txt'))
