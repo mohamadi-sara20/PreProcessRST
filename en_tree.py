@@ -349,16 +349,13 @@ def pos_const_rst_builder(fname, outname):
 
 
 if __name__ == '__main__':
-    nlp = stanza.Pipeline('de')
+    nlp = stanza.Pipeline('en')
     rel_dict = load_relation_mappings('relname_mapping.json')
     with open('wsj.txt') as f:
         text = f.read()
-
-
-
     tokens = nlp(text)
-    out_node, leaf_idx = xml2tree('maz.rs3',tokens,nlp)
+    out_node, leaf_idx = xml2tree('wsj.xml',tokens,nlp)
     tree_rebuilt = rebuild_tree(out_node)
     print(preorder_str(tree_rebuilt))
-    # print(pos_const_rst_builder('wsj.txt', 'janc.txt'))
+    
     

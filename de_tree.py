@@ -1,8 +1,9 @@
-from logging import root
 import re
 import json
 import os
 import stanza
+import sys
+import glob
 
 
 class Node:
@@ -20,6 +21,7 @@ class Node:
         self.word_count = 0
         self.children = []
 
+
 def binarize(span_node):
     if len(span_node.children) == 0:
         return
@@ -34,61 +36,52 @@ def binarize(span_node):
         binarize(span_node.right)
         return
 
-    if len(span_node.children) > 3:
-        raise Exception(f'CHILDREN MORE THAN 3, NODE ID: {span_node.node_id}')
-        return
-    
-    # handle 3 childern
+    # handle 3 or more childern
     new_nodes = []
+    
     if span_node.children[0].rel != span_node.children[1].rel:
-        intermediate_node = Node(span_node.children[0], span_node.children[1], node_id='-1', rel='span')
-        intermediate_node.children = [span_node.children[0], span_node.children[1]]
-        new_nodes = [intermediate_node, span_node.children[2]]
-    elif span_node.children[1].rel != span_node.children[2].rel:
-        intermediate_node = Node(span_node.children[1], span_node.children[2], node_id='-1', rel='span')
-        intermediate_node.children = [span_node.children[1], span_node.children[2]]
+        intermediate_node = Node(None, None, node_id='-1', rel='span')
+        intermediate_node.children = span_node.children[1:]
         new_nodes = [span_node.children[0], intermediate_node]
     else:
-        new_nodes = span_node.children
+        intermediate_node = Node(None, None, node_id='-1', rel='span')
+        intermediate_node.children = span_node.children[0:-1]
+        new_nodes = [intermediate_node, span_node.children[-1]]
     
-    # multinuclear nodes found
-    if len(new_nodes) == 2:
-        (span_node.left, span_node.right) = (new_nodes[0], new_nodes[1])
-        if (int(span_node.left.node_id) < 0 and span_node.left.left.rel == span_node.right.rel or 
-            int(span_node.right.node_id) < 0 and span_node.right.left.rel == span_node.left.rel):
-            # three multi nodes with the same multinuc relation type
-            span_node.left.multinuc, span_node.right.multinuc = 'c','c'
-        else:
-            if int(span_node.left.node_id) > 0:
-                if span_node.left.rel == 'span':
-                    raise Exception(f'Unacceptable schema; node_id:{span_node.node_id}')
-                span_node.left.multinuc = 'r'
-                span_node.right.multinuc = 'r'
-
-            elif int(span_node.right.node_id) > 0:
-                if span_node.right.rel == 'span':
-                    raise Exception(f'Unacceptable schema; node_id:{span_node.node_id}')
-                span_node.left.multinuc = 'l'
-                span_node.right.multinuc = 'l'
-    
+    (span_node.left, span_node.right) = (new_nodes[0], new_nodes[1])
+    if (int(span_node.left.node_id) < 0 and span_node.left.children[0].rel == span_node.right.rel or 
+        int(span_node.right.node_id) < 0 and span_node.right.children[0].rel == span_node.left.rel):
+        # three multi nodes with the same multinuc relation type
+        span_node.left.multinuc, span_node.right.multinuc = 'c','c'
     else:
-        intermediate_node = Node(left=None, right=None, node_id='-1', rel='span')
-        intermediate_node = Node(span_node.children[0], span_node.children[1], node_id='-1', rel='span')
-        intermediate_node.children = [span_node.children[0], span_node.children[1]]
-        if span_node.children[0].rel == 'span' or span_node.children[2].rel == 'span':
-            raise Exception(f'Unacceptable schema; node_id:{span_node.node_id}')
-    
-        intermediate_node.left.multinuc = 'r'
-        intermediate_node.right.multinuc = 'r'
+        if int(span_node.left.node_id) > 0:
+            if span_node.left.rel == 'span':
+                raise Exception(f'Unacceptable schema; node_id:{span_node.node_id}')
+            span_node.left.multinuc = 'r'
+            span_node.right.multinuc = 'r'
+            # set nuclearity of the intermediate node
+            if span_node.right.children[0].rel != span_node.right.children[1].rel:
+                if span_node.right.children[1].rel == 'span':
+                    raise Exception(f'Unacceptable schema in multinuc node; node_id:{span_node.node_id}')
+                span_node.right.children[0].multinuc = 'l'
+                span_node.right.children[1].multinuc = 'l'
 
-        span_node.left = intermediate_node
-        span_node.right = new_nodes[2]
 
-        span_node.left.multinuc = 'l'
-        span_node.right.multinuc = 'l'
+        else: # int(span_node.right.node_id) > 0:
+            if span_node.right.rel == 'span':
+                raise Exception(f'Unacceptable schema; node_id:{span_node.node_id}')
+            span_node.left.multinuc = 'l'
+            span_node.right.multinuc = 'l'
+            if span_node.left.children[0].rel != span_node.left.children[1].rel:
+                if span_node.left.children[0].rel == 'span':
+                    raise Exception(f'Unacceptable schema in multinuc node; node_id:{span_node.node_id}')
+                span_node.right.children[0].multinuc = 'l'
+                span_node.right.children[1].multinuc = 'l'
 
     binarize(span_node.left)
     binarize(span_node.right)
+
+
 
 
 def get_index_in_sent(my_list, word):
@@ -171,6 +164,8 @@ def xml2tree(fname, nlp):
             if 'multinuc' in nuc or relname == 'span':
                 node_dict[idx].is_nucleus = True
 
+
+            # TODO: This method of nuclearity assignment only works for RST-DT. It should be changed for German. 
             if node_dict[idx].is_leaf and nuc != 'span' :
                 if 'type="multinuc"' in node_dict[parent_id].node_text:
                     node_dict[idx].multinuc = 'c'
@@ -215,6 +210,8 @@ def xml2tree(fname, nlp):
 
             node_dict[parent_id].children.append(node_dict[idx])
 
+            # Since trees are not binarized, this kind of assignment does not work. Trees should be binarized 
+            # using binarize function.
             # if node_dict[parent_id].left is None:
                 # node_dict[parent_id].left = node_dict[idx]   
             # elif idx < node_dict[parent_id].left.node_id:
@@ -225,7 +222,7 @@ def xml2tree(fname, nlp):
             #     node_dict[parent_id].right = node_dict[idx]
 
 
-    return node_dict[root_ind], leaf_idx
+    return node_dict[root_ind]
 
 def rebuild_tree(tree_node):
     if tree_node is None:
@@ -308,6 +305,7 @@ def load_relation_mappings(filename):
     with open(filename) as f_in:
         return json.load(f_in)
 
+rel_dict = load_relation_mappings('relname_mapping.json')
 
 def preoder_print(tree_node):
     if tree_node is None:
@@ -339,22 +337,6 @@ def preorder_str(tree_node):
     sm += preorder_str(tree_node.right)
     sm += ')'
     return sm
-
-
-def pos_const_rst_builder(nlp):
-    doc = nlp(text)
-    text_pos = ''
-
-    for sent in doc.sentences:
-        for word in sent.words:
-            out_file.write(word.text + "_" + word.xpos + " ")
-        out_file.write('\n')
-    
-    for sent in doc.sentences:
-        out_file.write(str(sent.constituency))
-        out_file.write('\n')
-
-    
 
 def rearange_children(tree):
     if tree is None:
@@ -388,18 +370,116 @@ def rearange_children(tree):
 
 
 
-def main():
-    nlp = stanza.Pipeline('de')
-    rel_dict = load_relation_mappings('relname_mapping.json')
-    with open('maz-4428.txt') as f:
+def sort_children(tree):
+    if tree is None:
+        return ''
+    if len(tree.children) == 0:
+        return tree.leaf_range
+    
+    if len(tree.children) == 1:
+        tree.leaf_range = sort_children(tree.children[0])
+        return tree.leaf_range
+    
+    for child in tree.children:
+        sort_children(child)
+        child.range = child.leaf_range.split()
+    
+    tree.children.sort(key=lambda x: x.range[0])
+
+    tree.leaf_range = tree.children[0].range[0]+ ' ' + tree.children[-1].range[1]
+    return tree.leaf_range 
+
+
+def rst_tree_builder(nlp, txt_filename, rst_filename):
+    print(txt_filename)
+    with open(txt_filename) as f:
         text = f.read()
-    tokens = nlp(text)
-    out_node, leaf_idx = xml2tree('maz-4428.rs3',nlp)
+    # tokens = nlp(text)
+    out_node = xml2tree(rst_filename, nlp)
+    sort_children(out_node)
     binarize(out_node)
     tree_rebuilt = rebuild_tree(out_node)
     rearange_children(tree_rebuilt)
     return preorder_str(tree_rebuilt)
 
+def pos_const_rst_builder(nlp, txt_filename):
+    with open(txt_filename) as f:
+        text = f.read()
+
+    doc = nlp(text)
+    text_pos = ''
+
+    for sent in doc.sentences:
+        for word in sent.words:
+            text_pos += word.text + "_" + word.xpos + " "
+        text_pos += '\n'
+    
+        with open(txt_filename + '.reformat', 'w') as f:
+            for i in range(len(doc.sentences)):
+                sent = doc.sentences[i]._text.replace('\n', '') 
+                f.write(sent)
+                f.write('\n')
+
+    const_parse(f'{txt_filename}')
+
+    with open(f'{txt_filename}.parse') as f:
+        parse_trees  = f.readlines()
+
+    constituency_parse_trees = ''
+    for parse_tree in parse_trees:
+        tree = parse_tree.replace('( (PSEUDO ', '')
+        
+        constituency_parse_trees += tree[:len(tree) - 4] + '\n'
+
+    
+
+    return text_pos, constituency_parse_trees
+
+def main(data_dir):
+    nlp = stanza.Pipeline('de', tokenize_language='de')
+    txt_files = glob.glob(data_dir + "/*.txt")
+    
+    files = glob.glob(data_dir + "/*.rs3")
+    fns = [fn.split('/')[-1].split('.')[0] for fn in txt_files]
+
+    assert len(txt_files) == len(files)
+
+    for fn in fns:
+        pos_tags, const_parse_trees = pos_const_rst_builder(nlp, f'{data_dir}/{fn}.txt')
+        rst_tree = rst_tree_builder(nlp, f'{data_dir}/{fn}.txt', f'{data_dir}/{fn}.rs3')
+        with open(f'{data_dir}/output/{fn}.prep', 'w') as fh:
+            fh.write(pos_tags)
+            fh.write('\n')
+            fh.write(const_parse_trees)
+            fh.write('\n')
+            fh.write(rst_tree)
+            fh.write('\n')
+
+
+
+def txt2parse(file_path):
+    infile = f'{file_path}.reformat'
+    outfile = f'{file_path}.parse'
+
+    print(outfile)
+    os.system(f'java -jar BerkeleyParser-1.7.jar -gr ger_sm5.gr -inputFile {infile} -outputFile {outfile}')
+
+
+def const_parse(fname):
+    print('====================== text 2 parse =================')
+    try:
+        print(fname)
+        txt2parse(f'{fname}')
+    except Exception as ex:
+        print('###################################################')
+        print(fname)
+        print(ex)
 
 if __name__ == '__main__':
-    main()
+    data_dir = './data'
+    if len(sys.argv) > 1:
+        data_dir = sys.argv[1]
+    if not os.path.isdir(f'{data_dir}/output'):
+        os.mkdir(f'{data_dir}/output')
+    main(data_dir)
+    

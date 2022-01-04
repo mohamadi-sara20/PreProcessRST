@@ -1,0 +1,25 @@
+Die_ART Litanei_NN ist_VAFIN nicht_PTKNEG neu_ADJD :_$. Eltern_NN beschweren_VVFIN sich_PRF über_APPR veraltete_ADJA Schulbücher_NN ,_$, Kommunen_NN jammern_VVFIN über_APPR leere_ADJA Kassen_NN und_KON Schulbuchverlage_NN beklagen_VVFIN Umsatzeinbrüche_NN ._$. 
+Trommeln_NN gehört_VVFIN halt_ADV zu_APPR dem_ART Geschäft_NN ._$. 
+Doch_KON unterm_ADV Strich_NN stehen_VVFIN Brandenburgs_NE Schulen_NN ganz_ADV gut_ADJD da_ADV ._$. 
+Zu_APPR dem_ART einen_PIS wurden_VAFIN nach_APPR der_ART Wende_NN fast_ADV alle_PIAT Schulbuchbestände_NN ausgetauscht_VVPP ,_$, zu_APPR dem_ART anderen_PIS müssen_VMFIN sich_PRF märkische_ADJA Eltern_NN an_APPR dem_ART Buchkauf_NN beteiligen_VVINF ._$. 
+Dafür_PAV gibt_VVFIN es_PPER sogar_ADV Lob_NN von_APPR den_ART Schulbuchverlagen_NN ._$. 
+Denn_KON in_APPR vielen_PIAT alten_ADJA Bundesländern_NN gilt_VVFIN noch_ADV immer_ADV die_ART Lernmittelfreiheit_NN :_$. Eltern_NN müssen_VMFIN nichts_PIS zuzahlen_VVINF ._$. 
+Der_ART Preis_NN dafür_PAV ist_VAFIN hoch_ADJD -_$( gerade_ADV dort_ADV wird_VAFIN oft_ADV mit_APPR völlig_ADJD veraltetem_ADJA Material_NN gearbeitet_VVPP ._$. 
+Doch_KON auch_ADV Brandenburg_NE muss_VMFIN aufpassen_VVINF ._$. 
+Wenn_KOUS immer_ADV mehr_PIAT Kommunen_NN finanziell_ADJD ausbluten_VVFIN ,_$, wird_VAFIN die_ART regelmäßige_ADJA Schulbucherneuerung_NN zu_APPR der_ART Illusion_NN ._$. 
+Deshalb_PAV ist_VAFIN auch_ADV die_ART Landesregierung_NN gefragt_VVPP :_$. 
+Es_PPER kann_VMFIN nicht_PTKNEG sein_VAINF ,_$, dass_KOUS für_APPR teure_ADJA Modellprojekte_NN wie_KOKOM Schnellläuferklassen_NN oder_KON Ganztagsschulen_NN Geld_NN locker_ADJD gemacht_VVPP ,_$, aber_KON an_APPR der_ART Grundausstattung_NN gespart_VVPP wird_VAFIN ._$. 
+
+(CS (S (NP (ART Die) (NN Litanei)) (VAFIN ist) (AP (PTKNEG nicht) (ADJD neu:))) (S (NN Eltern) (VVFIN beschweren) (PRF sich) (NP (ADJA über) (ADJA veraltete) (NN Schulbücher,Kommunen)) (PTKVZ jammern)) (S (VVIMP über) (NP (ADJA leere) (NN Kassen))) (KON und) (S (NN Schulbuchverlage) (VVFIN beklagenUmsatzeinbrüche.)))
+(S (NN Trommeln) (VVFIN gehört) (ADV halt) (PP (APPRART zum) (NN Geschäft.)))
+(S (KON Doch) (NP (PP (APPRART unterm) (NN Strichstehen)) (ADJA Brandenburgs) (NN Schulen)) (VP (AP (ADV ganz) (ADJD gut)) (VVPP da.)))
+(S (PP (APPRART Zum) (PIS einen)) (VAFIN wurden) (PP (APPR nach) (ART der) (NN Wendefast)) (NP (PIDAT alle) (NN Schulbuchbestände)) (ADV ausgetauscht,) (PP (APPRART zum) (PIS anderen)) (ADJD müssen) (VP (PRF sich) (ADJD märkischeEltern) (PP (APPRART am) (NN Buchkauf)) (VVINF beteiligen.)))
+(S (ADV Dafür) (VVFIN gibt) (PPER es) (NP (ADV sogar) (NN Lob) (PP (APPR von) (ADV denSchulbuchverlagen.))))
+(S (KON Denn) (PP (APPR in) (PIDAT vielen) (ADJA alten) (NN Bundesländern)) (VVFIN gilt) (AVP (ADV noch) (ADV immer)) (VP (NP (ADJA dieLernmittelfreiheit:) (NN Eltern)) (ADJD müssen) (PIS nichts) (VVINF zuzahlen.)))
+(CS (S (NP (ART Der) (NN Preis)) (VVFIN dafür) (ADJD isthoch)) ($*LRB* -) (S (AVP (ADV gerade) (ADV dort)) (VAFIN wird) (VP (ADV oft) (PP (APPR mit) (AP (ADJD völlig) (ADJA veraltetem)) (NN Material)) (VVPP gearbeitet.))))
+(S (KON Doch) (ADV auch) (NE Brandenburg) (VVFIN muss) (ADJD aufpassen.))
+(S (KOUS Wenn) (NP (AP (ADV immer) (PIAT mehr)) (NN Kommunen)) (VVINF finanziellausbluten,) (VAFIN wird) (NP (ART die) (ADJA regelmäßige) (NN Schulbucherneuerung)) (PP (APPRART zur) (NN Illusion.)))
+(S (NE Deshalbist) (ADV auch) (NP (ART die) (NN Landesregierung)) (VVFIN gefragt:))
+(S (PPER Es) (VMFIN kann) (PTKNEG nicht) (VP (NP (ADJA sein,) (NN dass) (NP (ADJA für) (NN teureModellprojekte) (NP (KOKOM wie) (CNP (NN Schnellläuferklassen) (KON oder) (NN Ganztagsschulen))))) (VP (NN Geld) (VVINF lockergemacht,) (KON aber) (VP (PP (APPR an) (ART der) (NN Grundausstattung)) (VVPP gespart))) (VVINF wird.)))
+
+( back r ( preparation r ( leaf t 0 11)( eval l ( list c ( list c ( leaf t 12 18)( leaf t 19 23))( leaf t 24 28))( leaf t 29 35)))( contrast c ( evid r ( elab r ( joint c ( leaf t 46 57)( leaf t 58 69))( cause l ( eval r ( elab r ( leaf t 90 94)( leaf t 90 94))( elab r ( leaf t 101 110)( leaf t 101 110)))( leaf t 101 94)))( leaf t 101 69))( cause l ( leaf t 117 138)( cause r ( cond r ( leaf t 117 123)( leaf t 117 123))( preparation r ( leaf t 132 138)( leaf t 132 138))))))

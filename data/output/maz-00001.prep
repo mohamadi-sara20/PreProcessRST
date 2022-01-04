@@ -1,0 +1,31 @@
+Dagmar_NE Ziegler_NE sitzt_VVFIN in_APPR der_ART Schuldenfalle_NN ._$. 
+Auf_APPR Grund_NN der_ART dramatischen_ADJA Kassenlage_NN in_APPR Brandenburg_NE hat_VAFIN sie_PPER jetzt_ADV eine_ART seit_APPR mehr_ADV als_KOKOM einem_ART Jahr_NN erarbeitete_ADJA Kabinettsvorlage_NN überraschend_ADJD auf_APPR Eis_NN gelegt_VVPP und_KON vorgeschlagen_VVPP ,_$, erst_ADV 2003_CARD darüber_PAV zu_PTKZU entscheiden_VVINF ._$. 
+Überraschend_ADJD ,_$, weil_KOUS das_ART Finanz_NN -_$( und_KON das_ART Bildungsressort_NN das_ART Lehrerpersonalkonzept_NN gemeinsam_ADJD entwickelt_VVPP hatten_VAFIN ._$. 
+Der_ART Rückzieher_NN der_ART Finanzministerin_NN ist_VAFIN aber_ADV verständlich_ADJD ._$. 
+Es_PPER dürfte_VMFIN derzeit_ADV schwer_ADJD zu_PTKZU vermitteln_VVINF sein_VAINF ,_$, weshalb_PWAV ein_ART Ressort_NN pauschal_ADJD von_APPR künftigen_ADJA Einsparungen_NN ausgenommen_VVPP werden_VAINF soll_VMFIN auf_APPR Kosten_NN der_ART anderen_PIS ._$. 
+Reiches_NN Ministerkollegen_NN werden_VAFIN mit_APPR Argusaugen_NN darüber_PAV wachen_VVINF ,_$, dass_KOUS das_ART Konzept_NN wasserdicht_ADJD ist_VAFIN ._$. 
+Tatsächlich_ADV gibt_VVFIN es_PPER noch_ADV etliche_PIAT offene_ADJA Fragen_NN ._$. 
+So_ADV ist_VAFIN etwa_ADV unklar_ADJD ,_$, wer_PWS Abfindungen_NN erhalten_VVINF soll_VMFIN ,_$, oder_KON was_PWS passiert_VVFIN ,_$, wenn_KOUS zu_APPR wenig_PIAT Lehrer_NN die_ART Angebote_NN des_ART vorzeitigen_ADJA Ausstiegs_NN nutzen_VVFIN ._$. 
+Dennoch_ADV gibt_VVFIN es_PPER zu_APPR Reiches_NN Personalpapier_NN eigentlich_ADV keine_PIAT Alternative_NN ._$. 
+Das_ART Land_NN hat_VAFIN künftig_ADJD zu_APPR wenig_PIAT Arbeit_NN für_APPR zu_APPR viele_PIAT Pädagogen_NN ._$. 
+Und_KON die_ART Zeit_NN drängt_VVFIN ._$. 
+Der_ART große_ADJA Einbruch_NN der_ART Schülerzahlen_NN an_APPR den_ART weiterführenden_ADJA Schulen_NN beginnt_VVFIN bereits_ADV in_APPR dem_ART Herbst_NN 2003_CARD ._$. 
+Die_ART Regierung_NN muss_VMFIN sich_PRF entscheiden_VVINF ,_$, und_KON zwar_ADV schnell_ADJD ._$. 
+Entweder_KON sparen_VVFIN um_APPR jeden_PIAT Preis_NN oder_KON Priorität_NN für_APPR die_ART Bildung_NN ._$. 
+
+(S (MPN (NE Dagmar) (NE Ziegler)) (VVFIN sitzt) (PP (APPR in) (ART der) (NN Schuldenfalle.)))
+(S (PP (APPR Auf) (NN Grund) (NP (ART der) (FM dramatischenKassenlage) (PP (APPR in) (NE Brandenburg)))) (VAFIN hat) (PPER sie) (CVP (VP (ADV jetzt) (NP (ART eine) (AP (PP (APPR seit) (AP (ADV mehr) (AP (KOKOM als) (ART einem))) (NN Jahrerarbeitete)) (ADJA Kabinettsvorlage)) (NN überraschend)) (PP (APPR auf) (NN Eis)) (VVPP gelegt)) (KON und) (VP (ADV vorgeschlagen,erst) (CARD 2003) (ADJD darüber) (VZ (PTKZU zu) (VVINF entscheiden.)))))
+(S (NN Überraschend,) (KOUS weil) (NP (ART das) (CNP (TRUNC Finanz-) (KON und) (NN dasBildungsressort)) (NP (ART das) (NN Lehrerpersonalkonzept))) (VP (ADJD gemeinsam) (VVPP entwickelt)) (VAFIN hatten.))
+(S (NP (NN DerRückzieher) (NP (ART der) (NN Finanzministerin))) (VAFIN ist) (AP (ADV aber) (ADJD verständlich.)))
+(S (PPER Es) (VVFIN dürfte) (NP (PIDAT derzeitschwer) (VZ (PTKZU zu) (VVINF vermitteln)) (NN sein,) (S (PWAV weshalb) (NP (ART ein) (NN Ressort)) (VP (VP (ADJD pauschal) (PP (APPR von) (ADV künftigenEinsparungen)) (VVPP ausgenommen)) (VAINF werden)) (VMFIN soll))) (PP (APPR auf) (NN Kosten) (NP (ART der) (NN anderen.))))
+(S (NN ReichesMinisterkollegen) (VAFIN werden) (VP (PP (APPR mit) (NN Argusaugen) (NP (ADJA darüber) (ADJA wachen,) (NN dass) (NP (ART das) (NN Konzeptwasserdicht)))) (VVPP ist.)))
+(S (ADV Tatsächlich) (VVFIN gibt) (PPER es) (NP (ADV noch) (PIAT etliche) (ADJA offene) (NN Fragen.)))
+(S (ADV So) (VAFIN ist) (PPER etwaunklar,) (CS (S (PWS wer) (VP (NN Abfindungen) (VVINF erhalten)) (VMFIN soll,)) (KON oder) (S (PRELS was) (VVFIN passiert,))) (KOUS wenn) (PP (APPR zu) (ADJD wenigLehrer)) (NP (ART die) (NN Angebote) (NP (ART des) (ADJA vorzeitigen) (NN Ausstiegs))) (VVFIN nutzen.))
+(S (ADV Dennoch) (VVFIN gibt) (PPER es) (NP (ADJA zuReiches) (NN Personalpapier)) (ADV eigentlich) (NP (PIAT keine) (NN Alternative.)))
+(S (NP (ART Das) (NN Land)) (VAFIN hat) (VP (ADV künftig) (PIS zuwenig) (NN Arbeit) (VVPP für) (PP (APPR zu) (PIDAT viele) (NN Pädagogen.))))
+(S (NP (KON Und) (ART die) (NN Zeit)) (VVPP drängt.))
+(S (NP (ART Der) (ADJA große) (ADJA Einbruchder) (NN Schülerzahlen) (PP (APPR an) (ART den) (ADJA weiterführenden) (NN Schulen))) (VVFIN beginnt) (PP (ADV bereits) (APPRART im) (NN Herbst2003.)))
+(S (NP (ART Die) (NN Regierung)) (VVFIN muss) (PRF sich) (AP (ADV entscheiden,) (AVP (KON und) (ADV zwar)) (ADJD schnell.)))
+(S (KON Entweder) (NP (AP (ADV sparenum) (PIDAT jeden)) (CNP (NN Preis) (KON oder) (NN Priorität))) (VVFIN für) (NP (ART die) (NN Bildung.)))
+
+( joint c ( cause l ( eval r ( eval r ( leaf t 0 11)( eval l ( cause r ( leaf t 12 18)( joint c ( leaf t 19 33)( leaf t 34 42)))( cause l ( leaf t 45 57)( leaf t 45 57))))( leaf t 0 57))( list c ( leaf t 66 88)( cause l ( evid r ( joint c ( leaf t 111 120)( cond l ( leaf t 125 135)( leaf t 125 135)))( leaf t 111 135))( leaf t 111 135))))( cause l ( cause r ( joint c ( leaf t 146 157)( cause l ( leaf t 163 178)( leaf t 163 178)))( leaf t 146 178))( eval r ( elab l ( leaf t 185 188)( leaf t 185 188))( joint c ( leaf t 189 193)( leaf t 194 199)))))

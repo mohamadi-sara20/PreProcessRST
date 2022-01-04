@@ -37,7 +37,10 @@
   "e-elaboration": "elab",
   "list": "list",
   "evidence": "evid",
-  "cause": "cause"
+  "cause": "cause",
+  "contrast": "contrast",
+  "restatement": "restatement",
+  "summary": "summary"
 
 
 
