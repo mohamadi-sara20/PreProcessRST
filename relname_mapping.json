@@ -23,7 +23,7 @@
   "cbd": "cbd",
   "joint": "joint",
   "result": "cause",
-  "interpretation": "eval",
+  "interpretation": "interpretation",
   "elaboration": "elab",
   "reason": "cause",
   "conjunction": "joint",

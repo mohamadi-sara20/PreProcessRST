@@ -18,6 +18,7 @@ class Node:
         self.multinuc = multinuc
         self.leaf_range = leaf_range
         self.node_text = ''
+        self.parent_text = ''
         self.word_count = 0
         self.children = []
 
@@ -81,6 +82,12 @@ def binarize(span_node):
     binarize(span_node.left)
     binarize(span_node.right)
 
+
+def set_is_nucleis(node_dict, node, parent_id):
+    if 'type="multinuc"' in node_dict[parent_id].node_text or node.rel == 'span':
+                    node_dict[node.node_id].multinuc = 'c'
+                    node_dict[node.node_id].is_nucleus = True
+    
 
 
 
@@ -222,7 +229,7 @@ def xml2tree(fname, nlp):
             #     node_dict[parent_id].right = node_dict[idx]
 
 
-    return node_dict[root_ind]
+    return node_dict[root_ind], node_dict
 
 def rebuild_tree(tree_node):
     if tree_node is None:
@@ -389,17 +396,78 @@ def sort_children(tree):
     tree.leaf_range = tree.children[0].range[0]+ ' ' + tree.children[-1].range[1]
     return tree.leaf_range 
 
+def assign_nuclearity(node, parent_node):
+
+    if 'type' in node.node_text:
+        nuc = re.findall('type="\\w+"', node.node_text)[0]
+        nuc = nuc[6: len(nuc) - 1]
+    else:
+        nuc = node.rel
+        
+    if node.is_leaf :
+        if 'type="multinuc"' in parent_node.node_text:
+            node.multinuc = 'c'
+        else:
+            if parent_node.node_id > node.node_id:
+                node.multinuc = 'r'
+            else:
+                node.multinuc = 'l'
+    elif node.is_leaf and nuc == 'span':
+        if 'type="multinuc"' in parent_node.node_text:
+            node.multinuc = 'c'
+        else:
+            if parent_node.node_id < node.node_id:
+                node.multinuc = 'r'
+            else:
+                node.multinuc = 'l'
+    # elif  node_dict[idx].is_leaf and nuc == 'span':
+    elif not node.is_leaf:
+        if nuc != 'multinuc':
+            if 'type="multinuc"' in parent_node.node_text:
+                node.multinuc = 'c'
+            else:
+                if parent_node.node_id > node.node_id:
+                    node.multinuc = 'r'
+                else:
+                    node.multinuc = 'l'
+        else:
+
+            if parent_node.node_id > node.node_id:
+                node.multinuc = 'r'
+            else:
+                node.multinuc = 'l'
+    else:
+        print('exception')
+    # Assign left and right nodes
+
+    
+
 
 def rst_tree_builder(nlp, txt_filename, rst_filename):
     print(txt_filename)
     with open(txt_filename) as f:
         text = f.read()
     # tokens = nlp(text)
-    out_node = xml2tree(rst_filename, nlp)
+    out_node, node_dict = xml2tree(rst_filename, nlp)
     sort_children(out_node)
     binarize(out_node)
     tree_rebuilt = rebuild_tree(out_node)
     rearange_children(tree_rebuilt)
+    for idx in node_dict:
+        if not 'parent' in node_dict[idx].node_text:
+            if node_dict[idx].node_id == '1':
+                pass
+                # print('Skipping Title!')
+            elif node_dict[idx].root:
+                pass
+                # print('Skipping root!')
+            else:
+                raise Exception('Skipping unusual node! Investigate. ')
+        else:
+            parent_id = re.findall('parent="\\d+"', node_dict[idx].node_text)[0]
+            parent_id = re.findall('\\d+', parent_id)[0]
+            assign_nuclearity(node_dict[idx], node_dict[parent_id])
+        
     return preorder_str(tree_rebuilt)
 
 def pos_const_rst_builder(nlp, txt_filename):
