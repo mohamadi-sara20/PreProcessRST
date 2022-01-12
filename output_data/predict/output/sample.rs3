@@ -1,0 +1,151 @@
+<rst>
+  <header>
+    <relations>
+      <rel name="span" type="rst" />
+      <rel name="elab" type="rst" />
+      <rel name="attr" type="rst" />
+      <rel name="list" type="multinuc" />
+      <rel name="cont" type="multinuc" />
+      <rel name="same" type="multinuc" />
+    </relations>
+  </header>
+  <body>
+    <segment id="118" parent="112" relname="attr">Friday , October 27 , 1989 &lt;P&gt;</segment>
+    <segment id="126" parent="119" relname="cont">The key U.S. and foreign annual interest rates below are a guide to general levels</segment>
+    <segment id="127" parent="119" relname="cont">but do n&#x27;t always represent actual transactions . &lt;P&gt;</segment>
+    <segment id="128" parent="120" relname="span">PRIME RATE :</segment>
+    <segment id="129" parent="120" relname="elab">10 1\/2 % . &lt;S&gt;</segment>
+    <segment id="121" parent="113" relname="elab">The base rate on corporate loans at large U.S. money center commercial banks . &lt;P&gt;</segment>
+    <segment id="130" parent="122" relname="span">FEDERAL FUNDS :</segment>
+    <segment id="131" parent="122" relname="elab">8 3\/4 % high , 8 11\/16 % low , 8 5\/8 % near closing bid , 8 11\/16 % offered . &lt;S&gt;</segment>
+    <segment id="132" parent="123" relname="span">Reserves</segment>
+    <segment id="133" parent="123" relname="elab">traded among commercial banks for overnight use in amounts of $ 1 million or more . &lt;S&gt;</segment>
+    <segment id="124" parent="115" relname="span">Source :</segment>
+    <segment id="136" parent="134" relname="span">Fulton Prebon</segment>
+    <segment id="137" parent="134" relname="elab">-LRB- U.S.A . -RRB-</segment>
+    <segment id="135" parent="125" relname="same">Inc . &lt;P&gt;</segment>
+    <segment id="116" parent="108" relname="span">DISCOUNT RATE :</segment>
+    <segment id="117" parent="108" relname="elab">7 % . &lt;S&gt;</segment>
+    <segment id="109" parent="95" relname="elab">The charge on loans to depository institutions by the New York Federal Reserve Bank . &lt;P&gt;</segment>
+    <segment id="110" parent="96" relname="span">CALL MONEY :</segment>
+    <segment id="111" parent="96" relname="elab">9 3\/4 % to 10 % . &lt;S&gt;</segment>
+    <segment id="97" parent="87" relname="elab">The charge on loans to brokers on stock exchange collateral . &lt;P&gt;</segment>
+    <segment id="98" parent="88" relname="span">COMMERCIAL PAPER</segment>
+    <segment id="99" parent="88" relname="elab">placed directly by General Motors Acceptance Corp. :</segment>
+    <segment id="89" parent="79" relname="elab">8.50 % 30 to 44 days ; 8.25 % 45 to 65 days ; 8.375 % 66 to 89 days ; 8 % 90 to 119 days ; 7.875 % 120 to 149 days ; 7.75 % 150 to 179 days ; 7.50 % 180 to 270 days . &lt;P&gt;</segment>
+    <segment id="80" parent="71" relname="span">COMMERCIAL PAPER :</segment>
+    <segment id="100" parent="90" relname="span">High-grade unsecured notes</segment>
+    <segment id="101" parent="90" relname="elab">sold through dealers by major corporations in multiples of $ 1,000 :</segment>
+    <segment id="91" parent="81" relname="elab">8.575 % 30 days ; 8.475 % 60 days ; 8.40 % 90 days . &lt;P&gt;</segment>
+    <segment id="102" parent="92" relname="span">CERTIFICATES OF DEPOSIT :</segment>
+    <segment id="103" parent="92" relname="elab">8.09 % one month ; 8.04 % two months ; 8.03 % three months ; 7.96 % six months ; 7.92 % one year . &lt;S&gt;</segment>
+    <segment id="104" parent="93" relname="span">Average of top rates</segment>
+    <segment id="105" parent="93" relname="elab">paid by major New York banks on primary new issues of negotiable C.D.s , usually on amounts of $ 1 million and more . &lt;S&gt;</segment>
+    <segment id="83" parent="72" relname="elab">The minimum unit is $ 100,000 . &lt;S&gt;</segment>
+    <segment id="84" parent="73" relname="span">Typical rates in the secondary market :</segment>
+    <segment id="85" parent="73" relname="elab">8.55 % one month ; 8.50 % three months ; 8.40 % six months . &lt;P&gt;</segment>
+    <segment id="74" parent="66" relname="span">BANKERS ACCEPTANCES :</segment>
+    <segment id="75" parent="66" relname="elab">8.52 % 30 days ; 8.35 % 60 days ; 8.33 % 90 days ; 8.17 % 120 days ; 8.08 % 150 days ; 8 % 180 days . &lt;S&gt;</segment>
+    <segment id="76" parent="67" relname="span">Negotiable , bank-backed business credit instruments</segment>
+    <segment id="77" parent="67" relname="elab">typically financing an import order . &lt;P&gt;</segment>
+    <segment id="58" parent="45" relname="span">LONDON LATE EURODOLLARS :</segment>
+    <segment id="59" parent="45" relname="elab">8 11\/16 % to 8 9\/16 % one month ; 8 5\/8 % to 8 1\/2 % two months ; 8 11\/16 % to 8 9\/16 % three months ; 8 9\/16 % to 8 7\/16 % four months ; 8 1\/2 % to 8 3\/8 % five months ; 8 7\/16 % to 8 5\/16 % six months . &lt;P&gt;</segment>
+    <segment id="68" parent="60" relname="span">LONDON INTERBANK OFFERED RATES</segment>
+    <segment id="69" parent="60" relname="summ">-LRB- LIBOR -RRB- :</segment>
+    <segment id="61" parent="46" relname="elab">8 11\/16 % one month ; 8 11\/16 % three months ; 8 7\/16 % six months ; 8 3\/8 % one year . &lt;S&gt;</segment>
+    <segment id="62" parent="47" relname="span">The average of interbank offered rates for dollar deposits in the London market</segment>
+    <segment id="63" parent="47" relname="elab">based on quotations at five major banks . &lt;P&gt;</segment>
+    <segment id="48" parent="36" relname="span">FOREIGN PRIME RATES :</segment>
+    <segment id="49" parent="36" relname="elab">Canada 13.50 % ; Germany 9 % ; Japan 4.875 % ; Switzerland 8.50 % ; Britain 15 % . &lt;S&gt;</segment>
+    <segment id="50" parent="37" relname="span">These rate indications are n&#x27;t directly comparable ;</segment>
+    <segment id="51" parent="37" relname="cause">lending practices vary widely by location . &lt;P&gt;</segment>
+    <segment id="24" parent="15" relname="span">TREASURY BILLS :</segment>
+    <segment id="52" parent="38" relname="span">Results of the Monday , October 23 , 1989 , auction of short-term U.S. government bills ,</segment>
+    <segment id="53" parent="38" relname="elab">sold at a discount from face value in units of $ 10,000 to $ 1 million :</segment>
+    <segment id="39" parent="25" relname="elab">7.52 % 13 weeks ; 7.50 % 26 weeks . &lt;P&gt;</segment>
+    <segment id="54" parent="40" relname="span">FEDERAL HOME LOAN MORTGAGE CORP .</segment>
+    <segment id="55" parent="40" relname="summ">-LRB- Freddie Mac -RRB- : &lt;S&gt;</segment>
+    <segment id="41" parent="26" relname="elab">Posted yields on 30-year mortgage commitments for delivery within 30 days . &lt;S&gt;</segment>
+    <segment id="27" parent="16" relname="elab">9.80 % , standard conventional fixed-rate mortgages ; 7.875 % , 2 % rate capped one-year adjustable rate mortgages . &lt;S&gt;</segment>
+    <segment id="28" parent="17" relname="span">Source :</segment>
+    <segment id="29" parent="17" relname="elab">Telerate Systems Inc . &lt;P&gt;</segment>
+    <segment id="30" parent="18" relname="span">FEDERAL NATIONAL MORTGAGE ASSOCIATION</segment>
+    <segment id="31" parent="18" relname="summ">-LRB- Fannie Mae -RRB- : &lt;S&gt;</segment>
+    <segment id="42" parent="32" relname="span">Posted yields on 30 year mortgage commitments for delivery within 30 days</segment>
+    <segment id="43" parent="32" relname="elab">-LRB- priced at par -RRB-</segment>
+    <segment id="33" parent="19" relname="same">9.75 % , standard conventional fixed-rate mortgages ; 8.70 % , 6\/2 rate capped one-year adjustable rate mortgages . &lt;S&gt;</segment>
+    <segment id="20" parent="11" relname="span">Source :</segment>
+    <segment id="21" parent="11" relname="elab">Telerate Systems Inc . &lt;P&gt;</segment>
+    <segment id="12" parent="6" relname="span">MERRILL LYNCH READY ASSETS TRUST :</segment>
+    <segment id="13" parent="6" relname="elab">8.65 % . &lt;S&gt;</segment>
+    <segment id="7" parent="3" relname="elab">Annualized average rate of return after expenses for the past 30 days ; not a forecast of future returns . &lt;P&gt;</segment>
+    <group id="1" type="multinuc" relname="span"/>
+    <group id="2" parent="1" type="multinuc" relname="list"/>
+    <group id="4" parent="2" type="multinuc" relname="list"/>
+    <group id="8" parent="4" type="multinuc" relname="list"/>
+    <group id="14" parent="8" type="multinuc" relname="list"/>
+    <group id="22" parent="14" type="multinuc" relname="list"/>
+    <group id="34" parent="22" type="multinuc" relname="list"/>
+    <group id="44" parent="34" type="multinuc" relname="list"/>
+    <group id="56" parent="44" type="multinuc" relname="list"/>
+    <group id="64" parent="56" type="multinuc" relname="list"/>
+    <group id="70" parent="64" type="multinuc" relname="list"/>
+    <group id="78" parent="70" type="multinuc" relname="list"/>
+    <group id="86" parent="78" type="multinuc" relname="list"/>
+    <group id="94" parent="86" type="multinuc" relname="list"/>
+    <group id="106" parent="94" type="span" relname="list"/>
+    <group id="112" parent="106" type="span" relname="span"/>
+    <group id="119" parent="112" type="multinuc" relname="span"/>
+    <group id="113" parent="106" type="span" relname="elab"/>
+    <group id="120" parent="113" type="span" relname="span"/>
+    <group id="107" parent="94" type="span" relname="list"/>
+    <group id="114" parent="107" type="span" relname="span"/>
+    <group id="122" parent="114" type="span" relname="span"/>
+    <group id="123" parent="114" type="span" relname="elab"/>
+    <group id="115" parent="107" type="span" relname="attr"/>
+    <group id="125" parent="115" type="multinuc" relname="elab"/>
+    <group id="134" parent="125" type="span" relname="same"/>
+    <group id="95" parent="86" type="span" relname="list"/>
+    <group id="108" parent="95" type="span" relname="span"/>
+    <group id="87" parent="78" type="span" relname="list"/>
+    <group id="96" parent="87" type="span" relname="span"/>
+    <group id="79" parent="70" type="span" relname="list"/>
+    <group id="88" parent="79" type="span" relname="span"/>
+    <group id="71" parent="64" type="span" relname="list"/>
+    <group id="81" parent="71" type="span" relname="elab"/>
+    <group id="90" parent="81" type="span" relname="span"/>
+    <group id="65" parent="56" type="span" relname="list"/>
+    <group id="72" parent="65" type="span" relname="span"/>
+    <group id="82" parent="72" type="span" relname="span"/>
+    <group id="92" parent="82" type="span" relname="span"/>
+    <group id="93" parent="82" type="span" relname="elab"/>
+    <group id="73" parent="65" type="span" relname="elab"/>
+    <group id="57" parent="44" type="span" relname="list"/>
+    <group id="66" parent="57" type="span" relname="span"/>
+    <group id="67" parent="57" type="span" relname="elab"/>
+    <group id="45" parent="34" type="span" relname="list"/>
+    <group id="35" parent="22" type="span" relname="list"/>
+    <group id="46" parent="35" type="span" relname="span"/>
+    <group id="60" parent="46" type="span" relname="span"/>
+    <group id="47" parent="35" type="span" relname="elab"/>
+    <group id="23" parent="14" type="span" relname="list"/>
+    <group id="36" parent="23" type="span" relname="span"/>
+    <group id="37" parent="23" type="span" relname="elab"/>
+    <group id="15" parent="8" type="span" relname="list"/>
+    <group id="25" parent="15" type="span" relname="elab"/>
+    <group id="38" parent="25" type="span" relname="span"/>
+    <group id="9" parent="4" type="span" relname="list"/>
+    <group id="16" parent="9" type="span" relname="span"/>
+    <group id="26" parent="16" type="span" relname="span"/>
+    <group id="40" parent="26" type="span" relname="span"/>
+    <group id="17" parent="9" type="span" relname="attr"/>
+    <group id="5" parent="2" type="span" relname="list"/>
+    <group id="10" parent="5" type="span" relname="span"/>
+    <group id="18" parent="10" type="span" relname="span"/>
+    <group id="19" parent="10" type="multinuc" relname="elab"/>
+    <group id="32" parent="19" type="span" relname="same"/>
+    <group id="11" parent="5" type="span" relname="attr"/>
+    <group id="3" parent="1" type="span" relname="list"/>
+    <group id="6" parent="3" type="span" relname="span"/>
+  </body>
+</rst>
