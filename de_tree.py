@@ -205,7 +205,7 @@ def xml2tree(fname, nlp):
         counter += node_dict[lidx].word_count
     
     for node in node_dict:
-        if 'id="1"' not in node_dict[node].node_text and not node_dict[node].root:
+        if not node_dict[node].root:
             parent_id = re.findall('parent="\\d+"', node_dict[node].node_text)[0]
             parent_id = re.findall('\\d+', parent_id)[0]
             node_dict[parent_id].children.append(node_dict[node])
