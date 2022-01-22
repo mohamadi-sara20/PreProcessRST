@@ -55,6 +55,7 @@ def binarize(span_node):
         # three multi nodes with the same multinuc relation type
         span_node.left.multinuc, span_node.right.multinuc = 'c','c'
     else:
+        
         if int(span_node.left.node_id) > 0:
             if span_node.left.rel == 'span':
                 raise Exception(f'Unacceptable schema; node_id:{span_node.node_id}')
@@ -66,7 +67,6 @@ def binarize(span_node):
                     raise Exception(f'Unacceptable schema in multinuc node; node_id:{span_node.node_id}')
                 span_node.right.children[0].multinuc = 'l'
                 span_node.right.children[1].multinuc = 'l'
-
 
         else: # int(span_node.right.node_id) > 0:
             if span_node.right.rel == 'span':
@@ -83,14 +83,6 @@ def binarize(span_node):
     binarize(span_node.right)
 
 
-def set_is_nucleis(node_dict, node, parent_id):
-    if 'type="multinuc"' in node_dict[parent_id].node_text or node.rel == 'span':
-                    node_dict[node.node_id].multinuc = 'c'
-                    node_dict[node.node_id].is_nucleus = True
-    
-
-
-
 def get_index_in_sent(my_list, word):
     for index, item in enumerate(my_list):
         if item.text == word:
@@ -104,7 +96,6 @@ def xml2tree(fname, nlp):
     node_dict = dict({})
     leaf_idx = []
     c = 0
-
     nodes = re.findall('id="\\d+.*"', content)
     leaf_nodes = re.findall('<segment id="\\d+".*', content)
 
@@ -127,10 +118,8 @@ def xml2tree(fname, nlp):
     
     root_ind = -1
 
-
-
     for node in nodes:
-        # skip root
+        # skip rootre.findall('id="\\d+"', node)[0]
         if 'parent' not in node:
             idx = re.findall('id="\\d+"', node)[0]
             idx = re.findall('\\d+', idx)[0]
@@ -209,13 +198,17 @@ def xml2tree(fname, nlp):
                 print('exception')
             # Assign left and right nodes
 
-            counter = 0
-            for lidx in leaf_idx:
-                node_dict[lidx].leaf_range = str(counter) + " " + str(counter + node_dict[lidx].word_count - 1)
-                counter += node_dict[lidx].word_count
 
-
-            node_dict[parent_id].children.append(node_dict[idx])
+    counter = 0
+    for lidx in leaf_idx:
+        node_dict[lidx].leaf_range = str(counter) + " " + str(counter + node_dict[lidx].word_count - 1)
+        counter += node_dict[lidx].word_count
+    
+    for node in node_dict:
+        if 'id="1"' not in node_dict[node].node_text and not node_dict[node].root:
+            parent_id = re.findall('parent="\\d+"', node_dict[node].node_text)[0]
+            parent_id = re.findall('\\d+', parent_id)[0]
+            node_dict[parent_id].children.append(node_dict[node])
 
             # Since trees are not binarized, this kind of assignment does not work. Trees should be binarized 
             # using binarize function.
@@ -294,12 +287,6 @@ def rebuild_tree(tree_node):
         new_node.leaf_range = tree_node.leaf_range
 
     if new_node.rel is None or new_node.rel == '':
-        if tree_node.right:
-            # if tree_node.right.multinuc in ('l', 'r') and tree_node.left.multinuc in ('l', 'r'):
-                
-            #     tree_node.left = child1
-            #     tree_node.right = child2
-            print('!!!!!!!!! UNEXPECTED RIGHT NODE FOUND !!!!!!')
         return rebuild_tree(tree_node.left)
 
     new_node.left = rebuild_tree(tree_node.left)
@@ -342,7 +329,7 @@ def preorder_str(tree_node):
         sm += tree_node.rel + ' ' + tree_node.multinuc + " "
     sm += preorder_str(tree_node.left)
     sm += preorder_str(tree_node.right)
-    sm += ')'
+    sm += ' ) '
     return sm
 
 def rearange_children(tree):
@@ -441,15 +428,12 @@ def assign_nuclearity(node, parent_node):
     # Assign left and right nodes
 
     
-
-
 def rst_tree_builder(nlp, txt_filename, rst_filename):
     print(txt_filename)
     with open(txt_filename) as f:
         text = f.read()
     # tokens = nlp(text)
     out_node, node_dict = xml2tree(rst_filename, nlp)
-    sort_children(out_node)
     binarize(out_node)
     tree_rebuilt = rebuild_tree(out_node)
     rearange_children(tree_rebuilt)
@@ -470,84 +454,40 @@ def rst_tree_builder(nlp, txt_filename, rst_filename):
         
     return preorder_str(tree_rebuilt)
 
-def pos_const_rst_builder(nlp, txt_filename):
-    with open(txt_filename) as f:
-        text = f.read()
-
-    doc = nlp(text)
-    text_pos = ''
-
-    for sent in doc.sentences:
-        for word in sent.words:
-            text_pos += word.text + "_" + word.xpos + " "
-        text_pos += '\n'
+def prepare_de_data(nlp, data_dir, fn):
+    with open(f'{data_dir}{fn}.txt') as f:
+        text = f.read().split('\n')
+    out_file = open(f'{data_dir}/output/{fn}.prep', 'w')
     
-        with open(txt_filename + '.reformat', 'w') as f:
-            for i in range(len(doc.sentences)):
-                sent = doc.sentences[i]._text.replace('\n', '') 
-                f.write(sent)
-                f.write('\n')
+    for titem in text:
+        titem_processed = nlp(titem.strip())
+        for sent in titem_processed.sentences:
+            for word in sent.words:
+                out_file.write(word.text + "_" + word.xpos + " ")
+        out_file.write('\n')
+    rst_tree = rst_tree_builder(nlp, f'{data_dir}/{fn}.txt', f'{data_dir}/{fn}.rs3')
+    out_file.write(rst_tree.strip())
+    out_file.write('\n\n')
+    out_file.close()
 
-    const_parse(f'{txt_filename}')
-
-    with open(f'{txt_filename}.parse') as f:
-        parse_trees  = f.readlines()
-
-    constituency_parse_trees = ''
-    for parse_tree in parse_trees:
-        tree = parse_tree.replace('( (PSEUDO ', '')
-        
-        constituency_parse_trees += tree[:len(tree) - 4] + '\n'
-
-    
-
-    return text_pos, constituency_parse_trees
 
 def main(data_dir):
     nlp = stanza.Pipeline('de', tokenize_language='de')
     txt_files = glob.glob(data_dir + "/*.txt")
-    
     files = glob.glob(data_dir + "/*.rs3")
     fns = [fn.split('/')[-1].split('.')[0] for fn in txt_files]
-
-    assert len(txt_files) == len(files)
-
+    # assert len(txt_files) == len(files)
     for fn in fns:
-        pos_tags, const_parse_trees = pos_const_rst_builder(nlp, f'{data_dir}/{fn}.txt')
-        rst_tree = rst_tree_builder(nlp, f'{data_dir}/{fn}.txt', f'{data_dir}/{fn}.rs3')
-        with open(f'{data_dir}/output/{fn}.prep', 'w') as fh:
-            fh.write(pos_tags)
-            fh.write('\n')
-            fh.write(const_parse_trees)
-            fh.write('\n')
-            fh.write(rst_tree)
-            fh.write('\n')
+        prepare_de_data(nlp, f'{data_dir}',  f'{fn}',)
 
-
-
-def txt2parse(file_path):
-    infile = f'{file_path}.reformat'
-    outfile = f'{file_path}.parse'
-
-    print(outfile)
-    os.system(f'java -jar BerkeleyParser-1.7.jar -gr ger_sm5.gr -inputFile {infile} -outputFile {outfile}')
-
-
-def const_parse(fname):
-    print('====================== text 2 parse =================')
-    try:
-        print(fname)
-        txt2parse(f'{fname}')
-    except Exception as ex:
-        print('###################################################')
-        print(fname)
-        print(ex)
 
 if __name__ == '__main__':
-    data_dir = './data'
+    data_dir = 'pcc/'
     if len(sys.argv) > 1:
         data_dir = sys.argv[1]
     if not os.path.isdir(f'{data_dir}/output'):
         os.mkdir(f'{data_dir}/output')
     main(data_dir)
+    
+    
     
