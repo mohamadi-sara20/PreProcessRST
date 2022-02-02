@@ -39,19 +39,28 @@
     </relations>
   </header>
   <body>
-    <segment id="11" parent="33" relname="list">Ein Hilfstransport jagt den nächsten .</segment>
+    <segment id="1">
+
+Spendenjagd</segment>
+    <segment id="11" parent="33" relname="list">
+
+Ein Hilfstransport jagt den nächsten .</segment>
     <segment id="2" parent="33" relname="list">  In regelmäßigen Abständen sind in den Zeitungen neue Spendenaufrufe oder Berichte von Hilfstransporten zu lesen .</segment>
     <segment id="3" parent="33" relname="list">  Überall starten Sendungen ,</segment>
     <segment id="12" parent="33" relname="list"> Vereine engagieren sich , Kirchengruppen , Familien .</segment>
     <segment id="4" parent="34" relname="span">  Die Aktion der Kirchengemeinden Templin und Lindow für ein Siebenbürger Krankenhaus ist ein Körnchen im Sandberg .</segment>
     <segment id="5" parent="30" relname="span">  Nach dem Motto &quot; jeden Tag eine gute Tat &quot; werden die Sammelaktionen immer mehr .</segment>
-    <segment id="6" parent="29" relname="list">Hilfe für die Krankenhäuser in Rumänien ,</segment>
+    <segment id="6" parent="29" relname="list">
+
+Hilfe für die Krankenhäuser in Rumänien ,</segment>
     <segment id="14" parent="29" relname="list"> Unterstützung für die hungernden Menschen im Sudan ,</segment>
     <segment id="15" parent="29" relname="list"> Geld für die Opfer einer vernichtenden Überschwemmung ,</segment>
     <segment id="16" parent="29" relname="list"> Spenden , um die Kinder in Afghanistan durch den Winter zu bringen :</segment>
     <segment id="13" parent="31" relname="span">  Die verwirrende Zahl von Spendenbegehren kann einen schnell verzweifeln lassen .</segment>
     <segment id="7" parent="13" relname="restatement">  Da muss mancher zweifeln , ob denn so viele Spendenappelle nötig sind .</segment>
-    <segment id="8" parent="25" relname="interpretation">Für Dirk Bock und alle anderen Helfer ist das keine Frage .</segment>
+    <segment id="8" parent="25" relname="interpretation">
+
+Für Dirk Bock und alle anderen Helfer ist das keine Frage .</segment>
     <segment id="9" parent="24" relname="list">  Wer erlebt hat , in welchem Elend andere Menschen leben ,</segment>
     <segment id="17" parent="24" relname="list"> wie sie hungern ,</segment>
     <segment id="18" parent="24" relname="list"> keine Kleidung haben</segment>

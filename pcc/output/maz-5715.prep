@@ -2,12 +2,19 @@ Um_APPR die_ART deutschen_ADJA Legehennen_NN ist_VAFIN heftiger_ADJA politischer
 Bundesagrarministerin_NN Renate_NE Künast_NE will_VMFIN das_ART Halten_NN der_ART Tiere_NN in_APPR engen_ADJA Legebatterien_NN bereits_ADV von_APPR dem_ART Jahr_NN 2006_CARD an_PTKZU verbieten_VVINF ._$. 
 In_APPR den_ART EU_NN -_$( Nachbarländern_NN soll_VMFIN das_PDS erst_ADV fünf_CARD Jahre_NN später_ADJD gelten_VVINF ._$. 
 Eier_NN -_$( Produzenten_NN aus_APPR der_ART ganzen_ADJA Republik_NN machen_VVFIN gegen_APPR Künasts_NE Pläne_NN mobil_ADJD ._$. 
-Die_ART Betriebe_NN in_APPR dem_ART Osten_NN fürchten_VVFIN ,_$, dass_KOUS die_ART hohen_ADJA Investitionen_NN ,_$, die_PRELS sie_PPER in_APPR moderne_ADJA Legebatterien_NN nach_APPR europäischem_ADJA Standard_NN gesteckt_VVPP haben_VAFIN ,_$, umsonst_ADV gewesen_VAPP sind_VAFIN ._$. 
-In_APPR dem_ART Westen_NN herrscht_VVFIN die_ART Sorge_NN vor_PTKVZ ,_$, ausländische_ADJA Konkurrenten_NN könnten_VMFIN dann_ADV mit_APPR Billig_NN -_$( Eiern_NN aus_APPR Legebatterien_NN den_ART deutschen_ADJA Markt_NN überschwemmen_VVINF ._$. 
+Die_ART Betriebe_NN in_APPR dem_ART Osten_NN fürchten_VVFIN ,_$, dass_KOUS die_ART hohen_ADJA Investitionen_NN ,_$, die_PRELS sie_PPER in_APPR moderne_ADJA Legebatterien_NN nach_APPR europäischem_ADJA Standard_NN gesteckt_VVPP haben_VAFIN ,_$, umsonst_ADV gewesen_VAPP sind_VAFIN ._$. In_APPR dem_ART Westen_NN herrscht_VVFIN die_ART Sorge_NN vor_PTKVZ ,_$, ausländische_ADJA Konkurrenten_NN könnten_VMFIN dann_ADV mit_APPR Billig_NN -_$( Eiern_NN aus_APPR Legebatterien_NN den_ART deutschen_ADJA Markt_NN überschwemmen_VVINF ._$. 
 Beide_PIAT Bedenken_NN sind_VAFIN nicht_PTKNEG einfach_ADV von_APPR der_ART Hand_NN zu_PTKZU weisen_VVINF ._$. 
-Ministerin_NE Künast_NE muss_VMFIN zumindest_ADV über_APPR längere_ADJA Übergangsfristen_NN nachdenken_VVINF ._$. 
-An_APPR dem_ART Grundsatz_NN ,_$, die_ART Käfighaltung_NN abzuschaffen_VVIZU ,_$, sollte_VMFIN sie_PPER nicht_PTKNEG rütteln_VVINF ._$. 
+Ministerin_NE Künast_NE muss_VMFIN zumindest_ADV über_APPR längere_ADJA Übergangsfristen_NN nachdenken_VVINF ._$. An_APPR dem_ART Grundsatz_NN ,_$, die_ART Käfighaltung_NN abzuschaffen_VVIZU ,_$, sollte_VMFIN sie_PPER nicht_PTKNEG rütteln_VVINF ._$. 
 Artgerechte_ADJA Tierhaltung_NN gehört_VVFIN schließlich_ADV zu_APPR den_ART Eckpunkten_NN der_ART von_APPR ihr_PPER propagierten_ADJA Agrarwende_NN ._$. 
 Und_KON schließlich_ADV greifen_VVFIN immer_ADV mehr_PIAT Verbraucher_NN bei_APPR dem_ART Einkauf_NN bewußt_ADJD zu_APPR den_ART tierfreundlich_ADJD erzeugten_ADJA Eiern_NN ._$. 
-( eval-n r ( interpr r ( leaf t 0 9 ) ( cause r ( contrast c ( leaf t 10 28 ) ( leaf t 29 41 )  ) ( elab r ( list c ( leaf t 55 81 ) ( leaf t 82 104 )  ) ( leaf t 55 104 )  )  )  ) ( reason r ( leaf t 105 115 ) ( joint c ( leaf t 116 124 ) ( reason r ( list c ( leaf t 138 150 ) ( leaf t 151 166 )  ) ( leaf t 138 166 )  )  )  )  )
+Tree
+Tree
+Tree
+Tree
+Tree
+Tree
+Tree
+Tree
+Tree
+( eval-n r ( interpr r ( leaf t 0 9 ) ( cause r ( contrast c ( leaf t 10 28 ) ( leaf t 29 41 ) ) ( elab l ( leaf t 42 54 ) ( list c ( leaf t 55 81 ) ( leaf t 82 104 ) ) ) ) ) ( reason r ( leaf t 105 115 ) ( joint c ( leaf t 116 124 ) ( reason l ( leaf t 125 137 ) ( list c ( leaf t 138 150 ) ( leaf t 151 166 ) ) ) ) ) )
 

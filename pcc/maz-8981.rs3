@@ -46,13 +46,17 @@
 
 Frischluftfans ist der Donau-Radwanderweg genauso ein Begriff wie auch der Münsterland-Radwanderweg .</segment>
     <segment id="2" parent="25" relname="joint">  Warum sollte da nicht der Landkreis Teltow-Fläming für alle Sportbegeisterten Brandenburgs oder gar Deutschlands einmal der Inbegriff für Inline-Skaten werden ?</segment>
-    <segment id="11" parent="25" relname="joint">Dieser Anspruch besteht jetzt ( noch ) nicht .</segment>
+    <segment id="11" parent="25" relname="joint">
+
+Dieser Anspruch besteht jetzt ( noch ) nicht .</segment>
     <segment id="3" parent="20" relname="list">  Zum einen würden dafür die rund 100 Kilometer langen Rad- und Skatewege im Süden des Kreises lange nicht reichen .</segment>
     <segment id="4" parent="19" relname="span">  Außerdem müsste hinter solch einem Angebot die gesamte Region in aller Konsequenz stehen .</segment>
     <segment id="5" parent="17" relname="condition">  Denn sollte wirklich einmal Inline-Skaten den Kreis Teltow-Fläming über die Grenzen hinaus anziehend machen ,</segment>
     <segment id="13" parent="17" relname="span"> so müsste man vorher die gesamte Infrastruktur darauf ausrichten ,</segment>
     <segment id="14" parent="13" relname="purpose"> um diese Sportart als eine touristische Attraktion anzubieten .</segment>
-    <segment id="6" parent="24" relname="span">Im Moment sollte man sich erst einmal über die zaghaften Versuche im Norden freuen , Radwege im Verbund auf die Reihe zu bringen .</segment>
+    <segment id="6" parent="24" relname="span">
+
+Im Moment sollte man sich erst einmal über die zaghaften Versuche im Norden freuen , Radwege im Verbund auf die Reihe zu bringen .</segment>
     <segment id="7" parent="21" relname="list">  Die sind längst überfällig und würden den Einwohnern endlich den Alltag leichter machen .</segment>
     <segment id="8" parent="15" relname="condition">  Wenn damit auch gleichzeitig den Touristen mehr Wege erschlossen werden ,</segment>
     <segment id="15" parent="16" relname="span"> ist das nur gut .</segment>

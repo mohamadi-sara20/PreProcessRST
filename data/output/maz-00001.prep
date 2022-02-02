@@ -13,19 +13,5 @@ Der_ART große_ADJA Einbruch_NN der_ART Schülerzahlen_NN an_APPR den_ART weiter
 Die_ART Regierung_NN muss_VMFIN sich_PRF entscheiden_VVINF ,_$, und_KON zwar_ADV schnell_ADJD ._$. 
 Entweder_KON sparen_VVFIN um_APPR jeden_PIAT Preis_NN oder_KON Priorität_NN für_APPR die_ART Bildung_NN ._$. 
 
-(S (MPN (NE Dagmar) (NE Ziegler)) (VVFIN sitzt) (PP (APPR in) (ART der) (NN Schuldenfalle.)))
-(S (PP (APPR Auf) (NN Grund) (NP (ART der) (FM dramatischenKassenlage) (PP (APPR in) (NE Brandenburg)))) (VAFIN hat) (PPER sie) (CVP (VP (ADV jetzt) (NP (ART eine) (AP (PP (APPR seit) (AP (ADV mehr) (AP (KOKOM als) (ART einem))) (NN Jahrerarbeitete)) (ADJA Kabinettsvorlage)) (NN überraschend)) (PP (APPR auf) (NN Eis)) (VVPP gelegt)) (KON und) (VP (ADV vorgeschlagen,erst) (CARD 2003) (ADJD darüber) (VZ (PTKZU zu) (VVINF entscheiden.)))))
-(S (NN Überraschend,) (KOUS weil) (NP (ART das) (CNP (TRUNC Finanz-) (KON und) (NN dasBildungsressort)) (NP (ART das) (NN Lehrerpersonalkonzept))) (VP (ADJD gemeinsam) (VVPP entwickelt)) (VAFIN hatten.))
-(S (NP (NN DerRückzieher) (NP (ART der) (NN Finanzministerin))) (VAFIN ist) (AP (ADV aber) (ADJD verständlich.)))
-(S (PPER Es) (VVFIN dürfte) (NP (PIDAT derzeitschwer) (VZ (PTKZU zu) (VVINF vermitteln)) (NN sein,) (S (PWAV weshalb) (NP (ART ein) (NN Ressort)) (VP (VP (ADJD pauschal) (PP (APPR von) (ADV künftigenEinsparungen)) (VVPP ausgenommen)) (VAINF werden)) (VMFIN soll))) (PP (APPR auf) (NN Kosten) (NP (ART der) (NN anderen.))))
-(S (NN ReichesMinisterkollegen) (VAFIN werden) (VP (PP (APPR mit) (NN Argusaugen) (NP (ADJA darüber) (ADJA wachen,) (NN dass) (NP (ART das) (NN Konzeptwasserdicht)))) (VVPP ist.)))
-(S (ADV Tatsächlich) (VVFIN gibt) (PPER es) (NP (ADV noch) (PIAT etliche) (ADJA offene) (NN Fragen.)))
-(S (ADV So) (VAFIN ist) (PPER etwaunklar,) (CS (S (PWS wer) (VP (NN Abfindungen) (VVINF erhalten)) (VMFIN soll,)) (KON oder) (S (PRELS was) (VVFIN passiert,))) (KOUS wenn) (PP (APPR zu) (ADJD wenigLehrer)) (NP (ART die) (NN Angebote) (NP (ART des) (ADJA vorzeitigen) (NN Ausstiegs))) (VVFIN nutzen.))
-(S (ADV Dennoch) (VVFIN gibt) (PPER es) (NP (ADJA zuReiches) (NN Personalpapier)) (ADV eigentlich) (NP (PIAT keine) (NN Alternative.)))
-(S (NP (ART Das) (NN Land)) (VAFIN hat) (VP (ADV künftig) (PIS zuwenig) (NN Arbeit) (VVPP für) (PP (APPR zu) (PIDAT viele) (NN Pädagogen.))))
-(S (NP (KON Und) (ART die) (NN Zeit)) (VVPP drängt.))
-(S (NP (ART Der) (ADJA große) (ADJA Einbruchder) (NN Schülerzahlen) (PP (APPR an) (ART den) (ADJA weiterführenden) (NN Schulen))) (VVFIN beginnt) (PP (ADV bereits) (APPRART im) (NN Herbst2003.)))
-(S (NP (ART Die) (NN Regierung)) (VVFIN muss) (PRF sich) (AP (ADV entscheiden,) (AVP (KON und) (ADV zwar)) (ADJD schnell.)))
-(S (KON Entweder) (NP (AP (ADV sparenum) (PIDAT jeden)) (CNP (NN Preis) (KON oder) (NN Priorität))) (VVFIN für) (NP (ART die) (NN Bildung.)))
+( joint c ( cause l ( eval r ( interpretation r ( leaf t 0 11)( interpretation l ( cause r ( leaf t 12 18)( joint c ( leaf t 19 33)( leaf t 34 42)))( cause l ( leaf t 45 57)( leaf t 45 57))))( leaf t 0 57))( list c ( leaf t 66 88)( cause l ( evid r ( joint c ( leaf t 111 120)( cond l ( leaf t 125 135)( leaf t 125 135)))( leaf t 111 135))( leaf t 111 135))))( cause l ( cause r ( joint c ( leaf t 146 157)( cause l ( leaf t 163 178)( leaf t 163 178)))( leaf t 146 178))( interpretation r ( elab l ( leaf t 185 188)( leaf t 185 188))( joint c ( leaf t 189 193)( leaf t 194 199)))))
 
-( joint c ( cause l ( eval r ( eval r ( leaf t 0 11)( eval l ( cause r ( leaf t 12 18)( joint c ( leaf t 19 33)( leaf t 34 42)))( cause l ( leaf t 45 57)( leaf t 45 57))))( leaf t 0 57))( list c ( leaf t 66 88)( cause l ( evid r ( joint c ( leaf t 111 120)( cond l ( leaf t 125 135)( leaf t 125 135)))( leaf t 111 135))( leaf t 111 135))))( cause l ( cause r ( joint c ( leaf t 146 157)( cause l ( leaf t 163 178)( leaf t 163 178)))( leaf t 146 178))( eval r ( elab l ( leaf t 185 188)( leaf t 185 188))( joint c ( leaf t 189 193)( leaf t 194 199)))))

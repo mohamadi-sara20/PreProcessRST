@@ -31,7 +31,7 @@ def load_segments(file):
         
         # sentences
         if re.search(r'(<P>|<S>)$', text, re.IGNORECASE):
-            #text = re.sub(r'(<P>|<S>)$', '', text)
+            # text = re.sub(r'(<P>|<S>)$', '', text)
             text = text.strip()
             tagged_tokens += text.split()
             continue
@@ -219,11 +219,13 @@ def write_to_rs3_file(tree, segments, relations, file):
     f.write("</rst>\n")
     
 if __name__ == '__main__':
-    data_dir = './output_data/predict'
+    # data_dir = './output_data/predict'
+    data_dir='unseen'
     if len(sys.argv) > 1:
         data_dir = sys.argv[1]
     if not os.path.isdir(f'{data_dir}/output'):
         os.mkdir(f'{data_dir}/output')
+    print(data_dir)
     
     txt_files = glob.glob(data_dir + "/*.segments")
     fns = [fn.split('/')[-1].split('.')[0] for fn in txt_files]

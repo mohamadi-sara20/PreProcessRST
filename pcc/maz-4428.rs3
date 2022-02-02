@@ -38,9 +38,16 @@
     </relations>
   </header>
   <body>
-    <segment id="2" parent="3" relname="reason">Westernreiter kennen sich aus mit dem Überwinden von Stock und Stein .</segment>
+    <segment id="1">
+
+Es wird</segment>
+    <segment id="2" parent="3" relname="reason">
+
+Westernreiter kennen sich aus mit dem Überwinden von Stock und Stein .</segment>
     <segment id="3" parent="23" relname="span">  Also dürften sie kein Problem haben , die zurzeit noch katastrophale Parkfläche an der Graf-von-Lindenau-Halle in Kauf zu nehmen .</segment>
-    <segment id="4" parent="24" relname="span">Sie machen das auch ,</segment>
+    <segment id="4" parent="24" relname="span">
+
+Sie machen das auch ,</segment>
     <segment id="5" parent="6" relname="antithesis"> wenngleich wir uns dessen bewusst sind , dass hier böser Sarkasmus die Zeilen prägt ,</segment>
     <segment id="6" parent="22" relname="span"> der aber seine Berechtigung in absehbarer Zeit verloren hat .</segment>
     <segment id="7" parent="38" relname="joint">  Am Parkplatz , der von Anfang an ein Ärgernis war , tut sich nämlich etwas .</segment>

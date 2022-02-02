@@ -40,6 +40,10 @@
   "purpose": "purp",
   "solutionhood": "solutionhood",
   "justify": "justify",
-  "": ""
-
+  "means": "means",
+  "": "",
+  "otherwise": "otherwise",
+  "enablement": "enablement",
+  "unless": "unless", 
+  "motivation": "motivation"
 }

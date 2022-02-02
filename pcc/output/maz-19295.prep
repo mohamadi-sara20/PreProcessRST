@@ -1,10 +1,26 @@
-K_NN -_$( Frage_NN Angenommen_VVPP ,_$, nur_ADV mal_ADV angenommen_VVPP ,_$, der_ART CDU_NN -_$( Landesvorsitzende_NN S._NE in_APPR dem_ART Land_NN B._NE hätte_VAFIN sich_PRF für_APPR Edmund_NE Stoiber_NE als_KOKOM Kanzlerkandidaten_NN der_ART Union_NN entschieden_VVPP ._$. 
-Nehmen_VVFIN wir_PPER weiter_ADV an_PTKVZ ,_$, dass_KOUS die_ART CDU_NN -_$( Basis_NN in_APPR dem_ART Bundesland_NN B._NE eher_ADV ihrer_PPOSAT Parteichefin_NN Angela_NE Merkel_NE zuneigt_VVFIN ,_$, dürfte_VMFIN Landeschef_NN S._NE dann_ADV guten_ADJA Gewissens_NN in_APPR dem_ART CDU_NN -_$( Bundesvorstand_NN für_APPR Stoiber_NE votieren_VVINF ?_$. Alles_PIS nur_ADV Gedankenspiele_NN ._$. 
+Angenommen_VVPP ,_$, nur_ADV mal_ADV angenommen_VVPP ,_$, der_ART CDU_NN -_$( Landesvorsitzende_NN S._NE in_APPR dem_ART Land_NN B._NE hätte_VAFIN sich_PRF für_APPR Edmund_NE Stoiber_NE als_KOKOM Kanzlerkandidaten_NN der_ART Union_NN entschieden_VVPP ._$. 
+Nehmen_VVFIN wir_PPER weiter_ADV an_PTKVZ ,_$, dass_KOUS die_ART CDU_NN -_$( Basis_NN in_APPR dem_ART Bundesland_NN B._NE eher_ADV ihrer_PPOSAT Parteichefin_NN Angela_NE Merkel_NE zuneigt_VVFIN ,_$, 
+dürfte_VMFIN Landeschef_NN S._NE dann_ADV guten_ADJA Gewissens_NN in_APPR dem_ART CDU_NN -_$( Bundesvorstand_NN für_APPR Stoiber_NE votieren_VVINF ?_$. 
+Alles_PIS nur_ADV Gedankenspiele_NN ._$. 
 Niemand_PIS wagt_VVFIN sich_PRF bislang_ADV aus_APPR der_ART Deckung_NN ._$. 
-Tatsächlich_ADV ist_VAFIN die_ART Kür_NN des_ART Kanzlerkandidaten_NN so_ADV streng_ADJD geheim_ADJD ,_$, dass_KOUS sie_PPER nur_ADV unter_APPR dem_ART Code_NN -_$( Wort_NN "_$( K_NN -_$( Frage_NN "_$( gehandelt_VVPP wird_VAFIN ._$. 
+Tatsächlich_ADV ist_VAFIN die_ART Kür_NN des_ART Kanzlerkandidaten_NN so_ADV streng_ADJD geheim_ADJD ,_$, 
+dass_KOUS sie_PPER nur_ADV unter_APPR dem_ART Code_NN -_$( Wort_NN "_$( K_NN -_$( Frage_NN "_$( gehandelt_VVPP wird_VAFIN ._$. 
 Bei_APPR Lichte_NN und_KON mit_APPR dem_ART nötigen_ADJA Ernst_NE betrachtet_VVPP ,_$, gibt_VVFIN es_PPER bei_APPR den_ART Spitzenkandidaturen_NN ein_ART Legitimationsproblem_NN ._$. 
 Mitglieder_NN -_$( Entscheide_NN haben_VAFIN schon_ADV oft_ADV -_$( siehe_VVIMP Berliner_ADJA SPD_NE -_$( den_ART falschen_ADJA Frontmann_NN auf_APPR den_ART Schild_NN gehoben_VVPP ._$. 
 Kungelrunden_NN gehen_VVFIN bewusst_ADJD an_APPR der_ART Basis_NN vorbei_PTKVZ ._$. 
-Die_ART Lösung_NN des_ART Problems_NN ist_VAFIN ebenso_ADV schlicht_ADJD wie_KOKOM anspruchsvoll_ADJD :_$. unbezweifelbare_ADJA ,_$, überzeugende_ADJA Autorität_NN ._$. 
-( back r ( joint c ( interpr l ( cond r ( list c ( leaf t 0 11 ) ( leaf t 12 32 )  ) ( leaf t 0 32 )  ) ( leaf t 48 51 )  ) ( elab r ( cause l ( leaf t 60 69 ) ( leaf t 60 69 )  ) ( leaf t 60 69 )  )  ) ( solutionhood r ( evid r ( list c ( leaf t 106 124 ) ( leaf t 125 132 )  ) ( leaf t 106 132 )  ) ( prep r ( leaf t 133 142 ) ( leaf t 133 142 )  )  )  )
+Die_ART Lösung_NN des_ART Problems_NN ist_VAFIN ebenso_ADV schlicht_ADJD wie_KOKOM anspruchsvoll_ADJD :_$. 
+unbezweifelbare_ADJA ,_$, überzeugende_ADJA Autorität_NN ._$. 
+Tree
+Tree
+Tree
+Tree
+Tree
+Tree
+Tree
+Tree
+Tree
+Tree
+Tree
+Tree
+( back r ( joint c ( interpr l ( cond r ( list c ( leaf t 0 25 ) ( leaf t 26 46 ) ) ( leaf t 47 61 ) ) ( leaf t 62 65 ) ) ( elab l ( leaf t 66 73 ) ( cause l ( leaf t 74 83 ) ( leaf t 84 99 ) ) ) ) ( solutionhood r ( evid l ( leaf t 100 116 ) ( list c ( leaf t 117 135 ) ( leaf t 136 143 ) ) ) ( prep r ( leaf t 144 153 ) ( leaf t 154 158 ) ) ) )
 

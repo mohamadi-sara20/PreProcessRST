@@ -38,7 +38,12 @@
     </relations>
   </header>
   <body>
-    <segment id="12" parent="16" relname="interpretation">Um die deutschen Legehennen ist heftiger politischer Streit entbrannt .</segment>
+    <segment id="1">
+
+Glückliche Hühner</segment>
+    <segment id="12" parent="16" relname="interpretation">
+
+Um die deutschen Legehennen ist heftiger politischer Streit entbrannt .</segment>
     <segment id="2" parent="13" relname="contrast">  Bundesagrarministerin Renate Künast will das Halten der Tiere in engen Legebatterien bereits vom Jahr 2006 an verbieten .</segment>
     <segment id="3" parent="13" relname="contrast">  In den EU-Nachbarländern soll das erst fünf Jahre später gelten .</segment>
     <segment id="4" parent="15" relname="span">  Eier-Produzenten aus der ganzen Republik machen gegen Künasts Pläne mobil .</segment>
