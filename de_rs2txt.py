@@ -140,7 +140,8 @@ def de_rst2segment(filepath):
 
 if __name__ == "__main__":
     print('====================== rst 2 text =================')
-    # path = sys.argv[1]
+    if len(sys.argv) > 1:
+        path = sys.argv[1]
     path = 'test/'
     if path.endswith('/'):
         path = path[:len(path)-1]

@@ -66,6 +66,9 @@ def combinePPs(conll):
 
 if __name__ == "__main__":
     print('====================== text 2 conll =================')
+    
+    if len(sys.argv) > 1:
+        data_dir = sys.argv[1]
 
     nlp = stanza.Pipeline('de')
 
