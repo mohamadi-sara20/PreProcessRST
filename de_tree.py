@@ -483,52 +483,6 @@ def rearange_children(tree):
     return tree.leaf_range 
 
 
-def assign_nuclearity(node, parent_node):
-
-    if 'type' in node.node_text:
-        nuc = re.findall('type="\\w+"', node.node_text)[0]
-        nuc = nuc[6: len(nuc) - 1]
-    else:
-        nuc = node.rel
-        
-    if node.is_leaf and nuc == 'span':
-        if 'type="multinuc"' in parent_node.node_text:
-            node.multinuc = 'c'
-        else:
-            try:
-                if parent_node.range[0] < node.range[0]:
-                    node.multinuc = 'r'
-                else:
-                    node.multinuc = 'l'
-            except:
-                node.multinuc = 'r'
-    elif node.is_leaf :
-        if 'type="multinuc"' in parent_node.node_text:
-            node.multinuc = 'c'
-        else:
-            if parent_node.range[0] < node.range[0]:
-                node.multinuc = 'l'
-            else:
-                node.multinuc = 'r'
-    # elif  node_dict[idx].is_leaf and nuc == 'span':
-    else:
-        if nuc != 'multinuc':
-            if 'type="multinuc"' in parent_node.node_text:
-                    node.multinuc = 'c'
-            else:
-                if parent_node.range[0] < node.range[0]:
-                    node.multinuc = 'l'
-                else:
-                    node.multinuc = 'r'
-        else:
-
-            if parent_node.range[0] < node.range[0]:
-                node.multinuc = 'l'
-            else:
-                node.multinuc = 'r'
-    
-    # Assign left and right nodes
-
 def verify_nodes(new_tree, node_dict, title):
     print (f' ------ Verifying leaves after {title}')
     missing_nodes = 0
