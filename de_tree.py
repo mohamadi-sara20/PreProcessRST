@@ -105,12 +105,18 @@ def binarize(span_node):
         intermediate_node = Node(None, None, node_id='-1', rel='span')
         intermediate_node.children = span_node.children[1:]
         intermediate_node.is_multi = span_node.is_multi
+        intermediate_node.is_nucleus = True
+        intermediate_node.parent = span_node.parent
+        intermediate_node.range = span_node.range
         span_node.is_multi = False
         new_nodes = [span_node.children[0], intermediate_node]
     else:
         intermediate_node = Node(None, None, node_id='-1', rel='span')
         intermediate_node.children = span_node.children[0:-1]
         intermediate_node.is_multi = span_node.is_multi
+        intermediate_node.is_nucleus = True
+        intermediate_node.parent = span_node.parent
+        intermediate_node.range = span_node.range
         span_node.is_multi = False
         new_nodes = [intermediate_node, span_node.children[-1]]
     
@@ -221,7 +227,7 @@ def xml2tree(fname, nlp):
                     if 'segment id="' + idx + '"' in ln:
                         node_dict[idx].word_count = len(segs[idx].split())
 
-            node_dict[idx].multinuc = 'r'
+            # node_dict[idx].multinuc = 'r'
             # find the nuclearity label
             if 'type' in node: 
                 nuc = re.findall('type="\\w+"', node)[0]
@@ -233,43 +239,39 @@ def xml2tree(fname, nlp):
                 node_dict[idx].is_nucleus = True
 
 
-            # TODO: This method of nuclearity assignment only works for RST-DT. It should be changed for German. 
-            if node_dict[idx].is_leaf and nuc != 'span' :
-                if 'type="multinuc"' in node_dict[parent_id].node_text:
-                    node_dict[idx].multinuc = 'c'
-                else:
-                    if int(parent_id) > int(idx):
-                        node_dict[idx].multinuc = 'r'
-                    else:
-                        node_dict[idx].multinuc = 'l'
-            elif node_dict[idx].is_leaf and nuc == 'span':
-                if 'type="multinuc"' in node_dict[parent_id].node_text:
-                    node_dict[idx].multinuc = 'c'
-                else:
-                    if int(parent_id) < int(idx):
-                        node_dict[idx].multinuc = 'r'
-                    else:
-                        node_dict[idx].multinuc = 'l'
-            # elif  node_dict[idx].is_leaf and nuc == 'span':
-            elif not node_dict[idx].is_leaf:
-                if nuc != 'multinuc':
-                    if 'type="multinuc"' in node_dict[parent_id].node_text:
-                        node_dict[idx].multinuc = 'c'
-                    else:
-                        if int(parent_id) > int(idx):
-                            node_dict[idx].multinuc = 'r'
-                        else:
-                            node_dict[idx].multinuc = 'l'
-                else:
+            # # TODO: This method of nuclearity assignment only works for RST-DT. It should be changed for German. 
+            # if node_dict[idx].is_leaf and nuc != 'span' :
+            #     if 'type="multinuc"' in node_dict[parent_id].node_text:
+            #         node_dict[idx].multinuc = 'c'
+            #     else:
+            #         if int(parent_id) > int(idx):
+            #             node_dict[idx].multinuc = 'r'
+            #         else:
+            #             node_dict[idx].multinuc = 'l'
+            # elif node_dict[idx].is_leaf and nuc == 'span':
+            #     if 'type="multinuc"' in node_dict[parent_id].node_text:
+            #         node_dict[idx].multinuc = 'c'
+            #     else:
+            #         if int(parent_id) < int(idx):
+            #             node_dict[idx].multinuc = 'r'
+            #         else:
+            #             node_dict[idx].multinuc = 'l'
+            # # elif  node_dict[idx].is_leaf and nuc == 'span':
+            # elif not node_dict[idx].is_leaf:
+            #     if nuc != 'multinuc':
+            #         if 'type="multinuc"' in node_dict[parent_id].node_text:
+            #             node_dict[idx].multinuc = 'c'
+                    # else:
+                    #     if int(parent_id) > int(idx):
+                    #         node_dict[idx].multinuc = 'r'
+                    #     else:
+                    #         node_dict[idx].multinuc = 'l'
+            #     else:
 
-                    if int(parent_id) > int(idx):
-                        node_dict[idx].multinuc = 'r'
-                    else:
-                        node_dict[idx].multinuc = 'l'
-            else:
-                print('exception')
-            # Assign left and right nodes
-
+            #         if int(parent_id) > int(idx):
+            #             node_dict[idx].multinuc = 'r'
+            #         else:
+          
 
     counter = 0
     for lidx in leaf_idx:
@@ -355,18 +357,24 @@ def rebuild_tree(tree_node):
         # span-span mononuc
         if tree_node.left is not None and tree_node.right is not None and (
                 tree_node.right.rel == 'span' or tree_node.left.rel == 'span'):
+            
             if tree_node.right.rel != 'span':
                 new_node.rel = rel_dict[tree_node.right.rel]
                 new_node.multinuc = 'l'
+                new_node.is_nucleus = tree_node.right.is_nucleus
                 tree_node.right.rel = 'span'
             else:
                 new_node.rel = rel_dict[tree_node.left.rel]
                 new_node.multinuc = 'r'
+                new_node.is_nucleus = tree_node.left.is_nucleus
                 tree_node.left.rel = 'span'
+                
 
         elif tree_node.is_leaf and tree_node.left is not None and tree_node.left.is_leaf:
             new_node.rel = rel_dict[tree_node.left.rel] if rel_dict[tree_node.left.rel] != 'span' else rel_dict[tree_node.rel]
             new_node.multinuc = tree_node.left.multinuc
+            new_node.is_nucleus = tree_node.is_nucleus
+
             child1 = Node(left=None, right=None, node_id=tree_node.node_id, rel='leaf', is_leaf=True, multinuc='t', leaf_range=tree_node.leaf_range, range = tree_node.range)
             child2 = Node(left=None, right=None, node_id=tree_node.left.node_id, rel='leaf', is_leaf=True, multinuc='t', leaf_range=tree_node.left.leaf_range, range = tree_node.left.range)
             if tree_node.range[0] < tree_node.left.range[0] or tree_node.range[1] < tree_node.left.range[1]:
@@ -379,6 +387,7 @@ def rebuild_tree(tree_node):
         elif tree_node.is_leaf and tree_node.left is not None and not(tree_node.left.rel == tree_node.rel == 'span'):
             new_node.rel = rel_dict[tree_node.left.rel] if rel_dict[tree_node.left.rel] != 'span' else rel_dict[tree_node.rel]
             new_node.multinuc = tree_node.left.multinuc
+            new_node.is_nucleus = tree_node.is_nucleus
             child1 = Node(left=None, right=None, node_id=tree_node.node_id, rel='leaf', is_leaf=True, multinuc='t', leaf_range=tree_node.leaf_range, range = tree_node.range)
             child2 = Node(left=tree_node.left.left, right=tree_node.left.right, node_id=tree_node.left.node_id, rel='span', leaf_range=tree_node.left.leaf_range, is_leaf=tree_node.left.is_leaf, multinuc=tree_node.left.multinuc, range = tree_node.left.range, is_multi = tree_node.left.is_multi)
             # leaf - span
@@ -394,11 +403,13 @@ def rebuild_tree(tree_node):
         # reached a leaf node
         new_node.rel = rel_dict[tree_node.rel]
         new_node.multinuc = tree_node.multinuc
+        new_node.is_nucleus = tree_node.is_nucleus
         new_node.leaf_range = tree_node.leaf_range
 
     if tree_node.left is None and tree_node.rel != 'leaf':
         new_node.rel = 'leaf'
         new_node.multinuc = 't'
+        new_node.is_nucleus = tree_node.is_nucleus
         new_node.leaf_range = tree_node.leaf_range
 
     if new_node.rel is None or new_node.rel == '':
@@ -482,6 +493,41 @@ def rearange_children(tree):
     tree.leaf_range = left_range[0]+ ' ' + right_range[1]
     return tree.leaf_range 
 
+def assign_nuclearity(tree):
+    if tree is None:
+        return
+
+    if tree.left is not None and tree.right is not None:
+        if tree.is_multi:
+            if tree.parent.range[0] < tree.range[0]:
+                tree.multinuc = 'l'
+            else:
+                tree.multinuc = 'r'
+        else:
+            if tree.left.is_nucleus:
+                    tree.multinuc = 'l'
+            elif tree.right.is_nucleus:
+                    tree.multinuc = 'r'
+
+    elif tree.left is not None:
+        if tree.left.range[1] == tree.range[1]:
+            tree.multinuc = 'r'
+        else:
+            tree.multinuc = 'r'
+    
+    else:
+        if tree.is_nucleus:
+            tree.multinuc = 'r'
+        elif tree.parent.is_nucleus:
+            tree.multinuc = 'l'
+        else:
+            print('oh')
+        print('dd')
+    
+    assign_nuclearity(tree.left)
+    assign_nuclearity(tree.right)
+    return
+
 
 def verify_nodes(new_tree, node_dict, title):
     print (f' ------ Verifying leaves after {title}')
@@ -503,12 +549,16 @@ def rst_tree_builder(nlp, txt_filename, rst_filename):
 
     binarize(out_node)
     verify_nodes(out_node, node_dict, 'Binarize')
+    
+    assign_nuclearity(out_node)
 
     tree_rebuilt = rebuild_tree(out_node)
     verify_nodes(tree_rebuilt, node_dict, 'Rebuild Tree')
 
     rearange_children(tree_rebuilt)
     verify_nodes(tree_rebuilt, node_dict, 'Rearrange children')
+    
+    # print(tree_rebuilt)
 
     return preorder_str(tree_rebuilt)
 
@@ -553,7 +603,7 @@ def main(data_dir):
 
 
 if __name__ == '__main__':
-    data_dir = 'pcc/'
+    data_dir = 'test/'
     if len(sys.argv) > 1:
         data_dir = sys.argv[1]
     if not os.path.isdir(f'{data_dir}/output'):
