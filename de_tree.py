@@ -394,7 +394,7 @@ def rebuild_tree(tree_node):
 
         elif tree_node.is_leaf and tree_node.left is not None and not(tree_node.left.rel == tree_node.rel == 'span'):
             new_node.rel = rel_dict[tree_node.left.rel] if rel_dict[tree_node.left.rel] != 'span' else rel_dict[tree_node.rel]
-            new_node.multinuc = tree_node.left.multinuc
+            new_node.multinuc = tree_node.multinuc
             new_node.is_nucleus = tree_node.is_nucleus
             child1 = Node(left=None, right=None, node_id=tree_node.node_id, rel='leaf', is_leaf=True, multinuc='t', leaf_range=tree_node.leaf_range, range = tree_node.range)
             child2 = Node(left=tree_node.left.left, right=tree_node.left.right, node_id=tree_node.left.node_id, rel='span', leaf_range=tree_node.left.leaf_range, is_leaf=tree_node.left.is_leaf, multinuc=tree_node.left.multinuc, range = tree_node.left.range, is_multi = tree_node.left.is_multi)
@@ -522,7 +522,7 @@ def assign_nuclearity(tree):
         child_start, child_end = [int(item) for item in tree.left.leaf_range.split()]
         
         if tree.is_nucleus:
-            
+
             if child_end == tree_end:
                 if child_start < tree_start:
                     tree.multinuc = 'r'
@@ -680,7 +680,7 @@ def main(data_dir):
 
 
 if __name__ == '__main__':
-    data_dir = 'pcc/'
+    data_dir = 'test/'
     if len(sys.argv) > 1:
         data_dir = sys.argv[1]
     if not os.path.isdir(f'{data_dir}/output'):
