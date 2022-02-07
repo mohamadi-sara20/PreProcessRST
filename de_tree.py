@@ -510,19 +510,95 @@ def assign_nuclearity(tree):
                     tree.multinuc = 'r'
 
     elif tree.left is not None:
-        if tree.left.range[1] == tree.range[1]:
-            tree.multinuc = 'r'
-        else:
-            tree.multinuc = 'r'
-    
-    else:
+        tree_start, tree_end = [int(item) for item in tree.leaf_range.split()]
+        child_start, child_end = [int(item) for item in tree.left.leaf_range.split()]
+        
         if tree.is_nucleus:
-            tree.multinuc = 'r'
-        elif tree.parent.is_nucleus:
-            tree.multinuc = 'l'
+            
+            if child_end == tree_end:
+                if child_start < tree_start:
+                    tree.multinuc = 'r'
+                else:
+                    tree.multinuc = 'l'
+            
+            elif tree_start == child_start:
+                if child_end < tree_end:
+                    tree.multinuc = 'r'
+                else:
+                    tree.multinuc = 'l'
+            elif tree_end < child_start:
+                tree.multinuc = 'l'
+           
+            elif tree_start == child_end + 1:
+                tree.multinuc = 'r'
+            else:
+                print("jjj")
+        elif tree.left.is_nucleus:
+            
+            if child_end == tree_end:
+                if child_start < tree_start:
+                    tree.multinuc = 'l'
+                else:
+                    tree.multinuc = 'r'
+            elif tree_end < child_start:
+                tree.multinuc = 'l'
+                
+            elif tree_start == child_start:
+                if child_end < tree_end:
+                    tree.multinuc = 'l'
+                else:
+                    tree.multinuc = 'r'
+            elif tree_start == child_end + 1:
+                tree.multinuc = 'r'
+            else:
+                print('kkkk')
         else:
-            print('oh')
-        print('dd')
+            print('Oops!')
+    else:
+        parent_start, parent_end = [int(item) for item in tree.parent.leaf_range.split()]
+        child_start, child_end = [int(item) for item in tree.leaf_range.split()]
+        if tree.parent.is_nucleus:
+            
+            if child_end == parent_end:
+                if child_start < parent_start:
+                    tree.multinuc = 'r'
+                else:
+                    tree.multinuc = 'l'
+            
+            elif parent_start == child_start:
+                if child_end < parent_end:
+                    tree.multinuc = 'r'
+                else:
+                    tree.multinuc = 'l'
+            elif parent_end < child_start:
+                tree.multinuc = 'l'
+           
+            elif parent_start == child_end + 1:
+                tree.multinuc = 'r'
+            else:
+                print("eee")
+            
+        elif tree.is_nucleus:
+            if child_end == parent_end:
+                if child_start < parent_start:
+                    tree.multinuc = 'l'
+                else:
+                    tree.multinuc = 'r'
+            elif parent_end < child_start:
+                tree.multinuc = 'l'
+                
+            elif parent_start == child_start:
+                if child_end < parent_end:
+                    tree.multinuc = 'l'
+                else:
+                    tree.multinuc = 'r'
+            elif parent_start == child_end + 1:
+                tree.multinuc = 'r'
+            else:
+                print('ttt')
+        else:
+            print('dd')
+        
     
     assign_nuclearity(tree.left)
     assign_nuclearity(tree.right)
