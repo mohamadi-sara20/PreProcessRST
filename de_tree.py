@@ -125,6 +125,9 @@ def binarize(span_node):
         int(span_node.right.node_id) < 0 and span_node.right.children[0].rel == span_node.left.rel):
         # three multi nodes with the same multinuc relation type
         span_node.is_multi = True
+        span_node.is_nucleus = True
+        span_node.multinuc = 'c'
+        # span_node.parent = span_node.parent
         span_node.left.multinuc, span_node.right.multinuc = 'c','c'
     else:
         
@@ -235,9 +238,14 @@ def xml2tree(fname, nlp):
             else:
                 nuc = relname
 
+
+            rstext = ' '.join(nodes)
+
             if 'multinuc' in nuc or relname == 'span':
                 node_dict[idx].is_nucleus = True
-
+            elif f'parent="{parent_id}"' in rstext:
+                node_dict[parent_id].is_nucleus = True
+                
 
             # # TODO: This method of nuclearity assignment only works for RST-DT. It should be changed for German. 
             # if node_dict[idx].is_leaf and nuc != 'span' :
@@ -498,7 +506,7 @@ def assign_nuclearity(tree):
         return
 
     if tree.left is not None and tree.right is not None:
-        if tree.is_multi:
+        if tree.is_multi and not tree.root and tree.parent is not None:
             if tree.parent.range[0] < tree.range[0]:
                 tree.multinuc = 'l'
             else:
@@ -531,8 +539,7 @@ def assign_nuclearity(tree):
            
             elif tree_start == child_end + 1:
                 tree.multinuc = 'r'
-            else:
-                print("jjj")
+            
         elif tree.left.is_nucleus:
             
             if child_end == tree_end:
@@ -550,10 +557,7 @@ def assign_nuclearity(tree):
                     tree.multinuc = 'r'
             elif tree_start == child_end + 1:
                 tree.multinuc = 'r'
-            else:
-                print('kkkk')
-        else:
-            print('Oops!')
+            
     else:
         parent_start, parent_end = [int(item) for item in tree.parent.leaf_range.split()]
         child_start, child_end = [int(item) for item in tree.leaf_range.split()]
@@ -575,8 +579,6 @@ def assign_nuclearity(tree):
            
             elif parent_start == child_end + 1:
                 tree.multinuc = 'r'
-            else:
-                print("eee")
             
         elif tree.is_nucleus:
             if child_end == parent_end:
@@ -594,11 +596,10 @@ def assign_nuclearity(tree):
                     tree.multinuc = 'r'
             elif parent_start == child_end + 1:
                 tree.multinuc = 'r'
-            else:
-                print('ttt')
         else:
-            print('dd')
-        
+            print('Warning: You are missing something.')
+            
+    
     
     assign_nuclearity(tree.left)
     assign_nuclearity(tree.right)
@@ -679,7 +680,7 @@ def main(data_dir):
 
 
 if __name__ == '__main__':
-    data_dir = 'test/'
+    data_dir = 'pcc/'
     if len(sys.argv) > 1:
         data_dir = sys.argv[1]
     if not os.path.isdir(f'{data_dir}/output'):
