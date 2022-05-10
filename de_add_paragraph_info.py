@@ -33,6 +33,8 @@ def add_paragraph_info(fname):
     for i in range(len(tr_conts)):
         if "<P>" not in tr_conts[i]:  
             content[i] += "<S>"
+        else:
+            content[i] += "<P>"
     ps_content = "\n".join(content[:len(content)//2 - 1])
     return  ps_content, content[-3], "\n".join(content[:-3])
 
@@ -41,18 +43,22 @@ def modify_ranges(content, tree, old_content):
     leaves = re.findall("\\( leaf \w+ \d+ \d+ \)", tree)
     old_content = ' '.join(old_content.split('\n'))
     old_content_words = old_content.split()
+    content_words = content.split()
     sents = content.split("\n")
     newTree = tree
     for i in range(len(leaves)):
         leaf_info = leaves[i].split()
         start, end = leaf_info[-3], leaf_info[-2]
-        old_content_words[int(start):int(end)+1]
         # assert (sents[i].split()[-1] == '<S>' or  sents[i].split()[-1] == '<P>')
         if firstSent:
             leaf_info[-2] = str(int(end) + 1)
             firstSent = False
         else:
-            leaf_info[-3], leaf_info[-2] =   str(int(start) + i)  , str(int(end) + 1 + i) 
+            # if "<S>" in sents[int(leaf_info[-3]):int(leaf_info[-2])+1]or "<P>" in sents[int(leaf_info[-3]):int(leaf_info[-2])+1]:
+            leaf_info[-3], leaf_info[-2] =   str(int(start) + i)  , str(int(end) + i) 
+            # else:
+            #     leaf_info[-3], leaf_info[-2] =   str(int(start) + i )  , str(int(end) + i) 
+                
         newLeaf = ' '.join(leaf_info)
         newTree = newTree.replace(leaves[i], newLeaf)
 
@@ -62,11 +68,11 @@ if __name__ == "__main__":
     trees = 'trees/'
     files = os.listdir(trees)
     for fname in files:
+        if 'maz-19150' in fname:
+            print()
         if fname.endswith('prep'):
             ps_content, rstree, old_content = add_paragraph_info(trees + fname)
             newTree = modify_ranges(ps_content, rstree, old_content)
-            
-            
             sents = ps_content.split("\n")
             with open(f'{trees}/{fname[:-5]}.prep2', 'w') as f:
                 for i in range(len(sents)):
