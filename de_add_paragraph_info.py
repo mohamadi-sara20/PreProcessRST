@@ -36,45 +36,51 @@ def add_paragraph_info(fname):
         else:
             content[i] += "<P>"
     ps_content = "\n".join(content[:len(content)//2 - 1])
-    return  ps_content, content[-3], "\n".join(content[:-3])
+    return  ps_content, ps_content.split(), content[-3], "\n".join(content[:-3])
 
-def modify_ranges(content, tree, old_content):
-    firstSent = True
+def modify_ranges2(content, tree):
     leaves = re.findall("\\( leaf \w+ \d+ \d+ \)", tree)
-    old_content = ' '.join(old_content.split('\n'))
-    old_content_words = old_content.split()
-    content_words = content.split()
-    sents = content.split("\n")
     newTree = tree
+
+    sp_count = 0
     for i in range(len(leaves)):
         leaf_info = leaves[i].split()
-        start, end = leaf_info[-3], leaf_info[-2]
-        # assert (sents[i].split()[-1] == '<S>' or  sents[i].split()[-1] == '<P>')
-        if firstSent:
-            leaf_info[-2] = str(int(end) + 1)
-            firstSent = False
-        else:
-            # if "<S>" in sents[int(leaf_info[-3]):int(leaf_info[-2])+1]or "<P>" in sents[int(leaf_info[-3]):int(leaf_info[-2])+1]:
-            leaf_info[-3], leaf_info[-2] =   str(int(start) + i)  , str(int(end) + i) 
-            # else:
-            #     leaf_info[-3], leaf_info[-2] =   str(int(start) + i )  , str(int(end) + i) 
-                
+        start, end = int(leaf_info[-3]), int(leaf_info[-2])
+
+        orig_index = start
+        new_start = start + sp_count
+        while (orig_index <= end) :
+            token = content[orig_index + sp_count]
+            if token == "<S>" or token == "<P>":
+                sp_count += 1
+                continue
+            
+            orig_index += 1
+        
+        next_token = content[orig_index + sp_count]
+        if next_token == "<S>" or next_token == "<P>":
+             sp_count += 1
+        new_end = end + sp_count
+        
+        leaf_info[-3], leaf_info[-2] = str(new_start), str(new_end)
         newLeaf = ' '.join(leaf_info)
         newTree = newTree.replace(leaves[i], newLeaf)
-
+        
     return newTree
+    
 
 if __name__ == "__main__":
     trees = 'trees/'
     files = os.listdir(trees)
     for fname in files:
-        if 'maz-19150' in fname:
+        if 'maz-3080' in fname:
             print()
-        if fname.endswith('prep'):
-            ps_content, rstree, old_content = add_paragraph_info(trees + fname)
-            newTree = modify_ranges(ps_content, rstree, old_content)
-            sents = ps_content.split("\n")
-            with open(f'{trees}/{fname[:-5]}.prep2', 'w') as f:
+        if fname.endswith('conll'):
+            ps_content, ps_content2, rstree, old_content = add_paragraph_info(trees + fname[:-6]+".prep")
+            #newTree = modify_ranges(ps_content, rstree, old_content)
+            newTree = modify_ranges2(ps_content2, rstree)
+            sents = ps_content.split('\n')
+            with open(f'{trees}/{fname[:-5]}prep2', 'w') as f:
                 for i in range(len(sents)):
                     f.write(sents[i]+ '\n')
                 for i in range(len(sents)):
