@@ -68,13 +68,27 @@ def modify_ranges2(content, tree):
         
     return newTree
     
-
+    
+def check_trees(content):
+    for tree in content:
+        tr = tree.split('\n')[-1]
+    res = re.findall(" \d+ \d+", tree)
+    ids = []
+    for i in res:        
+        a,b = i.split()
+        a,b = int(a), int(b)
+        ids.append(a)
+        ids.append(b)
+        
+    for i in range(2, len(ids), 2):
+        if not ids[i-1] + 1 == ids[i]:
+             print(">>>>>>>>>>" + str(ids[i-2]) + " " + str(ids[i-1]))
+    
+    
 if __name__ == "__main__":
     trees = 'trees/'
     files = os.listdir(trees)
     for fname in files:
-        if 'maz-3080' in fname:
-            print()
         if fname.endswith('conll'):
             ps_content, ps_content2, rstree, old_content = add_paragraph_info(trees + fname[:-6]+".prep")
             #newTree = modify_ranges(ps_content, rstree, old_content)
