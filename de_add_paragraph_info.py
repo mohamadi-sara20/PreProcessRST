@@ -63,35 +63,55 @@ def modify_ranges2(content, tree):
         new_end = end + sp_count
         
         leaf_info[-3], leaf_info[-2] = str(new_start), str(new_end)
-        newLeaf = ' '.join(leaf_info)
-        newTree = newTree.replace(leaves[i], newLeaf)
+        newLeaf = '%'.join(leaf_info)
+        newTree = newTree.replace(leaves[i], newLeaf, 1)
         
-    return newTree
+    return newTree.replace('%', ' ')
     
     
-def check_trees(content):
-    for tree in content:
-        tr = tree.split('\n')[-1]
+def check_rst_file(f, file_name):
+    lines = f.read().split("\n")
+    tokens = 0
+    tokens_finished = False
+    tree = ''
+    for line in lines:
+        if line == 'Tree':
+            tokens_finished = True
+            continue
+        if not tokens_finished:
+            tokens += len(line.strip().split(' '))
+        else:
+            tree = line
+            break
+    
     res = re.findall(" \d+ \d+", tree)
+    # if len(res) == 0:
+    #     raise Exception(f'No segment found {file_name}')
     ids = []
     for i in res:        
         a,b = i.split()
         a,b = int(a), int(b)
         ids.append(a)
         ids.append(b)
-        
+    
+    max_token = ids[-1]
+    if (max_token != tokens - 1):
+        print(f"------ Tokens in segments {max_token} is different from tokens in text {tokens} - {file_name}")
     for i in range(2, len(ids), 2):
         if not ids[i-1] + 1 == ids[i]:
-             print(">>>>>>>>>>" + str(ids[i-2]) + " " + str(ids[i-1]))
-    
+            print(">>>>>>>>>> segment ends with: " + str(ids[i-1]) + " - next segment starts with: " + str(ids[i]))
     
 if __name__ == "__main__":
     trees = 'trees/'
     files = os.listdir(trees)
     for fname in files:
+        if fname.endswith('prep'):
+            with open(f'{trees}/{fname}', 'r') as f:
+                check_rst_file(f, fname)
+    
+    for fname in files:
         if fname.endswith('conll'):
             ps_content, ps_content2, rstree, old_content = add_paragraph_info(trees + fname[:-6]+".prep")
-            #newTree = modify_ranges(ps_content, rstree, old_content)
             newTree = modify_ranges2(ps_content2, rstree)
             sents = ps_content.split('\n')
             with open(f'{trees}/{fname[:-5]}prep2', 'w') as f:
@@ -100,5 +120,10 @@ if __name__ == "__main__":
                 for i in range(len(sents)):
                     f.write('Tree\n')
                 f.write(newTree + '\n\n') 
+
+    for fname in files:
+        if fname.endswith('prep2'):
+            with open(f'{trees}/{fname}', 'r') as f:
+                check_rst_file(f, fname)
                 
     print()
