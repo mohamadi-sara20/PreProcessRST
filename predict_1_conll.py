@@ -1,4 +1,3 @@
-from curses import nl
 import stanza
 from stanza.utils.conll import CoNLL
 import sys
@@ -40,13 +39,10 @@ if __name__ == '__main__':
     nlp = stanza.Pipeline('de')
     if len(sys.argv) > 1:
         data_dir = sys.argv[1]
-    else:
-        data_dir = 'segs'
-    
-    files = os.listdir(data_dir)
-    for fname in files:
-        make_conll(data_dir=data_dir, fname=fname)
-        
+        files = os.listdir(data_dir)
+        for fname in files:
+            make_conll(data_dir=data_dir, fname=fname)
+            
          
         
 

@@ -2,17 +2,9 @@ from bs4 import BeautifulSoup
 import sys
 import html
 import os
-import json
 
-def load_preps(filename):
-    with open(filename) as f_in:
-        return json.load(f_in)
-
-prep_dict = load_preps('prepositions.json')
 
 def merge(file_path, filename):
-    print(filename)
-    # ners = add_ner(f'data/de/ner/{filename}.ner')
     conll = open(file_path + '.conll', 'r').readlines()
     rst = open(file_path + '.rs3', 'r').read()
     rst = '<xml>' + rst + '</xml>'
@@ -20,16 +12,17 @@ def merge(file_path, filename):
     seg_ind = 0
     text_ind = 0
     segments = soup.find_all('segment')
+    # segments = segments[1:]
 
     for tok_ind in range(len(conll)):
         if conll[tok_ind] == '\n':
             continue
-        
         word = conll[tok_ind].split('\t')[1].strip()
-        segment = html.unescape(segments[seg_ind].text.strip())
+        
+        segment = html.unescape(segments[seg_ind].text.strip().lower())
 
         orig_ind = text_ind
-        text_ind = segment.find(word, text_ind) 
+        text_ind = segment.find(word.lower(), text_ind) 
 
         if text_ind < 0:
             text_ind = segment.find(word.replace('.', '. '), orig_ind)
@@ -43,9 +36,10 @@ def merge(file_path, filename):
             if text_ind < 0:
                 print('###',word)
                 print('$$$', segment)
-                raise IOError(f'Word <{word}> was not found in segment {seg_ind + 1}')
+                continue
+                # raise IOError(f'Word <{word}> was not found in segment {seg_ind + 1}')
 
-        conll[tok_ind] = conll[tok_ind].strip() +  '\t' + str(seg_ind + 1)
+        conll[tok_ind] = conll[tok_ind].strip() + '\t' + str(seg_ind + 1)
         text_ind += len(word)
 
      
@@ -61,7 +55,8 @@ def merge(file_path, filename):
 
 if __name__ == "__main__":
     print('====================== conll 2 merge =================')
-    path = 'pcc'
+    # path = sys.argv[1]
+    path = 'pcc2/'
     if path.endswith('/'):
         path = path[:len(path) - 1]
     all_files = os.listdir(path)
@@ -71,4 +66,3 @@ if __name__ == "__main__":
         filename = filename.split('.conll')[0]
         print (filename)
         merge(f'{path}/{filename}', filename)
-

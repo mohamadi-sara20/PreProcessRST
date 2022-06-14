@@ -13,10 +13,10 @@ def load_preps(filename):
     with open(filename) as f_in:
         return json.load(f_in)
 
-prep_dict = load_preps('prepositions.json')
+prep_dict = load_preps('de_prepositions.json')
 
 def rst2txt(filepath):
-    primary_dir = 'pcc/primary-data/'
+    primary_dir = '/'.join(filepath.split("/")[:-1])
     fname = filepath.split('.')[0]
     txt_name = fname.split('/')[-1] + '.txt'
     with open(primary_dir + txt_name) as f:
@@ -79,9 +79,9 @@ def de_rst2txt(filepath):
             processed = nlp(segment.text)
             for sent in processed.sentences:
                 doc += sent.text + '\n' 
-                
+                    
     for p in prep_dict:
-        doc = re.sub(f'^{p}\\s+|\\s+{p} ', f' {prep_dict[p]} ', doc)
+        doc = re.sub(f'^{p}\\s+|\\s+{p} |\\s+{p}$|^{p}$', f' {prep_dict[p]} ', doc)
         
     doc = doc.strip()
     doc = doc.replace('-', ' - ')
@@ -103,14 +103,14 @@ def de_rst2segment(filepath):
     doc = ''
     for segment in segments:
         idx = segment.attrs['id']
-        if not "parent" in segment.attrs and not f'parent="{idx}"' in rst_txt:
+        if  not "parent" in segment.attrs and not f'parent="{idx}"' in rst_txt:
             pass
         else:
             
             segtext = ''
             text = segment.text
             text = re.sub('-', ' - ', text)
-            text = re.sub('(\\d+)\\.', '\\1 .', text)
+            text = re.sub(':(\\d+)\\.', '\\1 .', text)
             for p in prep_dict:
                 text = re.sub(f'(\\s+){p}(\\s+)', f'\\1{prep_dict[p]}\\2', text)
                 text = re.sub(f'^{p}\\s+', f'{prep_dict[p]} ', text)
@@ -129,7 +129,8 @@ def de_rst2segment(filepath):
                         st,end = token.split('\t')[0].split('-')
                         rest = token.split('\t')[1]
                         segtext += rest + ' '
-                        print('<UNK> occurred! ')
+                        print('----------------------------\nsegtext\n----------------------------')
+                        print('<UNK> occurred! ', filepath)
             doc += segment.attrs['id'] + '\t' + segtext + '\n'
             
     doc = doc.strip()
@@ -142,25 +143,25 @@ if __name__ == "__main__":
     print('====================== rst 2 text =================')
     if len(sys.argv) > 1:
         path = sys.argv[1]
-    path = 'test/'
-    if path.endswith('/'):
-        path = path[:len(path)-1]
-    all_files = os.listdir(path)
-    counter = 0
-    for filename in sorted(all_files):
-        if not filename.endswith('.rs3'):
-            continue
-        filename = filename.split('.rs3/')[0]
+        if path.endswith('/'):
+            path = path[:len(path)-1]
+        all_files = os.listdir(path)
+        counter = 0
+        for filename in sorted(all_files):
+            if not filename.endswith('.rs3'):
+                continue
+            filename = filename.split('.rs3/')[0]
 
-        try:
-            # if '18945' in filename:
-            de_rst2txt(f'{path}/{filename}')
-            de_rst2segment(f'{path}/{filename}')
-        except Exception as ex:
-            print('###################################################')
-            print(ex)
-            print(filename)
-        counter += 1
-        if counter % 10 == 0:
-            print("Progress: {} / {}".format(counter, len(all_files)))
-
+            try:
+                # if '18945' in filename:
+                de_rst2txt(f'{path}/{filename}')
+                de_rst2segment(f'{path}/{filename}')
+            except Exception as ex:
+                print('###################################################')
+                print(ex)
+                print(filename)
+            counter += 1
+            if counter % 10 == 0:
+                print("Progress: {} / {}".format(counter, len(all_files)))
+    else:
+        print("Please specify a path to rs3 files!")

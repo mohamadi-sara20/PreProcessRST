@@ -37,7 +37,9 @@ def prepare_leaf_idx(fname):
     for tok in conll:
         line = tok.split('\t')
         
-        if int(line[-1].strip()) == current_segment:
+        if not line[-1].strip():
+            pass
+        elif int(line[-1].strip()) == current_segment:
             current_tok_id_end += 1
         else:
             current_tok_str += str(current_tok_id_end - 1) + " )"
@@ -50,26 +52,27 @@ def prepare_leaf_idx(fname):
     return out  
 
 if __name__ == '__main__':
-    nlp = stanza.Pipeline('en')
+    nlp = stanza.Pipeline('de')
     print('====================== prepare segmented tree =================')
-    path = sys.argv[1]
-    if path.endswith('/'):
-        path = path[:len(path)-1]
-    all_files = os.listdir(path)
-    counter = 0
-    for filename in sorted(all_files):
-        if not filename.endswith('.rs3'):
-            continue
-        filename = filename.split('.rs3/')[0]
-        try:
-            print('ee')
-            fname = filename.split('.')[0]
-            prepare_segmented_tree(nlp, f'{path}/{fname}.txt', f'{path}/{fname}.merge')
-        except Exception as ex:
-            print('###################################################')
-            print(ex)
-            print(filename)
+    if len(sys.argv) > 1:
+        path = sys.argv[1]
+        if path.endswith('/'):
+            path = path[:len(path)-1]
+        all_files = os.listdir(path)
+        counter = 0
+        for filename in sorted(all_files):
+            if not filename.endswith('.rs3'):
+                continue
+            filename = filename.split('.rs3/')[0]
+            try:
+                print('ee')
+                fname = filename.split('.')[0]
+                prepare_segmented_tree(nlp, f'{path}/{fname}.txt', f'{path}/{fname}.merge')
+            except Exception as ex:
+                print('###################################################')
+                print(ex)
+                print(filename)
 
-        counter += 1
-        if counter % 10 == 0:
-            print("Progress: {} / {}".format(counter, len(all_files)))
+            counter += 1
+            if counter % 10 == 0:
+                print("Progress: {} / {}".format(counter, len(all_files)))

@@ -54,7 +54,6 @@ def modify_ranges2(content, tree):
             if token == "<S>" or token == "<P>":
                 sp_count += 1
                 continue
-            
             orig_index += 1
         
         next_token = content[orig_index + sp_count]
@@ -65,10 +64,9 @@ def modify_ranges2(content, tree):
         leaf_info[-3], leaf_info[-2] = str(new_start), str(new_end)
         newLeaf = '%'.join(leaf_info)
         newTree = newTree.replace(leaves[i], newLeaf, 1)
-        
     return newTree.replace('%', ' ')
     
-    
+
 def check_rst_file(f, file_name):
     lines = f.read().split("\n")
     tokens = 0
@@ -101,29 +99,56 @@ def check_rst_file(f, file_name):
         if not ids[i-1] + 1 == ids[i]:
             print(">>>>>>>>>> segment ends with: " + str(ids[i-1]) + " - next segment starts with: " + str(ids[i]))
     
-if __name__ == "__main__":
-    trees = 'trees/'
-    files = os.listdir(trees)
-    for fname in files:
-        if fname.endswith('prep'):
-            with open(f'{trees}/{fname}', 'r') as f:
-                check_rst_file(f, fname)
     
-    for fname in files:
-        if fname.endswith('conll'):
-            ps_content, ps_content2, rstree, old_content = add_paragraph_info(trees + fname[:-6]+".prep")
-            newTree = modify_ranges2(ps_content2, rstree)
-            sents = ps_content.split('\n')
-            with open(f'{trees}/{fname[:-5]}prep2', 'w') as f:
-                for i in range(len(sents)):
-                    f.write(sents[i]+ '\n')
-                for i in range(len(sents)):
-                    f.write('Tree\n')
-                f.write(newTree + '\n\n') 
+def check_sets(data_path):
+    with open(data_path) as f:
+        content = f.read().split('\n\n')
+    for tree in content:
+        tr = tree.split('\n')[-1]
+        res = re.findall(" \d+ \d+", tree)
+        ids = []
+        for i in res:        
+            a,b = i.split()
+            a,b = int(a), int(b)
+            ids.append(a)
+            ids.append(b)
+        
+        # Check node ids are consecutively incremented 
+        for i in range(2, len(ids), 2):
+            if not ids[i-1] + 1 == ids[i]:
+                print(ids[i-2], ids[i-1])
+    
+    
+if __name__ == "__main__":
+    print('====================== adding <P> & <S> to trees =================')
+    if len(sys.argv) > 1:
+        trees = sys.argv[1]
+        files = os.listdir(trees)
+        
+        # Check alignment before applying changes
+        for fname in files:
+            if fname.endswith('prep'):
+                with open(f'{trees}/{fname}', 'r') as f:
+                    check_rst_file(f, fname)
+                    
+        for fname in files:
+            if '3415' in fname:
+                    print()
+            if fname.endswith('conll'):
+                ps_content, ps_content2, rstree, old_content = add_paragraph_info(trees + fname[:-6]+".prep")
+                newTree = modify_ranges2(ps_content2, rstree)
+                sents = ps_content.split('\n')
+                with open(f'{trees}/{fname[:-5]}prep2', 'w') as f:
+                    for i in range(len(sents)):
+                        f.write(sents[i]+ '\n')
+                    for i in range(len(sents)):
+                        f.write('Tree\n')
+                    f.write(newTree + '\n\n') 
 
-    for fname in files:
-        if fname.endswith('prep2'):
-            with open(f'{trees}/{fname}', 'r') as f:
-                check_rst_file(f, fname)
-                
-    print()
+        # Check alignment before applying changes
+        for fname in files:
+            if fname.endswith('prep2'):
+                with open(f'{trees}/{fname}', 'r') as f:
+                    check_rst_file(f, fname)
+                    
+        print()

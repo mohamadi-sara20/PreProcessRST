@@ -66,27 +66,25 @@ def combinePPs(conll):
 
 if __name__ == "__main__":
     print('====================== text 2 conll =================')
-    
     if len(sys.argv) > 1:
         data_dir = sys.argv[1]
-
-    nlp = stanza.Pipeline('de')
-
-    path = 'test/'
-    if path.endswith('/'):
-        path = path[:len(path)-1]
-    all_files = os.listdir(path)
-    print(all_files)
-    counter = 0
-    for filename in sorted(all_files):
-        if not filename.endswith('.txt'):
-            continue
-        filename = filename.split('.txt')[0]
-        try:
-            txt2conll(nlp, f'{path}/{filename}')
-        except Exception as ex:
-            print('###################################################')
-            print(filename)
-            print(ex)
-            traceback.print_exc()
+        nlp = stanza.Pipeline('de')
+        if data_dir.endswith('/'):
+            path = data_dir[:len(data_dir)-1]
+        all_files = os.listdir(path)
+        print(all_files)
+        counter = 0
+        for filename in sorted(all_files):
+            if not filename.endswith('.txt'):
+                continue
+            filename = filename.split('.txt')[0]
+            try:
+                txt2conll(nlp, f'{path}/{filename}')
+            except Exception as ex:
+                print('###################################################')
+                print(filename)
+                print(ex)
+                traceback.print_exc()
+    else:
+        print('Please specify a path to txt files!!')
 

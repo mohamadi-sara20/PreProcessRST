@@ -164,8 +164,11 @@ def get_index_in_sent(my_list, word):
         if item.text == word:
             return index
 
- 
+
+
 def xml2tree(fname, nlp):
+
+    kkk = 0
     with open(fname) as f:
         content = f.read().replace('&lt;P&gt;', '')
 
@@ -228,6 +231,7 @@ def xml2tree(fname, nlp):
                 node_dict[idx].is_leaf = True
                 for ln in leaf_nodes:
                     if 'segment id="' + idx + '"' in ln:
+                        kkk += len(segs[idx].split())
                         node_dict[idx].word_count = len(segs[idx].split())
 
             # node_dict[idx].multinuc = 'r'
@@ -667,6 +671,23 @@ def prepare_de_data(nlp, data_dir, fn):
     out_file.write('\n\n')
     out_file.close()
 
+def reshape_output(data_dir, fname):
+    fn = fname.split('.seg')[0]
+    with open(f'{data_dir}/{fname}') as f:
+        text = f.read()
+    text = re.sub('\\(HSF|\\(HS', '\n', text)
+    text = re.sub('-OP- ! -CP-|\\(OBJ|\\(SUB', '', text)
+    text = re.sub('\\)', '', text)
+    text = re.sub('^ ', '', text)
+    text = re.sub('\\n ', '\n', text)
+    text = re.sub('\\n{2,}', '\n', text)
+    text = re.sub(' {2,}', ' ', text)
+
+    text = text.strip()
+    with open(f'{data_dir}/{fn}.txt', 'w') as f:
+        f.write(text)
+    
+    return text
 
 def main(data_dir):
     nlp = stanza.Pipeline('de', tokenize_language='de')
@@ -675,12 +696,14 @@ def main(data_dir):
     fns = [fn.split('/')[-1].split('.')[0] for fn in txt_files]
     # assert len(txt_files) == len(files)
     for fn in fns:
+        if '12666' in fn:
+            print('d')
         # if not os.path.exists(f'{data_dir}output/{fn}.prep'):
         prepare_de_data(nlp, f'{data_dir}',  f'{fn}',)
 
 
 if __name__ == '__main__':
-    data_dir = 'test/'
+    data_dir = 'sara/'
     if len(sys.argv) > 1:
         data_dir = sys.argv[1]
     if not os.path.isdir(f'{data_dir}/output'):

@@ -220,18 +220,19 @@ def write_to_rs3_file(tree, segments, relations, file):
     
 if __name__ == '__main__':
     # data_dir = './output_data/predict'
-    data_dir='unseen'
+    data_dir='segs'
     if len(sys.argv) > 1:
         data_dir = sys.argv[1]
     if not os.path.isdir(f'{data_dir}/output'):
         os.mkdir(f'{data_dir}/output')
     print(data_dir)
     
-    txt_files = glob.glob(data_dir + "/*.segments")
+    txt_files = glob.glob(data_dir + "/*.segment")
     fns = [fn.split('/')[-1].split('.')[0] for fn in txt_files]
 
     for fn in fns:
-        with open(f'{data_dir}/{fn}.segments') as f:
+        print(f'>>>>>>>>>>>>>>>>>>>>>>>>> {fn} ')
+        with open(f'{data_dir}/{fn}.txt.prep') as f:
             segments = load_segments(f)
         with open(f'{data_dir}/{fn}.predict') as f:
             predict = load_predict(f)
@@ -244,5 +245,6 @@ if __name__ == '__main__':
         relations = {}
         get_relations(rs3_tree, relations)
 
-        with open(f'{data_dir}/output/{fn}.rs3', 'w') as f:
+        with open(f'{data_dir}/output/{fn}_merged_predicted.rs3', 'w') as f:
             write_to_rs3_file(rs3_tree, segments, relations, f)
+            
