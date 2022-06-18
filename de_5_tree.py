@@ -42,10 +42,6 @@ def sort_children(tree):
     ranges = []
     if tree.range is not None:
         ranges.append(tree.range)
-
-    # if len(tree.children) == 1:
-    #     tree.leaf_range = sort_children(tree.children[0])
-    #     return tree.leaf_range
     
     for child in tree.children:
         sort_children(child)
@@ -234,8 +230,6 @@ def xml2tree(fname, nlp):
                         kkk += len(segs[idx].split())
                         node_dict[idx].word_count = len(segs[idx].split())
 
-            # node_dict[idx].multinuc = 'r'
-            # find the nuclearity label
             if 'type' in node: 
                 nuc = re.findall('type="\\w+"', node)[0]
                 nuc = nuc[6: len(nuc) - 1]
@@ -251,40 +245,6 @@ def xml2tree(fname, nlp):
                 node_dict[parent_id].is_nucleus = True
                 
 
-            # # TODO: This method of nuclearity assignment only works for RST-DT. It should be changed for German. 
-            # if node_dict[idx].is_leaf and nuc != 'span' :
-            #     if 'type="multinuc"' in node_dict[parent_id].node_text:
-            #         node_dict[idx].multinuc = 'c'
-            #     else:
-            #         if int(parent_id) > int(idx):
-            #             node_dict[idx].multinuc = 'r'
-            #         else:
-            #             node_dict[idx].multinuc = 'l'
-            # elif node_dict[idx].is_leaf and nuc == 'span':
-            #     if 'type="multinuc"' in node_dict[parent_id].node_text:
-            #         node_dict[idx].multinuc = 'c'
-            #     else:
-            #         if int(parent_id) < int(idx):
-            #             node_dict[idx].multinuc = 'r'
-            #         else:
-            #             node_dict[idx].multinuc = 'l'
-            # # elif  node_dict[idx].is_leaf and nuc == 'span':
-            # elif not node_dict[idx].is_leaf:
-            #     if nuc != 'multinuc':
-            #         if 'type="multinuc"' in node_dict[parent_id].node_text:
-            #             node_dict[idx].multinuc = 'c'
-                    # else:
-                    #     if int(parent_id) > int(idx):
-                    #         node_dict[idx].multinuc = 'r'
-                    #     else:
-                    #         node_dict[idx].multinuc = 'l'
-            #     else:
-
-            #         if int(parent_id) > int(idx):
-            #             node_dict[idx].multinuc = 'r'
-            #         else:
-          
-
     counter = 0
     for lidx in leaf_idx:
         node_dict[lidx].leaf_range = str(counter) + " " + str(counter + node_dict[lidx].word_count - 1)
@@ -296,17 +256,6 @@ def xml2tree(fname, nlp):
             parent_id = re.findall('\\d+', parent_id)[0]
             node_dict[parent_id].children.append(node_dict[node])
             node_dict[node].parent = node_dict[parent_id]
-
-            # Since trees are not binarized, this kind of assignment does not work. Trees should be binarized 
-            # using binarize function.
-            # if node_dict[parent_id].left is None:
-                # node_dict[parent_id].left = node_dict[idx]   
-            # elif idx < node_dict[parent_id].left.node_id:
-            #     tmp = node_dict[parent_id].left
-            #     node_dict[parent_id].left = node_dict[idx]
-            #     node_dict[parent_id].right = tmp
-            # else:
-            #     node_dict[parent_id].right = node_dict[idx]
 
 
     return node_dict[root_ind], node_dict
@@ -438,7 +387,7 @@ def load_relation_mappings(filename):
     with open(filename) as f_in:
         return json.load(f_in)
 
-rel_dict = load_relation_mappings('relname_mapping.json')
+rel_dict = load_relation_mappings('rel_mapping.json')
 
 def preoder_print(tree_node):
     if tree_node is None:
@@ -639,8 +588,6 @@ def rst_tree_builder(nlp, txt_filename, rst_filename):
     rearange_children(tree_rebuilt)
     verify_nodes(tree_rebuilt, node_dict, 'Rearrange children')
     
-    # print(tree_rebuilt)
-
     return preorder_str(tree_rebuilt)
 
 def prepare_de_data(nlp, data_dir, fn):
@@ -649,7 +596,6 @@ def prepare_de_data(nlp, data_dir, fn):
         text = text.replace('\n\n', '\n')
         text = text.split('\n')[:-1]
     out_file = open(f'{data_dir}/output/{fn}.prep', 'w')
-    
     
     c = 0
     for i in range(len(text)):
@@ -696,14 +642,10 @@ def main(data_dir):
     fns = [fn.split('/')[-1].split('.')[0] for fn in txt_files]
     # assert len(txt_files) == len(files)
     for fn in fns:
-        if '12666' in fn:
-            print('d')
-        # if not os.path.exists(f'{data_dir}output/{fn}.prep'):
         prepare_de_data(nlp, f'{data_dir}',  f'{fn}',)
 
 
 if __name__ == '__main__':
-    data_dir = 'sara/'
     if len(sys.argv) > 1:
         data_dir = sys.argv[1]
     if not os.path.isdir(f'{data_dir}/output'):
