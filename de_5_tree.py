@@ -591,7 +591,7 @@ def rst_tree_builder(nlp, txt_filename, rst_filename):
     return preorder_str(tree_rebuilt)
 
 def prepare_de_data(nlp, data_dir, fn):
-    with open(f'{data_dir}{fn}.conll') as f:
+    with open(f'{data_dir}/{fn}.conll') as f:
         text = f.read()
         text = text.replace('\n\n', '\n')
         text = text.split('\n')[:-1]
